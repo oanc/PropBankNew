@@ -90,7 +90,7 @@ public class AugmentedSentenceNode
 			for(IEdge e : currNode.outEdges())
 			{
 				//TODO: THIS IS WHERE I'M TRYING TO IGNORE TRACES
-				if(!(e.getTo().getAnnotation().getLabel().contains("Trace")))
+				if(!(e.getTo().getAnnotation().getLabel().contains("Trace"))) // THIS IS WHERE THE ATTEMPT IS -- CHANGE THIS.
 				{
 					startStack.add(e.getTo());
 				}
@@ -102,7 +102,7 @@ public class AugmentedSentenceNode
 					)
 			{
 				//TODO: find out why nodes of out degree 0 but not labeled "tok" are causing problems
-				if(currNode.getAnnotation().getLabel().contentEquals("tok"))
+				if(currNode.getAnnotation().getLabel().contentEquals("tok")) // HERE TOO
 				{
 					//get the region that this node operates over
 					IRegion region = currNode.getLinks().get(0).getRegions().get(0);
