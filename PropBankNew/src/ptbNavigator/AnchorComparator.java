@@ -2,6 +2,10 @@ package ptbNavigator;
 import java.util.Comparator;
 import java.util.Stack;
 
+import org.xces.graf.api.IEdge;
+import org.xces.graf.api.INode;
+import org.xces.graf.impl.CharacterAnchor;
+
 public class AnchorComparator implements Comparator<INode>
 {
 

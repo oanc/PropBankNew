@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 
+import org.xces.graf.api.IGraph;
 import org.xml.sax.SAXException;
 
 import propbankParser.PropbankParser;

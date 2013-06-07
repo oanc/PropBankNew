@@ -4,8 +4,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import org.anc.io.UTF8Reader;
 import org.xml.sax.SAXException;
-
+import org.xces.graf.api.*;
+import org.xces.graf.impl.CharacterAnchor;
+import org.xces.graf.io.GraphParser;
 /** Application entry point
  *
  */
