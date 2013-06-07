@@ -16,37 +16,15 @@
 					<target>1.5</target>
 				</configuration>
 			</plugin>
-			<!--  Deploys to the release repository -->
-			<!-- 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.4</version>
-				<inherited>true</inherited>
-				<configuration>
-					<uniqueVersion>false</uniqueVersion>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>deploy</phase>
-						<goals>
-							<goal>deploy-file</goal>
-						</goals>
-						<configuration>
-							<packaging>jar</packaging>
-							<file>
-								${project.build.directory}/${project.artifactId}-${project.version}.jar
-				</file>
-							<repositoryId> anc-dev-release </repositoryId>
-							<url>
-								http://www.anc.org/maven/release </url>
-							<pomFile>${basedir}/pom.xml</pomFile>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			-->
-			<!--  Deploys to the snapshot repository -->
+			<!-- Deploys to the release repository -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-deploy-plugin</artifactId> 
+				<version>2.4</version> <inherited>true</inherited> <configuration> <uniqueVersion>false</uniqueVersion> 
+				</configuration> <executions> <execution> <phase>deploy</phase> <goals> <goal>deploy-file</goal> 
+				</goals> <configuration> <packaging>jar</packaging> <file> ${project.build.directory}/${project.artifactId}-${project.version}.jar 
+				</file> <repositoryId> anc-dev-release </repositoryId> <url> http://www.anc.org/maven/release 
+				</url> <pomFile>${basedir}/pom.xml</pomFile> </configuration> </execution> 
+				</executions> </plugin> -->
+			<!-- Deploys to the snapshot repository -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
@@ -80,7 +58,7 @@
 			<plugin>
 				<groupId>org.anc.maven.plugins</groupId>
 				<artifactId>anc-maven-plugin</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>1.0.3</version>
 				<configuration>
 					<directory>${project.build.directory}</directory>
 					<filename>VERSION</filename>
@@ -95,6 +73,60 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.anc.maven.plugins
+										</groupId>
+										<artifactId>
+											anc-maven-plugin
+										</artifactId>
+										<versionRange>
+											[1.0.0,)
+										</versionRange>
+										<goals>
+											<goal>version</goal>
+											<goal>version-class</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.maven.plugins
+										</groupId>
+										<artifactId>
+											maven-compiler-plugin
+										</artifactId>
+										<versionRange>
+											[2.3.2,)
+										</versionRange>
+										<goals>
+											<goal>testCompile</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 	<dependencies>
 		<dependency>

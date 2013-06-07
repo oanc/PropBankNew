@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Stack;
 
+import org.xces.graf.api.*;
+import org.xces.graf.impl.CharacterAnchor;
+
 /** This class augments an INode with two fields
  * to represent the anchors to the regions of text
  * in some source file that the INode operates over.

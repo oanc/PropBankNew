@@ -6,13 +6,17 @@ public class PTBNavigatorDriver
 {
 	public static void main(String args[])
 	{
-		/** This is the root directory for the files on @author Bobby 's laptop */
-		String testRoot = "C:/Users/SandraMiller/PropBankNew1/test-files";
+		/** This is the root directory for the files on @author Bobby 's laptop */		
+	   String testRoot = "C:/Users/SandraMiller/PropBankNew1/test-files";
+	   //String testRoot = "test-files";
+	   
 		/** This is the generic path to the MASC written data
 		 * TODO: Note: this will be relevant to versions of this
 		 * program outside @author Bobby 's laptop
 		 */
 		String writtenRoot = "/MASC-3.0.0/data/written";
+	   //String writtenRoot = "/var/corpora/MASC-3.0.0/data/written";
+	   
 		
 		String writtenRoot2 = "/masc-graf-1.0/data/written";
 		/** This is the generic, extension-less, name of the test
