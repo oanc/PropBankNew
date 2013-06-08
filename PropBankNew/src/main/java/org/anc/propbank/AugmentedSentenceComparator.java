@@ -1,4 +1,4 @@
-package ptbNavigator;
+package org.anc.propbank;
 
 import java.util.Comparator;
 

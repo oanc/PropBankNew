@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><documentHeader xmlns="http://www.xces.org/ns/GrAF/1.0/" docId="MASC1-00001" version="1.0.4" creator="KBS" date.created="2010-02-17" date.updated="2010-03-09">
+  <fileDesc>
+    <titleStmt>
+      <title>110CYL068</title>
+    </titleStmt>
+    <extent count="449" unit="word"/>
+    <sourceDesc>
+      <title>ICIC Corpus of Philanthropic Fundraising Discourse</title>
+      <publisher>ICIC</publisher>
+      <pubAddress>620 Union Drive, Room 407, Indianapolis, Indiana 46202, U.S.A.</pubAddress>
+      <eAddress type="email">icic@iupui.edu</eAddress>
+      <eAddress type="url">www.iupui.edu/~icic</eAddress>
+      <pubDate>September, 2003</pubDate>
+    </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+    <langUsage>
+      <language iso639="en-us">English (United States)</language>
+    </langUsage>
+    <textClass catRef="WR LT">
+      <domain>philanthropic fundraising discourse</domain>
+      <factuality type="nonfiction"/>
+      <preparedness type="prepared"/>
+      <purpose type="fundraising"/>
+    </textClass>
+    <primaryData loc="110CYL068.txt" f.id="f.text"/>
+    <annotations>
+      <annotation loc="110CYL068-fn.xml" f.id="f.fn">FrameNet frame elements</annotation>
+      <annotation loc="110CYL068-fntok.xml" f.id="f.fntok">FrameNet tokenization with part of speech</annotation>
+      <annotation loc="110CYL068-logical.xml" f.id="f.logical">Segmentation into logical elements (paragraph, section, etc.)</annotation>
+      <annotation loc="110CYL068-mpqa.xml" f.id="f.mpqa">Opinion/subjectivity annotation</annotation>
+      <annotation loc="110CYL068-nc.xml" f.id="f.nc">noun chunks (shallow parse)</annotation>
+      <annotation loc="110CYL068-ne.xml" f.id="f.ne">named entities</annotation>
+      <annotation loc="110CYL068-penn.xml" f.id="f.penn">Tokenization and Penn POS tags produced by GATE-5.0 ANNIE application</annotation>
+      <annotation loc="110CYL068-ptb.xml" f.id="f.ptb">Penn Treebank syntax</annotation>
+      <annotation loc="110CYL068-ptbtok.xml" f.id="f.ptbtok">Penn Treebank tokens with part of speech</annotation>
+      <annotation loc="110CYL068-s.xml" f.id="f.s">sentence boundaries</annotation>
+      <annotation loc="110CYL068-seg.xml" f.id="f.seg">Segmentation into minimal token components ("quarks")</annotation>
+      <annotation loc="110CYL068-vc.xml" f.id="f.vc">verb chunks (shallow parse)</annotation>
+    </annotations>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <changeDate>2010-02-17</changeDate>
+      <respName>KBS</respName>
+      <item>Added nc, NE, ptb, ptbtok, seg, vc annotations.</item>
+    </change>
+    <change>
+      <changeDate value="2010-04-17"/>
+      <respName>Nancy Ide</respName>
+      <item>Added fileDesc information to the header</item>
+    </change>
+    <change>
+      <changeDate>2013-01-24</changeDate>
+      <respName>KBS</respName>
+      <item>Added fn, fntok, logical, mpqa, nc, ne, penn, ptb, ptbtok, s, seg, vc, content annotations.</item>
+    </change>
+  </revisionDesc>
+</documentHeader>

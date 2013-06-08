@@ -1,0 +1,153 @@
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+  <graphHeader>
+    <labelsDecl>
+      <labelUsage label="body" occurs="1"/>
+      <labelUsage label="text" occurs="1"/>
+      <labelUsage label="p" occurs="13"/>
+      <labelUsage label="cesDoc" occurs="1"/>
+    </labelsDecl>
+    <annotationSpaces>
+      <annotationSpace as.id="xces"/>
+    </annotationSpaces>
+  </graphHeader>
+  <region xml:id="logical-r0" anchors="0 2857"/>
+  <node xml:id="logical-n0">
+    <link targets="logical-r0"/>
+  </node>
+  <a xml:id="logical-N65581" label="cesDoc" ref="logical-n0" as="xces">
+    <fs>
+      <f name="version" value="1.0.4"/>
+      <f name="id" value="ICIC033"/>
+      <f name="xmlns:xsi" value="http://www.w3.org/2001/XMLSchema-instance"/>
+      <f name="xmlns:xlink" value="http://www.w3.org/1999/xlink"/>
+      <f name="xmlns" value="http://www.xces.org/schema/2003"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r1" anchors="6 2856"/>
+  <node xml:id="logical-n1">
+    <link targets="logical-r1"/>
+  </node>
+  <a xml:id="logical-N65621" label="text" ref="logical-n1" as="xces"/>
+  <region xml:id="logical-r2" anchors="11 2853"/>
+  <node xml:id="logical-n2">
+    <link targets="logical-r2"/>
+  </node>
+  <a xml:id="logical-N65637" label="body" ref="logical-n2" as="xces"/>
+  <region xml:id="logical-r3" anchors="18 24"/>
+  <node xml:id="logical-n3">
+    <link targets="logical-r3"/>
+  </node>
+  <a xml:id="logical-N65653" label="p" ref="logical-n3" as="xces">
+    <fs>
+      <f name="id" value="p1"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r4" anchors="31 156"/>
+  <node xml:id="logical-n4">
+    <link targets="logical-r4"/>
+  </node>
+  <a xml:id="logical-N65677" label="p" ref="logical-n4" as="xces">
+    <fs>
+      <f name="id" value="p2"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r5" anchors="163 653"/>
+  <node xml:id="logical-n5">
+    <link targets="logical-r5"/>
+  </node>
+  <a xml:id="logical-N65701" label="p" ref="logical-n5" as="xces">
+    <fs>
+      <f name="id" value="p3"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r6" anchors="660 695"/>
+  <node xml:id="logical-n6">
+    <link targets="logical-r6"/>
+  </node>
+  <a xml:id="logical-N65725" label="p" ref="logical-n6" as="xces">
+    <fs>
+      <f name="id" value="p4"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r7" anchors="702 1130"/>
+  <node xml:id="logical-n7">
+    <link targets="logical-r7"/>
+  </node>
+  <a xml:id="logical-N65749" label="p" ref="logical-n7" as="xces">
+    <fs>
+      <f name="id" value="p5"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r8" anchors="1137 1601"/>
+  <node xml:id="logical-n8">
+    <link targets="logical-r8"/>
+  </node>
+  <a xml:id="logical-N65773" label="p" ref="logical-n8" as="xces">
+    <fs>
+      <f name="id" value="p6"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r9" anchors="1608 1997"/>
+  <node xml:id="logical-n9">
+    <link targets="logical-r9"/>
+  </node>
+  <a xml:id="logical-N65797" label="p" ref="logical-n9" as="xces">
+    <fs>
+      <f name="id" value="p7"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r10" anchors="2004 2266"/>
+  <node xml:id="logical-n10">
+    <link targets="logical-r10"/>
+  </node>
+  <a xml:id="logical-N65821" label="p" ref="logical-n10" as="xces">
+    <fs>
+      <f name="id" value="p8"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r11" anchors="2273 2413"/>
+  <node xml:id="logical-n11">
+    <link targets="logical-r11"/>
+  </node>
+  <a xml:id="logical-N65845" label="p" ref="logical-n11" as="xces">
+    <fs>
+      <f name="id" value="p9"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r12" anchors="2420 2501"/>
+  <node xml:id="logical-n12">
+    <link targets="logical-r12"/>
+  </node>
+  <a xml:id="logical-N65869" label="p" ref="logical-n12" as="xces">
+    <fs>
+      <f name="id" value="p10"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r13" anchors="2508 2518"/>
+  <node xml:id="logical-n13">
+    <link targets="logical-r13"/>
+  </node>
+  <a xml:id="logical-N65893" label="p" ref="logical-n13" as="xces">
+    <fs>
+      <f name="id" value="p11"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r14" anchors="2525 2582"/>
+  <node xml:id="logical-n14">
+    <link targets="logical-r14"/>
+  </node>
+  <a xml:id="logical-N65917" label="p" ref="logical-n14" as="xces">
+    <fs>
+      <f name="id" value="p12"/>
+    </fs>
+  </a>
+  <region xml:id="logical-r15" anchors="2589 2841"/>
+  <node xml:id="logical-n15">
+    <link targets="logical-r15"/>
+  </node>
+  <a xml:id="logical-N65941" label="p" ref="logical-n15" as="xces">
+    <fs>
+      <f name="id" value="p13"/>
+    </fs>
+  </a>
+</graph>
