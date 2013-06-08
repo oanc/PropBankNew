@@ -1,4 +1,4 @@
-package propbankParser;
+package org.anc.propbank;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,12 +10,13 @@ import java.util.Arrays;
 
 
 import org.anc.conf.AnnotationSets;
+import org.anc.conf.AnnotationSpaces;
 import org.anc.util.IDGenerator;
 import org.xces.graf.api.*;
 import org.xces.graf.impl.Factory;
 import org.xml.sax.SAXException;
 
-import ptbNavigator.PTBNavigator;
+import org.anc.propbank.PTBNavigator;
 
 public class PropbankParser 
 {
@@ -25,14 +26,17 @@ public class PropbankParser
 	}
 	
 	/** This method processes a PropBank file line by line
+	 * @throws GrafException 
 	 *  @input input file should be a PropBank .prop file
 	 *  @output right now, void, root node of the annotation?
 	 */
-	public IGraph process(File infile) throws IOException, FileNotFoundException, SAXException
+	public IGraph process(File infile) throws IOException, FileNotFoundException, SAXException, GrafException
 	{
 		/** Creates a buffered reader to process a PropBank file
 		 *	@throws FileNotFoundException
 		 */
+	   // TODO Fix this resource leak. The reader is never close if
+	   // an exception is thrown.
 		BufferedReader in = new BufferedReader(new FileReader(infile));
 		
 		/** String to keep track of the next line in the input file */
@@ -66,7 +70,7 @@ public class PropbankParser
 	
 	/* LINE HELPER FUNCTION */
 	
-	protected void processLine(String line) throws SAXException, IOException
+	protected void processLine(String line) throws SAXException, IOException, GrafException
 	{
 		/** this node is the root for the entire sentence, or Predicate Argument Structure */
 		INode pas = makeNode("PAStructure");
@@ -163,7 +167,7 @@ public class PropbankParser
 			//add "trace" to the edges of nodes following the first
 			for(int i = 1; i < node.outDegree(); i++)
 			{
-				node.getOutEdge(i).addAnnotation("trace");
+				node.getOutEdge(i).addAnnotation(id.generate("pb-a"), "trace");
 			}
 		}
 		//if there's a ",", the label applies to multiple concatenated nodes
@@ -181,7 +185,7 @@ public class PropbankParser
 			//add "concatenated" to the edges of nodes following the first
 			for(int i = 0; i < node.outDegree(); i++)
 			{
-				node.getOutEdge(i).addAnnotation("concatenated");
+				node.getOutEdge(i).addAnnotation(id.generate("pb-a"), "concatenated");
 			}
 		}
 		else
@@ -272,9 +276,9 @@ public class PropbankParser
 	 * @param label String - the label for the annotation to be created*/
 	protected INode makeNode(String label)
 	{
-		INode node = Factory.newNode(id.generate("a")); //create a new node with a unique ID
-		IAnnotation a = node.addAnnotation(label); //add the input label as its annotation
-		propBankSet.addAnnotation(a); //add the annotation to the propBankSet
+		INode node = Factory.newNode(id.generate("pb-n")); //create a new node with a unique ID
+		IAnnotation a = node.addAnnotation(id.generate("pb-a"), label); //add the input label as its annotation
+//		propBankSet.addAnnotation(a); //add the annotation to the propBankSet
 		graph.addNode(node); //add the node to the graph
 		return node;
 	}
@@ -288,7 +292,7 @@ public class PropbankParser
 	protected IDGenerator id = new IDGenerator();
 	
 	/** This set allows us to define the annotations we create as of type Propbank */
-	protected IAnnotationSet propBankSet = Factory.newAnnotationSet(AnnotationSets.PROPBANK.NAME, AnnotationSets.PROPBANK.TYPE);
+	protected IAnnotationSpace propBankSet = AnnotationSpaces.PropBank;
 	
 	/** Instantiate a PTBNavigator */
 	protected PTBNavigator PTBNav;

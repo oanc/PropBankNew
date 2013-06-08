@@ -1,24 +1,29 @@
-package drivers;
+package org.anc.propbank;
 
-import ptbNavigator.PTBNavigator;
+import java.io.File;
+import java.io.FileNotFoundException;
+
+import org.anc.propbank.PTBNavigator;
+import org.xces.graf.io.dom.ResourceHeader;
 
 public class PTBNavigatorDriver 
 {
-	public static void main(String args[])
+	public static final Constants K = new Constants();
+	
+	public static void main(String args[]) 
 	{
 		/** This is the root directory for the files on @author Bobby 's laptop */		
-	   String testRoot = "C:/Users/SandraMiller/PropBankNew1/test-files";
-	   //String testRoot = "test-files";
+	   //String testRoot = "C:/Users/SandraMiller/PropBankNew1/test-files";
+//	   String testRoot = "test-files";
 	   
 		/** This is the generic path to the MASC written data
 		 * TODO: Note: this will be relevant to versions of this
 		 * program outside @author Bobby 's laptop
 		 */
-		String writtenRoot = "/MASC-3.0.0/data/written";
+//		String writtenRoot = "/MASC-3.0.0/data/written";
 	   //String writtenRoot = "/var/corpora/MASC-3.0.0/data/written";
 	   
 		
-		String writtenRoot2 = "/masc-graf-1.0/data/written";
 		/** This is the generic, extension-less, name of the test
 		 * file
 		 * TODO: GO HERE TO CHANGE THE TARGET FILE
@@ -27,10 +32,10 @@ public class PTBNavigatorDriver
 		 * 113CWL017, 113CWL018, 
 		 * 114CUL057, 114CUL058, 114CUL059, 114CUL060
 		 */
-		String testFile = "110CYL068";
+//		String testFile = "110CYL068";
 		
 		/** this just composes the path to the test file */
-		String path = testRoot + writtenRoot + "/" + testFile;
+		String path = K.TEST_DATA_PATH + "/" + K.TEST_FILE;
 		
 		/** try to initialize a PTBNavigator using the path
 		 * constructed above, the PTBNavigator can throw 
