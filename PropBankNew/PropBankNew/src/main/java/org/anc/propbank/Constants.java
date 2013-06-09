@@ -1,6 +1,7 @@
 package org.anc.propbank;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 
 public class Constants extends org.anc.constants.Constants 
@@ -27,7 +28,7 @@ public class Constants extends org.anc.constants.Constants
 		try {
 			new Constants().save();
 			System.out.println("Constants saved.");
-		} catch (FileNotFoundException e) {
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
