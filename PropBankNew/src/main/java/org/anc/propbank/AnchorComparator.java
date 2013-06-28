@@ -61,9 +61,10 @@ public class AnchorComparator implements Comparator<INode>
 			 */
 			if(n.outDegree() == 0)
 			{
-				if(n.annotated()) // CHECKS IF THE INODE CONTAINS ONE OR MORE ANNOTATIONS SETS
+				if(n.annotated())
 				{
-					if(n.getAnnotation().getLabel().contentEquals("tok") // CHECKS IF THE INODE IS A TOKEN -- TRACE NODES WILL RETURN FALSE!
+					//**** TOKEN CHECK HERE -- CHANGE THIS. ****//
+					if(n.getAnnotation().getLabel().contentEquals("tok")
 						&& 
 						(n.getAnnotation().getFeatureStructure().get("cat") == null))
 					{

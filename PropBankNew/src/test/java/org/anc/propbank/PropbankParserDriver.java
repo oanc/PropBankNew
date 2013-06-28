@@ -18,14 +18,13 @@ public class PropbankParserDriver {
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException, SAXException, GrafException
 	{
-		//The propbank file to be processed (example in test files folder)
+		//Initialize path to propbank file
 		File testDir = new File(K.TEST_DATA_PATH);		
 		File testFile = new File(testDir, K.TEST_FILE + ".prop");
-		//The folder containing the corresponding PTB files
-		//String PennTreeBankRepresentationPath = "C:/Users/SandraMiller/Documents/PropBankNew1/test-files/MASC-3.0.0/data/written";
-//		String PennTreeBankRepresentationPath = "test-files";
-		//initialize a PropbankTokenizer with the path for the PTB files
+		
+		//initialize a PropbankTokenizer with the path for the corresponding PTB files
 		PropbankParser pp = new PropbankParser(K.TEST_DATA_PATH);
+		
 		//process the files and create a graph representation of them
 		IGraph graph = pp.process(testFile);
 		

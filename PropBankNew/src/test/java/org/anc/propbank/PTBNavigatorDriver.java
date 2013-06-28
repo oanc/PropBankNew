@@ -2,8 +2,10 @@ package org.anc.propbank;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 import org.anc.propbank.PTBNavigator;
+import org.xces.graf.io.GrafRenderer;
 import org.xces.graf.io.dom.ResourceHeader;
 
 public class PTBNavigatorDriver 
@@ -12,31 +14,10 @@ public class PTBNavigatorDriver
 	
 	public static void main(String args[]) 
 	{
-		/** This is the root directory for the files on @author Bobby 's laptop */		
-	   //String testRoot = "C:/Users/SandraMiller/PropBankNew1/test-files";
-//	   String testRoot = "test-files";
-	   
-		/** This is the generic path to the MASC written data
-		 * TODO: Note: this will be relevant to versions of this
-		 * program outside @author Bobby 's laptop
-		 */
-//		String writtenRoot = "/MASC-3.0.0/data/written";
-	   //String writtenRoot = "/var/corpora/MASC-3.0.0/data/written";
-	   
-		
-		/** This is the generic, extension-less, name of the test
-		 * file
-		 * TODO: GO HERE TO CHANGE THE TARGET FILE
-		 * Some suitable entries:
-		 * 110CYL068, 110CYL069, 110CYL070, 110CYL071, 110CYL072, 110CYL200, 
-		 * 113CWL017, 113CWL018, 
-		 * 114CUL057, 114CUL058, 114CUL059, 114CUL060
-		 */
-//		String testFile = "110CYL068";
-		
-		/** this just composes the path to the test file */
+
+		/** Compose path to test file */
 		String path = K.TEST_DATA_PATH + "/" + K.TEST_FILE;
-		
+				
 		/** try to initialize a PTBNavigator using the path
 		 * constructed above, the PTBNavigator can throw 
 		 * SAXExceptions if for some reason there is a 
@@ -53,7 +34,7 @@ public class PTBNavigatorDriver
 			pn.printSentencesDetailed();
 			
 			//TODO: diagnoses a problem sentence, if it exists
-			pn.diagnose(26);
+			pn.diagnose(5);
 			
 			//TODO: this is a model of how to navigate
 			pn.navigateTrace(0, 0); //two parameter navigates take the last sentence used
@@ -62,7 +43,7 @@ public class PTBNavigatorDriver
 			pn.navigateTrace(0, 0); //so the next two parameter navigate will be to the 1st sentence, not the 0th
 			
 			//TODO: the plain navigate function returns the INode
-			// pn.navigate(0, 0, 0);
+			 //pn.navigate(0, 0, 0);
 		}
 		catch(Exception e)
 		{

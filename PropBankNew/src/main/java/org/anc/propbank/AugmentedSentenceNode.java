@@ -92,8 +92,9 @@ public class AugmentedSentenceNode
 			//add its children to the stack
 			for(IEdge e : currNode.outEdges())
 			{
-				//TODO: THIS IS WHERE I'M TRYING TO IGNORE TRACES
-				if(!(e.getTo().getAnnotation().getLabel().contains("Trace"))) // THIS IS WHERE THE ATTEMPT IS -- CHANGE THIS.
+				//**** TOKEN CHECK HERE -- CHANGE THIS.****//
+				
+				if(!(e.getTo().getAnnotation().getLabel().contains("Trace"))) 
 				{
 					startStack.add(e.getTo());
 				}
@@ -104,15 +105,21 @@ public class AugmentedSentenceNode
 					&&(currNode.annotated())
 					)
 			{
-				//TODO: find out why nodes of out degree 0 but not labeled "tok" are causing problems
-				if(currNode.getAnnotation().getLabel().contentEquals("tok")) // HERE TOO
+				//**** TOKEN CHECK HERE -- CHANGE THIS. ****//
+				
+				if(currNode.getAnnotation().getLabel().contentEquals("tok")) 
 				{
 					//get the region that this node operates over
 					IRegion region = currNode.getLinks().get(0).getRegions().get(0);
+					
+					//**** TRACE NODES WILL NOT HAVE TEXT IN A REGION****//
+					
 					//extract the text from the source file using the region
 					String text = getTokenText(region);
+					
 					//get the start anchor
 					CharacterAnchor chTemp = (CharacterAnchor) region.getStart();
+					
 					//get the offset of the anchor
 					long temp = chTemp.getOffset();
 					
@@ -193,7 +200,9 @@ public class AugmentedSentenceNode
 			 */
 			if((currNode.outDegree() == 0)&&(currNode.annotated()))
 			{
-				//TODO: find out why nodes of out degree 0 but not labeled "tok" are causing problems
+				
+				//**** TOKEN CHECK HERE -- CHANGE THIS. ****//
+				
 				if(currNode.getAnnotation().getLabel().contentEquals("tok"))
 				{
 					CharacterAnchor chTemp = (CharacterAnchor) currNode.getLinks().get(0).getRegions().get(0).getAnchor(1);
