@@ -1,0 +1,22 @@
+6 3 gold be-v be.03 ----- 3:0-rel
+6 5 gold be-v be.03 ----- 5:0-rel
+6 6 gold go-v go.15 ----- 2:1*4:0-ARG1 6:0,7:1-rel 8:1-ARGM-DIS
+7 1 gold have-v have.01 ----- 1:0-rel
+7 3 gold talk-v talk.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG2 6:1-ARGM-TMP
+8 0 gold give-v give.01 ----- 0:0-rel 1:1-ARG2 2:2-ARG1
+8 8 gold be-v be.03 ----- 8:0-rel
+8 9 gold be-v be.03 ----- 9:0-rel
+8 10 gold go-v go.15 ----- 5:1*7:0-ARG1 10:0,11:1-rel 12:1-ARGM-MNR
+9 1 gold leave-v leave.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 3:2-ARGM-TMP 6:1-ARGM-MNR
+10 1 gold do-v do.02 ----- 0:0-ARG0 1:0-rel 2:2-ARG1
+10 11 gold make-v make.03 ----- 7:2-ARG0 11:0-rel 12:1-ARG2 13:1-ARG1 16:2-ARGM-PRP
+10 18 gold come-v come.01 ----- 16:0-ARG1 18:0-rel 19:1-ARGM-DIR
+11 2 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
+12 1 gold be-v be.03 ----- 1:0-rel
+12 3 gold get-v get.03 ----- 0:1*2:0-ARG1 3:0-rel 4:1-ARG2
+12 4 gold marry-v marry.01 ----- 0:1*2:0-ARG1 4:0-rel
+13 1 gold sound-v sound.01 ----- 0:0-ARG1 1:0-rel 2:1-ARG2
+13 4 gold be-v be.03 ----- 4:0-rel
+13 5 gold go-v go.04 ----- 5:0-rel
+13 8 gold be-v be.01 ----- 3:1*6:0-ARG1 8:0-rel 9:1-ARG2
+14 1 gold give-v give.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG2 3:1-ARG1 5:1-ARGM-TMP

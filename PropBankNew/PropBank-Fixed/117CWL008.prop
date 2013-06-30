@@ -1,0 +1,30 @@
+2 1 gold join-v join.01 ----- 0:0-ARG0 1:0-rel 2:2-ARG1
+3 6 gold benefit-v benefit.01 ----- 0:1-ARG0 5:0-ARGM-MOD 6:0-rel 7:2-ARG1
+4 2 gold be-v be.01 ----- 1:1-ARG1 2:0-rel 3:2-ARG2
+4 7 gold care-v care.01 ----- 3:1*5:1-LINK-SLC 5:1*6:0-ARG0 7:0-rel
+4 10 gold be-v be.03 ----- 10:0-rel
+4 11 gold invite-v invite.01 ----- 0:1-ARGM-CAU 11:0-rel 9:1*12:0-ARG1 13:2-ARG2
+4 15 gold become-v become.01 ----- 13:0-ARG1 15:0-rel 16:2-ARG2 23:1-ARGM-MNR
+4 25 gold become-v become.01 ----- 24:0-ARG1 25:0-rel 26:2-ARG2
+5 3 gold be-v be.01 ----- 0:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
+5 8 gold welcome-v welcome.01 ----- 6:0-ARG0 8:0-rel 9:1-ARG1 11:1-ARGM-PRD
+6 1 gold be-v be.03 ----- 1:0-rel
+6 2 gold seek-v seek.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+6 5 gold build-v build.01 ----- 3:0-ARG0 5:0-rel 6:2-ARG1
+7 9 gold have-v have.06 ----- 0:1-ARGM-PRD 4:2-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1 14:2-ARGM-PRD
+7 15 gold know-v know.01 ----- 14:0-ARG0 15:0-rel 16:1-ARG1
+7 22 gold help-v help.01 ----- 17:1-ARG0 21:0-ARGM-MOD 22:0-rel 23:2-ARG1
+7 24 gold support-v support.01 ----- 23:0-ARG0 24:0-rel 25:3-ARG1
+8 0 gold enclose-v enclose.01 ----- 0:0-rel 1:0*4:2-ARG2
+8 2 gold be-v be.03 ----- 2:0-rel
+8 10 gold include-v include.01 ----- 4:1*8:1-LINK-SLC 8:1*9:0-ARG2 10:0-rel 11:3-ARG1
+8 34 gold be-v be.03 ----- 34:0-rel
+8 35 gold preserve-v preserve.01 ----- 28:1*31:1-LINK-SLC 33:0-ARGM-MOD 35:0-rel 32:1*38:0-ARG1 39:1-ARGM-MNR
+8 37 gold strengthen-v strengthen.01 ----- 28:1*31:1-LINK-SLC 33:0-ARGM-MOD 37:0-rel 32:1*38:0-ARG1 39:1-ARGM-MNR
+9 4 gold call-v call.02 ----- 0:2-ARG0 3:0-ARGM-MOD 4:0-rel 5:1-ARG1 6:2-ARGM-PRP
+9 8 gold discuss-v discuss.01 ----- 6:0-ARG0 0:2*6:0-LINK-PCR 8:0-rel 9:2-ARG1
+9 13 gold become-v become.01 ----- 10:1-ARG1 12:0-ARGM-MOD 13:0-rel 14:2-ARG2 9:1*28:0-ARGM-MNR
+10 2 gold have-v have.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+10 8 gold feel-v feel.01 ----- 0:1-ARGM-ADV 7:0-ARG0 1:1*7:0-LINK-PCR 6:1-ARGM-DIS 8:0-rel 9:1-ARG1
+10 12 gold call-v call.02 ----- 10:0-ARG0 1:1*10:0-LINK-PCR 12:0-rel 13:1-ARG1 15:1-ARGM-LOC
+11 1 gold thank-v thank.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-TMP 5:1-ARG2

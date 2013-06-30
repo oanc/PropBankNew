@@ -1,0 +1,41 @@
+2 3 gold have-v have.01 ----- 3:0-rel
+2 4 gold do-v do.02 ----- 0:1-ARG0 4:0-rel 5:1-ARG1 8:1-ARGM-MNR
+3 1 gold have-v have.01 ----- 1:0-rel
+3 2 gold help-v help.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+3 4 gold break-v break.16 ----- 3:1-ARG0 4:0-rel 5:2-ARG1
+4 1 gold have-v have.01 ----- 1:0-rel
+4 2 gold find-v find.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+4 9 gold enter-v enter.01 ----- 5:2-ARG0 9:0-rel 10:1-ARG1
+5 1 gold have-v have.01 ----- 1:0-rel
+5 2 gold expand-v expand.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 7:1-ARG4
+5 5 gold prove-v prove.01 ----- 3:1-ARG0 5:0-rel 6:0-ARG1
+5 13 gold be-v be.03 ----- 13:0-rel
+5 14 gold need-v need.01 ----- 14:0-rel 12:1*15:0-ARG1 16:1-ARGM-EXT 11:1*17:0-ARGM-LOC
+6 4 gold have-v have.01 ----- 4:0-rel
+6 5 gold play-v play.02 ----- 0:1-ARGM-DIS 3:1-ARG0 5:0-rel 6:1-ARG1
+7 1 gold have-v have.01 ----- 1:0-rel
+7 2 gold help-v help.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1 9:1-ARGM-MNR
+7 4 gold make-v make.02 ----- 3:0-ARG0 4:0-rel 5:3-ARG1
+8 1 gold have-v have.01 ----- 1:0-rel
+8 2 gold devise-v devise.01 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+8 7 gold turn-v turn.02 ----- 3:1*5:1-LINK-SLC 5:1*6:0-ARG0 7:0-rel 8:1-ARG1 10:1-ARG2
+9 1 gold have-v have.01 ----- 1:0-rel
+9 3 gold benefit-v benefit.01 ----- 0:1*2:0-ARG1 3:0-rel 4:1-ARG0
+10 1 gold have-v have.01 ----- 1:0-rel
+11 4 gold help-v help.01 ----- 1:1-ARG0 4:0-rel 5:2-ARG1 0:1*9:0-ARGM-TMP
+11 6 gold find-v find.01 ----- 5:1-ARG0 6:0-rel 7:1-ARG1
+11 14 gold join-v join.01 ----- 11:2-ARG0 14:0-rel 15:2-ARG1
+11 24 gold be-v be.03 ----- 24:0-rel
+11 25 gold spend-v spend.01 ----- 0:2-ARGM-TMP 25:0-rel 21:1*26:0-ARG3 27:1-ARG1
+11 32 gold gain-v gain.02 ----- 31:1-ARG0 32:0-rel 33:1-ARG1
+12 1 gold be-v be.02 ----- 1:0-rel 2:3-ARG1
+12 8 gold keep-v keep.04 ----- 5:1*6:1-LINK-SLC 6:1*7:0-ARG0 8:0-rel 9:1-ARG1 10:1-ARG2
+12 12 gold work-v work.01 ----- 11:0-ARG0 12:0-rel
+13 2 gold be-v be.02 ----- 0:0-ARGM-DIS 2:0-rel 3:2-ARG1
+13 9 gold face-v face.01 ----- 6:1*7:1-LINK-SLC 7:1*8:0-ARG0 9:0-rel 10:1-ARG1 12:1-ARGM-TMP
+14 4 gold continue-v continue.01 ----- 0:0-ARGM-DIS 1:1-ARG1 3:0-ARGM-MOD 4:0-rel
+15 1 gold benefit-v benefit.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG0
+15 7 gold do-v do.02 ----- 3:1*5:0-LINK-SLC 6:1-ARG0 7:0-rel 5:1*8:0-ARG1 9:1-ARGM-MNR
+16 2 gold need-v need.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+17 2 gold continue-v continue.01 ----- 0:1-ARGM-DIS 1:0-ARG0 2:0-rel 3:1-ARG1
+18 1 gold support-v support.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG1 3:1-ARGM-MNR 7:1-ARGM-TMP

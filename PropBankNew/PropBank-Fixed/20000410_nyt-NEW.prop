@@ -1,0 +1,43 @@
+0 1 gold clear-v clear.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+4 3 gold have-v have.01 ----- 3:0-rel
+4 4 gold agree-v agree.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1
+4 7 gold let-v let.01 ----- 5:0-ARG0 7:0-rel 8:4-ARG1
+4 13 gold visit-v visit.01 ----- 8:3-ARG0 13:0-rel 14:1-ARG1 16:1-ARGM-TMP 18:2-ARGM-PRP
+4 20 gold assess-v assess.01 ----- 18:0-ARG0 20:0-rel 21:2-ARG1
+4 26 gold have-v have.01 ----- 26:0-rel
+4 27 gold fester-v fester.01 ----- 21:1*24:1-LINK-SLC 24:1*25:0-ARG1 27:0-rel 28:1-ARGM-TMP
+4 38 gold say-v say.01 ----- 35:2-ARG0 38:0-rel 39:1-ARG1 41:1-ARGM-TMP
+5 6 gold have-v have.01 ----- 6:0-rel
+5 7 gold travel-v travel.01 ----- 0:1*4:1-LINK-SLC 4:1*5:0-ARG0 7:0-rel 8:1-ARG1
+5 12 gold include-v include.01 ----- 9:1-ARG2 12:0-rel 13:2-ARG1
+5 20 gold spend-v spend.02 ----- 0:2-ARG0 19:0-ARGM-MOD 20:0-rel 21:1-ARG1 23:2-ARG2
+5 24 gold visit-v visit.01 ----- 23:0-ARG0 24:0-rel 25:2-ARG1 29:2-ARGM-PRP
+5 31 gold seek-v seek.01 ----- 29:0-ARG0 31:0-rel 32:1-ARG1
+5 35 gold have-v have.01 ----- 35:0-rel
+5 36 gold be-v be.01 ----- 34:1-ARG1 36:0-rel 37:1-ARG2 33:1*46:0-ARGM-CAU
+5 40 gold stem-v stem.02 ----- 39:0-ARG0 40:0-rel 41:2-ARG1
+6 1 gold have-v have.01 ----- 1:0-rel
+6 2 gold be-v be.01 ----- 0:1-ARG1 2:0-rel 3:1;12:2-ARG2 7:1-ARGM-TMP
+6 10 gold end-v end.01 ----- 8:1-ARG1 10:0-rel
+6 14 gold say-v say.01 ----- 13:1-ARG0 14:0-rel 15:2-ARG1
+6 17 gold have-v have.01 ----- 17:0-rel
+6 18 gold thwart-v thwart.01 ----- 15:1*16:0-ARG0 18:0-rel 19:2-ARG1
+6 25 gold recover-v recover.01 ----- 23:0-ARG1 25:0-rel 26:1-ARG2
+7 4 gold destroy-v destroy.01 ----- 0:1-ARG0 4:0-rel 5:2-ARG1 13:1-ARGM-ADV
+7 13 gold accord-v accord.ER ----- 13:0-rel
+8 4 gold find-v find.01 ----- 0:1-ARGM-TMP 2:1-ARG0 4:0-rel 5:1-ARG1
+8 10 gold exist-v exist.01 ----- 6:2-ARG1 10:0-rel 11:1-ARG2
+9 2 gold be-v be.01 ----- 0:1-ARG1 1:0-ARGM-MOD 2:0-rel 3:3-ARG2 19:1-ARGM-ADV
+9 12 gold travel-v travel.01 ----- 3:2*9:0-LINK-SLC 9:1*10:0-ARG0 12:0-rel 13:1-ARG1 15:1-ARGM-TMP
+9 19 gold accord-v accord.ER ----- 19:0-rel
+10 3 gold be-v be.01 ----- 0:1-ARG1 3:0-rel 4:4-ARG2
+10 17 gold go-v go.01 ----- 4:3*15:1-LINK-SLC 15:1*16:0-ARG1 17:0-rel 18:2-ARGM-PRP
+10 20 gold help-v help.01 ----- 4:3*15:1-LINK-SLC 18:0-ARG0 20:0-rel 21:3-ARG1
+12 1 gold fly-v fly.01 ----- 0:1-ARG1 1:0-rel 2:1;11:2-ARGM-DIR 8:1-ARGM-TMP
+12 14 gold spend-v spend.02 ----- 3:2*11:1-LINK-SLC 12:1-ARG0 13:0-ARGM-MOD 14:0-rel 15:1-ARG1 17:1-ARGM-TMP 11:1*22:0-ARGM-LOC
+12 19 gold drive-v drive.01 ----- 18:0-ARG0 12:1*18:0-LINK-PCR 19:0-rel 20:1-ARGM-DIR
+13 1 gold be-v be.03 ----- 1:0-rel
+13 3 gold permit-v permit.01 ----- 2:0-ARGM-NEG 3:0-rel 0:1*4:0-ARG1 5:1-ARGM-DIR
+14 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+14 4 gold return-v return.01 ----- 0:1*2:0-ARG1 4:0-rel 5:1-ARG4 7:1-ARGM-TMP
+15 1 gold file-v file.01 ----- 1:0-rel 0:1*2:0-ARG1 3:1-ARG0
