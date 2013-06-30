@@ -79,17 +79,21 @@ public class PTBNavigator
        */
       IGraph graph = graphParse.parse(root + PTB_EXTENSION);
 
+      System.out.println("------GRAPH CONTENT -------");
+      System.out.println(graph.findNode("ptb-n00825").getLinks().toString());
       /*
        * now that we have a graph, call the setSentences method to initialize
        * our sentences
        */
       setSentences(graph);
-
+    
+      
       /*
        * now that we have a graph, call the setAugmentedSentences method to
        * initialize our sentences TODO: replace/merge this with setSentences()
        */
       setAugmentedSentences(graph);
+
    }
 
    /**
@@ -184,6 +188,7 @@ public class PTBNavigator
 
       //now that we have collected all our sentences and augmented them, sort them!
       sortAugmentedSentences();
+      
    }
 
    /**

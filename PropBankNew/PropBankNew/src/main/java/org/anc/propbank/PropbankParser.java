@@ -31,7 +31,9 @@ public class PropbankParser
 	 *  @output right now, void, root node of the annotation?
 	 */
 	public IGraph process(File infile) throws IOException, FileNotFoundException, SAXException, GrafException
-	{
+	{	
+		targetFile = infile.getName().substring(0, infile.getName().lastIndexOf('.'));
+		
 		/** Creates a buffered reader to process a PropBank file
 		 *	@throws FileNotFoundException
 		 */
@@ -41,9 +43,7 @@ public class PropbankParser
 		
 		/** String to keep track of the next line in the input file */
 		String currLine = in.readLine();
-		
-		
-		
+
 		/*  read each line from the file and pass it to parseLine()
 		 *  method to extract the relevant information
 		 */
@@ -82,43 +82,35 @@ public class PropbankParser
 		ArrayList<String> features = new ArrayList<String>(Arrays.asList(line.split(" ")));
 		
 		/* Store the parts temporarily */
-		
-			/* the first part holds the target file necessary for navigating 
-			 *  to the node-anchors of this annotation
-			 */
-			String tokPath= features.get(0);
-			String fileName = tokPath.substring(tokPath.lastIndexOf('/'));//parse out the file name
-			targetFile = fileName.substring(0, fileName.lastIndexOf('.'));//parse out the bare file name
-			
-			
+	
 			/* the second part holds the index of the sentence of this 
 			 * annotation, for later processing with PTBHelper
 			 */
-			sentenceIndex = Integer.parseInt(features.get(1));
+			sentenceIndex = Integer.parseInt(features.get(0));
 			
 			/* the fourth element of the prop annotation is the annotator's
 			 * ID, add to the PAStructure's annotation
 			 */
-			a.addFeature("annotator", features.get(3));
+			a.addFeature("annotator", features.get(2));
 			
 			/* the lemma of the word that anchors the annotation,
 			 * add to the PAStructure's annotation
 			 */
-			a.addFeature("lemma", features.get(4));
+			a.addFeature("lemma", features.get(3));
 			
 			/* the sixth element of the annotation is the frameset, which
 			 * indexes the sense of the word that anchors the annotation,
 			 * add to the PAStructure's annotation
 			 */
-			a.addFeature("frameset", features.get(5));
+			a.addFeature("frameset", features.get(4));
 			
 			/* initialize the PTB Navigator */
-			PTBNav = new PTBNavigator(PTBDirectory+targetFile);
+			PTBNav = new PTBNavigator(PTBDirectory+ "/" + targetFile);
 
 			/* the remaining elements are the arguments for this PAStructure
 			 * which are incrementally added as edges to the pas node
 			 */
-			for( int i = 7; i < features.size(); i++)
+			for( int i = 6; i < features.size(); i++)
 			{
 				/** temporarily store the argument
 				 */
