@@ -1,0 +1,287 @@
+7 7 gold be-v be.03 ----- 7:0-rel
+9 8 gold be-v be.03 ----- 8:0-rel
+87 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+116 2 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
+146 1 gold be-v be.03 ----- 1:0-rel
+1 25 gold be-v be.03 ----- 25:0-rel
+1 32 gold be-v be.03 ----- 32:0-rel
+2 7 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-ADV 2:2-ARGM-TMP 6:1-ARG1 7:0-rel 8:0-ARGM-ADV 9:1-ARG2
+13 2 gold be-v be.03 ----- 2:0-rel
+27 4 gold be-v be.01 ----- 3:1-ARG1 4:0-rel 5:1-ARG2
+46 3 gold be-v be.03 ----- 3:0-rel
+69 2 gold be-v be.03 ----- 2:0-rel
+70 5 gold be-v be.01 ----- 3:0-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2
+1 10 gold be-v be.03 ----- 10:0-rel
+104 23 gold go-v go.02 ----- 0:1-ARGM-DIS 1:2-ARGM-ADV 20:1-ARG0 22:1-ARGM-ADV 23:0-rel 24:2-ARGM-EXT
+1 3 gold get-v get.01 ----- 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:3-ARG1
+28 3 gold get-v get.06 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
+33 7 gold get-v get.02 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
+39 2 gold get-v get.02 ----- 0:1-ARG0 2:0-rel 3:2-ARG1
+105 2 gold get-v get.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-LOC
+144 3 gold get-v get.04 ----- 3:0-rel
+144 7 gold get-v get.04 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 5:1-ARGM-DIS 6:1-ARG0 7:0-rel 8:1-ARG1
+110 1 gold guess-v guess.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+109 3 gold guess-v guess.01 ----- 0:1-ARG0 1:0-ARGM-MOD 3:0-rel
+2 23 gold have-v have.02 ----- 23:0-rel
+26 2 gold have-v have.03 ----- 0:0-ARG0 1:1-ARGM-ADV 2:0-rel 3:2-ARG1
+73 1 gold have-v have.04 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+24 8 gold hate-v hate.01 ----- 2:1*4:1-LINK-SLC 5:1-ARG0 6:1-ARGM-ADV 8:0-rel 4:1*9:0-ARG1 10:1-ARGM-ADV
+33 2 gold hate-v hate.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
+71 3 gold hate-v hate.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:1-ARG1
+1 0 gold have-v have.01 ----- 0:0-rel
+40 2 gold have-v have.04 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+50 2 gold have-v have.03 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+99 3 gold have-v have.04 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 3:0-rel 4:2-ARG1
+102 56 gold have-v have.03 ----- 55:1-ARG0 56:0-rel 57:1-ARG1
+109 2 gold have-v have.01 ----- 2:0-rel
+113 11 gold have-v have.02 ----- 11:0-rel
+115 3 gold have-v have.03 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:1-ARG1
+14 2 gold hear-v hear.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 5:2-ARGM-TMP
+15 1 gold hear-v hear.01 ----- 0:1-ARG0 1:0-rel 2:3-ARG1
+19 2 gold hear-v hear.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
+1 33 gold introduce-v introduce.02 ----- 31:1-ARG0 33:0-rel 34:1-ARG1 37:1-ARG2
+5 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+68 6 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:2-ARG1 6:0-rel 7:2-ARG2
+102 16 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 4:2-ARG1 16:0-rel 17:1-ARGM-DIS 18:3-ARGM-DIS 20:3;27:2-ARG2 54:1-ARGM-PRP
+149 1 gold be-v be.01 ----- 0:1-ARGM-DIS 1:0-rel 2:1-ARG1 5:1-ARG2
+102 45 gold join-v join.01 ----- 43:1-ARG1 45:0-rel
+45 11 gold know-v know.01 ----- 10:1-ARG0 11:0-rel
+66 8 gold know-v know.01 ----- 7:1-ARG0 8:0-rel
+67 13 gold know-v know.01 ----- 12:1-ARG0 13:0-rel
+68 23 gold know-v know.01 ----- 22:1-ARG0 23:0-rel
+75 10 gold know-v know.01 ----- 9:1-ARG0 10:0-rel
+76 7 gold know-v know.01 ----- 6:1-ARG0 7:0-rel
+89 7 gold know-v know.01 ----- 5:0-ARG0 7:0-rel 8:1-ARG1
+95 18 gold know-v know.01 ----- 17:1-ARG0 18:0-rel
+100 4 gold know-v know.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:0-rel
+102 19 gold know-v know.01 ----- 18:1-ARG0 19:0-rel
+102 38 gold know-v know.01 ----- 37:1-ARG0 38:0-rel
+102 48 gold know-v know.01 ----- 47:1-ARG0 48:0-rel
+107 3 gold know-v know.01 ----- 0:1-ARG0 2:0-ARGM-NEG 3:0-rel 4:3-ARG1
+114 12 gold know-v know.01 ----- 11:1-ARG0 12:0-rel
+117 2 gold know-v know.01 ----- 1:1-ARG0 2:0-rel
+135 1 gold know-v know.01 ----- 0:1-ARG0 1:0-rel
+56 1 gold let-v let.01 ----- 0:0-ARG0 1:0-rel 2:2-ARG1
+139 2 gold let-v let.01 ----- 0:1-ARGM-DIS 1:0-ARG0 2:0-rel 3:2-ARG1
+80 5 gold like-v like.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-ADV 4:0-ARGM-NEG 5:0-rel 6:1-ARG1
+96 7 gold like-v like.01 ----- 0:1-ARGM-DIS 3:0-ARGM-DIS 4:1-ARG0 6:0-ARGM-NEG 7:0-rel 8:2-ARG1
+66 1 gold live-v live.01 ----- 0:0-ARG0 1:0-rel 2:1-ARGM-LOC 6:1-ARGM-ADV
+35 3 gold love-v love.02 ----- 1:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:2-ARG1
+110 5 gold make-v make.01 ----- 3:1-ARG0 4:0-ARGM-MOD 5:0-rel 6:2-ARG1 14:1-ARGM-PRP
+95 1 gold mean-v mean.01 ----- 0:1-ARG0 1:0-rel
+118 1 gold mean-v mean.01 ----- 0:1-ARG0 1:0-rel
+46 7 gold offer-v offer.01 ----- 2:1*5:0-ARG0 7:0-rel 8:2-ARG1
+1 27 gold offer-v offer.01 ----- 24:1-ARG0 27:0-rel 28:1-ARG1
+44 7 gold pass-v pass.01 ----- 5:0-ARGM-MOD 7:0-rel 3:1*8:0-ARG1 9:1-ARGM-ADV
+59 24 gold peddle-v peddle.01 ----- 11:1-ARG0 19:1-ARGM-DIS 24:0-rel 25:1-ARG1
+95 27 gold pull-v pull.01 ----- 22:1-ARG0 24:0-ARGM-NEG 27:0-rel 28:1-ARG1 29:1-ARG2
+82 9 gold pursue-v pursue.01 ----- 6:0-ARG0 8:1-ARGM-DIS 9:0-rel 10:2-ARG1 14:1-ARGM-MNR
+59 1 gold put-v put.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1 4:1-ARG2 8:2-ARGM-ADV
+66 29 gold put-v put.01 ----- 28:1-ARG0 29:0-rel 30:1-ARGM-DIR 31:2;35:2-ARG1 33:1-ARG2
+104 29 gold put-v put.01 ----- 27:0-ARG0 29:0-rel 30:1-ARG1
+106 3 gold put-v put.05 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0,4:1-rel
+104 11 gold put-v put.01 ----- 8:1-ARG0 11:0,12:1-rel 13:2-ARG1
+19 19 gold read-v read.01 ----- 12:2*16:1-LINK-SLC 17:1-ARG0 19:0-rel 16:1*20:0-ARG1 21:3-ARGM-TMP 25:1-ARGM-TMP 27:1-ARGM-ADV
+78 4 gold read-v read.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARG0 4:0-rel 5:2-ARG1
+19 7 gold read-v read.01 ----- 7:0-rel
+19 10 gold read-v read.01 ----- 3:1*9:0-ARG0 10:0,11:1-rel 12:3-ARG1
+136 2 gold remember-v remember.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+142 4 gold remember-v remember.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
+83 7 gold respect-v respect.01 ----- 4:1-ARG0 5:1-ARGM-ADV 6:0-ARGM-MOD 7:0-rel 8:2-ARG1 14:1-ARGM-ADV
+121 29 gold reverse-v reverse.01 ----- 9:1-ARG0 10:0-ARGM-MOD 28:1-ARGM-TMP 29:0-rel 30:1-ARG1
+116 7 gold rig-v rig.02 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0,8:1-rel 9:1-ARG1
+2 30 gold run-v run.02 ----- 28:0-ARG0 30:0-rel 31:1-ARGM-DIR
+104 6 gold say-v say.01 ----- 1:1*4:1-LINK-SLC 5:1-ARG0 6:0-rel 7:1-ARG1 4:1*19:0-ARGM-LOC
+138 2 gold say-v say.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel
+141 1 gold say-v say.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+14 9 gold say-v say.01 ----- 8:1-ARG0 9:0-rel 10:1-ARG1
+28 6 gold say-v say.01 ----- 1:1*4:0-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-TMP 9:1-ARGM-TMP
+99 13 gold say-v say.01 ----- 11:1-ARG0 12:1-ARGM-MOD 13:0-rel 14:1-ARGM-DIS 15:1-ARGM-LOC
+108 8 gold say-v say.01 ----- 2:2-ARG0 8:0-rel 9:1-ARG1
+66 37 gold say-v say.01 ----- 31:1*35:1-LINK-SLC 35:1*36:0-ARG0 37:0-rel 38:1-ARG1
+104 16 gold say-v say.01 ----- 13:1*14:1-LINK-SLC 14:1*15:0-ARG0 16:0-rel 17:1-ARG1
+110 10 gold say-v say.01 ----- 6:1*8:1-LINK-SLC 8:1*9:0-ARG0 10:0-rel 11:1-ARG1
+118 14 gold say-v say.01 ----- 13:1-ARG0 14:0-rel 15:1-ARGM-DIS 16:1-ARG1
+35 6 gold see-v see.01 ----- 4:0-ARG0 6:0-rel 7:2-ARG1
+50 0 gold see-v see.03 ----- 0:0-rel
+56 3 gold see-v see.01 ----- 2:1-ARG0 3:0-rel
+118 9 gold see-v see.01 ----- 5:1-ARGM-DIS 8:1-ARG0 9:0-rel 10:1-ARG1
+69 6 gold sell-v sell.01 ----- 4:0-ARG0 6:0-rel 7:1-ARG1
+140 10 gold sell-v sell.01 ----- 6:1-ARG0 10:0-rel 11:1-ARG1 12:1-ARGM-LOC
+99 7 gold serve-v serve.01 ----- 4:1-ARG0 7:0-rel 8:1-ARG1 10:1-ARGM-MNR
+140 9 gold solicit-v solicit.01 ----- 6:1-ARG0 9:0-rel
+52 6 gold speak-v speak.01 ----- 0:0-ARGM-DIS 1:1-ARGM-TMP 2:2-ARG0 6:0-rel 7:1-ARG1
+76 8 gold start-v start.01 ----- 2:1*3:0-LINK-SLC 4:0-ARG0 6:3-ARGM-DIS 8:0-rel 9:2-ARG1 3:1*13:0-ARGM-TMP
+137 1 gold start-v start.02 ----- 0:1-ARG1 1:0,2:1-rel
+19 5 gold start-v start.01 ----- 3:1-ARG0 4:1-ARGM-TMP 5:0-rel 6:1-ARGM-DIS 9:2-ARG1
+2 26 gold stop-v stop.01 ----- 22:1*24:0-ARG0 26:0-rel 27:1-ARG1 28:2-ARGM-PRP
+35 12 gold stop-v stop.01 ----- 10:0-ARG0 12:0-rel 13:2-ARG1
+66 19 gold stop-v stop.03 ----- 0:2-ARGM-ADV 7:3-ARGM-DIS 9:1-ARGM-DIS 14:1-ARGM-DIS 15:1-ARG0 16:0-ARGM-MOD 17:0-ARGM-NEG 18:1-ARGM-ADV 19:0-rel 20:1-ARG1 22:1;35:2-ARG2
+117 10 gold stop-v stop.01 ----- 8:1-ARG2 9:0-ARGM-MOD 10:0-rel 11:1-ARG1
+118 19 gold stop-v stop.01 ----- 19:0-rel
+133 7 gold sum-v sum.01 ----- 3:1-ARG0 5:1-ARGM-ADV 7:0,9:1-rel 8:1-ARG1
+157 2 gold take-v take.02 ----- 0:1-ARGM-DIS 1:0-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-MNR 5:1-ARGM-TMP
+80 17 gold talk-v talk.01 ----- 7:1-ARG0 17:0-rel 18:1-ARG2
+136 8 gold talk-v talk.01 ----- 4:1-ARGM-DIS 7:1-ARG0 8:0-rel 9:1-ARG1
+140 1 gold talk-v talk.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+5 7 gold talk-v talk.01 ----- 2:1*4:1-LINK-SLC 5:1-ARG0 7:0-rel 8:1-ARG1
+7 8 gold talk-v talk.01 ----- 2:1*5:0-LINK-SLC 6:1-ARG0 8:0-rel 9:1-ARG1
+144 10 gold talk-v talk.01 ----- 9:0-ARG0 10:0-rel 11:1-ARG1
+152 5 gold talk-v talk.01 ----- 4:0-ARG0 5:0-rel 6:1-ARG2
+155 6 gold talk-v talk.01 ----- 5:0-ARG0 6:0-rel 7:1-ARG2 9:1-ARGM-ADV
+9 15 gold tear-v tear.01 ----- 0:0-ARGM-DIS 1:1-ARGM-MNR 2:2-ARGM-TMP 13:1-ARG1 15:0-rel 16:1-ARG2
+68 14 gold tell-v tell.01 ----- 7:1-ARG0 8:0-ARGM-MOD 14:0-rel 15:1-ARG2 16:2-ARG1
+44 1 gold think-v think.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+45 1 gold think-v think.01 ----- 0:1-ARG0 1:0-rel 2:1;12:3-ARG1
+83 2 gold think-v think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+117 6 gold think-v think.01 ----- 0:0-ARGM-DIS 1:3-ARGM-DIS 3:1-ARG0 5:0-ARGM-NEG 6:0-rel 7:1-ARG1
+139 4 gold think-v think.01 ----- 3:1-ARG0 4:0-rel
+143 2 gold think-v think.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1
+143 10 gold touch-v touch.01 ----- 3:1-ARGM-DIS 4:1-ARGM-DIS 7:1-ARG0 8:1-ARGM-ADV 10:0-rel 11:1-ARG1 13:1-ARGM-LOC
+80 15 gold try-v try.01 ----- 7:1-ARG0 15:0-rel
+95 25 gold try-v try.01 ----- 22:1-ARG0 24:0-ARGM-NEG 25:0-rel
+102 40 gold try-v try.01 ----- 32:0-ARG0 20:1*32:0-LINK-PCR 33:1-ARGM-DIS 36:1-ARGM-DIS 37:3-ARGM-DIS 40:0-rel
+13 3 gold try-v try.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
+69 3 gold try-v try.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
+52 16 gold understand-v understand.01 ----- 8:1*11:1-LINK-SLC 12:1-ARG0 14:0-ARGM-NEG 15:1-ARGM-ADV 16:0-rel 11:1*17:0-ARG1
+46 32 gold use-v use.01 ----- 21:0-ARG0 32:0-rel 33:1-ARG1 35:2-ARG2
+67 14 gold walk-v walk.01 ----- 0:1-ARGM-DIS 1:0-ARGM-DIS 2:1-ARG0 3:1-ARGM-TMP 11:1-ARGM-DIS 12:3-ARGM-DIS 14:0-rel 15:1-ARGM-DIR
+82 21 gold want-v want.01 ----- 20:1-ARG0 21:0-rel 22:2-ARG1
+21 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+23 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARGM-ADV 3:2-ARG2
+45 5 gold be-v be.01 ----- 5:0-rel 6:1-ARG2 12:3-ARG1
+54 5 gold be-v be.01 ----- 4:1-ARG1 5:0-rel 6:1-ARGM-DIS 7:2-ARG2
+58 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2 4:2-ARGM-ADV
+65 2 gold be-v be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-rel 3:1-ARG2
+68 18 gold be-v be.02 ----- 16:1-ARGM-DIS 18:0-rel 19:2-ARG1
+76 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+95 12 gold be-v be.01 ----- 2:2-ARGM-PRD 10:1-ARGM-TMP 11:1-ARG1 12:0-rel 13:1-ARG2 16:1-ARGM-ADV
+97 5 gold be-v be.01 ----- 3:0-ARGM-DIS 4:1-ARG1 5:0-rel 6:1-ARG2 13:1-ARGM-TMP
+102 5 gold be-v be.01 ----- 4:1-ARG1 5:0-rel 6:2-ARG2
+108 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:3-ARG2
+112 3 gold be-v be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:1-ARG2
+118 3 gold be-v be.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG2
+129 4 gold be-v be.01 ----- 0:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:1-ARG2
+130 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+19 18 gold have-v have.01 ----- 18:0-rel
+28 2 gold have-v have.01 ----- 2:0-rel
+33 6 gold have-v have.01 ----- 6:0-rel
+39 1 gold have-v have.01 ----- 1:0-rel
+60 7 gold have-v have.01 ----- 7:0-rel
+61 3 gold have-v have.01 ----- 3:0-rel
+78 3 gold have-v have.01 ----- 3:0-rel
+104 21 gold have-v have.01 ----- 21:0-rel
+105 1 gold have-v have.01 ----- 1:0-rel
+106 2 gold have-v have.01 ----- 2:0-rel
+133 4 gold have-v have.01 ----- 4:0-rel
+152 2 gold have-v have.01 ----- 2:0-rel
+88 2 gold want-v want.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1 4:1-ARGM-LOC
+89 4 gold want-v want.01 ----- 0:1-ARGM-ADV 1:1-ARG0 3:0-ARGM-NEG 4:0-rel 5:2-ARG1
+95 3 gold want-v want.01 ----- 2:1-ARG0 3:0-rel 4:2-ARG1
+60 2 gold want-v want.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+102 31 gold want-v want.01 ----- 20:2;27:2-ARG0 31:0-rel 32:2-ARG1
+7 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+74 4 gold be-v be.01 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG1 4:0-rel 5:3-ARG2 11:1-ARGM-ADV
+75 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:0-ARGM-NEG 3:2-ARG2
+77 6 gold be-v be.01 ----- 0:1-ARGM-DIS 3:1-ARGM-DIS 4:0-ARGM-DIS 5:1-ARG1 6:0-rel 7:2-ARG2
+77 12 gold be-v be.01 ----- 12:0-rel 13:1-ARG1 11:1*14:0-ARG2
+142 7 gold be-v be.01 ----- 6:1-ARG1 7:0-rel 5:1*8:0-ARG2
+155 3 gold be-v be.01 ----- 0:1-ARGM-DIS 1:2-ARG1 3:0-rel 4:1-ARG2 10:1-ARGM-DIS
+5 6 gold be-v be.03 ----- 6:0-rel
+121 1 gold wonder-v wonder.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG1
+8 1 gold work-v work.01 ----- 0:1-ARG0 1:0-rel 2:1-ARGM-TMP
+46 22 gold work-v work.01 ----- 21:0-ARG0 22:0-rel 23:1-ARGM-MNR 27:1-ARGM-MNR
+55 1 gold agree-v agree.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG2 4:1-ARG1
+82 2 gold agree-v agree.01 ----- 0:1-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG1
+94 5 gold agree-v agree.01 ----- 0:1-ARGM-DIS 4:1-ARG0 5:0-rel 6:1-ARG2 8:1-ARGM-LOC 9:1-ARGM-ADV
+13 14 gold answer-v answer.01 ----- 4:0-ARG0 14:0-rel 15:1-ARG1
+22 6 gold be-v be.03 ----- 6:0-rel
+22 8 gold be-v be.03 ----- 8:0-rel
+24 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+33 22 gold be-v be.01 ----- 19:2-ARG1 22:0-rel 23:0-ARGM-NEG 24:1-ARG2
+52 5 gold be-v be.03 ----- 5:0-rel
+44 6 gold be-v be.03 ----- 6:0-rel
+46 19 gold be-v be.01 ----- 15:1*17:0-ARG1 19:0-rel 20:1-ARG2 21:2-ARGM-ADV
+83 16 gold be-v be.01 ----- 15:1-ARG1 16:0-rel 17:2-ARG2
+107 9 gold be-v be.01 ----- 7:1-ARG1 8:0-ARGM-MOD 9:0-rel 4:2*10:0-ARG2
+121 5 gold be-v be.02 ----- 4:0-ARGM-MOD 5:0-rel 6:2-ARG1
+122 3 gold be-v be.01 ----- 0:1-ARGM-DIS 1:1-ARG1 2:0-ARGM-MOD 3:0-rel 4:1-ARG2
+123 2 gold be-v be.01 ----- 0:1-ARG1 1:1-ARGM-MOD 2:0-rel 3:1-ARG2
+102 49 gold become-v become.01 ----- 43:1-ARG1 49:0-rel 50:1-ARG2
+133 1 gold believe-v believe.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+60 15 gold buy-v buy.01 ----- 13:0-ARG0 15:0-rel 16:1-ARG1
+2 4 gold call-v call.02 ----- 3:1-ARG0 4:0-rel 2:1*5:0-ARGM-TMP
+46 53 gold call-v call.02 ----- 35:0-ARG0 15:1*35:0-LINK-PCR 53:0-rel 54:1-ARG1
+68 9 gold call-v call.02 ----- 7:1-ARG0 8:0-ARGM-MOD 9:0-rel 10:1-ARG1
+88 7 gold call-v call.02 ----- 0:1-ARGM-ADV 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 8:1-ARG1
+61 4 gold call-v call.03 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-ARGM-MOD 4:0-rel 5:1-ARG1
+79 5 gold care-v care.01 ----- 0:0-ARGM-DIS 1:1-ARG0 3:0-ARGM-NEG 4:1-ARGM-ADV 5:0-rel 6:1-ARG1
+101 10 gold care-v care.01 ----- 4:1-ARGM-DIS 5:1-ARG0 6:1-ARGM-ADV 8:0-ARGM-NEG 9:1-ARGM-ADV 10:0-rel 11:1-ARG1 13:1-ARGM-EXT
+95 6 gold choose-v choose.01 ----- 4:0-ARG0 6:0-rel 7:1-ARG1
+61 12 gold come-v come.01 ----- 6:1-ARG1 12:0-rel 13:1-ARGM-DIR
+67 4 gold come-v come.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:1-ARGM-TMP 4:0-rel 5:1-ARGM-DIR 6:1-ARG4
+73 3 gold come-v come.01 ----- 2:1-ARG1 3:0-rel 4:1-ARG4 7:3-ARGM-TMP
+80 9 gold come-v come.01 ----- 7:1-ARG1 9:0-rel 10:1-ARGM-DIR 11:1-ARG4
+23 8 gold come-v come.01 ----- 3:1*6:1-LINK-SLC 6:1*7:0-ARG1 8:0-rel 9:1-ARG4
+15 7 gold come-v come.08 ----- 2:2-ARG1 7:0,8:1-rel
+66 24 gold come-v come.01 ----- 23:0-ARG1 24:0-rel 25:1-ARGM-DIR 26:2;35:2-ARGM-ADV
+68 20 gold come-v come.01 ----- 19:1-ARG1 20:0-rel 21:1-ARGM-DIR
+102 22 gold come-v come.01 ----- 20:2;27:2-ARG1 22:0-rel 23:1-ARGM-DIR 24:1-ARG4
+140 7 gold come-v come.01 ----- 6:1-ARG1 7:0-rel
+144 16 gold come-v come.01 ----- 12:1-ARG1 16:0-rel 17:1-ARG4 19:1-ARGM-LOC
+75 7 gold consider-v consider.02 ----- 5:1-ARG0 6:0-ARGM-MOD 7:0-rel 3:1*8:0-ARG1 11:1-ARG2
+127 2 gold consider-v consider.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:2-ARG1 14:2-ARG2
+2 19 gold cook-v cook.01 ----- 18:0-ARG0 19:0-rel 20:1-ARG1
+13 6 gold crawl-v crawl.01 ----- 4:0-ARG0 6:0-rel 7:1-ARG1
+113 14 gold do-v do.01 ----- 14:0-rel
+28 12 gold do-v do.02 ----- 10:1-ARG0 11:0-ARGM-MOD 12:0-rel 13:1-ARG1
+52 13 gold do-v do.01 ----- 13:0-rel
+53 3 gold do-v do.01 ----- 3:0-rel
+68 4 gold do-v do.02 ----- 3:1-ARG0 4:0-rel 2:1*5:0-ARG1
+72 3 gold do-v do.01 ----- 3:0-rel
+79 2 gold do-v do.01 ----- 2:0-rel
+80 3 gold do-v do.01 ----- 3:0-rel
+89 2 gold do-v do.01 ----- 2:0-rel
+95 23 gold do-v do.01 ----- 23:0-rel
+96 5 gold do-v do.01 ----- 5:0-rel
+96 12 gold do-v do.02 ----- 8:1*10:1-LINK-SLC 11:1-ARG0 12:0-rel 13:1-ARG1 10:1*14:0-ARGM-MNR 15:1-ARGM-ADV
+97 11 gold do-v do.02 ----- 10:1-ARG0 11:0-rel
+100 2 gold do-v do.01 ----- 2:0-rel
+101 7 gold do-v do.01 ----- 7:0-rel
+107 1 gold do-v do.01 ----- 1:0-rel
+113 3 gold do-v do.01 ----- 3:0-rel
+113 9 gold do-v do.01 ----- 9:0-rel
+114 6 gold do-v do.02 ----- 0:0-ARGM-DIS 1:1-ARGM-DIS 2:1-ARGM-DIS 3:1-ARG0 4:1-ARGM-ADV 5:0-ARGM-MOD 6:0-rel 7:1-ARG1 10:1-ARGM-DIS
+115 1 gold do-v do.01 ----- 1:0-rel
+117 4 gold do-v do.01 ----- 4:0-rel
+121 16 gold do-v do.02 ----- 12:1*14:1-LINK-SLC 14:1*15:0-ARG0 16:0-rel 17:1-ARG1
+121 32 gold do-v do.01 ----- 32:0-rel
+99 26 gold do-v do.02 ----- 22:0-ARG0 4:1*22:0-LINK-PCR 26:0-rel 27:2-ARG1
+35 8 gold do-v do.02 ----- 8:0-rel 7:1*9:0-ARG1 10:2-ARGM-PRP
+95 31 gold drag-v drag.01 ----- 22:1-ARG0 31:0-rel 32:1-ARG1 33:1-ARG2
+146 2 gold draw-v draw.02 ----- 0:1-ARG0 2:0-rel 3:1-ARG1
+152 3 gold enjoy-v enjoy.01 ----- 0:1-ARGM-DIS 1:1-ARG0 3:0-rel 4:2-ARG1
+89 10 gold exist-v exist.01 ----- 9:1-ARG1 10:0-rel
+54 2 gold feel-v feel.01 ----- 0:1-ARG0 1:1-ARGM-ADV 2:0-rel 3:1-ARG1
+102 10 gold feel-v feel.01 ----- 9:1-ARG0 10:0-rel 11:1-ARGM-MNR 13:1-ARG2 15:1-ARGM-ADV
+1 12 gold generate-v generate.01 ----- 4:2*8:1-LINK-SLC 12:0-rel 9:1*13:0-ARG1 14:1-ARG0
+22 9 gold generate-v generate.01 ----- 1:1*3:1-LINK-SLC 9:0-rel 4:1*10:0-ARG1 11:1-ARG0
+31 6 gold get-v get.01 ----- 0:1-ARGM-DIS 1:1-ARGM-TMP 2:1-ARGM-DIS 5:1-ARG0 6:0-rel 7:1-ARG1 8:1-ARGM-LOC
+51 3 gold get-v get.01 ----- 0:0-ARGM-DIS 1:1-ARG0 2:1-ARGM-TMP 3:0-rel 4:2-ARG1
+102 42 gold get-v get.04 ----- 32:0-ARG0 42:0-rel 43:2-ARG1
+110 17 gold get-v get.01 ----- 15:1-ARG0 16:1-ARGM-TMP 17:0-rel
+121 11 gold get-v get.01 ----- 9:1-ARG0 10:0-ARGM-MOD 11:0-rel 12:2-ARG1
+121 18 gold get-v get.01 ----- 9:1-ARG0 10:0-ARGM-MOD 18:0-rel 19:2-ARG1
+33 15 gold go-v go.02 ----- 14:1-ARG0 15:0-rel 16:1-ARG1
+46 37 gold go-v go.02 ----- 35:0-ARG0 37:0-rel 38:1-ARGM-DIR
+46 41 gold go-v go.02 ----- 35:0-ARG0 40:1-ARGM-ADV 41:0-rel 42:1-ARGM-DIR
+97 15 gold go-v go.02 ----- 14:1-ARG0 15:0-rel 16:1-ARGM-MNR
+98 2 gold go-v go.02 ----- 0:0-ARGM-DIS 1:1-ARG0 2:0-rel 3:1-ARG4
+113 16 gold go-v go.02 ----- 0:1-ARGM-DIS 1:1-ARGM-DIS 6:1-ARGM-DIS 7:1-ARGM-DIS 13:1-ARG0 15:0-ARGM-NEG 16:0-rel 17:1-ARGM-EXT
+118 16 gold go-v go.02 ----- 16:0-rel
+1 19 gold go-v go.02 ----- 18:1-ARG0 19:0-rel 20:1-ARG1
+9 9 gold go-v go.08 ----- 4:1*6:0-LINK-SLC 7:1-ARG1 9:0-rel 10:1-ARG2 6:1*12:0-ARGM-TMP
+46 4 gold go-v go.04 ----- 4:0-rel
+76 10 gold go-v go.02 ----- 4:1*9:0-ARG0 10:0-rel 11:1-ARG4
+99 23 gold go-v go.02 ----- 22:0-ARG0 23:0-rel 24:1-ARGM-DIR
+60 9 gold go-v go.02 ----- 0:1-ARGM-ADV 5:1-ARG0 9:0-rel 10:1-ARG4 13:2-ARGM-PRP

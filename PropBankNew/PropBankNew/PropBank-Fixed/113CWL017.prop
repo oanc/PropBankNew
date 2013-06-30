@@ -1,0 +1,37 @@
+3 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:1-ARG2
+3 7 gold be-v be.01 ----- 5:1-ARG1 6:0-ARGM-MOD 7:0-rel 8:2-ARG2
+4 3 gold be-v be.01 ----- 0:1-ARGM-DIS 2:1-ARG1 3:0-rel 4:3-ARG2
+6 6 gold enjoy-v enjoy.01 ----- 3:1-ARG0 6:0-rel 7:3-ARG1
+6 26 gold make-v make.04 ----- 24:0-ARG0 3:1*24:0-LINK-PCR 26:0-rel 27:1-ARG1
+7 1 gold know-v know.01 ----- 0:1-ARG0 1:0-rel 2:1-ARG1
+7 4 gold be-v be.03 ----- 4:0-rel
+7 5 gold commit-v commit.01 ----- 3:1*6:0-ARG1 5:0-rel 7:1-ARG2
+7 9 gold ensure-v ensure.01 ----- 8:0-ARG0 3:1*8:0-LINK-PCR 9:0-rel 10:1-ARG1
+7 14 gold have-v have.06 ----- 11:2-ARG0 14:0-rel 15:2-ARG1
+8 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+8 4 gold want-v want.01 ----- 3:1-ARG0 4:0-rel 5:2-ARG1 2:1*15:0-ARGM-CAU
+8 7 gold learn-v learn.01 ----- 5:1-ARG0 7:0-rel 8:2-ARG1
+9 7 gold be-v be.02 ----- 0:1-ARGM-LOC 7:0-rel 8:1-ARG1
+10 18 gold be-v be.03 ----- 18:0-rel
+10 19 gold be-v be.03 ----- 19:0-rel
+10 20 gold develop-v develop.02 ----- 0:1-ARGM-PRD 20:0-rel 7:2*21:0-ARG1
+11 2 gold read-v read.01 ----- 0:1-ARGM-DIS 1:0-ARG0 2:0-rel 3:1-ARG1 6:1-ARGM-PRP
+11 4 gold enclose-v enclose.01 ----- 4:0-rel 5:0-ARG2
+12 2 gold cost-v cost.01 ----- 2:0-rel 3:1-ARG2 6:2-ARG1
+12 8 gold send-v send.03 ----- 6:0-ARG0 8:0-rel 9:1-ARG1 11:1-ARG4
+13 12 gold afford-v afford.01 ----- 0:2-ARG0 10:0-ARGM-MOD 11:0-ARGM-NEG 12:0-rel 13:2-ARG1
+13 15 gold go-v go.02 ----- 13:0-ARG0 15:0-rel 16:1-ARG4 18:1-ARGM-MNR
+13 24 gold be-v be.01 ----- 23:1-ARG1 24:0-rel 25:2-ARG2
+13 27 gold need-v need.01 ----- 26:1-ARG0 27:0-rel 28:1-ARG1 25:1*29:0-ARGM-CAU
+14 2 gold make-v make.02 ----- 0:1-ARGM-DIS 1:0-ARG0 2:0-rel 3:2-ARG1
+14 7 gold deserve-v deserve.01 ----- 7:0-rel 8:0,9:0-ARG0
+14 11 gold send-v send.01 ----- 0:1-ARGM-DIS 1:0-ARG0 11:0-rel 12:1-ARGM-DIR 13:1-ARG1 17:1-ARGM-TMP 18:1-ARGM-LOC
+14 20 gold enclose-v enclose.01 ----- 20:0-rel 21:0-ARG2
+15 1 gold consider-v consider.02 ----- 0:0-ARG0 1:0-rel 2:2-ARG1
+15 3 gold sponsor-v sponsor.01 ----- 2:0-ARG0 3:0-rel 4:2-ARG1
+16 10 gold know-v know.01 ----- 0:2-ARGM-ADV 8:1-ARGM-DIS 9:0-ARG0 10:0-rel 11:1-ARG1
+16 15 gold be-v be.03 ----- 15:0-rel
+16 16 gold appreciate-v appreciate.02 ----- 14:0-ARGM-MOD 16:0-rel 12:1*17:0-ARG1
+16 19 gold make-v make.01 ----- 12:1-ARG0 14:0-ARGM-MOD 19:0-rel 20:1-ARG1
+19 2 gold make-v make.01 ----- 0:1-ARG0 1:0-ARGM-MOD 2:0-rel 3:2-ARG1
+20 1 gold sponsor-v sponsor.01 ----- 0:0-ARG0 1:0-rel 2:2-ARG1 15:1-ARGM-TMP

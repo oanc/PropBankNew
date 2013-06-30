@@ -1,0 +1,55 @@
+3 1 gold need-v need.01 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+3 6 gold continue-v continue.01 ----- 5:0-ARG0 0:1*5:0-LINK-PCR 6:0-rel 7:2-ARG1
+4 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+4 5 gold establish-v establish.01 ----- 2:1*6:0-ARG1 5:0-rel 7:1-ARGM-TMP 9:2-ARG3
+4 11 gold serve-v serve.01 ----- 9:0-ARG0 11:0-rel 12:3-ARG2
+4 19 gold have-v have.03 ----- 12:2*17:1-LINK-SLC 17:1*18:0-ARG0 19:0-rel 20:1-ARG1
+5 2 gold offer-v offer.01 ----- 0:1-ARG0 2:0-rel 3:1-ARG1 6:1-ARG3
+5 15 gold continue-v continue.01 ----- 0:1-ARG0 15:0-rel 16:2-ARG1 23:1-ARGM-MNR
+6 4 gold attend-v attend.01 ----- 0:1*2:1-LINK-SLC 2:1*3:0-ARG0 4:0-rel 5:1-ARG1
+6 7 gold be-v be.03 ----- 7:0-rel
+6 8 gold refer-v refer.02 ----- 8:0-rel 0:2*9:0-ARG1 10:1-ARG0
+7 4 gold have-v have.03 ----- 0:2-ARG0 4:0-rel 5:2-ARG1
+7 12 gold come-v come.01 ----- 0:2-ARG1 12:0-rel 13:1-ARG3
+8 7 gold be-v be.01 ----- 0:2-ARG1 7:0-rel 8:2-ARG2
+8 10 gold improve-v improve.01 ----- 8:0-ARG0 10:0-rel 11:2-ARG1 17:1-ARGM-MNR
+9 4 gold be-v be.03 ----- 4:0-rel
+9 5 gold plan-v plan.01 ----- 0:1-ARGM-TMP 2:1-ARG0 5:0-rel 6:2-ARG1
+9 10 gold raise-v raise.02 ----- 8:0-ARG1 10:0-rel 11:0-ARG0
+10 2 gold be-v be.03 ----- 2:0-rel
+10 3 gold design-v design.01 ----- 3:0-rel 0:1*4:0-ARG1 5:2-ARG3
+10 7 gold be-v be.01 ----- 5:0-ARG1 7:0-rel 8:2-ARG2
+10 29 gold find-v find.03 ----- 28:0-ARG0 25:1*28:0-LINK-PCR 29:0,30:1-rel 31:2-ARG1
+12 12 gold include-v include.01 ----- 0:2-ARG2 11:0-ARGM-MOD 12:0-rel 13:2-ARG1
+13 3 gold go-v go.02 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG4 5:1-ARGM-MNR
+14 1 gold be-v be.01 ----- 0:1-ARG1 1:0-rel 2:2-ARG2
+14 4 gold need-v need.01 ----- 3:1-ARG0 4:0-rel 5:1-ARG1 2:1*7:0-ARGM-LOC
+15 2 gold help-v help.01 ----- 0:0-ARGM-MOD 1:1-ARG0 2:0-rel 3:2-ARG1 8:1-ARGM-MNR
+15 4 gold support-v support.01 ----- 3:0-ARG0 4:0-rel 5:1-ARG1
+15 10 gold furnish-v furnish.01 ----- 9:0-ARG0 10:0-rel 11:2-ARG1
+15 20 gold be-v be.03 ----- 20:0-rel
+15 21 gold use-v use.01 ----- 14:1*17:1-LINK-SLC 19:0-ARGM-MOD 21:0-rel 18:1*22:0-ARG1 23:2-ARG2
+16 3 gold help-v help.01 ----- 0:1-ARG0 2:0-ARGM-MOD 3:0-rel 4:1-ARG1 6:1-ARGM-PRP
+16 10 gold continue-v continue.01 ----- 7:1-ARG0 9:0-ARGM-MOD 10:0-rel 11:2-ARG1
+16 12 gold provide-v provide.01 ----- 7:1*11:0-ARG0 12:0-rel 13:2-ARG1
+16 19 gold give-v give.01 ----- 13:1*17:1-LINK-SLC 17:1*18:0-ARG0 19:0-rel 20:1-ARG2 21:1-ARG1
+16 25 gold create-v create.01 ----- 23:0-ARG0 20:1*23:0-LINK-PCR 25:0-rel 26:1-ARG1
+17 0 gold enclose-v enclose.01 ----- 0:0-rel 1:0*3:2-ARG2
+17 2 gold be-v be.03 ----- 2:0-rel
+17 8 gold complete-v complete.01 ----- 3:1*5:0-LINK-SLC 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 5:1*9:0-ARG1
+17 11 gold return-v return.02 ----- 3:1*5:0-LINK-SLC 6:1-ARG0 7:0-ARGM-MOD 11:0-rel 5:1*12:0-ARG1 13:1-ARG2 15:1-ARGM-LOC
+17 19 gold pay-v pay.01 ----- 17:0-ARG3 19:0-rel 20:0-ARG2
+18 4 gold fax-v fax.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:1-ARG2 6:1-ARGM-LOC
+18 10 gold email-v email.01 ----- 0:0-ARGM-DIS 2:1-ARG0 3:0-ARGM-MOD 10:0-rel 12:1-ARG2
+19 4 gold help-v help.01 ----- 0:1-ARG0 3:0-ARGM-MOD 4:0-rel 5:2-ARG1
+19 6 gold begin-v begin.01 ----- 5:1-ARG0 6:0-rel 7:2-ARG1
+19 8 gold organize-v organize.01 ----- 5:1*7:0-ARG0 8:0-rel 9:1-ARG1
+20 2 gold receive-v receive.01 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+20 8 gold contact-v contact.01 ----- 0:1-ARGM-TMP 6:1-ARG0 7:0-ARGM-MOD 8:0-rel 9:1-ARG1 10:1-ARGM-ADV
+20 12 gold pick-v pick.04 ----- 11:0-ARG0 12:0,13:1-rel 14:1-ARG1
+21 2 gold have-v have.03 ----- 1:1-ARG0 2:0-rel 3:1-ARG1
+21 8 gold call-v call.02 ----- 0:1-ARGM-ADV 6:1-ARGM-DIS 7:0-ARG0 8:0-rel 9:1-ARG1 10:1-ARGM-LOC
+22 1 gold appreciate-v appreciate.02 ----- 0:1-ARG0 1:0-rel 2:2-ARG1
+24 1 gold help-v help.01 ----- 0:0-ARG0 1:0-rel 2:2-ARG1
+24 3 gold blaze-v blaze.02 ----- 2:0-ARG0 3:0-rel 4:1-ARG1
+26 1 gold thank-v thank.01 ----- 0:0-ARG0 1:0-rel 2:1-ARG1 3:1-ARG2
