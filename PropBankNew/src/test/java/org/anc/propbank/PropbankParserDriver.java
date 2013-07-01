@@ -8,6 +8,8 @@ import java.io.IOException;
 
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
+import org.xces.graf.io.DotRenderer;
+import org.xces.graf.io.RenderException;
 import org.xml.sax.SAXException;
 
 import org.anc.propbank.PropbankParser;
@@ -29,10 +31,10 @@ public class PropbankParserDriver {
 		IGraph graph = pp.process(testFile);
 		
 		
-		/* // dot rendering stuff
-		   File dotFile = new File("C:/Users/Bobby/Desktop/" + "TestViz.dot");
+		//dot rendering stuff
+		   File dotFile = new File("DotFiles/" + "TestViz.dot");
 		   
-		   DotRenderer dot = new DotRenderer(dotFile);
+		  /** DotRenderer dot = new DotRenderer(dotFile);
 		   
 		   try {
 			dot.render(graph);

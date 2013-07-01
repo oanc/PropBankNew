@@ -92,7 +92,7 @@ public class AugmentedSentenceNode
 			//add its children to the stack
 			for(IEdge e : currNode.outEdges())
 			{
-				//**** TOKEN CHECK HERE -- CHANGE THIS.****//
+				//**** TOKEN CHECK HERE -- CHANGE THIS.****/
 				
 				if(!(e.getTo().getAnnotation().getLabel().contains("Trace"))) 
 				{
@@ -111,6 +111,7 @@ public class AugmentedSentenceNode
 				{
 					//get the region that this node operates over
 					IRegion region = currNode.getLinks().get(0).getRegions().get(0);
+					
 					
 					//**** TRACE NODES WILL NOT HAVE TEXT IN A REGION****//
 					
