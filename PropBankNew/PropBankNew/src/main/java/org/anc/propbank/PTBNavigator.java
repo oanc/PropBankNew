@@ -55,6 +55,8 @@ public class PTBNavigator
 
       //initialize the main graph over which we will navigate
       setGraph();
+      
+      
    }
 
 /* PRIVATE MUTATOR/INITIALIZER FUNCTIONS */
@@ -78,9 +80,9 @@ public class PTBNavigator
        * use the graph parser to create the PTBGraph
        */
       IGraph graph = graphParse.parse(root + PTB_EXTENSION);
-
-      System.out.println("------GRAPH CONTENT -------");
-      System.out.println(graph.findNode("ptb-n00825").getLinks().toString());
+       
+      
+      
       /*
        * now that we have a graph, call the setSentences method to initialize
        * our sentences
