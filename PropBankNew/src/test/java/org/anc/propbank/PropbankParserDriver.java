@@ -29,10 +29,9 @@ public class PropbankParserDriver {
 		
 		//process the files and create a graph representation of them
 		IGraph graph = pp.process(testFile);
-		
-		
+	
 		//dot rendering stuff
-		   File dotFile = new File("DotFiles/" + "TestViz.dot");
+		  // File dotFile = new File("DotFiles/" + "TestViz.dot");
 		   
 		  /** DotRenderer dot = new DotRenderer(dotFile);
 		   
