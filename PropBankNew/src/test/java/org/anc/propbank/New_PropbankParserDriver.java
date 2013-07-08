@@ -27,11 +27,13 @@ public class New_PropbankParserDriver {
 		New_PropbankParser parser = new New_PropbankParser(K.TEST_DATA_PATH);
 		parser.process(testFile);
 		
-		//System.out.println("=====================================");
-		//System.out.println("============PTB GRAPH INFO===========");
-		//System.out.println("=====================================");
+		System.out.println("=====================================");
+		System.out.println("============PTB GRAPH INFO===========");
+		System.out.println("=====================================");
 		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
-		///navigator.printPTBGraph();
-
+		navigator.printTerminalDetails();
+		System.out.println("===========Details=============");
+		System.out.println(navigator.navigate(30,21).getAnnotation().features().toString());
+		System.out.println(navigator.navigate(30,21).getAnnotation().getLabel());
 	}
 }
