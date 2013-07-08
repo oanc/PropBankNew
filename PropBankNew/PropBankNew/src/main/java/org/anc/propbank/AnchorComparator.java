@@ -12,8 +12,9 @@ public class AnchorComparator implements Comparator<INode>
 
 	public int compare(INode o1, INode o2) 
 	{
-		Integer reg1 = findStartAnchor(o1);
-		Integer reg2 = findStartAnchor(o2);
+
+			Integer reg1 = findStartAnchor(o1);
+		    Integer reg2 = findStartAnchor(o2);
 		
 		return reg1.compareTo(reg2);
 	}
@@ -66,7 +67,7 @@ public class AnchorComparator implements Comparator<INode>
 					//**** TOKEN CHECK HERE -- CHANGE THIS. ****//
 					if(n.getAnnotation().getLabel().contentEquals("tok")
 						&& 
-						(n.getAnnotation().getFeatureStructure().get("cat") == null))
+						 (n.getAnnotation().getFeatureStructure().get("cat") == null))
 					{
 						/* grab the start anchor for this node */
 						CharacterAnchor temp = (CharacterAnchor) n.getLinks().get(0).getRegions().get(0).getAnchor(0);
@@ -79,10 +80,10 @@ public class AnchorComparator implements Comparator<INode>
 						 */
 						start = Math.min(start, tempInt);			
 					}
+					}
 				}
 			}
-		}
-		
+
 		return start;
 	}
 
