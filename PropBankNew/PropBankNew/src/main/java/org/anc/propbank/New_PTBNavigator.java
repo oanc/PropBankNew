@@ -58,7 +58,6 @@ public class New_PTBNavigator {
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 			 this.terminalNodes.removeAll(terminals);
 	 	}
-		 System.out.println("PROPBANK LOCATION MAP:" + this.propbankLocationMap.toString());
 	 }
 
 	 /**
