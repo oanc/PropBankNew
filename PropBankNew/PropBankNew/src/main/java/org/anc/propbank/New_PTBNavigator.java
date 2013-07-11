@@ -169,7 +169,7 @@ public class New_PTBNavigator {
 	 }
 	 
 	/**
-	 * Return the terminal node neighboring a given trace node, to then be used for sorting. 
+	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
 	 * @param traceNode
 	 * @return
 	 */
@@ -221,20 +221,5 @@ public class New_PTBNavigator {
 		 GrafRenderer renderer = new GrafRenderer(System.out);
 		 renderer.render(this.graph);
 	 }
-	 
-	 
-	 /**
-	  * Create a dot file of this.graph to use with GraphViz to visualize
-	 * @throws IOException 
-	 * @throws RenderException 
-	  */
-	 public void makeDotFile() throws IOException, RenderException{
-		 String[] fileRoot = this.fileName.split("/");
-		 String root = fileRoot[1];
-		 PrintWriter writer = new PrintWriter(new FileWriter("DotFiles/" + root + ".dot"));
-		 DotRenderer renderer = new DotRenderer(writer);
-		 renderer.render(this.graph);
-	 }
-
 	 
 }
