@@ -23,6 +23,7 @@ public class New_PropbankParser {
 	private String targetFile;
 	private IGraph graph;
 	private IDGenerator id;
+	public static final Constants K = new Constants();
 	
 	/**
 	 * Constructor for class New_PropbankParser
@@ -79,8 +80,11 @@ public class New_PropbankParser {
 	/**
 	 * Process an individual line of a propbank file.
 	 * @param line
+	 * @throws GrafException 
+	 * @throws IOException 
+	 * @throws SAXException 
 	 */
-	private void processLine(String line){
+	private void processLine(String line) throws SAXException, IOException, GrafException{
 		//INode propbankRoot = makeNode("PropBank");
 		//IAnnotation annotation = propbankRoot.getAnnotation();
 		
@@ -96,7 +100,24 @@ public class New_PropbankParser {
 		}
 		
 		System.out.println("Argument Info Map: " + argumentInfo);
-		///STUFF TO ADD NODES TO GRAPH
+//		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
+////		
+////		/// ADD INFO TO GRAPH
+////		INode propbankNode = this.makeNode("PropBank");
+//		for (String argument: argumentInfo.keySet()){
+////			INode argNode = this.makeNode(argument);
+////			this.graph.addEdge(propbankNode, argNode);
+//			for (String pos : argumentInfo.get(argument)){
+//				String[] splitPos = pos.split(":", 2);
+//				System.out.println("argument:" + argument);
+//				System.out.println("sentenceIndex: " + sentenceIndex);
+//				System.out.println("terminalID: " + splitPos[0]);
+//				System.out.println("depth: " + splitPos[1]);
+//				System.out.println("targetNode:" + navigator.navigate(Integer.parseInt(sentenceIndex), Integer.parseInt(splitPos[0]), Integer.parseInt(splitPos[1])).getAnnotation().features().toString());
+////				INode targetNode = navigator.navigate(Integer.parseInt(sentenceIndex), Integer.parseInt(splitPos[0]), Integer.parseInt(splitPos[1]));
+////				this.graph.addEdge(argNode, targetNode);
+//			}
+//		}
 	}
 	
 	
