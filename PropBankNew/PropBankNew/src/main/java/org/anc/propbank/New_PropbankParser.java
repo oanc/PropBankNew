@@ -51,18 +51,13 @@ public class New_PropbankParser {
 		
 		//Initialize a BufferedReader to process the propbank file
 		BufferedReader reader = new BufferedReader(new FileReader(infile));
-		
 		String currLine = reader.readLine();
 		
 		while(currLine != null){
-			
 			System.out.println(currLine);
-			
 			processLine(currLine);
-			
 			currLine = reader.readLine();
 		}
-		
 		return this.graph;
 	}
 	

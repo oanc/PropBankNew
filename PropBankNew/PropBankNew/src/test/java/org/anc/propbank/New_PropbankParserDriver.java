@@ -33,7 +33,8 @@ public class New_PropbankParserDriver {
 		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
 		navigator.printTerminalDetails();
 		System.out.println("===========Details=============");
-		System.out.println(navigator.navigate(30,21).getAnnotation().features().toString());
-		System.out.println(navigator.navigate(30,21).getAnnotation().getLabel());
+		System.out.println("NavigateTerminals (4,7): " + navigator.navigateTerminals(4,7).getAnnotation().features().toString());
+		System.out.println("Navigate (4,7,1)" + navigator.navigate(4,7,1).getAnnotation().features().toString());
+		System.out.println("Navigate (4,7,2)" + navigator.navigate(4,7,2).getAnnotation().features().toString());
 	}
 }

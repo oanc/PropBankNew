@@ -1,22 +1,10 @@
 package org.anc.propbank;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 
-import org.xces.graf.api.GrafException;
-import org.xces.graf.api.IEdge;
-import org.xces.graf.api.IGraph;
-import org.xces.graf.api.INode;
-import org.xces.graf.io.DotRenderer;
-import org.xces.graf.io.GrafParser;
-import org.xces.graf.io.GrafRenderer;
-import org.xces.graf.io.RenderException;
+import java.io.*;
+import java.util.*;
+import org.xces.graf.api.*;
+import org.xces.graf.io.*;
 import org.xces.graf.io.dom.ResourceHeader;
 import org.xml.sax.SAXException;
 
@@ -45,6 +33,7 @@ public class New_PTBNavigator {
 	  */
 	 public New_PTBNavigator(String fileName) throws SAXException, IOException, GrafException{
 		 
+		 /// Initialize all fields
 		 this.sentenceTerminalNodes = new HashMap<Integer, ArrayList<INode>>();
 		 this.terminalNodes = new ArrayList<INode>();
 		 this.fileName = fileName;
@@ -59,6 +48,9 @@ public class New_PTBNavigator {
 		 this.rootNode = this.graph.getRoot();
 		 this.sentences = new ArrayList<INode>();
 		 this.setSentences();	 
+		 ///Iterate through sentences and initialize the hashmap sentenceTerminalNodes, each mapping
+		 /// will map an integer (the sentence index) to an arrayList of that sentence's terminal nodes
+		 /// in sorted order -- using this map we can navigate to a given terminal ID in a given sentence
 		 for (int i = 0; i < this.sentences.size(); i++){
 			 this.propbankLocationMap.get(this.sentences.get(i)).put("TerminalNode", "NO");
 			 ArrayList<INode> terminals = this.setTerminalIDs(this.sentences.get(i));
@@ -66,18 +58,9 @@ public class New_PTBNavigator {
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 			 this.terminalNodes.removeAll(terminals);
 	 	}
+		 System.out.println("PROPBANK LOCATION MAP:" + this.propbankLocationMap.toString());
 	 }
-	 
-	 /**
-	  * Print the nodes of this.graph
-	  * @throws RenderException
-	  */
-	 public void printPTBGraph() throws RenderException{
-		 System.out.println(this.graph.toString());
-		 GrafRenderer renderer = new GrafRenderer(System.out);
-		 renderer.render(this.graph);
-	 }
-	 
+
 	 /**
 	  * Initialize the arraylist of INodes,  sentences, and sort them using an instance of AnchorComparator
 	  */
@@ -88,20 +71,7 @@ public class New_PTBNavigator {
 		 Collections.sort(this.sentences, new AnchorComparator());
 	 }
 	 
-	 
-	 /**
-	  * Create a dot file of this.graph to use with GraphViz to visualize
-	 * @throws IOException 
-	 * @throws RenderException 
-	  */
-	 public void makeDotFile() throws IOException, RenderException{
-		 String[] fileRoot = this.fileName.split("/");
-		 String root = fileRoot[1];
-		 PrintWriter writer = new PrintWriter(new FileWriter("DotFiles/" + root + ".dot"));
-		 DotRenderer renderer = new DotRenderer(writer);
-		 renderer.render(this.graph);
-	 }
-
+	
 		 
 	 /**
 	  * Update propbankLocationMap by adding new key, TerminalNode to each
@@ -128,9 +98,28 @@ public class New_PTBNavigator {
 	 		}
 	 	}
 	 	
-	 	//////USE A DIFFERENT COMPARISON CLASS TO ORDER THESE!! RIGHT NOW WITHOUT COMPARATOR, TERMINAL NODES ARE SHOWING UP IN
-	 	//// CORRECT ORDER EXCEPT FOR TRACE NODES WHICH SHOW UP RANDOMLY
 	 	Collections.sort(this.terminalNodes, new AnchorComparator());
+	 	ArrayList<INode> traces = new ArrayList<INode>();
+	 	for (INode terminalNode: this.terminalNodes){
+	 		if (terminalNode.getAnnotation().getLabel().equals("Trace")){
+	 			traces.add(terminalNode);
+	 		}
+	 	}
+	 	for (INode traceNode: traces){
+	 			int index;
+	    		INode neighborNode = this.findNeighboringNodes(traceNode);
+	    		if (this.terminalNodes.contains(neighborNode)){
+	    			index = this.terminalNodes.indexOf(neighborNode);
+	    		}
+	    		else{
+	    			this.terminalNodes.add(neighborNode);
+	    			Collections.sort(this.terminalNodes, new AnchorComparator());
+	    			index = this.terminalNodes.indexOf(neighborNode);
+	    			this.terminalNodes.remove(neighborNode);
+	    		}
+	    		this.terminalNodes.remove(traceNode);
+	    		this.terminalNodes.add(index, traceNode);
+	 	}
 	 	return this.terminalNodes;
 	 }
 		 
@@ -144,6 +133,7 @@ public class New_PTBNavigator {
 			 for (INode terminalNode: this.sentenceTerminalNodes.get(key)){
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
 					 System.out.println("TRACE NODE:" + terminalNode.getAnnotation().features().toString());
+					 System.out.println("NEIGHBORING:" + this.findNeighboringNodes(terminalNode).getAnnotation().features().toString());
 				 }
 				 else{
 				 System.out.println(terminalNode.getAnnotation().features().toString());
@@ -152,9 +142,100 @@ public class New_PTBNavigator {
 		 }
 	 }
 	 
-	 
-	 public INode navigate(Integer sentenceIndex, Integer terminalID){
+	 /**
+	  * Navigate to a given terminal ID in a given sentence using the hashmap sentenceTerminalNodes.
+	  * @param sentenceIndex
+	  * @param terminalID
+	  * @return
+	  */
+	 public INode navigateTerminals(Integer sentenceIndex, Integer terminalID){
 		 return this.sentenceTerminalNodes.get(sentenceIndex).get(terminalID);
 	 }	 
-}
+
+	 /**
+	  * Navigate to a node using its sentenceIndex, terminalID and depth.
+	  * @param sentenceIndex
+	  * @param terminalID
+	  * @param depth
+	  * @return
+	  */
+	 public INode navigate(Integer sentenceIndex, Integer terminalID, Integer depth){
+		 INode returnNode = this.navigateTerminals(sentenceIndex, terminalID);
+		 int i = 0;
+		 while (i < depth){
+			 returnNode = returnNode.getParent();
+			 i++;
+		 }
+		 return returnNode;
+	 }
 	 
+	/**
+	 * Return the terminal node neighboring a given trace node, to then be used for sorting. 
+	 * @param traceNode
+	 * @return
+	 */
+	private INode findNeighboringNodes(INode traceNode){
+		Stack<INode> stack = new Stack<INode>();
+		ArrayList<INode> DFSoutput = new ArrayList<INode>();
+		stack.push(this.rootNode);
+		this.rootNode.visit();
+		DFSoutput.add(this.rootNode);
+		while(!stack.isEmpty()){
+			INode node = stack.peek();
+			ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
+			for(IEdge edge: node.getOutEdges()){
+				if (edge.getTo().visited() == false){
+					unvisitedChildren.add(edge.getTo());
+				}
+			}
+			if (!unvisitedChildren.isEmpty()){
+				INode child = unvisitedChildren.get(0);
+				stack.push(child);
+				child.visit();
+				DFSoutput.add(child);
+			}
+			else{
+				stack.pop();
+			}
+		}	
+		for (INode graphNode: this.graph.nodes()){
+			graphNode.clear();
+		}
+		ArrayList<INode> terminals = new ArrayList<INode>();
+		for (INode outputNode: DFSoutput){
+			if (outputNode.outDegree() == 0){
+				terminals.add(outputNode);
+			}
+		}
+		Integer index = terminals.indexOf(traceNode);
+		return terminals.get(index-1);
+	}
+	
+	
+	//-----RENDERING FUNCTIONS-----//
+	 /**
+	  * Print the nodes of this.graph
+	  * @throws RenderException
+	  */
+	 public void printPTBGraph() throws RenderException{
+		 System.out.println(this.graph.toString());
+		 GrafRenderer renderer = new GrafRenderer(System.out);
+		 renderer.render(this.graph);
+	 }
+	 
+	 
+	 /**
+	  * Create a dot file of this.graph to use with GraphViz to visualize
+	 * @throws IOException 
+	 * @throws RenderException 
+	  */
+	 public void makeDotFile() throws IOException, RenderException{
+		 String[] fileRoot = this.fileName.split("/");
+		 String root = fileRoot[1];
+		 PrintWriter writer = new PrintWriter(new FileWriter("DotFiles/" + root + ".dot"));
+		 DotRenderer renderer = new DotRenderer(writer);
+		 renderer.render(this.graph);
+	 }
+
+	 
+}
