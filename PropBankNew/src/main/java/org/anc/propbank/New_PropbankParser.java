@@ -15,6 +15,8 @@ import org.xces.graf.api.IAnnotation;
 import org.xces.graf.api.IGraph;
 import org.xces.graf.api.INode;
 import org.xces.graf.impl.Factory;
+import org.xces.graf.io.GrafParser;
+import org.xces.graf.io.dom.ResourceHeader;
 import org.xml.sax.SAXException;
 
 public class New_PropbankParser {
@@ -28,10 +30,17 @@ public class New_PropbankParser {
 	/**
 	 * Constructor for class New_PropbankParser
 	 * @param path
+	 * @throws SAXException 
+	 * @throws IOException 
+	 * @throws GrafException 
 	 */
-	public New_PropbankParser(String path){
+	public New_PropbankParser(String path) throws IOException, SAXException, GrafException{
 		this.PTBDirectory = path;
 		this.id = new IDGenerator();
+		File headerFile = new File(K.MASC_RESOURCE_HEADER);
+		ResourceHeader header = new ResourceHeader(headerFile);
+		GrafParser graphParse = new GrafParser(header);
+		this.graph = graphParse.parse(K.TEST_DATA_PATH + "/" + K.TEST_FILE + "-ptb.xml");
 	}
 	
 	/**
@@ -103,18 +112,18 @@ public class New_PropbankParser {
 		
 		///----- ADD NEW NODES AND EDGES TO GRAPH ------//
 		
-//		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
-//		
-//		INode propbankNode = this.makeNode("PropBank");
-//		for (String argument: argumentInfo.keySet()){
-//			INode argNode = this.makeNode(argument);
-//			this.graph.addEdge(propbankNode, argNode);
-//			for (String pos : argumentInfo.get(argument)){
-//				String[] splitPos = pos.split(":", 2);
-//				INode targetNode = navigator.navigate(Integer.parseInt(sentenceIndex), Integer.parseInt(splitPos[0]), Integer.parseInt(splitPos[1]));
-//				this.graph.addEdge(argNode, targetNode);
-//			}
-//		}
+		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
+		
+		INode propbankNode = this.makeNode("PropBank");
+		for (String argument: argumentInfo.keySet()){
+			INode argNode = this.makeNode(argument);
+			this.graph.addEdge(propbankNode, argNode);
+			for (String pos : argumentInfo.get(argument)){
+				String[] splitPos = pos.split(":", 2);
+				INode targetNode = navigator.navigate(Integer.parseInt(sentenceIndex), Integer.parseInt(splitPos[0]), Integer.parseInt(splitPos[1]));
+				this.graph.addEdge(argNode, targetNode);
+			}
+		}
 	}
 	
 	

@@ -7,6 +7,7 @@ import java.io.Writer;
 
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
+import org.xces.graf.io.DotRenderer;
 import org.xces.graf.io.GrafRenderer;
 import org.xml.sax.SAXException;
 
@@ -26,8 +27,18 @@ public class New_PropbankDriver {
 		System.out.println("============PROPBANK INFO============");
 		System.out.println("=====================================");
 		New_PropbankParser parser = new New_PropbankParser(K.TEST_DATA_PATH);
-		parser.process(testFile);
-
+		
+		
+		IGraph newGraph = parser.process(testFile);
+		
+		//FIRST WRITE TO NEW PTB XML FILE
+		File newFile = new File("output-files/"+ K.TEST_FILE + "-pb.xml");
+		GrafRenderer grafRenderer = new GrafRenderer(newFile);
+		grafRenderer.render(newGraph);
+		
+		File dotFile = new File("output-files/" + K.TEST_FILE + "-pb.dot");
+		DotRenderer dotRenderer = new DotRenderer(dotFile);
+		dotRenderer.render(newGraph);
 		
 		System.out.println("=====================================");
 		System.out.println("============TERMINAL NODE INFO=======");
