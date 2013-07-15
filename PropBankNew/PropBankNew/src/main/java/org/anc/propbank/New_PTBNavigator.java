@@ -3,6 +3,7 @@ package org.anc.propbank;
 
 import java.io.*;
 import java.util.*;
+
 import org.xces.graf.api.*;
 import org.xces.graf.io.*;
 import org.xces.graf.io.dom.ResourceHeader;
@@ -17,9 +18,6 @@ public class New_PTBNavigator {
 	 private ArrayList<INode> sentences;
 	 private INode rootNode;
 	 private ArrayList<INode> terminalNodes;
-	 //PropbanklocationMap will store each node as a key, and as its mapping,
-	 //a hashmap with keys, "terminalID" if its a terminal ID and "propbankLocations"
-	 private HashMap<INode, HashMap<String, String>> propbankLocationMap;
 	 private HashMap<Integer, ArrayList<INode>> sentenceTerminalNodes;
 	 
 	 
@@ -39,21 +37,18 @@ public class New_PTBNavigator {
 		 this.fileName = fileName;
 		 File headerFile = new File(K.MASC_RESOURCE_HEADER);
 		 ResourceHeader header = new ResourceHeader(headerFile);
-		 this.propbankLocationMap = new HashMap<INode, HashMap<String, String>>();
 		 this.graphParse = new GrafParser(header);
 		 this.graph = graphParse.parse(fileName + "-ptb.xml");
-		 for (INode node: this.graph.nodes()){
-			 this.propbankLocationMap.put(node, new HashMap<String, String>());
-		 }
 		 this.rootNode = this.graph.getRoot();
 		 this.sentences = new ArrayList<INode>();
 		 this.setSentences();	 
+		 
 		 ///Iterate through sentences and initialize the hashmap sentenceTerminalNodes, each mapping
 		 /// will map an integer (the sentence index) to an arrayList of that sentence's terminal nodes
 		 /// in sorted order -- using this map we can navigate to a given terminal ID in a given sentence
 		 for (int i = 0; i < this.sentences.size(); i++){
-			 this.propbankLocationMap.get(this.sentences.get(i)).put("TerminalNode", "NO");
-			 ArrayList<INode> terminals = this.setTerminalIDs(this.sentences.get(i));
+			 ArrayList<INode> terminals = this.depthFirstSearch(this.sentences.get(i));
+			 this.sortNodes(this.sentences.get(i), terminals);
 			 this.sentenceTerminalNodes.put(i, new ArrayList<INode>());
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 			 this.terminalNodes.removeAll(terminals);
@@ -70,58 +65,6 @@ public class New_PTBNavigator {
 		 Collections.sort(this.sentences, new AnchorComparator());
 	 }
 	 
-	
-		 
-	 /**
-	  * Update propbankLocationMap by adding new key, TerminalNode to each
-	  * mapping's value map -- indicate whether or not its a terminal node 
-	  * and if it is, add it to our arraylist, terminalNodes.
-	  * @param sentence
-	  */
-	 private ArrayList<INode> setTerminalIDs(INode sentence){
-	 	ArrayList<INode> currentChildren = new ArrayList<INode>();
-	 	for (IEdge edge: sentence.getOutEdges()){
-	 		currentChildren.add(edge.getTo());
-	 	}
-	 	Collections.sort(currentChildren, new AnchorComparator());
-	 	for (INode childNode: currentChildren){
-	 		if (childNode.outDegree() != 0){
-	 			this.propbankLocationMap.get(childNode).put("TerminalNode", "NO");
-	 			this.setTerminalIDs(childNode);
-	 		}
-	 		else {
-	 			this.propbankLocationMap.get(childNode).put("TerminalNode", "YES");
-	 			if (!this.terminalNodes.contains(childNode)){
-	 			this.terminalNodes.add(childNode);
-	 			}
-	 		}
-	 	}
-	 	
-	 	Collections.sort(this.terminalNodes, new AnchorComparator());
-	 	ArrayList<INode> traces = new ArrayList<INode>();
-	 	for (INode terminalNode: this.terminalNodes){
-	 		if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-	 			traces.add(terminalNode);
-	 		}
-	 	}
-	 	for (INode traceNode: traces){
-	 			int index;
-	    		INode neighborNode = this.findNeighboringNodes(traceNode);
-	    		if (this.terminalNodes.contains(neighborNode)){
-	    			index = this.terminalNodes.indexOf(neighborNode);
-	    		}
-	    		else{
-	    			this.terminalNodes.add(neighborNode);
-	    			Collections.sort(this.terminalNodes, new AnchorComparator());
-	    			index = this.terminalNodes.indexOf(neighborNode);
-	    			this.terminalNodes.remove(neighborNode);
-	    		}
-	    		this.terminalNodes.remove(traceNode);
-	    		this.terminalNodes.add(index, traceNode);
-	 	}
-	 	return this.terminalNodes;
-	 }
-		 
 	 
 	 /**
 	  * Print the details of each sentence's terminal nodes to the console.
@@ -132,7 +75,6 @@ public class New_PTBNavigator {
 			 for (INode terminalNode: this.sentenceTerminalNodes.get(key)){
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
 					 System.out.println("TRACE NODE:" + terminalNode.getAnnotation().features().toString());
-					 System.out.println("NEIGHBORING:" + this.findNeighboringNodes(terminalNode).getAnnotation().features().toString());
 				 }
 				 else{
 				 System.out.println(terminalNode.getAnnotation().features().toString());
@@ -167,18 +109,140 @@ public class New_PTBNavigator {
 		 }
 		 return returnNode;
 	 }
+
+	 /**
+	  * Depth first search a sentence tree to find all terminal nodes, including trace nodes that may have an out degree of 1. 
+	  * @param sentence
+	  * @return
+	  */
+	private ArrayList<INode>  depthFirstSearch(INode sentence){
+		Stack<INode> stack = new Stack<INode>();
+		ArrayList<INode> DFSoutput = new ArrayList<INode>();
+		stack.push(sentence);
+		sentence.visit();
+		DFSoutput.add(sentence);
+		while(!stack.isEmpty()){
+			INode node = stack.peek();
+			ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
+			for(IEdge edge: node.getOutEdges()){
+				if (edge.getTo().visited() == false){
+					unvisitedChildren.add(edge.getTo());
+				}
+			}
+			if (!unvisitedChildren.isEmpty()){
+				INode child = unvisitedChildren.get(0);
+				stack.push(child);
+				child.visit();
+				DFSoutput.add(child);
+			}
+			else{
+				stack.pop();
+			}
+		}	
+		for (INode graphNode: this.graph.nodes()){
+			graphNode.clear();
+		}
+		ArrayList<INode> terminals = new ArrayList<INode>();
+		for (int i = 0; i < DFSoutput.size(); i++){
+			if (DFSoutput.get(i).annotated()){
+				if ((DFSoutput.get(i).outDegree() == 0) || (DFSoutput.get(i).getAnnotation().getLabel().equals("Trace"))){
+						terminals.add(DFSoutput.get(i));
+			}
+			}
+		}
+		return terminals;
+	}
+
+	
+	private void sortNodes(INode sentence, ArrayList<INode> nodeList){
+		ArrayList<INode> outDegreeZeroNodes = new ArrayList<INode>();
+		for (INode node: nodeList){
+			if(!node.getAnnotation().getLabel().equals("Trace")){
+				outDegreeZeroNodes.add(node);
+			}
+		}
+		Collections.sort(outDegreeZeroNodes, new AnchorComparator());
+		
+		nodeList.removeAll(outDegreeZeroNodes);
+		
+		for (INode traceNode: nodeList){
+			if (traceNode.outDegree() == 0){
+				int index;
+	    		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
+	    		if (neighborNode != traceNode){
+	    			if (outDegreeZeroNodes.contains(neighborNode)){
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    			}
+	    			else{
+	    				outDegreeZeroNodes.add(neighborNode);
+	    				Collections.sort(outDegreeZeroNodes, new AnchorComparator());
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    				outDegreeZeroNodes.remove(neighborNode);
+	    			}
+	    			outDegreeZeroNodes.remove(traceNode);
+	    			outDegreeZeroNodes.add(index, traceNode);
+	    			}
+	    		else{
+	    			outDegreeZeroNodes.remove(traceNode);
+	    			outDegreeZeroNodes.add(0, traceNode);
+	    		}
+			 }
+			
+			else{
+				int index;
+	    		INode neighborNode = this.findNeighboringNodesDegree1(sentence, traceNode);
+	    		if (neighborNode != traceNode){
+	    			if (outDegreeZeroNodes.contains(neighborNode)){
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    			}
+	    			else{
+	    				outDegreeZeroNodes.add(neighborNode);
+	    				Collections.sort(outDegreeZeroNodes, new AnchorComparator());
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    				outDegreeZeroNodes.remove(neighborNode);
+	    			}
+	       		outDegreeZeroNodes.remove(traceNode);
+	       		outDegreeZeroNodes.add(index, traceNode);
+			}
+	    		else{
+	    			outDegreeZeroNodes.remove(traceNode);
+	    			outDegreeZeroNodes.add(0, traceNode);
+	    		}
+			}
+		}
+		nodeList.removeAll(outDegreeZeroNodes);
+		nodeList.addAll(outDegreeZeroNodes);
+	}
+	
+	
+	
+	
+	
+	//-----RENDERING FUNCTIONS-----//
+	 /**
+	  * Print the nodes of this.graph
+	  * @throws RenderException
+	  */
+	 public void printPTBGraph() throws RenderException{
+		 System.out.println(this.graph.toString());
+		 GrafRenderer renderer = new GrafRenderer(System.out);
+		 renderer.render(this.graph);
+	 }
+	 
+	 
+	 
 	 
 	/**
 	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
 	 * @param traceNode
 	 * @return
 	 */
-	private INode findNeighboringNodes(INode traceNode){
+	private INode findNeighboringNodes(INode sentence, INode traceNode){
 		Stack<INode> stack = new Stack<INode>();
 		ArrayList<INode> DFSoutput = new ArrayList<INode>();
-		stack.push(this.rootNode);
-		this.rootNode.visit();
-		DFSoutput.add(this.rootNode);
+		stack.push(sentence);
+		sentence.visit();
+		DFSoutput.add(sentence);
 		while(!stack.isEmpty()){
 			INode node = stack.peek();
 			ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
@@ -207,19 +271,65 @@ public class New_PTBNavigator {
 			}
 		}
 		Integer index = terminals.indexOf(traceNode);
-		return terminals.get(index-1);
+		if (index != 0){
+			return terminals.get(index-1);
+			}
+			else{
+				return terminals.get(index);
+			}
 	}
 	
 	
-	//-----RENDERING FUNCTIONS-----//
-	 /**
-	  * Print the nodes of this.graph
-	  * @throws RenderException
-	  */
-	 public void printPTBGraph() throws RenderException{
-		 System.out.println(this.graph.toString());
-		 GrafRenderer renderer = new GrafRenderer(System.out);
-		 renderer.render(this.graph);
-	 }
+	
+	
 	 
-}
+	/**
+	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
+	 * @param traceNode
+	 * @return
+	 */
+	private INode findNeighboringNodesDegree1(INode sentence, INode traceNode){
+		Stack<INode> stack = new Stack<INode>();
+		ArrayList<INode> DFSoutput = new ArrayList<INode>();
+		stack.push(sentence);
+		sentence.visit();
+		DFSoutput.add(sentence);
+		while(!stack.isEmpty()){
+			INode node = stack.peek();
+			ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
+			for(IEdge edge: node.getOutEdges()){
+				if (edge.getTo().visited() == false){
+					unvisitedChildren.add(edge.getTo());
+				}
+			}
+			if (!unvisitedChildren.isEmpty()){
+				INode child = unvisitedChildren.get(0);
+				stack.push(child);
+				child.visit();
+				DFSoutput.add(child);
+			}
+			else{
+				stack.pop();
+			}
+		}	
+		for (INode graphNode: this.graph.nodes()){
+			graphNode.clear();
+		}
+		ArrayList<INode> terminals = new ArrayList<INode>();
+		for (INode outputNode: DFSoutput){
+			if (outputNode.annotated()){
+				if ((outputNode.outDegree() == 0) || outputNode.getAnnotation().getLabel().equals("Trace")){
+					terminals.add(outputNode);
+				}
+			}
+		}
+
+			Integer index = terminals.indexOf(traceNode);
+			if (index != 0){
+			return terminals.get(index-1);
+			}
+			else{
+				return terminals.get(index);
+			}
+		}
+	}
