@@ -20,7 +20,7 @@ public class New_PropbankDriver {
 	{
 		//Initialize path to propbank file
 		File testDir = new File(K.PROP_DATA_PATH);		
-		File testFile = new File(testDir, K.TEST_FILE + ".prop");
+		File testFile = new File(testDir, K.INPUT_FILE + ".prop");
 		
 		//Initialize New_PropbankParser
 		System.out.println("=====================================");
@@ -32,22 +32,18 @@ public class New_PropbankDriver {
 		IGraph newGraph = parser.process(testFile);
 		
 		// Render the new -pb.xml file
-		File newFile = new File("output-files/"+ K.TEST_FILE + "-pb.xml");
+		File newFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.xml");
 		GrafRenderer grafRenderer = new GrafRenderer(newFile);
 		grafRenderer.render(newGraph);
 		
 		// Render the new -pb.dot file
-		File dotFile = new File("output-files/" + K.TEST_FILE + "-pb.dot");
+		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
 		DotRenderer dotRenderer = new DotRenderer(dotFile);
 		dotRenderer.render(newGraph);
 		
 		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
-		System.out.println("=====================================");
-		System.out.println("============TERMINAL NODE INFO=======");
-		System.out.println("=====================================");
-		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.TEST_FILE);
-		navigator.printTerminalDetails();
+		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		
 		System.out.println("=========== NAVIGATE DETAILS=============");
 		System.out.println("NavigateTerminals (4,7): " + navigator.navigateTerminals(4,7).getAnnotation().features().toString());

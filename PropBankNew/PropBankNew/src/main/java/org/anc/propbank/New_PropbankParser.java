@@ -24,6 +24,7 @@ public class New_PropbankParser {
 	private String targetFile;
 	private IGraph graph;
 	private IDGenerator id;
+	private IGraph newGraph;
 	public static final Constants K = new Constants();
 	
 	/**
@@ -38,7 +39,11 @@ public class New_PropbankParser {
 		File headerFile = new File(K.MASC_RESOURCE_HEADER);
 		ResourceHeader header = new ResourceHeader(headerFile);
 		GrafParser graphParse = new GrafParser(header);
-		this.graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.TEST_FILE + "-ptb.xml");
+		this.graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.INPUT_FILE + "-ptb.xml");
+		
+		Factory factory = new Factory();
+		this.newGraph = factory.newGraph();
+		this.newGraph.getHeader().addDependency(K.PTB_DATA_PATH + "/" + K.INPUT_FILE + "-ptb.xml");
 	}
 	
 	/**
@@ -66,7 +71,7 @@ public class New_PropbankParser {
 			processLine(currLine);
 			currLine = reader.readLine();
 		}
-		return this.graph;
+		return this.newGraph;
 	}
 	
 	
@@ -79,7 +84,7 @@ public class New_PropbankParser {
 		
 		INode node = Factory.newNode(id.generate("pb-n"));
 		IAnnotation annotation = node.addAnnotation(id.generate("pb-a"), label);
-		this.graph.addNode(node);
+		this.newGraph.addNode(node);
 		return node;
 	}
 	
@@ -108,16 +113,16 @@ public class New_PropbankParser {
 		
 		///----- ADD NEW NODES AND EDGES TO GRAPH ------//
 		
-		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.TEST_FILE);
+		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		
 		INode propbankNode = this.makeNode("PropBank");
 		for (String argument: argumentInfo.keySet()){
 			INode argNode = this.makeNode(argument);
-			this.graph.addEdge(propbankNode, argNode);
+			this.newGraph.addEdge(propbankNode, argNode);
 			for (String pos : argumentInfo.get(argument)){
 				String[] splitPos = pos.split(":", 2);
 				INode targetNode = navigator.navigate(Integer.parseInt(sentenceIndex), Integer.parseInt(splitPos[0]), Integer.parseInt(splitPos[1]));
-				this.graph.addEdge(argNode, targetNode);
+				this.newGraph.addEdge(argNode, targetNode);
 			}
 		}
 	}

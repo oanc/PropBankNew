@@ -22,7 +22,7 @@ public class Constants extends org.anc.constants.Constants
 	public final String OUTPUT_DATA_PATH = null;
 	
 	@Default("110CYL068")
-	public final String TEST_FILE = null;
+	public final String INPUT_FILE = null;
 	
 	public Constants()
 	{
