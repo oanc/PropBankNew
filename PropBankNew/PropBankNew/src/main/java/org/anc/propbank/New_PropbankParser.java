@@ -21,7 +21,6 @@ import org.xml.sax.SAXException;
 
 public class New_PropbankParser {
 	
-	private String PTBDirectory;
 	private String targetFile;
 	private IGraph graph;
 	private IDGenerator id;
@@ -34,13 +33,12 @@ public class New_PropbankParser {
 	 * @throws IOException 
 	 * @throws GrafException 
 	 */
-	public New_PropbankParser(String path) throws IOException, SAXException, GrafException{
-		this.PTBDirectory = path;
+	public New_PropbankParser() throws IOException, SAXException, GrafException{
 		this.id = new IDGenerator();
 		File headerFile = new File(K.MASC_RESOURCE_HEADER);
 		ResourceHeader header = new ResourceHeader(headerFile);
 		GrafParser graphParse = new GrafParser(header);
-		this.graph = graphParse.parse(K.TEST_DATA_PATH + "/" + K.TEST_FILE + "-ptb.xml");
+		this.graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.TEST_FILE + "-ptb.xml");
 	}
 	
 	/**
@@ -94,8 +92,6 @@ public class New_PropbankParser {
 	 * @throws SAXException 
 	 */
 	private void processLine(String line) throws SAXException, IOException, GrafException{
-		//INode propbankRoot = makeNode("PropBank");
-		//IAnnotation annotation = propbankRoot.getAnnotation();
 		
 		ArrayList<String> features = new ArrayList<String>(Arrays.asList(line.split(" ")));
 		
@@ -112,7 +108,7 @@ public class New_PropbankParser {
 		
 		///----- ADD NEW NODES AND EDGES TO GRAPH ------//
 		
-		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
+		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.TEST_FILE);
 		
 		INode propbankNode = this.makeNode("PropBank");
 		for (String argument: argumentInfo.keySet()){

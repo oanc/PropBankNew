@@ -74,7 +74,7 @@ public class New_PTBNavigator {
 			 System.out.println("Sentence " + key + ": ");
 			 for (INode terminalNode: this.sentenceTerminalNodes.get(key)){
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-					 System.out.println("TRACE NODE:" + terminalNode.getAnnotation().features().toString());
+					 System.out.println("TRACE NODE:" + terminalNode.getAnnotation().features().toString() + terminalNode.outDegree());
 				 }
 				 else{
 				 System.out.println(terminalNode.getAnnotation().features().toString());
@@ -153,7 +153,11 @@ public class New_PTBNavigator {
 		return terminals;
 	}
 
-	
+	/**
+	 * Sort the terminal nodes of a sentence.
+	 * @param sentence
+	 * @param nodeList
+	 */
 	private void sortNodes(INode sentence, ArrayList<INode> nodeList){
 		ArrayList<INode> outDegreeZeroNodes = new ArrayList<INode>();
 		for (INode node: nodeList){
@@ -166,29 +170,8 @@ public class New_PTBNavigator {
 		nodeList.removeAll(outDegreeZeroNodes);
 		
 		for (INode traceNode: nodeList){
-			if (traceNode.outDegree() == 0){
-				int index;
-	    		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
-	    		if (neighborNode != traceNode){
-	    			if (outDegreeZeroNodes.contains(neighborNode)){
-	    				index = outDegreeZeroNodes.indexOf(neighborNode);
-	    			}
-	    			else{
-	    				outDegreeZeroNodes.add(neighborNode);
-	    				Collections.sort(outDegreeZeroNodes, new AnchorComparator());
-	    				index = outDegreeZeroNodes.indexOf(neighborNode);
-	    				outDegreeZeroNodes.remove(neighborNode);
-	    			}
-	    			outDegreeZeroNodes.remove(traceNode);
-	    			outDegreeZeroNodes.add(index, traceNode);
-	    			}
-	    		else{
-	    			outDegreeZeroNodes.remove(traceNode);
-	    			outDegreeZeroNodes.add(0, traceNode);
-	    		}
-			 }
-			
-			else{
+			// Trace node is of out degree 1
+			if (traceNode.outDegree() != 0){
 				int index;
 	    		INode neighborNode = this.findNeighboringNodesDegree1(sentence, traceNode);
 	    		if (neighborNode != traceNode){
@@ -209,29 +192,34 @@ public class New_PTBNavigator {
 	    			outDegreeZeroNodes.add(0, traceNode);
 	    		}
 			}
+	    	// Else Trace node is of out degree 0
+			else{
+				int index;
+	    		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
+	    		if (neighborNode != traceNode){
+	    			if (outDegreeZeroNodes.contains(neighborNode)){
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    			}
+	    			else{
+	    				outDegreeZeroNodes.add(neighborNode);
+	    				Collections.sort(outDegreeZeroNodes, new AnchorComparator());
+	    				index = outDegreeZeroNodes.indexOf(neighborNode);
+	    				outDegreeZeroNodes.remove(neighborNode);
+	    			}
+	    			outDegreeZeroNodes.remove(traceNode);
+	    			outDegreeZeroNodes.add(index, traceNode);
+	    			}
+	    		else{
+	    			outDegreeZeroNodes.remove(traceNode);
+	    			outDegreeZeroNodes.add(0, traceNode);
+	    		}
+			 }
 		}
+		
 		nodeList.removeAll(outDegreeZeroNodes);
 		nodeList.addAll(outDegreeZeroNodes);
 	}
-	
-	
-	
-	
-	
-	//-----RENDERING FUNCTIONS-----//
-	 /**
-	  * Print the nodes of this.graph
-	  * @throws RenderException
-	  */
-	 public void printPTBGraph() throws RenderException{
-		 System.out.println(this.graph.toString());
-		 GrafRenderer renderer = new GrafRenderer(System.out);
-		 renderer.render(this.graph);
-	 }
-	 
-	 
-	 
-	 
+
 	/**
 	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
 	 * @param traceNode
@@ -284,7 +272,8 @@ public class New_PTBNavigator {
 	
 	 
 	/**
-	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
+	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting, for
+	 * trace nodes of degree 1, i.e. *PRO*-1, *-1, *T*-1, etc. 
 	 * @param traceNode
 	 * @return
 	 */
@@ -332,4 +321,15 @@ public class New_PTBNavigator {
 				return terminals.get(index);
 			}
 		}
-	}
+
+//-----RENDERING FUNCTIONS-----//
+ /**
+  * Print the nodes of this.graph
+  * @throws RenderException
+  */
+ public void printPTBGraph() throws RenderException{
+	 System.out.println(this.graph.toString());
+	 GrafRenderer renderer = new GrafRenderer(System.out);
+	 renderer.render(this.graph);
+ }
+}
