@@ -1,0 +1,1361 @@
+digraph {
+   ptbn00836 [ label="tok" ]
+  ptbn00836 -> segr783
+   ptbn00393 [ label="PP" ]
+   ptbn00837 [ label="NP" ]
+   ptbn00080 [ label="PP" ]
+   ptbn00392 [ label="Trace" ]
+   ptbn00598 [ label="PP" ]
+   ptbn00971 [ label="NP" ]
+   ptbn00832 [ label="Trace" ]
+   pbn101 [ label="ARG0" ]
+   ptbn00595 [ label="tok" ]
+  ptbn00595 -> segr554
+   pbn100 [ label="PropBank" ]
+   ptbn00390 [ label="tok" ]
+  ptbn00390 -> segr350
+   ptbn00596 [ label="NP" ]
+   ptbn00975 [ label="tok" ]
+  ptbn00975 -> segr918
+   pbn244 [ label="rel" ]
+   ptbn00184 [ label="tok" ]
+  ptbn00184 -> segr164
+   ptbn00496 [ label="PP" ]
+   pbn243 [ label="ARGM-TMP" ]
+   ptbn00977 [ label="Trace" ]
+   pbn242 [ label="ARG1" ]
+   ptbn00978 [ label="PP" ]
+   pbn241 [ label="PropBank" ]
+   ptbn00495 [ label="tok" ]
+  ptbn00495 -> segr457
+   pbn240 [ label="rel" ]
+   ptbn00294 [ label="tok" ]
+  ptbn00294 -> segr264
+   ptbn00180 [ label="PP" ]
+   ptbn00295 [ label="NP" ]
+   ptbn00298 [ label="WHADVP" ]
+   pbn238 [ label="ARGM-LOC" ]
+   pbn239 [ label="ARG2" ]
+   pbn236 [ label="ARG0" ]
+   pbn237 [ label="ARG1" ]
+   ptbn00492 [ label="NP" ]
+   pbn234 [ label="rel" ]
+   pbn235 [ label="PropBank" ]
+   ptbn00186 [ label="QP" ]
+   ptbn00592 [ label="NP" ]
+   ptbn00380 [ label="Trace" ]
+   ptbn00825 [ label="NP" ]
+   ptbn00382 [ label="tok" ]
+  ptbn00382 -> segr344
+   ptbn00383 [ label="SBAR" ]
+   ptbn00582 [ label="ADVP" ]
+   ptbn00824 [ label="tok" ]
+  ptbn00824 -> segr773
+   ptbn00821 [ label="NP" ]
+   pbn231 [ label="PropBank" ]
+   ptbn00483 [ label="NP" ]
+   pbn230 [ label="rel" ]
+   pbn233 [ label="ARG1" ]
+   pbn232 [ label="ARG0" ]
+   ptbn00488 [ label="PP" ]
+   ptbn00968 [ label="PP" ]
+   ptbn00192 [ label="NP" ]
+   ptbn00284 [ label="SBAR" ]
+   pbn227 [ label="ARG0" ]
+   pbn228 [ label="ARG1" ]
+   pbn229 [ label="ARG2" ]
+   ptbn00287 [ label="NP" ]
+   pbn223 [ label="ARG1" ]
+   pbn224 [ label="rel" ]
+   pbn225 [ label="LINK-SLC" ]
+   ptbn00482 [ label="tok" ]
+  ptbn00482 -> segr444
+   pbn226 [ label="PropBank" ]
+   ptbn00098 [ label="NP" ]
+   ptbn00384 [ label="WHNP" ]
+   ptbn00387 [ label="NP" ]
+   ptbn00854 [ label="tok" ]
+  ptbn00854 -> segr801
+   pbn123 [ label="ARG1" ]
+   ptbn00855 [ label="NP" ]
+   pbn122 [ label="ARG0" ]
+   ptbn00951 [ label="NP" ]
+   ptbn00856 [ label="NP" ]
+   pbn121 [ label="PropBank" ]
+   pbn120 [ label="LINK-SLC" ]
+   pbn222 [ label="PropBank" ]
+   pbn221 [ label="ARGM-NEG" ]
+   ptbn00955 [ label="tok" ]
+  ptbn00955 -> segr897
+   ptbn00852 [ label="tok" ]
+  ptbn00852 -> segr799
+   pbn220 [ label="rel" ]
+   ptbn00956 [ label="NP" ]
+   pbn214 [ label="ARG1" ]
+   pbn215 [ label="ARGM-TMP" ]
+   pbn212 [ label="PropBank" ]
+   pbn213 [ label="ARG0" ]
+   pbn218 [ label="ARG0" ]
+   pbn219 [ label="ARG1" ]
+   pbn216 [ label="rel" ]
+   pbn217 [ label="PropBank" ]
+   pbn119 [ label="rel" ]
+   pbn117 [ label="ARG2" ]
+   pbn118 [ label="ARGM-TMP" ]
+   pbn115 [ label="PropBank" ]
+   pbn116 [ label="ARG1" ]
+   pbn113 [ label="rel" ]
+   pbn114 [ label="ARGM-DIR" ]
+   pbn110 [ label="rel" ]
+   ptbn00843 [ label="NP" ]
+   pbn112 [ label="ARG0" ]
+   ptbn00075 [ label="Trace" ]
+   pbn111 [ label="PropBank" ]
+   ptbn00071 [ label="WHNP" ]
+   ptbn00465 [ label="tok" ]
+  ptbn00465 -> segr424
+   ptbn00466 [ label="PP" ]
+   ptbn00262 [ label="NP" ]
+   ptbn00462 [ label="tok" ]
+  ptbn00462 -> segr422
+   pbn211 [ label="rel" ]
+   pbn210 [ label="ARG2" ]
+   pbn201 [ label="rel" ]
+   pbn202 [ label="PropBank" ]
+   pbn203 [ label="ARG1" ]
+   pbn204 [ label="ARG2" ]
+   pbn205 [ label="ARGM-TMP" ]
+   pbn206 [ label="rel" ]
+   ptbn00266 [ label="NP" ]
+   pbn207 [ label="PropBank" ]
+   ptbn00265 [ label="tok" ]
+  ptbn00265 -> segr236
+   pbn208 [ label="ARG0" ]
+   pbn106 [ label="PropBank" ]
+   pbn209 [ label="ARG1" ]
+   pbn107 [ label="ARG0" ]
+   pbn108 [ label="ARG1" ]
+   pbn109 [ label="ARGM-TMP" ]
+   pbn102 [ label="ARG1" ]
+   ptbn00077 [ label="tok" ]
+  ptbn00077 -> segr65
+   pbn103 [ label="LINK-PCR" ]
+   pbn104 [ label="ARGM-MNR" ]
+   ptbn00079 [ label="tok" ]
+  ptbn00079 -> segr67
+   pbn105 [ label="rel" ]
+   pbn200 [ label="ARG2" ]
+   ptbn00730 [ label="NP" ]
+   ptbn00733 [ label="tok" ]
+  ptbn00733 -> segr687
+   ptbn00254 [ label="NP" ]
+   ptbn00929 [ label="NP" ]
+   ptbn00734 [ label="NP" ]
+   ptbn00253 [ label="tok" ]
+  ptbn00253 -> segr227
+   ptbn00259 [ label="Trace" ]
+   ptbn00359 [ label="tok" ]
+  ptbn00359 -> segr321
+   ptbn00257 [ label="tok" ]
+  ptbn00257 -> segr231
+   ptbn00921 [ label="NP" ]
+   ptbn00920 [ label="tok" ]
+  ptbn00920 -> segr857
+   ptbn00925 [ label="PP" ]
+   ptbn00344 [ label="PP" ]
+   ptbn00721 [ label="tok" ]
+  ptbn00721 -> segr675
+   ptbn00341 [ label="tok" ]
+  ptbn00341 -> segr303
+   ptbn00343 [ label="Trace" ]
+   ptbn00724 [ label="NP" ]
+   ptbn00723 [ label="tok" ]
+  ptbn00723 -> segr677
+   ptbn00244 [ label="WHNP" ]
+   ptbn00916 [ label="Trace" ]
+   ptbn00910 [ label="NP" ]
+   ptbn00708 [ label="NP" ]
+   ptbn00911 [ label="tok" ]
+  ptbn00911 -> segr849
+   ptbn00810 [ label="S" ]
+   ptbn00812 [ label="Trace" ]
+   ptbn00817 [ label="ADVP" ]
+   ptbn00816 [ label="tok" ]
+  ptbn00816 -> segr765
+   ptbn00612 [ label="NP" ]
+   ptbn00809 [ label="tok" ]
+  ptbn00809 -> segr761
+   ptbn00238 [ label="tok" ]
+  ptbn00238 -> segr212
+   ptbn00619 [ label="NP" ]
+   ptbn00239 [ label="NP" ]
+   ptbn00718 [ label="NP" ]
+   ptbn00235 [ label="ADVP" ]
+   ptbn00232 [ label="Trace" ]
+   ptbn00907 [ label="Trace" ]
+   ptbn00230 [ label="S" ]
+   ptbn00909 [ label="tok" ]
+  ptbn00909 -> segr847
+   ptbn00611 [ label="tok" ]
+  ptbn00611 -> segr569
+   ptbn00904 [ label="INTJ" ]
+   ptbn00806 [ label="NP" ]
+   ptbn00360 [ label="NP" ]
+   pbn366 [ label="rel" ]
+   pbn367 [ label="PropBank" ]
+   pbn368 [ label="ARG1" ]
+   ptbn00364 [ label="PP" ]
+   pbn369 [ label="rel" ]
+   ptbn00227 [ label="tok" ]
+  ptbn00227 -> segr206
+   ptbn00608 [ label="NP" ]
+   ptbn00229 [ label="Trace" ]
+   ptbn00223 [ label="tok" ]
+  ptbn00223 -> segr202
+   ptbn00707 [ label="tok" ]
+  ptbn00707 -> segr663
+   ptbn00225 [ label="tok" ]
+  ptbn00225 -> segr204
+   ptbn00705 [ label="tok" ]
+  ptbn00705 -> segr661
+   ptbn00702 [ label="NP" ]
+   ptbn00102 [ label="NP" ]
+   ptbn00631 [ label="tok" ]
+  ptbn00631 -> segr587
+   ptbn00104 [ label="SBAR" ]
+   ptbn00101 [ label="tok" ]
+  ptbn00101 -> segr89
+   ptbn00771 [ label="NP" ]
+   ptbn00639 [ label="tok" ]
+  ptbn00639 -> segr589
+   ptbn00637 [ label="Trace" ]
+   ptbn00107 [ label="NP" ]
+   ptbn00775 [ label="NP" ]
+   ptbn00636 [ label="NP" ]
+   ptbn00774 [ label="tok" ]
+  ptbn00774 -> segr726
+   ptbn00635 [ label="S" ]
+   ptbn00634 [ label="Trace" ]
+   ptbn00005 [ label="ADVP" ]
+   ptbn00108 [ label="NP" ]
+   ptbn00116 [ label="NP" ]
+   ptbn00114 [ label="Trace" ]
+   ptbn00628 [ label="ADVP" ]
+   ptbn00761 [ label="tok" ]
+  ptbn00761 -> segr713
+   ptbn00011 [ label="NP" ]
+   ptbn00762 [ label="NP" ]
+   ptbn00016 [ label="NP" ]
+   ptbn00765 [ label="PP" ]
+   ptbn00626 [ label="NP" ]
+   ptbn00015 [ label="NP" ]
+   ptbn00118 [ label="VP" ]
+   ptbn00014 [ label="tok" ]
+  ptbn00014 -> segr14
+   ptbn00117 [ label="tok" ]
+  ptbn00117 -> segr101
+   ptbn00651 [ label="PP" ]
+   ptbn00122 [ label="Trace" ]
+   ptbn00125 [ label="NP" ]
+   ptbn00124 [ label="tok" ]
+  ptbn00124 -> segr105
+   ptbn00127 [ label="PP" ]
+   ptbn00755 [ label="NP" ]
+   ptbn00133 [ label="NP" ]
+   ptbn00640 [ label="SBAR" ]
+   ptbn00132 [ label="tok" ]
+  ptbn00132 -> segr113
+   ptbn00643 [ label="NP" ]
+   ptbn00648 [ label="tok" ]
+  ptbn00648 -> segr601
+   ptbn00649 [ label="NP" ]
+   ptbn00043 [ label="tok" ]
+  ptbn00043 -> segr38
+   ptbn00044 [ label="NP" ]
+   ptbn00046 [ label="PP" ]
+   ptbn00678 [ label="tok" ]
+  ptbn00678 -> segr632
+   ptbn00679 [ label="NP" ]
+   ptbn00142 [ label="PP" ]
+   ptbn00670 [ label="tok" ]
+  ptbn00670 -> segr622
+   ptbn00671 [ label="PP" ]
+   ptbn00875 [ label="NP" ]
+   ptbn00874 [ label="tok" ]
+  ptbn00874 -> segr815
+   ptbn00870 [ label="Trace" ]
+   ptbn00041 [ label="Trace" ]
+   ptbn00055 [ label="NP" ]
+   ptbn00058 [ label="tok" ]
+  ptbn00058 -> segr51
+   ptbn00059 [ label="NP" ]
+   ptbn00159 [ label="S" ]
+   ptbn00666 [ label="NP" ]
+   ptbn00158 [ label="tok" ]
+  ptbn00158 -> segr136
+   ptbn00156 [ label="Trace" ]
+   ptbn00152 [ label="PP" ]
+   ptbn00861 [ label="WHNP" ]
+   ptbn00865 [ label="Trace" ]
+   ptbn00868 [ label="S" ]
+   ptbn00867 [ label="tok" ]
+  ptbn00867 -> segr811
+   ptbn00025 [ label="tok" ]
+  ptbn00025 -> segr24
+   ptbn00026 [ label="NP" ]
+   ptbn00795 [ label="PP" ]
+   ptbn00791 [ label="PP" ]
+   ptbn00164 [ label="NP" ]
+   ptbn00692 [ label="PP" ]
+   ptbn00167 [ label="NP" ]
+   ptbn00696 [ label="tok" ]
+  ptbn00696 -> segr654
+   ptbn00697 [ label="tok" ]
+  ptbn00697 -> segr656
+   ptbn00893 [ label="S" ]
+   ptbn00892 [ label="tok" ]
+  ptbn00892 -> segr834
+   ptbn00890 [ label="tok" ]
+  ptbn00890 -> segr832
+   ptbn00897 [ label="tok" ]
+  ptbn00897 -> segr838
+   ptbn00691 [ label="tok" ]
+  ptbn00691 -> segr648
+   ptbn00999 [ label="NP" ]
+   ptbn00690 [ label="tok" ]
+  ptbn00690 -> segr646
+   ptbn00160 [ label="NP" ]
+   ptbn00998 [ label="tok" ]
+  ptbn00998 -> segr939
+   ptbn00163 [ label="tok" ]
+  ptbn00163 -> segr140
+   ptbn00894 [ label="NP" ]
+   ptbn00898 [ label="PP" ]
+   ptbn00992 [ label="NP" ]
+   ptbn00991 [ label="S" ]
+   ptbn00990 [ label="tok" ]
+  ptbn00990 -> segr931
+   ptbn00784 [ label="NP" ]
+   ptbn00787 [ label="tok" ]
+  ptbn00787 -> segr738
+   ptbn00037 [ label="WHNP" ]
+   ptbn00034 [ label="NP" ]
+   ptbn00684 [ label="PP" ]
+   ptbn00788 [ label="NP" ]
+   ptbn00688 [ label="tok" ]
+  ptbn00688 -> segr644
+   ptbn00170 [ label="tok" ]
+  ptbn00170 -> segr147
+   ptbn00987 [ label="NP" ]
+   ptbn00886 [ label="NP" ]
+   ptbn00171 [ label="NP" ]
+   ptbn00982 [ label="PP" ]
+   pbn72 [ label="rel" ]
+   pbn73 [ label="PropBank" ]
+   pbn70 [ label="ARG1" ]
+   pbn71 [ label="ARGM-TMP" ]
+   pbn79 [ label="rel" ]
+   pbn78 [ label="ARG2" ]
+   pbn77 [ label="ARGM-MOD" ]
+   pbn76 [ label="ARG1" ]
+   pbn75 [ label="PropBank" ]
+   pbn74 [ label="rel" ]
+   pbn60 [ label="ARG2" ]
+   pbn61 [ label="rel" ]
+   pbn62 [ label="PropBank" ]
+   pbn68 [ label="ARGM-CAU" ]
+   pbn67 [ label="PropBank" ]
+   pbn69 [ label="ARG0" ]
+   pbn64 [ label="ARG1" ]
+   pbn63 [ label="ARG0" ]
+   pbn66 [ label="rel" ]
+   pbn65 [ label="ARGM-MOD" ]
+   ptbn01041 [ label="tok" ]
+  ptbn01041 -> segr980
+   ptbn01040 [ label="tok" ]
+  ptbn01040 -> segr978
+   pbn50 [ label="ARG1" ]
+   pbn51 [ label="rel" ]
+   pbn55 [ label="ARGM-DIS" ]
+   pbn54 [ label="ARG1" ]
+   pbn53 [ label="ARG0" ]
+   pbn52 [ label="PropBank" ]
+   pbn59 [ label="PropBank" ]
+   pbn58 [ label="rel" ]
+   pbn57 [ label="ARGM-MNR" ]
+   pbn56 [ label="ARG2" ]
+   ptbn01031 [ label="Trace" ]
+   pbn40 [ label="ARG0" ]
+   pbn49 [ label="ARG0" ]
+   pbn42 [ label="rel" ]
+   pbn41 [ label="ARG1" ]
+   pbn44 [ label="ARG0" ]
+   pbn43 [ label="PropBank" ]
+   ptbn01033 [ label="tok" ]
+  ptbn01033 -> segr970
+   pbn46 [ label="LINK-PCR" ]
+   ptbn01034 [ label="NP" ]
+   pbn45 [ label="ARG1" ]
+   pbn48 [ label="PropBank" ]
+   ptbn01036 [ label="PP" ]
+   pbn47 [ label="rel" ]
+   pbn91 [ label="PropBank" ]
+   pbn90 [ label="rel" ]
+   pbn95 [ label="PropBank" ]
+   pbn94 [ label="rel" ]
+   pbn93 [ label="ARG1" ]
+   pbn92 [ label="ARG0" ]
+   pbn98 [ label="ARG2" ]
+   pbn99 [ label="rel" ]
+   pbn96 [ label="ARG0" ]
+   pbn97 [ label="ARG1" ]
+   pbn80 [ label="PropBank" ]
+   pbn82 [ label="ARG1" ]
+   pbn81 [ label="ARG0" ]
+   pbn84 [ label="rel" ]
+   pbn83 [ label="ARGM-MNR" ]
+   pbn85 [ label="PropBank" ]
+   pbn86 [ label="rel" ]
+   pbn87 [ label="PropBank" ]
+   pbn88 [ label="ARG0" ]
+   pbn89 [ label="ARG1" ]
+   ptbn00307 [ label="NP" ]
+   ptbn00204 [ label="S" ]
+   ptbn00306 [ label="tok" ]
+  ptbn00306 -> segr272
+   ptbn00203 [ label="tok" ]
+  ptbn00203 -> segr182
+   ptbn00201 [ label="tok" ]
+  ptbn00201 -> segr180
+   pbn347 [ label="PropBank" ]
+   pbn346 [ label="ARGM-ADV" ]
+   pbn345 [ label="rel" ]
+   pbn344 [ label="ARG1" ]
+   ptbn00209 [ label="NP" ]
+   ptbn00208 [ label="tok" ]
+  ptbn00208 -> segr186
+   ptbn00302 [ label="Trace" ]
+   pbn349 [ label="ARG1" ]
+   pbn168 [ label="ARG1" ]
+   pbn348 [ label="ARG0" ]
+   ptbn00205 [ label="NP" ]
+   pbn169 [ label="ARGM-MOD" ]
+   ptbn00409 [ label="tok" ]
+  ptbn00409 -> segr367
+   pbn178 [ label="ARG1" ]
+   pbn350 [ label="rel" ]
+   pbn177 [ label="ARG0" ]
+   pbn176 [ label="PropBank" ]
+   ptbn00408 [ label="tok" ]
+  ptbn00408 -> segr366
+   pbn175 [ label="rel" ]
+   pbn353 [ label="rel" ]
+   ptbn00405 [ label="NP" ]
+   pbn174 [ label="ARGM-LOC" ]
+   pbn354 [ label="PropBank" ]
+   pbn173 [ label="ARG1" ]
+   pbn351 [ label="PropBank" ]
+   pbn172 [ label="ARG0" ]
+   pbn352 [ label="ARG2" ]
+   pbn171 [ label="PropBank" ]
+   pbn170 [ label="rel" ]
+   ptbn00402 [ label="SBAR" ]
+   pbn2 [ label="ARG1" ]
+   pbn1 [ label="ARG0" ]
+   pbn0 [ label="PropBank" ]
+   ptbn00213 [ label="NP" ]
+   ptbn00317 [ label="Trace" ]
+   ptbn00319 [ label="NP" ]
+   pbn356 [ label="PropBank" ]
+   pbn355 [ label="rel" ]
+   pbn358 [ label="ARGM-MNR" ]
+   pbn357 [ label="ARGM-TMP" ]
+   pbn179 [ label="ARGM-PRP" ]
+   pbn359 [ label="ARG3" ]
+   ptbn00216 [ label="SBAR" ]
+   ptbn00219 [ label="NP" ]
+   ptbn00418 [ label="tok" ]
+  ptbn00418 -> segr377
+   pbn187 [ label="ARG0" ]
+   pbn186 [ label="PropBank" ]
+   pbn360 [ label="rel" ]
+   pbn189 [ label="rel" ]
+   pbn361 [ label="ARGM-ADV" ]
+   pbn188 [ label="ARG1" ]
+   pbn362 [ label="PropBank" ]
+   pbn183 [ label="ARG0" ]
+   pbn363 [ label="ARG0" ]
+   ptbn00415 [ label="NP" ]
+   pbn182 [ label="PropBank" ]
+   pbn364 [ label="ARG1" ]
+   pbn185 [ label="rel" ]
+   pbn365 [ label="ARG2" ]
+   pbn184 [ label="ARG1" ]
+   ptbn00411 [ label="tok" ]
+  ptbn00411 -> segr369
+   ptbn00412 [ label="ADVP" ]
+   pbn181 [ label="LINK-SLC" ]
+   pbn180 [ label="rel" ]
+   ptbn00517 [ label="NP" ]
+   ptbn00329 [ label="PP" ]
+   ptbn00328 [ label="tok" ]
+  ptbn00328 -> segr291
+   pbn289 [ label="ARG1" ]
+   pbn329 [ label="ARGM-TMP" ]
+   pbn328 [ label="ARG1" ]
+   ptbn00324 [ label="NP" ]
+   pbn327 [ label="ARG0" ]
+   ptbn00323 [ label="S" ]
+   pbn326 [ label="PropBank" ]
+   ptbn00322 [ label="tok" ]
+  ptbn00322 -> segr287
+   pbn325 [ label="rel" ]
+   pbn324 [ label="ARG2" ]
+   pbn323 [ label="ARGM-DIS" ]
+   pbn322 [ label="ARG1" ]
+   pbn331 [ label="rel" ]
+   pbn291 [ label="PropBank" ]
+   ptbn00522 [ label="WHNP" ]
+   pbn196 [ label="ARG2" ]
+   pbn332 [ label="PropBank" ]
+   pbn290 [ label="rel" ]
+   pbn195 [ label="ARG1" ]
+   ptbn00520 [ label="tok" ]
+  ptbn00520 -> segr486
+   pbn194 [ label="PropBank" ]
+   pbn330 [ label="ARG2" ]
+   pbn193 [ label="rel" ]
+   pbn199 [ label="ARG1" ]
+   pbn198 [ label="PropBank" ]
+   pbn197 [ label="rel" ]
+   pbn299 [ label="ARGM-MOD" ]
+   pbn298 [ label="ARG1" ]
+   pbn297 [ label="ARG0" ]
+   ptbn00528 [ label="tok" ]
+  ptbn00528 -> segr490
+   pbn296 [ label="PropBank" ]
+   ptbn00529 [ label="NP" ]
+   pbn295 [ label="rel" ]
+   ptbn00526 [ label="tok" ]
+  ptbn00526 -> segr488
+   pbn192 [ label="ARG4" ]
+   pbn294 [ label="LINK-PCR" ]
+   pbn191 [ label="ARG1" ]
+   pbn293 [ label="ARG1" ]
+   pbn190 [ label="PropBank" ]
+   pbn292 [ label="ARG0" ]
+   pbn7 [ label="ARG1" ]
+   pbn8 [ label="rel" ]
+   pbn9 [ label="PropBank" ]
+   pbn3 [ label="ARGM-TMP" ]
+   ptbn00338 [ label="ADVP" ]
+   pbn4 [ label="rel" ]
+   pbn5 [ label="PropBank" ]
+   pbn6 [ label="ARG0" ]
+   pbn338 [ label="ARGM-TMP" ]
+   ptbn00334 [ label="NP" ]
+   pbn337 [ label="ARG1" ]
+   pbn339 [ label="ARG2" ]
+   pbn334 [ label="ARG2" ]
+   pbn333 [ label="ARG1" ]
+   pbn336 [ label="PropBank" ]
+   pbn335 [ label="rel" ]
+   pbn340 [ label="rel" ]
+   ptbn00531 [ label="S" ]
+   pbn341 [ label="LINK-SLC" ]
+   pbn342 [ label="PropBank" ]
+   ptbn00533 [ label="Trace" ]
+   pbn343 [ label="ARG0" ]
+   ptbn00539 [ label="tok" ]
+  ptbn00539 -> segr498
+   ptbn00537 [ label="tok" ]
+  ptbn00537 -> segr494
+   pbn302 [ label="ARG0" ]
+   pbn34 [ label="PropBank" ]
+   pbn303 [ label="ARG1" ]
+   pbn35 [ label="ARG0" ]
+   pbn300 [ label="rel" ]
+   pbn36 [ label="ARG1" ]
+   pbn129 [ label="rel" ]
+   pbn301 [ label="PropBank" ]
+   pbn37 [ label="rel" ]
+   pbn128 [ label="ARG1" ]
+   pbn306 [ label="PropBank" ]
+   pbn30 [ label="ARG0" ]
+   pbn127 [ label="ARG0" ]
+   pbn307 [ label="ARG0" ]
+   pbn31 [ label="ARG1" ]
+   pbn126 [ label="PropBank" ]
+   ptbn01029 [ label="S" ]
+   pbn304 [ label="rel" ]
+   pbn32 [ label="ARGM-TMP" ]
+   pbn125 [ label="rel" ]
+   pbn305 [ label="LINK-SLC" ]
+   pbn33 [ label="rel" ]
+   pbn124 [ label="ARGM-LOC" ]
+   pbn269 [ label="PropBank" ]
+   pbn308 [ label="ARG1" ]
+   pbn268 [ label="rel" ]
+   pbn309 [ label="rel" ]
+   pbn267 [ label="ARGM-LOC" ]
+   pbn38 [ label="LINK-SLC" ]
+   pbn39 [ label="PropBank" ]
+   pbn272 [ label="rel" ]
+   ptbn00549 [ label="Trace" ]
+   pbn273 [ label="PropBank" ]
+   pbn270 [ label="ARG0" ]
+   ptbn00444 [ label="NP" ]
+   ptbn00547 [ label="S" ]
+   pbn271 [ label="ARG1" ]
+   pbn276 [ label="ARGM-LOC" ]
+   pbn277 [ label="rel" ]
+   pbn274 [ label="ARG0" ]
+   pbn275 [ label="ARG1" ]
+   pbn133 [ label="ARGM-LOC" ]
+   pbn134 [ label="rel" ]
+   ptbn00540 [ label="NP" ]
+   pbn131 [ label="ARG0" ]
+   pbn132 [ label="ARG1" ]
+   pbn310 [ label="LINK-SLC" ]
+   pbn130 [ label="PropBank" ]
+   ptbn00448 [ label="PP" ]
+   ptbn00447 [ label="tok" ]
+  ptbn00447 -> segr406
+   pbn311 [ label="PropBank" ]
+   pbn25 [ label="ARG0" ]
+   pbn312 [ label="ARG0" ]
+   pbn26 [ label="ARG1" ]
+   pbn139 [ label="ARGM-LOC" ]
+   ptbn01012 [ label="ADVP" ]
+   pbn313 [ label="ARG1" ]
+   pbn23 [ label="rel" ]
+   ptbn01011 [ label="tok" ]
+  ptbn01011 -> segr953
+   pbn314 [ label="ARGM-MOD" ]
+   pbn24 [ label="PropBank" ]
+   ptbn01018 [ label="PP" ]
+   pbn315 [ label="rel" ]
+   pbn21 [ label="ARGM-MOD" ]
+   pbn136 [ label="rel" ]
+   ptbn01017 [ label="Trace" ]
+   pbn316 [ label="PropBank" ]
+   pbn22 [ label="ARGM-MNR" ]
+   pbn135 [ label="PropBank" ]
+   pbn317 [ label="ARG0" ]
+   pbn138 [ label="ARG0" ]
+   ptbn01015 [ label="tok" ]
+  ptbn01015 -> segr957
+   pbn318 [ label="ARG4" ]
+   pbn20 [ label="ARG1" ]
+   pbn137 [ label="PropBank" ]
+   pbn319 [ label="rel" ]
+   pbn279 [ label="PropBank" ]
+   pbn278 [ label="ARGM-DIR" ]
+   pbn29 [ label="PropBank" ]
+   pbn27 [ label="ARG2" ]
+   pbn28 [ label="rel" ]
+   pbn281 [ label="ARG1" ]
+   ptbn00558 [ label="NP" ]
+   pbn282 [ label="rel" ]
+   ptbn00557 [ label="tok" ]
+  ptbn00557 -> segr514
+   pbn283 [ label="PropBank" ]
+   pbn284 [ label="ARG1" ]
+   ptbn00456 [ label="SBAR" ]
+   pbn285 [ label="ARG2" ]
+   pbn286 [ label="rel" ]
+   pbn287 [ label="PropBank" ]
+   pbn288 [ label="ARG0" ]
+   pbn142 [ label="PropBank" ]
+   pbn143 [ label="ARG1" ]
+   pbn144 [ label="ARGM-MOD" ]
+   ptbn00552 [ label="PP" ]
+   pbn145 [ label="ARG2" ]
+   ptbn00551 [ label="tok" ]
+  ptbn00551 -> segr508
+   ptbn00459 [ label="NP" ]
+   pbn321 [ label="ARG0" ]
+   pbn140 [ label="rel" ]
+   pbn320 [ label="PropBank" ]
+   pbn280 [ label="ARG0" ]
+   pbn141 [ label="ARGM-NEG" ]
+   pbn149 [ label="ARG0" ]
+   pbn148 [ label="PropBank" ]
+   ptbn01007 [ label="NP" ]
+   pbn10 [ label="ARG0" ]
+   pbn147 [ label="ARGM-ADV" ]
+   pbn11 [ label="ARG1" ]
+   pbn146 [ label="rel" ]
+   ptbn01001 [ label="tok" ]
+  ptbn01001 -> segr943
+   pbn12 [ label="ARGM-MNR" ]
+   pbn13 [ label="rel" ]
+   ptbn01003 [ label="tok" ]
+  ptbn01003 -> segr946
+   pbn14 [ label="LINK-SLC" ]
+   pbn15 [ label="PropBank" ]
+   pbn16 [ label="ARG1" ]
+   pbn17 [ label="ARG2" ]
+   pbn18 [ label="rel" ]
+   pbn249 [ label="rel" ]
+   pbn19 [ label="PropBank" ]
+   pbn248 [ label="PropBank" ]
+   pbn247 [ label="rel" ]
+   pbn246 [ label="ARG1" ]
+   pbn245 [ label="PropBank" ]
+   pbn254 [ label="PropBank" ]
+   ptbn00420 [ label="tok" ]
+  ptbn00420 -> segr379
+   pbn255 [ label="rel" ]
+   pbn252 [ label="ARG1" ]
+   pbn253 [ label="rel" ]
+   pbn250 [ label="PropBank" ]
+   pbn251 [ label="ARG0" ]
+   ptbn00569 [ label="tok" ]
+  ptbn00569 -> segr526
+   ptbn00421 [ label="ADJP" ]
+   pbn151 [ label="rel" ]
+   pbn152 [ label="PropBank" ]
+   ptbn00566 [ label="NP" ]
+   ptbn00426 [ label="NP" ]
+   pbn150 [ label="ARG1" ]
+   pbn155 [ label="rel" ]
+   pbn156 [ label="PropBank" ]
+   pbn153 [ label="ARG1" ]
+   ptbn00429 [ label="tok" ]
+  ptbn00429 -> segr389
+   pbn154 [ label="ARG2" ]
+   pbn158 [ label="ARG1" ]
+   pbn157 [ label="ARG0" ]
+   pbn159 [ label="ARGM-MNR" ]
+   ptbn00570 [ label="ADJP" ]
+   pbn257 [ label="ARG0" ]
+   pbn256 [ label="PropBank" ]
+   pbn259 [ label="rel" ]
+   pbn258 [ label="ARG1" ]
+   pbn263 [ label="rel" ]
+   pbn264 [ label="PropBank" ]
+   pbn265 [ label="ARG0" ]
+   ptbn00431 [ label="NP" ]
+   pbn266 [ label="ARG1" ]
+   ptbn00430 [ label="S" ]
+   pbn260 [ label="PropBank" ]
+   ptbn00579 [ label="ADVP" ]
+   pbn261 [ label="ARG0" ]
+   ptbn00435 [ label="PRT" ]
+   pbn262 [ label="ARG1" ]
+   ptbn00434 [ label="tok" ]
+  ptbn00434 -> segr393
+   ptbn00437 [ label="PP" ]
+   pbn160 [ label="rel" ]
+   pbn161 [ label="PropBank" ]
+   ptbn00575 [ label="NP" ]
+   pbn162 [ label="ARG1" ]
+   ptbn00578 [ label="tok" ]
+  ptbn00578 -> segr535
+   pbn163 [ label="ARGM-MOD" ]
+   pbn164 [ label="ARG3" ]
+   pbn165 [ label="rel" ]
+   pbn166 [ label="PropBank" ]
+   pbn167 [ label="ARG0" ]
+   { rank=same; }
+   pbn235 -> pbn239
+   pbn239 -> ptbn00684
+   pbn238 -> ptbn00692
+   pbn241 -> pbn242
+   pbn242 -> ptbn00691
+   pbn235 -> pbn240
+   pbn240 -> ptbn00678
+   pbn6 -> ptbn00016
+   pbn241 -> pbn244
+   pbn5 -> pbn6
+   pbn4 -> ptbn00014
+   pbn241 -> pbn243
+   pbn0 -> pbn4
+   pbn243 -> ptbn00688
+   pbn3 -> ptbn00005
+   pbn2 -> ptbn00015
+   pbn0 -> pbn3
+   pbn1 -> ptbn00011
+   pbn0 -> pbn2
+   pbn0 -> pbn1
+   pbn52 -> pbn55
+   pbn55 -> ptbn00142
+   pbn97 -> ptbn00317
+   pbn52 -> pbn54
+   pbn54 -> ptbn00171
+   pbn181 -> ptbn00522
+   pbn176 -> pbn181
+   pbn91 -> pbn92
+   pbn180 -> ptbn00526
+   pbn176 -> pbn180
+   pbn179 -> ptbn00531
+   pbn176 -> pbn179
+   pbn91 -> pbn94
+   pbn178 -> ptbn00528
+   pbn93 -> ptbn00266
+   pbn53 -> ptbn00167
+   pbn178 -> ptbn00517
+   pbn91 -> pbn93
+   pbn52 -> pbn53
+   pbn176 -> pbn178
+   pbn92 -> ptbn00262
+   pbn51 -> ptbn00163
+   pbn177 -> ptbn00529
+   pbn95 -> pbn97
+   pbn48 -> pbn51
+   pbn96 -> ptbn00287
+   pbn50 -> ptbn00164
+   pbn95 -> pbn96
+   pbn48 -> pbn50
+   pbn94 -> ptbn00265
+   pbn49 -> ptbn00160
+   pbn43 -> pbn47
+   pbn47 -> ptbn00158
+   pbn48 -> pbn49
+   pbn98 -> ptbn00295
+   pbn95 -> pbn98
+   pbn99 -> ptbn00294
+   pbn43 -> pbn46
+   pbn95 -> pbn99
+   pbn45 -> ptbn00159
+   pbn101 -> ptbn00302
+   pbn46 -> ptbn00167
+   pbn100 -> pbn101
+   pbn46 -> ptbn00156
+   pbn102 -> ptbn00307
+   pbn43 -> pbn44
+   pbn100 -> pbn102
+   pbn42 -> ptbn00132
+   pbn103 -> ptbn00295
+   pbn43 -> pbn45
+   pbn100 -> pbn103
+   pbn44 -> ptbn00156
+   pbn104 -> ptbn00298
+   pbn166 -> pbn168
+   pbn100 -> pbn104
+   pbn167 -> ptbn00459
+   pbn103 -> ptbn00302
+   pbn166 -> pbn167
+   pbn165 -> ptbn00465
+   pbn166 -> pbn170
+   pbn169 -> ptbn00462
+   pbn166 -> pbn169
+   pbn168 -> ptbn00483
+   pbn108 -> ptbn00323
+   pbn106 -> pbn108
+   pbn107 -> ptbn00319
+   pbn106 -> pbn107
+   pbn161 -> pbn165
+   pbn105 -> ptbn00306
+   pbn164 -> ptbn00466
+   pbn100 -> pbn105
+   pbn104 -> ptbn00317
+   pbn109 -> ptbn00284
+   pbn173 -> ptbn00496
+   pbn106 -> pbn109
+   pbn171 -> pbn173
+   pbn110 -> ptbn00322
+   pbn174 -> ptbn00488
+   pbn106 -> pbn110
+   pbn171 -> pbn174
+   pbn175 -> ptbn00495
+   pbn171 -> pbn175
+   pbn176 -> pbn177
+   pbn114 -> ptbn00329
+   pbn56 -> ptbn00180
+   pbn111 -> pbn114
+   pbn52 -> pbn56
+   pbn57 -> ptbn00152
+   pbn52 -> pbn57
+   pbn112 -> ptbn00324
+   pbn58 -> ptbn00170
+   pbn170 -> ptbn00482
+   pbn111 -> pbn112
+   pbn52 -> pbn58
+   pbn113 -> ptbn00328
+   pbn172 -> ptbn00492
+   pbn111 -> pbn113
+   pbn171 -> pbn172
+   pbn119 -> ptbn00341
+   pbn115 -> pbn120
+   pbn118 -> ptbn00338
+   pbn115 -> pbn119
+   pbn120 -> ptbn00334
+   pbn115 -> pbn116
+   pbn117 -> ptbn00344
+   pbn115 -> pbn118
+   pbn116 -> ptbn00343
+   pbn115 -> pbn117
+   pbn207 -> pbn209
+   pbn208 -> ptbn00592
+   pbn90 -> ptbn00257
+   pbn87 -> pbn90
+   pbn207 -> pbn211
+   pbn210 -> ptbn00598
+   pbn207 -> pbn210
+   pbn209 -> ptbn00596
+   pbn122 -> ptbn00324
+   pbn121 -> pbn122
+   pbn120 -> ptbn00343
+   pbn328 -> ptbn00921
+   pbn326 -> pbn328
+   pbn327 -> ptbn00907
+   pbn326 -> pbn330
+   pbn126 -> pbn127
+   pbn330 -> ptbn00925
+   pbn326 -> pbn329
+   pbn121 -> pbn125
+   pbn329 -> ptbn00929
+   pbn125 -> ptbn00359
+   pbn332 -> pbn333
+   pbn121 -> pbn124
+   pbn124 -> ptbn00364
+   pbn326 -> pbn331
+   pbn121 -> pbn123
+   pbn331 -> ptbn00920
+   pbn123 -> ptbn00360
+   pbn86 -> ptbn00253
+   pbn213 -> ptbn00608
+   pbn87 -> pbn88
+   pbn212 -> pbn214
+   pbn84 -> ptbn00238
+   pbn211 -> ptbn00595
+   pbn85 -> pbn86
+   pbn212 -> pbn213
+   pbn89 -> ptbn00244
+   pbn89 -> ptbn00259
+   pbn88 -> ptbn00254
+   pbn87 -> pbn89
+   pbn83 -> ptbn00235
+   pbn80 -> pbn83
+   pbn244 -> ptbn00690
+   pbn201 -> ptbn00569
+   pbn80 -> pbn84
+   pbn203 -> ptbn00575
+   pbn202 -> pbn203
+   pbn204 -> ptbn00582
+   pbn202 -> pbn204
+   pbn332 -> pbn334
+   pbn333 -> ptbn00951
+   pbn332 -> pbn335
+   pbn334 -> ptbn00956
+   pbn335 -> ptbn00955
+   pbn336 -> pbn337
+   pbn337 -> ptbn00977
+   pbn336 -> pbn338
+   pbn338 -> ptbn00982
+   pbn250 -> pbn252
+   pbn336 -> pbn339
+   pbn248 -> pbn249
+   pbn202 -> pbn205
+   pbn249 -> ptbn00705
+   pbn78 -> ptbn00230
+   pbn205 -> ptbn00579
+   pbn250 -> pbn251
+   pbn75 -> pbn79
+   pbn202 -> pbn206
+   pbn251 -> ptbn00702
+   pbn79 -> ptbn00227
+   pbn206 -> ptbn00578
+   pbn245 -> pbn246
+   pbn80 -> pbn81
+   pbn207 -> pbn208
+   pbn246 -> ptbn00697
+   pbn81 -> ptbn00232
+   pbn245 -> pbn247
+   pbn80 -> pbn82
+   pbn247 -> ptbn00696
+   pbn82 -> ptbn00239
+   pbn194 -> pbn197
+   pbn196 -> ptbn00558
+   pbn9 -> pbn12
+   pbn194 -> pbn196
+   pbn11 -> ptbn00044
+   pbn195 -> ptbn00547
+   pbn250 -> pbn253
+   pbn75 -> pbn78
+   pbn9 -> pbn11
+   pbn252 -> ptbn00708
+   pbn77 -> ptbn00223
+   pbn10 -> ptbn00041
+   pbn75 -> pbn77
+   pbn10 -> ptbn00037
+   pbn76 -> ptbn00229
+   pbn9 -> pbn10
+   pbn314 -> ptbn00890
+   pbn8 -> ptbn00025
+   pbn130 -> pbn133
+   pbn5 -> pbn8
+   pbn7 -> ptbn00026
+   pbn5 -> pbn7
+   pbn135 -> pbn136
+   pbn134 -> ptbn00390
+   pbn130 -> pbn134
+   pbn133 -> ptbn00393
+   pbn316 -> pbn319
+   pbn138 -> ptbn00405
+   pbn319 -> ptbn00897
+   pbn137 -> pbn139
+   pbn316 -> pbn318
+   pbn136 -> ptbn00408
+   pbn318 -> ptbn00898
+   pbn137 -> pbn138
+   pbn316 -> pbn317
+   pbn317 -> ptbn00894
+   pbn311 -> pbn315
+   pbn139 -> ptbn00412
+   pbn315 -> ptbn00892
+   pbn255 -> ptbn00721
+   pbn75 -> pbn76
+   pbn256 -> pbn257
+   pbn76 -> ptbn00219
+   pbn253 -> ptbn00707
+   pbn73 -> pbn74
+   pbn200 -> ptbn00570
+   pbn254 -> pbn255
+   pbn74 -> ptbn00225
+   pbn198 -> pbn201
+   pbn258 -> ptbn00724
+   pbn67 -> pbn72
+   pbn199 -> ptbn00566
+   pbn256 -> pbn259
+   pbn72 -> ptbn00208
+   pbn198 -> pbn200
+   pbn320 -> pbn321
+   pbn257 -> ptbn00718
+   pbn197 -> ptbn00557
+   pbn256 -> pbn258
+   pbn198 -> pbn199
+   pbn188 -> ptbn00540
+   pbn71 -> ptbn00213
+   pbn17 -> ptbn00059
+   pbn189 -> ptbn00539
+   pbn186 -> pbn189
+   pbn259 -> ptbn00723
+   pbn67 -> pbn70
+   pbn15 -> pbn16
+   pbn69 -> ptbn00205
+   pbn14 -> ptbn00037
+   pbn261 -> ptbn00730
+   pbn67 -> pbn71
+   pbn15 -> pbn17
+   pbn260 -> pbn261
+   pbn70 -> ptbn00209
+   pbn16 -> ptbn00055
+   pbn13 -> ptbn00043
+   pbn9 -> pbn13
+   pbn320 -> pbn322
+   pbn14 -> ptbn00034
+   pbn321 -> ptbn00909
+   pbn9 -> pbn14
+   pbn126 -> pbn128
+   pbn127 -> ptbn00380
+   pbn12 -> ptbn00046
+   pbn126 -> pbn129
+   pbn128 -> ptbn00383
+   pbn324 -> ptbn00916
+   pbn129 -> ptbn00382
+   pbn320 -> pbn325
+   pbn130 -> pbn131
+   pbn325 -> ptbn00911
+   pbn131 -> ptbn00387
+   pbn326 -> pbn327
+   pbn130 -> pbn132
+   pbn322 -> ptbn00910
+   pbn132 -> ptbn00384
+   pbn320 -> pbn323
+   pbn132 -> ptbn00392
+   pbn323 -> ptbn00904
+   pbn320 -> pbn324
+   pbn260 -> pbn262
+   pbn66 -> ptbn00203
+   pbn190 -> pbn193
+   pbn262 -> ptbn00734
+   pbn67 -> pbn68
+   pbn193 -> ptbn00551
+   pbn260 -> pbn263
+   pbn68 -> ptbn00216
+   pbn194 -> pbn195
+   pbn263 -> ptbn00733
+   pbn67 -> pbn69
+   pbn264 -> pbn265
+   pbn190 -> pbn191
+   pbn265 -> ptbn00755
+   pbn191 -> ptbn00549
+   pbn264 -> pbn266
+   pbn190 -> pbn192
+   pbn62 -> pbn66
+   pbn192 -> ptbn00552
+   pbn15 -> pbn18
+   pbn149 -> ptbn00426
+   pbn18 -> ptbn00058
+   pbn148 -> pbn150
+   pbn147 -> ptbn00402
+   pbn148 -> pbn149
+   pbn20 -> ptbn00075
+   pbn146 -> ptbn00420
+   pbn232 -> ptbn00666
+   pbn19 -> pbn21
+   pbn142 -> pbn147
+   pbn231 -> pbn233
+   pbn19 -> pbn20
+   pbn20 -> ptbn00071
+   pbn142 -> pbn146
+   pbn62 -> pbn64
+   pbn22 -> ptbn00080
+   pbn234 -> ptbn00670
+   pbn235 -> pbn236
+   pbn64 -> ptbn00204
+   pbn19 -> pbn23
+   pbn62 -> pbn63
+   pbn21 -> ptbn00077
+   pbn233 -> ptbn00671
+   pbn63 -> ptbn00192
+   pbn19 -> pbn22
+   pbn231 -> pbn234
+   pbn237 -> ptbn00679
+   pbn235 -> pbn238
+   pbn236 -> ptbn00666
+   pbn62 -> pbn65
+   pbn235 -> pbn237
+   pbn65 -> ptbn00201
+   pbn61 -> ptbn00184
+   pbn59 -> pbn61
+   pbn60 -> ptbn00186
+   pbn59 -> pbn60
+   pbn151 -> ptbn00429
+   pbn148 -> pbn151
+   pbn150 -> ptbn00430
+   pbn137 -> pbn141
+   pbn23 -> ptbn00079
+   pbn141 -> ptbn00409
+   pbn24 -> pbn25
+   pbn142 -> pbn143
+   pbn25 -> ptbn00098
+   pbn143 -> ptbn00415
+   pbn24 -> pbn26
+   pbn26 -> ptbn00104
+   pbn24 -> pbn27
+   pbn137 -> pbn140
+   pbn27 -> ptbn00102
+   pbn140 -> ptbn00411
+   pbn225 -> ptbn00637
+   pbn24 -> pbn28
+   pbn226 -> pbn227
+   pbn28 -> ptbn00101
+   pbn227 -> ptbn00643
+   pbn29 -> pbn30
+   pbn226 -> pbn228
+   pbn228 -> ptbn00649
+   pbn226 -> pbn229
+   pbn229 -> ptbn00651
+   pbn226 -> pbn230
+   pbn230 -> ptbn00648
+   pbn311 -> pbn314
+   pbn313 -> ptbn00893
+   pbn231 -> pbn232
+   pbn309 -> ptbn00874
+   pbn306 -> pbn309
+   pbn310 -> ptbn00856
+   pbn306 -> pbn310
+   pbn311 -> pbn312
+   pbn144 -> ptbn00418
+   pbn310 -> ptbn00861
+   pbn142 -> pbn144
+   pbn311 -> pbn313
+   pbn145 -> ptbn00421
+   pbn312 -> ptbn00886
+   pbn142 -> pbn145
+   pbn33 -> ptbn00122
+   pbn156 -> pbn160
+   pbn34 -> pbn35
+   pbn160 -> ptbn00447
+   pbn32 -> ptbn00127
+   pbn156 -> pbn159
+   pbn29 -> pbn33
+   pbn159 -> ptbn00448
+   pbn31 -> ptbn00122
+   pbn161 -> pbn163
+   pbn29 -> pbn32
+   pbn163 -> ptbn00462
+   pbn30 -> ptbn00118
+   pbn161 -> pbn162
+   pbn29 -> pbn31
+   pbn162 -> ptbn00459
+   pbn222 -> pbn224
+   pbn224 -> ptbn00639
+   pbn223 -> ptbn00636
+   pbn223 -> ptbn00634
+   pbn221 -> ptbn00628
+   pbn158 -> ptbn00456
+   pbn222 -> pbn223
+   pbn35 -> ptbn00116
+   pbn220 -> ptbn00631
+   pbn35 -> ptbn00114
+   pbn217 -> pbn221
+   pbn225 -> ptbn00619
+   pbn222 -> pbn225
+   pbn34 -> pbn36
+   pbn161 -> pbn164
+   pbn38 -> ptbn00108
+   pbn152 -> pbn153
+   pbn38 -> ptbn00117
+   pbn153 -> ptbn00431
+   pbn39 -> pbn40
+   pbn152 -> pbn154
+   pbn40 -> ptbn00107
+   pbn154 -> ptbn00435
+   pbn36 -> ptbn00125
+   pbn154 -> ptbn00437
+   pbn34 -> pbn37
+   pbn152 -> pbn155
+   pbn37 -> ptbn00124
+   pbn155 -> ptbn00434
+   pbn34 -> pbn38
+   pbn156 -> pbn157
+   pbn212 -> pbn216
+   pbn216 -> ptbn00611
+   pbn217 -> pbn218
+   pbn218 -> ptbn00626
+   pbn39 -> pbn41
+   pbn214 -> ptbn00612
+   pbn212 -> pbn215
+   pbn215 -> ptbn00640
+   pbn219 -> ptbn00635
+   pbn217 -> pbn219
+   pbn217 -> pbn220
+   pbn156 -> pbn158
+   pbn157 -> ptbn00444
+   pbn39 -> pbn42
+   pbn41 -> ptbn00133
+   pbn296 -> pbn297
+   pbn297 -> ptbn00843
+   pbn294 -> ptbn00832
+   pbn294 -> ptbn00821
+   pbn295 -> ptbn00836
+   pbn291 -> pbn295
+   pbn291 -> pbn293
+   pbn292 -> ptbn00832
+   pbn291 -> pbn294
+   pbn293 -> ptbn00837
+   pbn301 -> pbn303
+   pbn302 -> ptbn00867
+   pbn302 -> ptbn00861
+   pbn301 -> pbn302
+   pbn300 -> ptbn00854
+   pbn296 -> pbn300
+   pbn299 -> ptbn00852
+   pbn296 -> pbn299
+   pbn298 -> ptbn00855
+   pbn296 -> pbn298
+   pbn301 -> pbn305
+   pbn304 -> ptbn00865
+   pbn364 -> ptbn01034
+   pbn305 -> ptbn00861
+   pbn305 -> ptbn00856
+   pbn307 -> ptbn00870
+   pbn306 -> pbn307
+   pbn308 -> ptbn00875
+   pbn306 -> pbn308
+   pbn368 -> ptbn01041
+   pbn367 -> pbn368
+   pbn369 -> ptbn01040
+   pbn367 -> pbn369
+   pbn365 -> ptbn01036
+   pbn362 -> pbn365
+   pbn366 -> ptbn01033
+   pbn301 -> pbn304
+   pbn362 -> pbn366
+   pbn303 -> ptbn00868
+   pbn269 -> pbn272
+   pbn182 -> pbn184
+   pbn271 -> ptbn00775
+   pbn183 -> ptbn00533
+   pbn182 -> pbn185
+   pbn184 -> ptbn00540
+   pbn269 -> pbn270
+   pbn186 -> pbn187
+   pbn268 -> ptbn00761
+   pbn185 -> ptbn00537
+   pbn269 -> pbn271
+   pbn186 -> pbn188
+   pbn270 -> ptbn00771
+   pbn187 -> ptbn00533
+   pbn356 -> pbn358
+   pbn357 -> ptbn01012
+   pbn358 -> ptbn01018
+   pbn351 -> pbn352
+   pbn352 -> ptbn01003
+   pbn351 -> pbn353
+   pbn353 -> ptbn01001
+   pbn354 -> pbn355
+   pbn355 -> ptbn01011
+   pbn356 -> pbn357
+   pbn266 -> ptbn00762
+   pbn264 -> pbn267
+   pbn267 -> ptbn00765
+   pbn264 -> pbn268
+   pbn181 -> ptbn00520
+   pbn182 -> pbn183
+   pbn273 -> pbn278
+   pbn277 -> ptbn00787
+   pbn273 -> pbn277
+   pbn276 -> ptbn00795
+   pbn273 -> pbn276
+   pbn362 -> pbn364
+   pbn363 -> ptbn01031
+   pbn359 -> ptbn01017
+   pbn356 -> pbn360
+   pbn356 -> pbn359
+   pbn359 -> ptbn01007
+   pbn361 -> ptbn01029
+   pbn362 -> pbn363
+   pbn360 -> ptbn01015
+   pbn356 -> pbn361
+   pbn273 -> pbn275
+   pbn275 -> ptbn00788
+   pbn273 -> pbn274
+   pbn274 -> ptbn00784
+   pbn272 -> ptbn00774
+   pbn283 -> pbn284
+   pbn282 -> ptbn00809
+   pbn283 -> pbn285
+   pbn284 -> ptbn00812
+   pbn344 -> ptbn00991
+   pbn342 -> pbn343
+   pbn341 -> ptbn00977
+   pbn342 -> pbn344
+   pbn343 -> ptbn00987
+   pbn336 -> pbn340
+   pbn340 -> ptbn00975
+   pbn336 -> pbn341
+   pbn341 -> ptbn00971
+   pbn339 -> ptbn00978
+   pbn278 -> ptbn00791
+   pbn279 -> pbn280
+   pbn280 -> ptbn00806
+   pbn279 -> pbn281
+   pbn281 -> ptbn00810
+   pbn279 -> pbn282
+   pbn291 -> pbn292
+   pbn290 -> ptbn00824
+   pbn287 -> pbn290
+   pbn350 -> ptbn00998
+   pbn347 -> pbn350
+   pbn349 -> ptbn00999
+   pbn347 -> pbn349
+   pbn347 -> pbn348
+   pbn348 -> ptbn00992
+   pbn342 -> pbn346
+   pbn346 -> ptbn00968
+   pbn342 -> pbn345
+   pbn345 -> ptbn00990
+   pbn283 -> pbn286
+   pbn286 -> ptbn00816
+   pbn285 -> ptbn00817
+   pbn287 -> pbn289
+   pbn289 -> ptbn00825
+   pbn287 -> pbn288
+   pbn288 -> ptbn00821
+}
