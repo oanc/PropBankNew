@@ -13,7 +13,13 @@ public class Constants extends org.anc.constants.Constants
 	public final String MASC_RESOURCE_HEADER = null;
 	
 	@Default("test-files")
-	public final String TEST_DATA_PATH = null;
+	public final String PROP_DATA_PATH = null;
+	
+	@Default("test-files")
+	public final String PTB_DATA_PATH = null;
+	
+	@Default("output-files")
+	public final String OUTPUT_DATA_PATH = null;
 	
 	@Default("110CYL068")
 	public final String TEST_FILE = null;

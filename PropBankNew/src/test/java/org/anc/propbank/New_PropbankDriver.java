@@ -19,31 +19,34 @@ public class New_PropbankDriver {
 	public static void main(String[] args) throws FileNotFoundException, IOException, SAXException, GrafException
 	{
 		//Initialize path to propbank file
-		File testDir = new File(K.TEST_DATA_PATH);		
+		File testDir = new File(K.PROP_DATA_PATH);		
 		File testFile = new File(testDir, K.TEST_FILE + ".prop");
 		
-		
+		//Initialize New_PropbankParser
 		System.out.println("=====================================");
 		System.out.println("============PROPBANK INFO============");
 		System.out.println("=====================================");
-		New_PropbankParser parser = new New_PropbankParser(K.TEST_DATA_PATH);
+		New_PropbankParser parser = new New_PropbankParser();
 		
-		
+		// Process the .prop file and return the corresponding graph
 		IGraph newGraph = parser.process(testFile);
 		
-		//FIRST WRITE TO NEW PTB XML FILE
+		// Render the new -pb.xml file
 		File newFile = new File("output-files/"+ K.TEST_FILE + "-pb.xml");
 		GrafRenderer grafRenderer = new GrafRenderer(newFile);
 		grafRenderer.render(newGraph);
 		
+		// Render the new -pb.dot file
 		File dotFile = new File("output-files/" + K.TEST_FILE + "-pb.dot");
 		DotRenderer dotRenderer = new DotRenderer(dotFile);
 		dotRenderer.render(newGraph);
 		
+		
+		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		System.out.println("=====================================");
 		System.out.println("============TERMINAL NODE INFO=======");
 		System.out.println("=====================================");
-		New_PTBNavigator navigator = new New_PTBNavigator(K.TEST_DATA_PATH + "/" + K.TEST_FILE);
+		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.TEST_FILE);
 		navigator.printTerminalDetails();
 		
 		System.out.println("=========== NAVIGATE DETAILS=============");
