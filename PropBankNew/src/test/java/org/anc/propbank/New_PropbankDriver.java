@@ -60,7 +60,6 @@ public class New_PropbankDriver {
 
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		New_PTBNavigator navigator = new New_PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
-		navigator.printTerminalDetails();
 		System.out.println("=========== NAVIGATE DETAILS=============");
 		System.out.println("NavigateTerminals (4,7): " + navigator.navigateTerminals(4,7).getAnnotation().features().toString());
 		System.out.println("Navigate (4,7,1): " + navigator.navigate(4,7,1).getAnnotation().features().toString());
