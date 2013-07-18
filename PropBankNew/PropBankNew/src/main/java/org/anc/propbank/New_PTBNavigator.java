@@ -215,7 +215,6 @@ public class New_PTBNavigator {
 	    		}
 			 }
 		}
-		
 		nodeList.removeAll(outDegreeZeroNodes);
 		nodeList.addAll(outDegreeZeroNodes);
 	}
