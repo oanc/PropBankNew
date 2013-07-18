@@ -170,10 +170,8 @@ public class New_PTBNavigator {
 		nodeList.removeAll(outDegreeZeroNodes);
 		
 		for (INode traceNode: nodeList){
-			// Trace node is of out degree 1
-			if (traceNode.outDegree() != 0){
 				int index;
-	    		INode neighborNode = this.findNeighboringNodesDegree1(sentence, traceNode);
+	    		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
 	    		if (neighborNode != traceNode){
 	    			if (outDegreeZeroNodes.contains(neighborNode)){
 	    				index = outDegreeZeroNodes.indexOf(neighborNode);
@@ -191,36 +189,13 @@ public class New_PTBNavigator {
 	    			outDegreeZeroNodes.remove(traceNode);
 	    			outDegreeZeroNodes.add(0, traceNode);
 	    		}
-			}
-	    	// Else Trace node is of out degree 0
-			else{
-				int index;
-	    		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
-	    		if (neighborNode != traceNode){
-	    			if (outDegreeZeroNodes.contains(neighborNode)){
-	    				index = outDegreeZeroNodes.indexOf(neighborNode);
-	    			}
-	    			else{
-	    				outDegreeZeroNodes.add(neighborNode);
-	    				Collections.sort(outDegreeZeroNodes, new AnchorComparator());
-	    				index = outDegreeZeroNodes.indexOf(neighborNode);
-	    				outDegreeZeroNodes.remove(neighborNode);
-	    			}
-	    			outDegreeZeroNodes.remove(traceNode);
-	    			outDegreeZeroNodes.add(index, traceNode);
-	    			}
-	    		else{
-	    			outDegreeZeroNodes.remove(traceNode);
-	    			outDegreeZeroNodes.add(0, traceNode);
-	    		}
-			 }
 		}
 		nodeList.removeAll(outDegreeZeroNodes);
 		nodeList.addAll(outDegreeZeroNodes);
 	}
 
 	/**
-	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting. 
+	 * Use depth first search to return the terminal node neighboring a given trace node (OF DEGREE 0), to then be used for sorting. 
 	 * @param traceNode
 	 * @return
 	 */
@@ -251,19 +226,41 @@ public class New_PTBNavigator {
 		for (INode graphNode: this.graph.nodes()){
 			graphNode.clear();
 		}
-		ArrayList<INode> terminals = new ArrayList<INode>();
-		for (INode outputNode: DFSoutput){
-			if (outputNode.outDegree() == 0){
-				terminals.add(outputNode);
+		if (traceNode.outDegree() == 0){
+			ArrayList<INode> terminals = new ArrayList<INode>();
+			for (INode outputNode: DFSoutput){
+				if (outputNode.outDegree() == 0){
+					terminals.add(outputNode);
+				}
 			}
-		}
-		Integer index = terminals.indexOf(traceNode);
-		if (index != 0){
-			return terminals.get(index-1);
+			Integer index = terminals.indexOf(traceNode);
+			if (index != 0){
+				return terminals.get(index-1);
 			}
 			else{
 				return terminals.get(index);
 			}
+		}
+		else{
+			ArrayList<INode> terminals = new ArrayList<INode>();
+			for (INode outputNode: DFSoutput){
+				if (outputNode.annotated()){
+					if ((outputNode.outDegree() == 0) || outputNode.getAnnotation().getLabel().equals("Trace")){
+						terminals.add(outputNode);
+					}
+				}
+			}
+
+				Integer index = terminals.indexOf(traceNode);
+				if (index != 0){
+				return terminals.get(index-1);
+				}
+				else{
+					return terminals.get(index);
+				}
+			
+		}
+		
 	}
 	
 	
