@@ -226,6 +226,8 @@ public class New_PTBNavigator {
 		for (INode graphNode: this.graph.nodes()){
 			graphNode.clear();
 		}
+		
+		///Trace node has out degree 0
 		if (traceNode.outDegree() == 0){
 			ArrayList<INode> terminals = new ArrayList<INode>();
 			for (INode outputNode: DFSoutput){
@@ -241,6 +243,8 @@ public class New_PTBNavigator {
 				return terminals.get(index);
 			}
 		}
+		
+		// Else trace node has out degree 1, *PRO*-1, *-1, *T*-1, etc. 
 		else{
 			ArrayList<INode> terminals = new ArrayList<INode>();
 			for (INode outputNode: DFSoutput){
@@ -263,60 +267,6 @@ public class New_PTBNavigator {
 		
 	}
 	
-	
-	
-	
-	 
-	/**
-	 * Use depth first search to return the terminal node neighboring a given trace node, to then be used for sorting, for
-	 * trace nodes of degree 1, i.e. *PRO*-1, *-1, *T*-1, etc. 
-	 * @param traceNode
-	 * @return
-	 */
-	private INode findNeighboringNodesDegree1(INode sentence, INode traceNode){
-		Stack<INode> stack = new Stack<INode>();
-		ArrayList<INode> DFSoutput = new ArrayList<INode>();
-		stack.push(sentence);
-		sentence.visit();
-		DFSoutput.add(sentence);
-		while(!stack.isEmpty()){
-			INode node = stack.peek();
-			ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
-			for(IEdge edge: node.getOutEdges()){
-				if (edge.getTo().visited() == false){
-					unvisitedChildren.add(edge.getTo());
-				}
-			}
-			if (!unvisitedChildren.isEmpty()){
-				INode child = unvisitedChildren.get(0);
-				stack.push(child);
-				child.visit();
-				DFSoutput.add(child);
-			}
-			else{
-				stack.pop();
-			}
-		}	
-		for (INode graphNode: this.graph.nodes()){
-			graphNode.clear();
-		}
-		ArrayList<INode> terminals = new ArrayList<INode>();
-		for (INode outputNode: DFSoutput){
-			if (outputNode.annotated()){
-				if ((outputNode.outDegree() == 0) || outputNode.getAnnotation().getLabel().equals("Trace")){
-					terminals.add(outputNode);
-				}
-			}
-		}
-
-			Integer index = terminals.indexOf(traceNode);
-			if (index != 0){
-			return terminals.get(index-1);
-			}
-			else{
-				return terminals.get(index);
-			}
-		}
 
 //-----RENDERING FUNCTIONS-----//
  /**
