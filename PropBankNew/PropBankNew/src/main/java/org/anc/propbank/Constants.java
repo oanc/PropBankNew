@@ -2,7 +2,7 @@ package org.anc.propbank;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
+import org.anc.constants.*;
 
 public class Constants extends org.anc.constants.Constants 
 {
