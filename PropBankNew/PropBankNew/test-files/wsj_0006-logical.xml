@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="p" occurs="2"/>
+            <labelUsage label="cesDoc" occurs="1"/>
+        </labelsDecl>
+        <annotationSpaces>
+            <annotationSpace as.id="xces"/>
+        </annotationSpaces>
+    </graphHeader>
+    <region xml:id="logical-doc-r" anchors="4 262"/>
+    <region xml:id="logical-r0" anchors="4 143"/>
+    <region xml:id="logical-r1" anchors="147 261"/>
+    <node xml:id="logical-doc-n">
+        <link targets="logical-doc-r"/>
+    </node>
+    <a xml:id="logical-doc-a" label="cesDoc" ref="logical-doc-n" as="xces"/>
+    <node xml:id="logical-n0">
+        <link targets="logical-r0"/>
+    </node>
+    <a xml:id="logical-N65569" label="p" ref="logical-n0" as="xces"/>
+    <node xml:id="logical-n1">
+        <link targets="logical-r1"/>
+    </node>
+    <a xml:id="logical-N65585" label="p" ref="logical-n1" as="xces"/>
+</graph>

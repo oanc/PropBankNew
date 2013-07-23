@@ -1,0 +1,41 @@
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+  <graphHeader>
+    <labelsDecl>
+      <labelUsage label="location" occurs="1"/>
+      <labelUsage label="org" occurs="2"/>
+    </labelsDecl>
+    <dependencies>
+      <dependsOn f.id="f.penn"/>
+    </dependencies>
+    <annotationSpaces>
+      <annotationSpace as.id="anc"/>
+    </annotationSpaces>
+  </graphHeader>
+  <node xml:id="ne-n0"/>
+  <a xml:id="ne-N65571" label="org" ref="ne-n0" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n1"/>
+  <a xml:id="ne-N65587" label="org" ref="ne-n1" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n2"/>
+  <a xml:id="ne-N65603" label="location" ref="ne-n2" as="anc">
+    <fs>
+      <f name="type" value="city"/>
+    </fs>
+  </a>
+  <edge xml:id="ne-lnk1" from="ne-n0" to="penn-n1"/>
+  <edge xml:id="ne-lnk0" from="ne-n0" to="penn-n0"/>
+  <edge xml:id="ne-lnk8" from="ne-n2" to="penn-n15"/>
+  <edge xml:id="ne-lnk7" from="ne-n1" to="penn-n13"/>
+  <edge xml:id="ne-lnk6" from="ne-n1" to="penn-n12"/>
+  <edge xml:id="ne-lnk5" from="ne-n1" to="penn-n11"/>
+  <edge xml:id="ne-lnk4" from="ne-n0" to="penn-n4"/>
+  <edge xml:id="ne-lnk3" from="ne-n0" to="penn-n3"/>
+  <edge xml:id="ne-lnk2" from="ne-n0" to="penn-n2"/>
+</graph>

@@ -1,0 +1,68 @@
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+  <graphHeader>
+    <labelsDecl>
+      <labelUsage label="vchunk" occurs="6"/>
+    </labelsDecl>
+    <dependencies>
+      <dependsOn f.id="f.penn"/>
+    </dependencies>
+    <annotationSpaces>
+      <annotationSpace as.id="anc"/>
+    </annotationSpaces>
+  </graphHeader>
+  <node xml:id="vc-n0"/>
+  <a xml:id="vc-N65567" label="vchunk" ref="vc-n0" as="anc">
+    <fs>
+      <f name="tense" value="SimPas"/>
+      <f name="type" value="FVG"/>
+      <f name="voice" value="active"/>
+    </fs>
+  </a>
+  <node xml:id="vc-n1"/>
+  <a xml:id="vc-N65591" label="vchunk" ref="vc-n1" as="anc">
+    <fs>
+      <f name="tense" value="SimPas"/>
+      <f name="type" value="FVG"/>
+      <f name="voice" value="active"/>
+    </fs>
+  </a>
+  <node xml:id="vc-n2"/>
+  <a xml:id="vc-N65615" label="vchunk" ref="vc-n2" as="anc">
+    <fs>
+      <f name="tense" value="SimPas"/>
+      <f name="type" value="FVG"/>
+      <f name="voice" value="active"/>
+    </fs>
+  </a>
+  <node xml:id="vc-n3"/>
+  <a xml:id="vc-N65639" label="vchunk" ref="vc-n3" as="anc">
+    <fs>
+      <f name="tense" value="SimPre"/>
+      <f name="type" value="FVG"/>
+      <f name="voice" value="active"/>
+    </fs>
+  </a>
+  <node xml:id="vc-n4"/>
+  <a xml:id="vc-N65663" label="vchunk" ref="vc-n4" as="anc">
+    <fs>
+      <f name="voice" value="active"/>
+      <f name="tense" value="Inf"/>
+      <f name="type" value="NFVG"/>
+    </fs>
+  </a>
+  <node xml:id="vc-n5"/>
+  <a xml:id="vc-N65687" label="vchunk" ref="vc-n5" as="anc">
+    <fs>
+      <f name="voice" value="active"/>
+      <f name="tense" value="Inf"/>
+      <f name="type" value="NFVG"/>
+    </fs>
+  </a>
+  <edge xml:id="vc-lnk6" from="vc-n5" to="penn-n37"/>
+  <edge xml:id="vc-lnk5" from="vc-n4" to="penn-n33"/>
+  <edge xml:id="vc-lnk4" from="vc-n4" to="penn-n32"/>
+  <edge xml:id="vc-lnk3" from="vc-n3" to="penn-n31"/>
+  <edge xml:id="vc-lnk2" from="vc-n2" to="penn-n29"/>
+  <edge xml:id="vc-lnk1" from="vc-n1" to="penn-n7"/>
+  <edge xml:id="vc-lnk0" from="vc-n0" to="penn-n5"/>
+</graph>

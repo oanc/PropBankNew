@@ -1,0 +1,5973 @@
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+  <graphHeader>
+    <labelsDecl>
+      <labelUsage label="tok" occurs="596"/>
+    </labelsDecl>
+    <dependencies>
+      <dependsOn f.id="f.seg"/>
+    </dependencies>
+    <annotationSpaces>
+      <annotationSpace as.id="anc"/>
+    </annotationSpaces>
+  </graphHeader>
+  <node xml:id="penn-n0">
+    <link targets="seg-r0"/>
+  </node>
+  <a xml:id="penn-N65571" label="tok" ref="penn-n0" as="anc">
+    <fs>
+      <f name="string" value="December"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="december"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n1">
+    <link targets="seg-r2"/>
+  </node>
+  <a xml:id="penn-N65599" label="tok" ref="penn-n1" as="anc">
+    <fs>
+      <f name="msd" value="CD"/>
+      <f name="string" value="1998"/>
+      <f name="base" value="1998"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n10">
+    <link targets="seg-r20"/>
+  </node>
+  <a xml:id="penn-N65627" label="tok" ref="penn-n10" as="anc">
+    <fs>
+      <f name="string" value="you"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="you"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n100">
+    <link targets="seg-r190"/>
+  </node>
+  <a xml:id="penn-N65655" label="tok" ref="penn-n100" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n101">
+    <link targets="seg-r192"/>
+  </node>
+  <a xml:id="penn-N65683" label="tok" ref="penn-n101" as="anc">
+    <fs>
+      <f name="string" value="can"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="can"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n102">
+    <link targets="seg-r194"/>
+  </node>
+  <a xml:id="penn-N65711" label="tok" ref="penn-n102" as="anc">
+    <fs>
+      <f name="string" value="buy"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="buy"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n103">
+    <link targets="seg-r196"/>
+  </node>
+  <a xml:id="penn-N65739" label="tok" ref="penn-n103" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n104">
+    <link targets="seg-r198"/>
+  </node>
+  <a xml:id="penn-N65767" label="tok" ref="penn-n104" as="anc">
+    <fs>
+      <f name="string" value="soda"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="soda"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n105">
+    <link targets="seg-r200"/>
+  </node>
+  <a xml:id="penn-N65795" label="tok" ref="penn-n105" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n106">
+    <link targets="seg-r202"/>
+  </node>
+  <a xml:id="penn-N65823" label="tok" ref="penn-n106" as="anc">
+    <fs>
+      <f name="string" value="spend"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="spend"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n107">
+    <link targets="seg-r204"/>
+  </node>
+  <a xml:id="penn-N65851" label="tok" ref="penn-n107" as="anc">
+    <fs>
+      <f name="string" value="money"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="money"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n108">
+    <link targets="seg-r205"/>
+  </node>
+  <a xml:id="penn-N65879" label="tok" ref="penn-n108" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n109">
+    <link targets="seg-r207"/>
+  </node>
+  <a xml:id="penn-N65907" label="tok" ref="penn-n109" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n11">
+    <link targets="seg-r22"/>
+  </node>
+  <a xml:id="penn-N65935" label="tok" ref="penn-n11" as="anc">
+    <fs>
+      <f name="string" value="may"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="may"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n110">
+    <link targets="seg-r209"/>
+  </node>
+  <a xml:id="penn-N65963" label="tok" ref="penn-n110" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n111">
+    <link targets="seg-r211"/>
+  </node>
+  <a xml:id="penn-N65991" label="tok" ref="penn-n111" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="work"/>
+      <f name="string" value="working"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n112">
+    <link targets="seg-r213"/>
+  </node>
+  <a xml:id="penn-N66019" label="tok" ref="penn-n112" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n113">
+    <link targets="seg-r215"/>
+  </node>
+  <a xml:id="penn-N66047" label="tok" ref="penn-n113" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="make"/>
+      <f name="string" value="making"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n114">
+    <link targets="seg-r217"/>
+  </node>
+  <a xml:id="penn-N66075" label="tok" ref="penn-n114" as="anc">
+    <fs>
+      <f name="string" value="money"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="money"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n115">
+    <link targets="seg-r218"/>
+  </node>
+  <a xml:id="penn-N66103" label="tok" ref="penn-n115" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n116">
+    <link targets="seg-r220"/>
+  </node>
+  <a xml:id="penn-N66131" label="tok" ref="penn-n116" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n117">
+    <link targets="seg-r222"/>
+  </node>
+  <a xml:id="penn-N66159" label="tok" ref="penn-n117" as="anc">
+    <fs>
+      <f name="string" value="have"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="have"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n118">
+    <link targets="seg-r224"/>
+  </node>
+  <a xml:id="penn-N66187" label="tok" ref="penn-n118" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n119">
+    <link targets="seg-r226"/>
+  </node>
+  <a xml:id="penn-N66215" label="tok" ref="penn-n119" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="savings"/>
+      <f name="string" value="savings"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n12">
+    <link targets="seg-r24"/>
+  </node>
+  <a xml:id="penn-N66243" label="tok" ref="penn-n12" as="anc">
+    <fs>
+      <f name="string" value="know"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n120">
+    <link targets="seg-r228"/>
+  </node>
+  <a xml:id="penn-N66271" label="tok" ref="penn-n120" as="anc">
+    <fs>
+      <f name="string" value="account"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="account"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n121">
+    <link targets="seg-r229"/>
+  </node>
+  <a xml:id="penn-N66299" label="tok" ref="penn-n121" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n122">
+    <link targets="seg-r231"/>
+  </node>
+  <a xml:id="penn-N66327" label="tok" ref="penn-n122" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n123">
+    <link targets="seg-r233"/>
+  </node>
+  <a xml:id="penn-N66355" label="tok" ref="penn-n123" as="anc">
+    <fs>
+      <f name="string" value="can"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="can"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n124">
+    <link targets="seg-r235"/>
+  </node>
+  <a xml:id="penn-N66383" label="tok" ref="penn-n124" as="anc">
+    <fs>
+      <f name="string" value="write"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="write"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n125">
+    <link targets="seg-r237"/>
+  </node>
+  <a xml:id="penn-N66411" label="tok" ref="penn-n125" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n126">
+    <link targets="seg-r239"/>
+  </node>
+  <a xml:id="penn-N66439" label="tok" ref="penn-n126" as="anc">
+    <fs>
+      <f name="string" value="name"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="name"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n127">
+    <link targets="seg-r241"/>
+  </node>
+  <a xml:id="penn-N66467" label="tok" ref="penn-n127" as="anc">
+    <fs>
+      <f name="string" value="on"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="on"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n128">
+    <link targets="seg-r243"/>
+  </node>
+  <a xml:id="penn-N66495" label="tok" ref="penn-n128" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n129">
+    <link targets="seg-r245"/>
+  </node>
+  <a xml:id="penn-N66523" label="tok" ref="penn-n129" as="anc">
+    <fs>
+      <f name="string" value="deposit"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="deposit"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n13">
+    <link targets="seg-r25"/>
+  </node>
+  <a xml:id="penn-N66551" label="tok" ref="penn-n13" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n130">
+    <link targets="seg-r247"/>
+  </node>
+  <a xml:id="penn-N66579" label="tok" ref="penn-n130" as="anc">
+    <fs>
+      <f name="string" value="slip"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="slip"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n131">
+    <link targets="seg-r248"/>
+  </node>
+  <a xml:id="penn-N66607" label="tok" ref="penn-n131" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n132">
+    <link targets="seg-r250"/>
+  </node>
+  <a xml:id="penn-N66635" label="tok" ref="penn-n132" as="anc">
+    <fs>
+      <f name="string" value="If"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="if"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n133">
+    <link targets="seg-r252"/>
+  </node>
+  <a xml:id="penn-N66663" label="tok" ref="penn-n133" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n134">
+    <link targets="seg-r254"/>
+  </node>
+  <a xml:id="penn-N66691" label="tok" ref="penn-n134" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n135">
+    <link targets="seg-r255"/>
+  </node>
+  <a xml:id="penn-N66719" label="tok" ref="penn-n135" as="anc">
+    <fs>
+      <f name="string" value="n't"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="n't"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n136">
+    <link targets="seg-r257"/>
+  </node>
+  <a xml:id="penn-N66747" label="tok" ref="penn-n136" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="work"/>
+      <f name="string" value="working"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n137">
+    <link targets="seg-r259"/>
+  </node>
+  <a xml:id="penn-N66775" label="tok" ref="penn-n137" as="anc">
+    <fs>
+      <f name="string" value="here"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="here"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n138">
+    <link targets="seg-r261"/>
+  </node>
+  <a xml:id="penn-N66803" label="tok" ref="penn-n138" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n139">
+    <link targets="seg-r262"/>
+  </node>
+  <a xml:id="penn-N66831" label="tok" ref="penn-n139" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n14">
+    <link targets="seg-r27"/>
+  </node>
+  <a xml:id="penn-N66859" label="tok" ref="penn-n14" as="anc">
+    <fs>
+      <f name="string" value="To"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n140">
+    <link targets="seg-r263"/>
+  </node>
+  <a xml:id="penn-N66887" label="tok" ref="penn-n140" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n141">
+    <link targets="seg-r264"/>
+  </node>
+  <a xml:id="penn-N66915" label="tok" ref="penn-n141" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n142">
+    <link targets="seg-r266"/>
+  </node>
+  <a xml:id="penn-N66943" label="tok" ref="penn-n142" as="anc">
+    <fs>
+      <f name="string" value="would"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="would"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n143">
+    <link targets="seg-r268"/>
+  </node>
+  <a xml:id="penn-N66971" label="tok" ref="penn-n143" as="anc">
+    <fs>
+      <f name="string" value="be"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="be"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n144">
+    <link targets="seg-r270"/>
+  </node>
+  <a xml:id="penn-N66999" label="tok" ref="penn-n144" as="anc">
+    <fs>
+      <f name="string" value="sad"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="sad"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n145">
+    <link targets="seg-r272"/>
+  </node>
+  <a xml:id="penn-N67027" label="tok" ref="penn-n145" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n146">
+    <link targets="seg-r273"/>
+  </node>
+  <a xml:id="penn-N67055" label="tok" ref="penn-n146" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n147">
+    <link targets="seg-r274"/>
+  </node>
+  <a xml:id="penn-N67083" label="tok" ref="penn-n147" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n148">
+    <link targets="seg-r275"/>
+  </node>
+  <a xml:id="penn-N67111" label="tok" ref="penn-n148" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n149">
+    <link targets="seg-r277"/>
+  </node>
+  <a xml:id="penn-N67139" label="tok" ref="penn-n149" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n15">
+    <link targets="seg-r29"/>
+  </node>
+  <a xml:id="penn-N67167" label="tok" ref="penn-n15" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n150">
+    <link targets="seg-r278"/>
+  </node>
+  <a xml:id="penn-N67195" label="tok" ref="penn-n150" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n151">
+    <link targets="seg-r280"/>
+  </node>
+  <a xml:id="penn-N67223" label="tok" ref="penn-n151" as="anc">
+    <fs>
+      <f name="string" value="Maureen"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="maureen"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n152">
+    <link targets="seg-r282"/>
+  </node>
+  <a xml:id="penn-N67251" label="tok" ref="penn-n152" as="anc">
+    <fs>
+      <f name="string" value="Because"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="because"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n153">
+    <link targets="seg-r284"/>
+  </node>
+  <a xml:id="penn-N67279" label="tok" ref="penn-n153" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="turn"/>
+      <f name="string" value="turning"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n154">
+    <link targets="seg-r286"/>
+  </node>
+  <a xml:id="penn-N67307" label="tok" ref="penn-n154" as="anc">
+    <fs>
+      <f name="string" value="welfare"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="welfare"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n155">
+    <link targets="seg-r288"/>
+  </node>
+  <a xml:id="penn-N67335" label="tok" ref="penn-n155" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="recipient"/>
+      <f name="string" value="recipients"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n156">
+    <link targets="seg-r290"/>
+  </node>
+  <a xml:id="penn-N67363" label="tok" ref="penn-n156" as="anc">
+    <fs>
+      <f name="string" value="into"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="into"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n157">
+    <link targets="seg-r292"/>
+  </node>
+  <a xml:id="penn-N67391" label="tok" ref="penn-n157" as="anc">
+    <fs>
+      <f name="string" value="tax"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="tax"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n158">
+    <link targets="seg-r294"/>
+  </node>
+  <a xml:id="penn-N67419" label="tok" ref="penn-n158" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="payer"/>
+      <f name="string" value="payers"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n159">
+    <link targets="seg-r296"/>
+  </node>
+  <a xml:id="penn-N67447" label="tok" ref="penn-n159" as="anc">
+    <fs>
+      <f name="string" value="just"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="just"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n16">
+    <link targets="seg-r31"/>
+  </node>
+  <a xml:id="penn-N67475" label="tok" ref="penn-n16" as="anc">
+    <fs>
+      <f name="string" value="you"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="you"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n160">
+    <link targets="seg-r298"/>
+  </node>
+  <a xml:id="penn-N67503" label="tok" ref="penn-n160" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="make"/>
+      <f name="string" value="makes"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n161">
+    <link targets="seg-r300"/>
+  </node>
+  <a xml:id="penn-N67531" label="tok" ref="penn-n161" as="anc">
+    <fs>
+      <f name="string" value="sense"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="sense"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n162">
+    <link targets="seg-r301"/>
+  </node>
+  <a xml:id="penn-N67559" label="tok" ref="penn-n162" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n163">
+    <link targets="seg-r303"/>
+  </node>
+  <a xml:id="penn-N67587" label="tok" ref="penn-n163" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n164">
+    <link targets="seg-r304"/>
+  </node>
+  <a xml:id="penn-N67615" label="tok" ref="penn-n164" as="anc">
+    <fs>
+      <f name="string" value="When"/>
+      <f name="msd" value="WRB"/>
+      <f name="base" value="when"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n165">
+    <link targets="seg-r306"/>
+  </node>
+  <a xml:id="penn-N67643" label="tok" ref="penn-n165" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n166">
+    <link targets="seg-r308"/>
+  </node>
+  <a xml:id="penn-N67671" label="tok" ref="penn-n166" as="anc">
+    <fs>
+      <f name="string" value="first"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="first"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n167">
+    <link targets="seg-r310"/>
+  </node>
+  <a xml:id="penn-N67699" label="tok" ref="penn-n167" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="come"/>
+      <f name="string" value="came"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n168">
+    <link targets="seg-r312"/>
+  </node>
+  <a xml:id="penn-N67727" label="tok" ref="penn-n168" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n169">
+    <link targets="seg-r314"/>
+  </node>
+  <a xml:id="penn-N67755" label="tok" ref="penn-n169" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n17">
+    <link targets="seg-r33"/>
+  </node>
+  <a xml:id="penn-N67783" label="tok" ref="penn-n17" as="anc">
+    <fs>
+      <f name="string" value="see"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="see"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n170">
+    <link targets="seg-r316"/>
+  </node>
+  <a xml:id="penn-N67811" label="tok" ref="penn-n170" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n171">
+    <link targets="seg-r318"/>
+  </node>
+  <a xml:id="penn-N67839" label="tok" ref="penn-n171" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n172">
+    <link targets="seg-r320"/>
+  </node>
+  <a xml:id="penn-N67867" label="tok" ref="penn-n172" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n173">
+    <link targets="seg-r322"/>
+  </node>
+  <a xml:id="penn-N67895" label="tok" ref="penn-n173" as="anc">
+    <fs>
+      <f name="string" value="single"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="single"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n174">
+    <link targets="seg-r324"/>
+  </node>
+  <a xml:id="penn-N67923" label="tok" ref="penn-n174" as="anc">
+    <fs>
+      <f name="string" value="parent"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="parent"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n175">
+    <link targets="seg-r326"/>
+  </node>
+  <a xml:id="penn-N67951" label="tok" ref="penn-n175" as="anc">
+    <fs>
+      <f name="string" value="with"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="with"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n176">
+    <link targets="seg-r328"/>
+  </node>
+  <a xml:id="penn-N67979" label="tok" ref="penn-n176" as="anc">
+    <fs>
+      <f name="string" value="little"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="little"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n177">
+    <link targets="seg-r330"/>
+  </node>
+  <a xml:id="penn-N68007" label="tok" ref="penn-n177" as="anc">
+    <fs>
+      <f name="string" value="or"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="or"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n178">
+    <link targets="seg-r332"/>
+  </node>
+  <a xml:id="penn-N68035" label="tok" ref="penn-n178" as="anc">
+    <fs>
+      <f name="string" value="no"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="no"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n179">
+    <link targets="seg-r334"/>
+  </node>
+  <a xml:id="penn-N68063" label="tok" ref="penn-n179" as="anc">
+    <fs>
+      <f name="string" value="self-esteem"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="self-esteem"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n18">
+    <link targets="seg-r35"/>
+  </node>
+  <a xml:id="penn-N68091" label="tok" ref="penn-n18" as="anc">
+    <fs>
+      <f name="string" value="how"/>
+      <f name="msd" value="WRB"/>
+      <f name="base" value="how"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n180">
+    <link targets="seg-r335"/>
+  </node>
+  <a xml:id="penn-N68119" label="tok" ref="penn-n180" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n181">
+    <link targets="seg-r337"/>
+  </node>
+  <a xml:id="penn-N68147" label="tok" ref="penn-n181" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n182">
+    <link targets="seg-r339"/>
+  </node>
+  <a xml:id="penn-N68175" label="tok" ref="penn-n182" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n183">
+    <link targets="seg-r341"/>
+  </node>
+  <a xml:id="penn-N68203" label="tok" ref="penn-n183" as="anc">
+    <fs>
+      <f name="string" value="on"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="on"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n184">
+    <link targets="seg-r343"/>
+  </node>
+  <a xml:id="penn-N68231" label="tok" ref="penn-n184" as="anc">
+    <fs>
+      <f name="string" value="welfare"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="welfare"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n185">
+    <link targets="seg-r345"/>
+  </node>
+  <a xml:id="penn-N68259" label="tok" ref="penn-n185" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n186">
+    <link targets="seg-r347"/>
+  </node>
+  <a xml:id="penn-N68287" label="tok" ref="penn-n186" as="anc">
+    <fs>
+      <f name="string" value="without"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="without"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n187">
+    <link targets="seg-r349"/>
+  </node>
+  <a xml:id="penn-N68315" label="tok" ref="penn-n187" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n188">
+    <link targets="seg-r351"/>
+  </node>
+  <a xml:id="penn-N68343" label="tok" ref="penn-n188" as="anc">
+    <fs>
+      <f name="string" value="diploma"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="diploma"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n189">
+    <link targets="seg-r352"/>
+  </node>
+  <a xml:id="penn-N68371" label="tok" ref="penn-n189" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n19">
+    <link targets="seg-r37"/>
+  </node>
+  <a xml:id="penn-N68399" label="tok" ref="penn-n19" as="anc">
+    <fs>
+      <f name="string" value="much"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="much"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n190">
+    <link targets="seg-r354"/>
+  </node>
+  <a xml:id="penn-N68427" label="tok" ref="penn-n190" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="come"/>
+      <f name="string" value="Coming"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n191">
+    <link targets="seg-r356"/>
+  </node>
+  <a xml:id="penn-N68455" label="tok" ref="penn-n191" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n192">
+    <link targets="seg-r358"/>
+  </node>
+  <a xml:id="penn-N68483" label="tok" ref="penn-n192" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n193">
+    <link targets="seg-r360"/>
+  </node>
+  <a xml:id="penn-N68511" label="tok" ref="penn-n193" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n194">
+    <link targets="seg-r362"/>
+  </node>
+  <a xml:id="penn-N68539" label="tok" ref="penn-n194" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n195">
+    <link targets="seg-r364"/>
+  </node>
+  <a xml:id="penn-N68567" label="tok" ref="penn-n195" as="anc">
+    <fs>
+      <f name="string" value="first"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="first"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n196">
+    <link targets="seg-r366"/>
+  </node>
+  <a xml:id="penn-N68595" label="tok" ref="penn-n196" as="anc">
+    <fs>
+      <f name="string" value="step"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="step"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n197">
+    <link targets="seg-r368"/>
+  </node>
+  <a xml:id="penn-N68623" label="tok" ref="penn-n197" as="anc">
+    <fs>
+      <f name="string" value="toward"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="toward"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n198">
+    <link targets="seg-r370"/>
+  </node>
+  <a xml:id="penn-N68651" label="tok" ref="penn-n198" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n199">
+    <link targets="seg-r372"/>
+  </node>
+  <a xml:id="penn-N68679" label="tok" ref="penn-n199" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="become"/>
+      <f name="string" value="becoming"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n2">
+    <link targets="seg-r4"/>
+  </node>
+  <a xml:id="penn-N68707" label="tok" ref="penn-n2" as="anc">
+    <fs>
+      <f name="string" value="Your"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="your"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n20">
+    <link targets="seg-r39"/>
+  </node>
+  <a xml:id="penn-N68735" label="tok" ref="penn-n20" as="anc">
+    <fs>
+      <f name="string" value="your"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="your"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n200">
+    <link targets="seg-r374"/>
+  </node>
+  <a xml:id="penn-N68763" label="tok" ref="penn-n200" as="anc">
+    <fs>
+      <f name="string" value="totally"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="totally"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n201">
+    <link targets="seg-r376"/>
+  </node>
+  <a xml:id="penn-N68791" label="tok" ref="penn-n201" as="anc">
+    <fs>
+      <f name="string" value="independent"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="independent"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n202">
+    <link targets="seg-r377"/>
+  </node>
+  <a xml:id="penn-N68819" label="tok" ref="penn-n202" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n203">
+    <link targets="seg-r379"/>
+  </node>
+  <a xml:id="penn-N68847" label="tok" ref="penn-n203" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n204">
+    <link targets="seg-r381"/>
+  </node>
+  <a xml:id="penn-N68875" label="tok" ref="penn-n204" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="am"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n205">
+    <link targets="seg-r383"/>
+  </node>
+  <a xml:id="penn-N68903" label="tok" ref="penn-n205" as="anc">
+    <fs>
+      <f name="string" value="now"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="now"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n206">
+    <link targets="seg-r385"/>
+  </node>
+  <a xml:id="penn-N68931" label="tok" ref="penn-n206" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n207">
+    <link targets="seg-r386"/>
+  </node>
+  <a xml:id="penn-N68959" label="tok" ref="penn-n207" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n208">
+    <link targets="seg-r387"/>
+  </node>
+  <a xml:id="penn-N68987" label="tok" ref="penn-n208" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n209">
+    <link targets="seg-r388"/>
+  </node>
+  <a xml:id="penn-N69015" label="tok" ref="penn-n209" as="anc">
+    <fs>
+      <f name="string" value="totally"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="totally"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n21">
+    <link targets="seg-r41"/>
+  </node>
+  <a xml:id="penn-N69043" label="tok" ref="penn-n21" as="anc">
+    <fs>
+      <f name="string" value="contribution"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="contribution"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n210">
+    <link targets="seg-r390"/>
+  </node>
+  <a xml:id="penn-N69071" label="tok" ref="penn-n210" as="anc">
+    <fs>
+      <f name="string" value="off"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="off"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n211">
+    <link targets="seg-r392"/>
+  </node>
+  <a xml:id="penn-N69099" label="tok" ref="penn-n211" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n212">
+    <link targets="seg-r394"/>
+  </node>
+  <a xml:id="penn-N69127" label="tok" ref="penn-n212" as="anc">
+    <fs>
+      <f name="string" value="welfare"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="welfare"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n213">
+    <link targets="seg-r395"/>
+  </node>
+  <a xml:id="penn-N69155" label="tok" ref="penn-n213" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n214">
+    <link targets="seg-r397"/>
+  </node>
+  <a xml:id="penn-N69183" label="tok" ref="penn-n214" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n215">
+    <link targets="seg-r399"/>
+  </node>
+  <a xml:id="penn-N69211" label="tok" ref="penn-n215" as="anc">
+    <fs>
+      <f name="string" value="really"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="really"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n216">
+    <link targets="seg-r401"/>
+  </node>
+  <a xml:id="penn-N69239" label="tok" ref="penn-n216" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n217">
+    <link targets="seg-r403"/>
+  </node>
+  <a xml:id="penn-N69267" label="tok" ref="penn-n217" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n218">
+    <link targets="seg-r405"/>
+  </node>
+  <a xml:id="penn-N69295" label="tok" ref="penn-n218" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n219">
+    <link targets="seg-r406"/>
+  </node>
+  <a xml:id="penn-N69323" label="tok" ref="penn-n219" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n22">
+    <link targets="seg-r43"/>
+  </node>
+  <a xml:id="penn-N69351" label="tok" ref="penn-n22" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="mean"/>
+      <f name="string" value="means"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n220">
+    <link targets="seg-r407"/>
+  </node>
+  <a xml:id="penn-N69379" label="tok" ref="penn-n220" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n221">
+    <link targets="seg-r409"/>
+  </node>
+  <a xml:id="penn-N69407" label="tok" ref="penn-n221" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n222">
+    <link targets="seg-r410"/>
+  </node>
+  <a xml:id="penn-N69435" label="tok" ref="penn-n222" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n223">
+    <link targets="seg-r412"/>
+  </node>
+  <a xml:id="penn-N69463" label="tok" ref="penn-n223" as="anc">
+    <fs>
+      <f name="string" value="Sherry"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="sherry"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n224">
+    <link targets="seg-r414"/>
+  </node>
+  <a xml:id="penn-N69491" label="tok" ref="penn-n224" as="anc">
+    <fs>
+      <f name="string" value="Because"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="because"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n225">
+    <link targets="seg-r416"/>
+  </node>
+  <a xml:id="penn-N69519" label="tok" ref="penn-n225" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n226">
+    <link targets="seg-r418"/>
+  </node>
+  <a xml:id="penn-N69547" label="tok" ref="penn-n226" as="anc">
+    <fs>
+      <f name="string" value="want"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="want"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n227">
+    <link targets="seg-r420"/>
+  </node>
+  <a xml:id="penn-N69575" label="tok" ref="penn-n227" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n228">
+    <link targets="seg-r422"/>
+  </node>
+  <a xml:id="penn-N69603" label="tok" ref="penn-n228" as="anc">
+    <fs>
+      <f name="string" value="work"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="work"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n229">
+    <link targets="seg-r423"/>
+  </node>
+  <a xml:id="penn-N69631" label="tok" ref="penn-n229" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n23">
+    <link targets="seg-r44"/>
+  </node>
+  <a xml:id="penn-N69659" label="tok" ref="penn-n23" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n230">
+    <link targets="seg-r425"/>
+  </node>
+  <a xml:id="penn-N69687" label="tok" ref="penn-n230" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n231">
+    <link targets="seg-r426"/>
+  </node>
+  <a xml:id="penn-N69715" label="tok" ref="penn-n231" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n232">
+    <link targets="seg-r427"/>
+  </node>
+  <a xml:id="penn-N69743" label="tok" ref="penn-n232" as="anc">
+    <fs>
+      <f name="string" value="'d"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="'d"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n233">
+    <link targets="seg-r429"/>
+  </node>
+  <a xml:id="penn-N69771" label="tok" ref="penn-n233" as="anc">
+    <fs>
+      <f name="string" value="never"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="never"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n234">
+    <link targets="seg-r431"/>
+  </node>
+  <a xml:id="penn-N69799" label="tok" ref="penn-n234" as="anc">
+    <fs>
+      <f name="msd" value="VB"/>
+      <f name="base" value="finish"/>
+      <f name="string" value="finished"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n235">
+    <link targets="seg-r433"/>
+  </node>
+  <a xml:id="penn-N69827" label="tok" ref="penn-n235" as="anc">
+    <fs>
+      <f name="string" value="high"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="high"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n236">
+    <link targets="seg-r435"/>
+  </node>
+  <a xml:id="penn-N69855" label="tok" ref="penn-n236" as="anc">
+    <fs>
+      <f name="string" value="school"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="school"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n237">
+    <link targets="seg-r436"/>
+  </node>
+  <a xml:id="penn-N69883" label="tok" ref="penn-n237" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n238">
+    <link targets="seg-r438"/>
+  </node>
+  <a xml:id="penn-N69911" label="tok" ref="penn-n238" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n239">
+    <link targets="seg-r440"/>
+  </node>
+  <a xml:id="penn-N69939" label="tok" ref="penn-n239" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="have"/>
+      <f name="string" value="had"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n24">
+    <link targets="seg-r46"/>
+  </node>
+  <a xml:id="penn-N69967" label="tok" ref="penn-n24" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n240">
+    <link targets="seg-r442"/>
+  </node>
+  <a xml:id="penn-N69995" label="tok" ref="penn-n240" as="anc">
+    <fs>
+      <f name="string" value="no"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="no"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n241">
+    <link targets="seg-r444"/>
+  </node>
+  <a xml:id="penn-N70023" label="tok" ref="penn-n241" as="anc">
+    <fs>
+      <f name="string" value="experience"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="experience"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n242">
+    <link targets="seg-r446"/>
+  </node>
+  <a xml:id="penn-N70051" label="tok" ref="penn-n242" as="anc">
+    <fs>
+      <f name="string" value="or"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="or"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n243">
+    <link targets="seg-r448"/>
+  </node>
+  <a xml:id="penn-N70079" label="tok" ref="penn-n243" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="skill"/>
+      <f name="string" value="skills"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n244">
+    <link targets="seg-r450"/>
+  </node>
+  <a xml:id="penn-N70107" label="tok" ref="penn-n244" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n245">
+    <link targets="seg-r451"/>
+  </node>
+  <a xml:id="penn-N70135" label="tok" ref="penn-n245" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n246">
+    <link targets="seg-r452"/>
+  </node>
+  <a xml:id="penn-N70163" label="tok" ref="penn-n246" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n247">
+    <link targets="seg-r454"/>
+  </node>
+  <a xml:id="penn-N70191" label="tok" ref="penn-n247" as="anc">
+    <fs>
+      <f name="string" value="The"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n248">
+    <link targets="seg-r456"/>
+  </node>
+  <a xml:id="penn-N70219" label="tok" ref="penn-n248" as="anc">
+    <fs>
+      <f name="string" value="only"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="only"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n249">
+    <link targets="seg-r458"/>
+  </node>
+  <a xml:id="penn-N70247" label="tok" ref="penn-n249" as="anc">
+    <fs>
+      <f name="string" value="thing"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="thing"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n25">
+    <link targets="seg-r47"/>
+  </node>
+  <a xml:id="penn-N70275" label="tok" ref="penn-n25" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="'m"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n250">
+    <link targets="seg-r460"/>
+  </node>
+  <a xml:id="penn-N70303" label="tok" ref="penn-n250" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n251">
+    <link targets="seg-r462"/>
+  </node>
+  <a xml:id="penn-N70331" label="tok" ref="penn-n251" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="do"/>
+      <f name="string" value="did"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n252">
+    <link targets="seg-r464"/>
+  </node>
+  <a xml:id="penn-N70359" label="tok" ref="penn-n252" as="anc">
+    <fs>
+      <f name="string" value="know"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n253">
+    <link targets="seg-r466"/>
+  </node>
+  <a xml:id="penn-N70387" label="tok" ref="penn-n253" as="anc">
+    <fs>
+      <f name="string" value="for"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="for"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n254">
+    <link targets="seg-r468"/>
+  </node>
+  <a xml:id="penn-N70415" label="tok" ref="penn-n254" as="anc">
+    <fs>
+      <f name="string" value="sure"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="sure"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n255">
+    <link targets="seg-r470"/>
+  </node>
+  <a xml:id="penn-N70443" label="tok" ref="penn-n255" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n256">
+    <link targets="seg-r472"/>
+  </node>
+  <a xml:id="penn-N70471" label="tok" ref="penn-n256" as="anc">
+    <fs>
+      <f name="string" value="here"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="here"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n257">
+    <link targets="seg-r473"/>
+  </node>
+  <a xml:id="penn-N70499" label="tok" ref="penn-n257" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="be"/>
+      <f name="string" value="'s"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n258">
+    <link targets="seg-r475"/>
+  </node>
+  <a xml:id="penn-N70527" label="tok" ref="penn-n258" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n259">
+    <link targets="seg-r477"/>
+  </node>
+  <a xml:id="penn-N70555" label="tok" ref="penn-n259" as="anc">
+    <fs>
+      <f name="string" value="chance"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="chance"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n26">
+    <link targets="seg-r49"/>
+  </node>
+  <a xml:id="penn-N70583" label="tok" ref="penn-n26" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="share"/>
+      <f name="string" value="sharing"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n260">
+    <link targets="seg-r479"/>
+  </node>
+  <a xml:id="penn-N70611" label="tok" ref="penn-n260" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n261">
+    <link targets="seg-r481"/>
+  </node>
+  <a xml:id="penn-N70639" label="tok" ref="penn-n261" as="anc">
+    <fs>
+      <f name="string" value="change"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="change"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n262">
+    <link targets="seg-r483"/>
+  </node>
+  <a xml:id="penn-N70667" label="tok" ref="penn-n262" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="thing"/>
+      <f name="string" value="things"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n263">
+    <link targets="seg-r485"/>
+  </node>
+  <a xml:id="penn-N70695" label="tok" ref="penn-n263" as="anc">
+    <fs>
+      <f name="string" value="for"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="for"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n264">
+    <link targets="seg-r487"/>
+  </node>
+  <a xml:id="penn-N70723" label="tok" ref="penn-n264" as="anc">
+    <fs>
+      <f name="string" value="me"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="me"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n265">
+    <link targets="seg-r489"/>
+  </node>
+  <a xml:id="penn-N70751" label="tok" ref="penn-n265" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n266">
+    <link targets="seg-r491"/>
+  </node>
+  <a xml:id="penn-N70779" label="tok" ref="penn-n266" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n267">
+    <link targets="seg-r493"/>
+  </node>
+  <a xml:id="penn-N70807" label="tok" ref="penn-n267" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="child"/>
+      <f name="string" value="children"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n268">
+    <link targets="seg-r494"/>
+  </node>
+  <a xml:id="penn-N70835" label="tok" ref="penn-n268" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n269">
+    <link targets="seg-r495"/>
+  </node>
+  <a xml:id="penn-N70863" label="tok" ref="penn-n269" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n27">
+    <link targets="seg-r51"/>
+  </node>
+  <a xml:id="penn-N70891" label="tok" ref="penn-n27" as="anc">
+    <fs>
+      <f name="string" value="with"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="with"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n270">
+    <link targets="seg-r496"/>
+  </node>
+  <a xml:id="penn-N70919" label="tok" ref="penn-n270" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n271">
+    <link targets="seg-r498"/>
+  </node>
+  <a xml:id="penn-N70947" label="tok" ref="penn-n271" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n272">
+    <link targets="seg-r500"/>
+  </node>
+  <a xml:id="penn-N70975" label="tok" ref="penn-n272" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="ride"/>
+      <f name="string" value="rode"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n273">
+    <link targets="seg-r502"/>
+  </node>
+  <a xml:id="penn-N71003" label="tok" ref="penn-n273" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n274">
+    <link targets="seg-r504"/>
+  </node>
+  <a xml:id="penn-N71031" label="tok" ref="penn-n274" as="anc">
+    <fs>
+      <f name="string" value="bike"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="bike"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n275">
+    <link targets="seg-r506"/>
+  </node>
+  <a xml:id="penn-N71059" label="tok" ref="penn-n275" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n276">
+    <link targets="seg-r508"/>
+  </node>
+  <a xml:id="penn-N71087" label="tok" ref="penn-n276" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n277">
+    <link targets="seg-r510"/>
+  </node>
+  <a xml:id="penn-N71115" label="tok" ref="penn-n277" as="anc">
+    <fs>
+      <f name="string" value="in"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="in"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n278">
+    <link targets="seg-r512"/>
+  </node>
+  <a xml:id="penn-N71143" label="tok" ref="penn-n278" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n279">
+    <link targets="seg-r514"/>
+  </node>
+  <a xml:id="penn-N71171" label="tok" ref="penn-n279" as="anc">
+    <fs>
+      <f name="string" value="rain"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="rain"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n28">
+    <link targets="seg-r53"/>
+  </node>
+  <a xml:id="penn-N71199" label="tok" ref="penn-n28" as="anc">
+    <fs>
+      <f name="string" value="you"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="you"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n280">
+    <link targets="seg-r516"/>
+  </node>
+  <a xml:id="penn-N71227" label="tok" ref="penn-n280" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n281">
+    <link targets="seg-r518"/>
+  </node>
+  <a xml:id="penn-N71255" label="tok" ref="penn-n281" as="anc">
+    <fs>
+      <f name="string" value="snow"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="snow"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n282">
+    <link targets="seg-r519"/>
+  </node>
+  <a xml:id="penn-N71283" label="tok" ref="penn-n282" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n283">
+    <link targets="seg-r521"/>
+  </node>
+  <a xml:id="penn-N71311" label="tok" ref="penn-n283" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n284">
+    <link targets="seg-r523"/>
+  </node>
+  <a xml:id="penn-N71339" label="tok" ref="penn-n284" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="want"/>
+      <f name="string" value="wanted"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n285">
+    <link targets="seg-r525"/>
+  </node>
+  <a xml:id="penn-N71367" label="tok" ref="penn-n285" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n286">
+    <link targets="seg-r527"/>
+  </node>
+  <a xml:id="penn-N71395" label="tok" ref="penn-n286" as="anc">
+    <fs>
+      <f name="string" value="be"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="be"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n287">
+    <link targets="seg-r529"/>
+  </node>
+  <a xml:id="penn-N71423" label="tok" ref="penn-n287" as="anc">
+    <fs>
+      <f name="string" value="there"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="there"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n288">
+    <link targets="seg-r531"/>
+  </node>
+  <a xml:id="penn-N71451" label="tok" ref="penn-n288" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n289">
+    <link targets="seg-r532"/>
+  </node>
+  <a xml:id="penn-N71479" label="tok" ref="penn-n289" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n29">
+    <link targets="seg-r55"/>
+  </node>
+  <a xml:id="penn-N71507" label="tok" ref="penn-n29" as="anc">
+    <fs>
+      <f name="string" value="The"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n290">
+    <link targets="seg-r533"/>
+  </node>
+  <a xml:id="penn-N71535" label="tok" ref="penn-n290" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n291">
+    <link targets="seg-r534"/>
+  </node>
+  <a xml:id="penn-N71563" label="tok" ref="penn-n291" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n292">
+    <link targets="seg-r536"/>
+  </node>
+  <a xml:id="penn-N71591" label="tok" ref="penn-n292" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="have"/>
+      <f name="string" value="had"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n293">
+    <link targets="seg-r538"/>
+  </node>
+  <a xml:id="penn-N71619" label="tok" ref="penn-n293" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n294">
+    <link targets="seg-r540"/>
+  </node>
+  <a xml:id="penn-N71647" label="tok" ref="penn-n294" as="anc">
+    <fs>
+      <f name="string" value="second"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="second"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n295">
+    <link targets="seg-r542"/>
+  </node>
+  <a xml:id="penn-N71675" label="tok" ref="penn-n295" as="anc">
+    <fs>
+      <f name="string" value="chance"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="chance"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n296">
+    <link targets="seg-r544"/>
+  </node>
+  <a xml:id="penn-N71703" label="tok" ref="penn-n296" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n297">
+    <link targets="seg-r546"/>
+  </node>
+  <a xml:id="penn-N71731" label="tok" ref="penn-n297" as="anc">
+    <fs>
+      <f name="string" value="change"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="change"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n298">
+    <link targets="seg-r548"/>
+  </node>
+  <a xml:id="penn-N71759" label="tok" ref="penn-n298" as="anc">
+    <fs>
+      <f name="string" value="my"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n299">
+    <link targets="seg-r550"/>
+  </node>
+  <a xml:id="penn-N71787" label="tok" ref="penn-n299" as="anc">
+    <fs>
+      <f name="string" value="life"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="life"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n3">
+    <link targets="seg-r6"/>
+  </node>
+  <a xml:id="penn-N71815" label="tok" ref="penn-n3" as="anc">
+    <fs>
+      <f name="string" value="contribution"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="contribution"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n30">
+    <link targets="seg-r57"/>
+  </node>
+  <a xml:id="penn-N71843" label="tok" ref="penn-n30" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="word"/>
+      <f name="string" value="words"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n300">
+    <link targets="seg-r551"/>
+  </node>
+  <a xml:id="penn-N71871" label="tok" ref="penn-n300" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n301">
+    <link targets="seg-r552"/>
+  </node>
+  <a xml:id="penn-N71899" label="tok" ref="penn-n301" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n302">
+    <link targets="seg-r554"/>
+  </node>
+  <a xml:id="penn-N71927" label="tok" ref="penn-n302" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n303">
+    <link targets="seg-r555"/>
+  </node>
+  <a xml:id="penn-N71955" label="tok" ref="penn-n303" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n304">
+    <link targets="seg-r557"/>
+  </node>
+  <a xml:id="penn-N71983" label="tok" ref="penn-n304" as="anc">
+    <fs>
+      <f name="string" value="Donna"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="donna"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n305">
+    <link targets="seg-r559"/>
+  </node>
+  <a xml:id="penn-N72011" label="tok" ref="penn-n305" as="anc">
+    <fs>
+      <f name="string" value="Because"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="because"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n306">
+    <link targets="seg-r561"/>
+  </node>
+  <a xml:id="penn-N72039" label="tok" ref="penn-n306" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="teach"/>
+      <f name="string" value="teaching"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n307">
+    <link targets="seg-r563"/>
+  </node>
+  <a xml:id="penn-N72067" label="tok" ref="penn-n307" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n308">
+    <link targets="seg-r565"/>
+  </node>
+  <a xml:id="penn-N72095" label="tok" ref="penn-n308" as="anc">
+    <fs>
+      <f name="string" value="man"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="man"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n309">
+    <link targets="seg-r567"/>
+  </node>
+  <a xml:id="penn-N72123" label="tok" ref="penn-n309" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n31">
+    <link targets="seg-r59"/>
+  </node>
+  <a xml:id="penn-N72151" label="tok" ref="penn-n31" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n310">
+    <link targets="seg-r569"/>
+  </node>
+  <a xml:id="penn-N72179" label="tok" ref="penn-n310" as="anc">
+    <fs>
+      <f name="string" value="fish"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="fish"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n311">
+    <link targets="seg-r571"/>
+  </node>
+  <a xml:id="penn-N72207" label="tok" ref="penn-n311" as="anc">
+    <fs>
+      <f name="string" value="will"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="will"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n312">
+    <link targets="seg-r573"/>
+  </node>
+  <a xml:id="penn-N72235" label="tok" ref="penn-n312" as="anc">
+    <fs>
+      <f name="string" value="keep"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="keep"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n313">
+    <link targets="seg-r575"/>
+  </node>
+  <a xml:id="penn-N72263" label="tok" ref="penn-n313" as="anc">
+    <fs>
+      <f name="string" value="him"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="him"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n314">
+    <link targets="seg-r577"/>
+  </node>
+  <a xml:id="penn-N72291" label="tok" ref="penn-n314" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="feed"/>
+      <f name="string" value="fed"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n315">
+    <link targets="seg-r579"/>
+  </node>
+  <a xml:id="penn-N72319" label="tok" ref="penn-n315" as="anc">
+    <fs>
+      <f name="string" value="for"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="for"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n316">
+    <link targets="seg-r581"/>
+  </node>
+  <a xml:id="penn-N72347" label="tok" ref="penn-n316" as="anc">
+    <fs>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="his"/>
+      <f name="string" value="his"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n317">
+    <link targets="seg-r583"/>
+  </node>
+  <a xml:id="penn-N72375" label="tok" ref="penn-n317" as="anc">
+    <fs>
+      <f name="string" value="entire"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="entire"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n318">
+    <link targets="seg-r585"/>
+  </node>
+  <a xml:id="penn-N72403" label="tok" ref="penn-n318" as="anc">
+    <fs>
+      <f name="string" value="life"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="life"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n319">
+    <link targets="seg-r586"/>
+  </node>
+  <a xml:id="penn-N72431" label="tok" ref="penn-n319" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n32">
+    <link targets="seg-r61"/>
+  </node>
+  <a xml:id="penn-N72459" label="tok" ref="penn-n32" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n320">
+    <link targets="seg-r588"/>
+  </node>
+  <a xml:id="penn-N72487" label="tok" ref="penn-n320" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n321">
+    <link targets="seg-r589"/>
+  </node>
+  <a xml:id="penn-N72515" label="tok" ref="penn-n321" as="anc">
+    <fs>
+      <f name="string" value="Before"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="before"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n322">
+    <link targets="seg-r591"/>
+  </node>
+  <a xml:id="penn-N72543" label="tok" ref="penn-n322" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n323">
+    <link targets="seg-r593"/>
+  </node>
+  <a xml:id="penn-N72571" label="tok" ref="penn-n323" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="get"/>
+      <f name="string" value="got"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n324">
+    <link targets="seg-r595"/>
+  </node>
+  <a xml:id="penn-N72599" label="tok" ref="penn-n324" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n325">
+    <link targets="seg-r597"/>
+  </node>
+  <a xml:id="penn-N72627" label="tok" ref="penn-n325" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n326">
+    <link targets="seg-r598"/>
+  </node>
+  <a xml:id="penn-N72655" label="tok" ref="penn-n326" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n327">
+    <link targets="seg-r600"/>
+  </node>
+  <a xml:id="penn-N72683" label="tok" ref="penn-n327" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n328">
+    <link targets="seg-r602"/>
+  </node>
+  <a xml:id="penn-N72711" label="tok" ref="penn-n328" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n329">
+    <link targets="seg-r604"/>
+  </node>
+  <a xml:id="penn-N72739" label="tok" ref="penn-n329" as="anc">
+    <fs>
+      <f name="string" value="on"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="on"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n33">
+    <link targets="seg-r63"/>
+  </node>
+  <a xml:id="penn-N72767" label="tok" ref="penn-n33" as="anc">
+    <fs>
+      <f name="string" value="who"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="who"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n330">
+    <link targets="seg-r606"/>
+  </node>
+  <a xml:id="penn-N72795" label="tok" ref="penn-n330" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n331">
+    <link targets="seg-r608"/>
+  </node>
+  <a xml:id="penn-N72823" label="tok" ref="penn-n331" as="anc">
+    <fs>
+      <f name="string" value="mission"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="mission"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n332">
+    <link targets="seg-r609"/>
+  </node>
+  <a xml:id="penn-N72851" label="tok" ref="penn-n332" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n333">
+    <link targets="seg-r611"/>
+  </node>
+  <a xml:id="penn-N72879" label="tok" ref="penn-n333" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n334">
+    <link targets="seg-r613"/>
+  </node>
+  <a xml:id="penn-N72907" label="tok" ref="penn-n334" as="anc">
+    <fs>
+      <f name="string" value="just"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="just"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n335">
+    <link targets="seg-r615"/>
+  </node>
+  <a xml:id="penn-N72935" label="tok" ref="penn-n335" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="want"/>
+      <f name="string" value="wanted"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n336">
+    <link targets="seg-r617"/>
+  </node>
+  <a xml:id="penn-N72963" label="tok" ref="penn-n336" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n337">
+    <link targets="seg-r619"/>
+  </node>
+  <a xml:id="penn-N72991" label="tok" ref="penn-n337" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n338">
+    <link targets="seg-r620"/>
+  </node>
+  <a xml:id="penn-N73019" label="tok" ref="penn-n338" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n339">
+    <link targets="seg-r622"/>
+  </node>
+  <a xml:id="penn-N73047" label="tok" ref="penn-n339" as="anc">
+    <fs>
+      <f name="string" value="It"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="it"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n34">
+    <link targets="seg-r65"/>
+  </node>
+  <a xml:id="penn-N73075" label="tok" ref="penn-n34" as="anc">
+    <fs>
+      <f name="string" value="have"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="have"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n340">
+    <link targets="seg-r624"/>
+  </node>
+  <a xml:id="penn-N73103" label="tok" ref="penn-n340" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="do"/>
+      <f name="string" value="did"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n341">
+    <link targets="seg-r625"/>
+  </node>
+  <a xml:id="penn-N73131" label="tok" ref="penn-n341" as="anc">
+    <fs>
+      <f name="string" value="n't"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="n't"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n342">
+    <link targets="seg-r627"/>
+  </node>
+  <a xml:id="penn-N73159" label="tok" ref="penn-n342" as="anc">
+    <fs>
+      <f name="string" value="matter"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="matter"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n343">
+    <link targets="seg-r629"/>
+  </node>
+  <a xml:id="penn-N73187" label="tok" ref="penn-n343" as="anc">
+    <fs>
+      <f name="string" value="what"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="what"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n344">
+    <link targets="seg-r631"/>
+  </node>
+  <a xml:id="penn-N73215" label="tok" ref="penn-n344" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n345">
+    <link targets="seg-r633"/>
+  </node>
+  <a xml:id="penn-N73243" label="tok" ref="penn-n345" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n346">
+    <link targets="seg-r635"/>
+  </node>
+  <a xml:id="penn-N73271" label="tok" ref="penn-n346" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n347">
+    <link targets="seg-r636"/>
+  </node>
+  <a xml:id="penn-N73299" label="tok" ref="penn-n347" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n348">
+    <link targets="seg-r638"/>
+  </node>
+  <a xml:id="penn-N73327" label="tok" ref="penn-n348" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n349">
+    <link targets="seg-r640"/>
+  </node>
+  <a xml:id="penn-N73355" label="tok" ref="penn-n349" as="anc">
+    <fs>
+      <f name="string" value="just"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="just"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n35">
+    <link targets="seg-r67"/>
+  </node>
+  <a xml:id="penn-N73383" label="tok" ref="penn-n35" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="live"/>
+      <f name="string" value="lived"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n350">
+    <link targets="seg-r642"/>
+  </node>
+  <a xml:id="penn-N73411" label="tok" ref="penn-n350" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="want"/>
+      <f name="string" value="wanted"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n351">
+    <link targets="seg-r644"/>
+  </node>
+  <a xml:id="penn-N73439" label="tok" ref="penn-n351" as="anc">
+    <fs>
+      <f name="msd" value="CD"/>
+      <f name="string" value="one"/>
+      <f name="base" value="one"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n352">
+    <link targets="seg-r645"/>
+  </node>
+  <a xml:id="penn-N73467" label="tok" ref="penn-n352" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n353">
+    <link targets="seg-r647"/>
+  </node>
+  <a xml:id="penn-N73495" label="tok" ref="penn-n353" as="anc">
+    <fs>
+      <f name="string" value="Now"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="now"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n354">
+    <link targets="seg-r648"/>
+  </node>
+  <a xml:id="penn-N73523" label="tok" ref="penn-n354" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n355">
+    <link targets="seg-r650"/>
+  </node>
+  <a xml:id="penn-N73551" label="tok" ref="penn-n355" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n356">
+    <link targets="seg-r651"/>
+  </node>
+  <a xml:id="penn-N73579" label="tok" ref="penn-n356" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="'m"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n357">
+    <link targets="seg-r653"/>
+  </node>
+  <a xml:id="penn-N73607" label="tok" ref="penn-n357" as="anc">
+    <fs>
+      <f name="string" value="on"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="on"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n358">
+    <link targets="seg-r655"/>
+  </node>
+  <a xml:id="penn-N73635" label="tok" ref="penn-n358" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n359">
+    <link targets="seg-r657"/>
+  </node>
+  <a xml:id="penn-N73663" label="tok" ref="penn-n359" as="anc">
+    <fs>
+      <f name="string" value="journey"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="journey"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n36">
+    <link targets="seg-r69"/>
+  </node>
+  <a xml:id="penn-N73691" label="tok" ref="penn-n36" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n360">
+    <link targets="seg-r658"/>
+  </node>
+  <a xml:id="penn-N73719" label="tok" ref="penn-n360" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n361">
+    <link targets="seg-r660"/>
+  </node>
+  <a xml:id="penn-N73747" label="tok" ref="penn-n361" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n362">
+    <link targets="seg-r661"/>
+  </node>
+  <a xml:id="penn-N73775" label="tok" ref="penn-n362" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="have"/>
+      <f name="string" value="'ve"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n363">
+    <link targets="seg-r663"/>
+  </node>
+  <a xml:id="penn-N73803" label="tok" ref="penn-n363" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="get"/>
+      <f name="string" value="got"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n364">
+    <link targets="seg-r665"/>
+  </node>
+  <a xml:id="penn-N73831" label="tok" ref="penn-n364" as="anc">
+    <fs>
+      <f name="string" value="more"/>
+      <f name="msd" value="JJR"/>
+      <f name="base" value="more"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n365">
+    <link targets="seg-r667"/>
+  </node>
+  <a xml:id="penn-N73859" label="tok" ref="penn-n365" as="anc">
+    <fs>
+      <f name="string" value="than"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="than"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n366">
+    <link targets="seg-r669"/>
+  </node>
+  <a xml:id="penn-N73887" label="tok" ref="penn-n366" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n367">
+    <link targets="seg-r671"/>
+  </node>
+  <a xml:id="penn-N73915" label="tok" ref="penn-n367" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n368">
+    <link targets="seg-r672"/>
+  </node>
+  <a xml:id="penn-N73943" label="tok" ref="penn-n368" as="anc">
+    <fs>
+      <f name="string" value=";"/>
+      <f name="msd" value=":"/>
+      <f name="base" value=";"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n369">
+    <link targets="seg-r674"/>
+  </node>
+  <a xml:id="penn-N73971" label="tok" ref="penn-n369" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n37">
+    <link targets="seg-r70"/>
+  </node>
+  <a xml:id="penn-N73999" label="tok" ref="penn-n37" as="anc">
+    <fs>
+      <f name="string" value="'s"/>
+      <f name="msd" value="POS"/>
+      <f name="base" value="'s"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n370">
+    <link targets="seg-r675"/>
+  </node>
+  <a xml:id="penn-N74027" label="tok" ref="penn-n370" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="have"/>
+      <f name="string" value="'ve"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n371">
+    <link targets="seg-r677"/>
+  </node>
+  <a xml:id="penn-N74055" label="tok" ref="penn-n371" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="get"/>
+      <f name="string" value="got"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n372">
+    <link targets="seg-r679"/>
+  </node>
+  <a xml:id="penn-N74083" label="tok" ref="penn-n372" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n373">
+    <link targets="seg-r681"/>
+  </node>
+  <a xml:id="penn-N74111" label="tok" ref="penn-n373" as="anc">
+    <fs>
+      <f name="string" value="career"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="career"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n374">
+    <link targets="seg-r682"/>
+  </node>
+  <a xml:id="penn-N74139" label="tok" ref="penn-n374" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n375">
+    <link targets="seg-r684"/>
+  </node>
+  <a xml:id="penn-N74167" label="tok" ref="penn-n375" as="anc">
+    <fs>
+      <f name="string" value="My"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="my"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n376">
+    <link targets="seg-r686"/>
+  </node>
+  <a xml:id="penn-N74195" label="tok" ref="penn-n376" as="anc">
+    <fs>
+      <f name="string" value="instructor"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="instructor"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n377">
+    <link targets="seg-r688"/>
+  </node>
+  <a xml:id="penn-N74223" label="tok" ref="penn-n377" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="play"/>
+      <f name="string" value="played"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n378">
+    <link targets="seg-r690"/>
+  </node>
+  <a xml:id="penn-N74251" label="tok" ref="penn-n378" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n379">
+    <link targets="seg-r692"/>
+  </node>
+  <a xml:id="penn-N74279" label="tok" ref="penn-n379" as="anc">
+    <fs>
+      <f name="string" value="role"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="role"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n38">
+    <link targets="seg-r72"/>
+  </node>
+  <a xml:id="penn-N74307" label="tok" ref="penn-n38" as="anc">
+    <fs>
+      <f name="string" value="mission"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="mission"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n380">
+    <link targets="seg-r694"/>
+  </node>
+  <a xml:id="penn-N74335" label="tok" ref="penn-n380" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n381">
+    <link targets="seg-r696"/>
+  </node>
+  <a xml:id="penn-N74363" label="tok" ref="penn-n381" as="anc">
+    <fs>
+      <f name="string" value="no"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="no"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n382">
+    <link targets="seg-r698"/>
+  </node>
+  <a xml:id="penn-N74391" label="tok" ref="penn-n382" as="anc">
+    <fs>
+      <f name="string" value="other"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n383">
+    <link targets="seg-r700"/>
+  </node>
+  <a xml:id="penn-N74419" label="tok" ref="penn-n383" as="anc">
+    <fs>
+      <f name="string" value="instructor"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="instructor"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n384">
+    <link targets="seg-r702"/>
+  </node>
+  <a xml:id="penn-N74447" label="tok" ref="penn-n384" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n385">
+    <link targets="seg-r703"/>
+  </node>
+  <a xml:id="penn-N74475" label="tok" ref="penn-n385" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="have"/>
+      <f name="string" value="'ve"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n386">
+    <link targets="seg-r705"/>
+  </node>
+  <a xml:id="penn-N74503" label="tok" ref="penn-n386" as="anc">
+    <fs>
+      <f name="string" value="ever"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="ever"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n387">
+    <link targets="seg-r707"/>
+  </node>
+  <a xml:id="penn-N74531" label="tok" ref="penn-n387" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="have"/>
+      <f name="string" value="had"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n388">
+    <link targets="seg-r709"/>
+  </node>
+  <a xml:id="penn-N74559" label="tok" ref="penn-n388" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n389">
+    <link targets="seg-r711"/>
+  </node>
+  <a xml:id="penn-N74587" label="tok" ref="penn-n389" as="anc">
+    <fs>
+      <f name="string" value="appreciate"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="appreciate"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n39">
+    <link targets="seg-r73"/>
+  </node>
+  <a xml:id="penn-N74615" label="tok" ref="penn-n39" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n390">
+    <link targets="seg-r713"/>
+  </node>
+  <a xml:id="penn-N74643" label="tok" ref="penn-n390" as="anc">
+    <fs>
+      <f name="msd" value="NN"/>
+      <f name="base" value="everything"/>
+      <f name="string" value="everything"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n391">
+    <link targets="seg-r715"/>
+  </node>
+  <a xml:id="penn-N74671" label="tok" ref="penn-n391" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n392">
+    <link targets="seg-r717"/>
+  </node>
+  <a xml:id="penn-N74699" label="tok" ref="penn-n392" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n393">
+    <link targets="seg-r719"/>
+  </node>
+  <a xml:id="penn-N74727" label="tok" ref="penn-n393" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="have"/>
+      <f name="string" value="has"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n394">
+    <link targets="seg-r721"/>
+  </node>
+  <a xml:id="penn-N74755" label="tok" ref="penn-n394" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="do"/>
+      <f name="string" value="done"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n395">
+    <link targets="seg-r723"/>
+  </node>
+  <a xml:id="penn-N74783" label="tok" ref="penn-n395" as="anc">
+    <fs>
+      <f name="string" value="for"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="for"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n396">
+    <link targets="seg-r725"/>
+  </node>
+  <a xml:id="penn-N74811" label="tok" ref="penn-n396" as="anc">
+    <fs>
+      <f name="string" value="me"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="me"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n397">
+    <link targets="seg-r726"/>
+  </node>
+  <a xml:id="penn-N74839" label="tok" ref="penn-n397" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n398">
+    <link targets="seg-r727"/>
+  </node>
+  <a xml:id="penn-N74867" label="tok" ref="penn-n398" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n399">
+    <link targets="seg-r729"/>
+  </node>
+  <a xml:id="penn-N74895" label="tok" ref="penn-n399" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n4">
+    <link targets="seg-r8"/>
+  </node>
+  <a xml:id="penn-N74923" label="tok" ref="penn-n4" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n40">
+    <link targets="seg-r75"/>
+  </node>
+  <a xml:id="penn-N74951" label="tok" ref="penn-n40" as="anc">
+    <fs>
+      <f name="string" value="We"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="we"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n400">
+    <link targets="seg-r730"/>
+  </node>
+  <a xml:id="penn-N74979" label="tok" ref="penn-n400" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n401">
+    <link targets="seg-r732"/>
+  </node>
+  <a xml:id="penn-N75007" label="tok" ref="penn-n401" as="anc">
+    <fs>
+      <f name="string" value="Cornell"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="cornell"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n402">
+    <link targets="seg-r734"/>
+  </node>
+  <a xml:id="penn-N75035" label="tok" ref="penn-n402" as="anc">
+    <fs>
+      <f name="string" value="Each"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="each"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n403">
+    <link targets="seg-r736"/>
+  </node>
+  <a xml:id="penn-N75063" label="tok" ref="penn-n403" as="anc">
+    <fs>
+      <f name="string" value="year"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="year"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n404">
+    <link targets="seg-r737"/>
+  </node>
+  <a xml:id="penn-N75091" label="tok" ref="penn-n404" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n405">
+    <link targets="seg-r739"/>
+  </node>
+  <a xml:id="penn-N75119" label="tok" ref="penn-n405" as="anc">
+    <fs>
+      <f name="string" value="we"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="we"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n406">
+    <link targets="seg-r741"/>
+  </node>
+  <a xml:id="penn-N75147" label="tok" ref="penn-n406" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n407">
+    <link targets="seg-r743"/>
+  </node>
+  <a xml:id="penn-N75175" label="tok" ref="penn-n407" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="thousand"/>
+      <f name="string" value="thousands"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n408">
+    <link targets="seg-r745"/>
+  </node>
+  <a xml:id="penn-N75203" label="tok" ref="penn-n408" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n409">
+    <link targets="seg-r747"/>
+  </node>
+  <a xml:id="penn-N75231" label="tok" ref="penn-n409" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n41">
+    <link targets="seg-r77"/>
+  </node>
+  <a xml:id="penn-N75259" label="tok" ref="penn-n41" as="anc">
+    <fs>
+      <f name="string" value="want"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="want"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n410">
+    <link targets="seg-r749"/>
+  </node>
+  <a xml:id="penn-N75287" label="tok" ref="penn-n410" as="anc">
+    <fs>
+      <f name="string" value="who"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="who"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n411">
+    <link targets="seg-r751"/>
+  </node>
+  <a xml:id="penn-N75315" label="tok" ref="penn-n411" as="anc">
+    <fs>
+      <f name="string" value="face"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="face"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n412">
+    <link targets="seg-r753"/>
+  </node>
+  <a xml:id="penn-N75343" label="tok" ref="penn-n412" as="anc">
+    <fs>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="tremendous"/>
+      <f name="string" value="tremendous"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n413">
+    <link targets="seg-r755"/>
+  </node>
+  <a xml:id="penn-N75371" label="tok" ref="penn-n413" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="obstacle"/>
+      <f name="string" value="obstacles"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n414">
+    <link targets="seg-r756"/>
+  </node>
+  <a xml:id="penn-N75399" label="tok" ref="penn-n414" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n415">
+    <link targets="seg-r758"/>
+  </node>
+  <a xml:id="penn-N75427" label="tok" ref="penn-n415" as="anc">
+    <fs>
+      <f name="string" value="Their"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="their"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n416">
+    <link targets="seg-r760"/>
+  </node>
+  <a xml:id="penn-N75455" label="tok" ref="penn-n416" as="anc">
+    <fs>
+      <f name="msd" value="CD"/>
+      <f name="string" value="one"/>
+      <f name="base" value="one"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n417">
+    <link targets="seg-r762"/>
+  </node>
+  <a xml:id="penn-N75483" label="tok" ref="penn-n417" as="anc">
+    <fs>
+      <f name="string" value="common"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="common"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n418">
+    <link targets="seg-r764"/>
+  </node>
+  <a xml:id="penn-N75511" label="tok" ref="penn-n418" as="anc">
+    <fs>
+      <f name="string" value="goal"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="goal"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n419">
+    <link targets="seg-r765"/>
+  </node>
+  <a xml:id="penn-N75539" label="tok" ref="penn-n419" as="anc">
+    <fs>
+      <f name="string" value=":"/>
+      <f name="msd" value=":"/>
+      <f name="base" value=":"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n42">
+    <link targets="seg-r79"/>
+  </node>
+  <a xml:id="penn-N75567" label="tok" ref="penn-n42" as="anc">
+    <fs>
+      <f name="string" value="you"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="you"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n420">
+    <link targets="seg-r767"/>
+  </node>
+  <a xml:id="penn-N75595" label="tok" ref="penn-n420" as="anc">
+    <fs>
+      <f name="string" value="they"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="they"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n421">
+    <link targets="seg-r769"/>
+  </node>
+  <a xml:id="penn-N75623" label="tok" ref="penn-n421" as="anc">
+    <fs>
+      <f name="string" value="all"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="all"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n422">
+    <link targets="seg-r771"/>
+  </node>
+  <a xml:id="penn-N75651" label="tok" ref="penn-n422" as="anc">
+    <fs>
+      <f name="string" value="want"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="want"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n423">
+    <link targets="seg-r773"/>
+  </node>
+  <a xml:id="penn-N75679" label="tok" ref="penn-n423" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n424">
+    <link targets="seg-r775"/>
+  </node>
+  <a xml:id="penn-N75707" label="tok" ref="penn-n424" as="anc">
+    <fs>
+      <f name="string" value="work"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="work"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n425">
+    <link targets="seg-r776"/>
+  </node>
+  <a xml:id="penn-N75735" label="tok" ref="penn-n425" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n426">
+    <link targets="seg-r778"/>
+  </node>
+  <a xml:id="penn-N75763" label="tok" ref="penn-n426" as="anc">
+    <fs>
+      <f name="string" value="A"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n427">
+    <link targets="seg-r780"/>
+  </node>
+  <a xml:id="penn-N75791" label="tok" ref="penn-n427" as="anc">
+    <fs>
+      <f name="string" value="robust"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="robust"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n428">
+    <link targets="seg-r782"/>
+  </node>
+  <a xml:id="penn-N75819" label="tok" ref="penn-n428" as="anc">
+    <fs>
+      <f name="string" value="economy"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="economy"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n429">
+    <link targets="seg-r784"/>
+  </node>
+  <a xml:id="penn-N75847" label="tok" ref="penn-n429" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="help"/>
+      <f name="string" value="helps"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n43">
+    <link targets="seg-r81"/>
+  </node>
+  <a xml:id="penn-N75875" label="tok" ref="penn-n43" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n430">
+    <link targets="seg-r786"/>
+  </node>
+  <a xml:id="penn-N75903" label="tok" ref="penn-n430" as="anc">
+    <fs>
+      <f name="string" value="by"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="by"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n431">
+    <link targets="seg-r788"/>
+  </node>
+  <a xml:id="penn-N75931" label="tok" ref="penn-n431" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="provide"/>
+      <f name="string" value="providing"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n432">
+    <link targets="seg-r790"/>
+  </node>
+  <a xml:id="penn-N75959" label="tok" ref="penn-n432" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n433">
+    <link targets="seg-r792"/>
+  </node>
+  <a xml:id="penn-N75987" label="tok" ref="penn-n433" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="opportunity"/>
+      <f name="string" value="opportunities"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n434">
+    <link targets="seg-r793"/>
+  </node>
+  <a xml:id="penn-N76015" label="tok" ref="penn-n434" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n435">
+    <link targets="seg-r795"/>
+  </node>
+  <a xml:id="penn-N76043" label="tok" ref="penn-n435" as="anc">
+    <fs>
+      <f name="string" value="but"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="but"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n436">
+    <link targets="seg-r797"/>
+  </node>
+  <a xml:id="penn-N76071" label="tok" ref="penn-n436" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n437">
+    <link targets="seg-r799"/>
+  </node>
+  <a xml:id="penn-N76099" label="tok" ref="penn-n437" as="anc">
+    <fs>
+      <f name="string" value="be"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="be"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n438">
+    <link targets="seg-r801"/>
+  </node>
+  <a xml:id="penn-N76127" label="tok" ref="penn-n438" as="anc">
+    <fs>
+      <f name="string" value="honest"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="honest"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n439">
+    <link targets="seg-r802"/>
+  </node>
+  <a xml:id="penn-N76155" label="tok" ref="penn-n439" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n44">
+    <link targets="seg-r83"/>
+  </node>
+  <a xml:id="penn-N76183" label="tok" ref="penn-n44" as="anc">
+    <fs>
+      <f name="string" value="Know"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n440">
+    <link targets="seg-r804"/>
+  </node>
+  <a xml:id="penn-N76211" label="tok" ref="penn-n440" as="anc">
+    <fs>
+      <f name="string" value="most"/>
+      <f name="msd" value="JJS"/>
+      <f name="base" value="most"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n441">
+    <link targets="seg-r806"/>
+  </node>
+  <a xml:id="penn-N76239" label="tok" ref="penn-n441" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n442">
+    <link targets="seg-r808"/>
+  </node>
+  <a xml:id="penn-N76267" label="tok" ref="penn-n442" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n443">
+    <link targets="seg-r810"/>
+  </node>
+  <a xml:id="penn-N76295" label="tok" ref="penn-n443" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n444">
+    <link targets="seg-r812"/>
+  </node>
+  <a xml:id="penn-N76323" label="tok" ref="penn-n444" as="anc">
+    <fs>
+      <f name="string" value="who"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="who"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n445">
+    <link targets="seg-r814"/>
+  </node>
+  <a xml:id="penn-N76351" label="tok" ref="penn-n445" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="are"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n446">
+    <link targets="seg-r815"/>
+  </node>
+  <a xml:id="penn-N76379" label="tok" ref="penn-n446" as="anc">
+    <fs>
+      <f name="string" value="n't"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="n't"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n447">
+    <link targets="seg-r817"/>
+  </node>
+  <a xml:id="penn-N76407" label="tok" ref="penn-n447" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="work"/>
+      <f name="string" value="working"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n448">
+    <link targets="seg-r819"/>
+  </node>
+  <a xml:id="penn-N76435" label="tok" ref="penn-n448" as="anc">
+    <fs>
+      <f name="string" value="today"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="today"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n449">
+    <link targets="seg-r821"/>
+  </node>
+  <a xml:id="penn-N76463" label="tok" ref="penn-n449" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="are"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n45">
+    <link targets="seg-r85"/>
+  </node>
+  <a xml:id="penn-N76491" label="tok" ref="penn-n45" as="anc">
+    <fs>
+      <f name="string" value="why"/>
+      <f name="msd" value="WRB"/>
+      <f name="base" value="why"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n450">
+    <link targets="seg-r823"/>
+  </node>
+  <a xml:id="penn-N76519" label="tok" ref="penn-n450" as="anc">
+    <fs>
+      <f name="string" value="quite"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="quite"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n451">
+    <link targets="seg-r825"/>
+  </node>
+  <a xml:id="penn-N76547" label="tok" ref="penn-n451" as="anc">
+    <fs>
+      <f name="string" value="simply"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="simply"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n452">
+    <link targets="seg-r827"/>
+  </node>
+  <a xml:id="penn-N76575" label="tok" ref="penn-n452" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n453">
+    <link targets="seg-r829"/>
+  </node>
+  <a xml:id="penn-N76603" label="tok" ref="penn-n453" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="one"/>
+      <f name="string" value="ones"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n454">
+    <link targets="seg-r831"/>
+  </node>
+  <a xml:id="penn-N76631" label="tok" ref="penn-n454" as="anc">
+    <fs>
+      <f name="string" value="who"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="who"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n455">
+    <link targets="seg-r833"/>
+  </node>
+  <a xml:id="penn-N76659" label="tok" ref="penn-n455" as="anc">
+    <fs>
+      <f name="string" value="face"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="face"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n456">
+    <link targets="seg-r835"/>
+  </node>
+  <a xml:id="penn-N76687" label="tok" ref="penn-n456" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n457">
+    <link targets="seg-r837"/>
+  </node>
+  <a xml:id="penn-N76715" label="tok" ref="penn-n457" as="anc">
+    <fs>
+      <f name="string" value="greatest"/>
+      <f name="msd" value="JJS"/>
+      <f name="base" value="greatest"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n458">
+    <link targets="seg-r839"/>
+  </node>
+  <a xml:id="penn-N76743" label="tok" ref="penn-n458" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="obstacle"/>
+      <f name="string" value="obstacles"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n459">
+    <link targets="seg-r840"/>
+  </node>
+  <a xml:id="penn-N76771" label="tok" ref="penn-n459" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n46">
+    <link targets="seg-r87"/>
+  </node>
+  <a xml:id="penn-N76799" label="tok" ref="penn-n46" as="anc">
+    <fs>
+      <f name="string" value="your"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="your"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n460">
+    <link targets="seg-r842"/>
+  </node>
+  <a xml:id="penn-N76827" label="tok" ref="penn-n460" as="anc">
+    <fs>
+      <f name="string" value="The"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n461">
+    <link targets="seg-r844"/>
+  </node>
+  <a xml:id="penn-N76855" label="tok" ref="penn-n461" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="kind"/>
+      <f name="string" value="kinds"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n462">
+    <link targets="seg-r846"/>
+  </node>
+  <a xml:id="penn-N76883" label="tok" ref="penn-n462" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n463">
+    <link targets="seg-r848"/>
+  </node>
+  <a xml:id="penn-N76911" label="tok" ref="penn-n463" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="service"/>
+      <f name="string" value="services"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n464">
+    <link targets="seg-r850"/>
+  </node>
+  <a xml:id="penn-N76939" label="tok" ref="penn-n464" as="anc">
+    <fs>
+      <f name="string" value="we"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="we"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n465">
+    <link targets="seg-r852"/>
+  </node>
+  <a xml:id="penn-N76967" label="tok" ref="penn-n465" as="anc">
+    <fs>
+      <f name="string" value="provide"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="provide"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n466">
+    <link targets="seg-r854"/>
+  </node>
+  <a xml:id="penn-N76995" label="tok" ref="penn-n466" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n467">
+    <link targets="seg-r856"/>
+  </node>
+  <a xml:id="penn-N77023" label="tok" ref="penn-n467" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n468">
+    <link targets="seg-r858"/>
+  </node>
+  <a xml:id="penn-N77051" label="tok" ref="penn-n468" as="anc">
+    <fs>
+      <f name="string" value="deal"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="deal"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n469">
+    <link targets="seg-r860"/>
+  </node>
+  <a xml:id="penn-N77079" label="tok" ref="penn-n469" as="anc">
+    <fs>
+      <f name="string" value="with"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="with"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n47">
+    <link targets="seg-r89"/>
+  </node>
+  <a xml:id="penn-N77107" label="tok" ref="penn-n47" as="anc">
+    <fs>
+      <f name="string" value="support"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="support"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n470">
+    <link targets="seg-r862"/>
+  </node>
+  <a xml:id="penn-N77135" label="tok" ref="penn-n470" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="obstacle"/>
+      <f name="string" value="obstacles"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n471">
+    <link targets="seg-r864"/>
+  </node>
+  <a xml:id="penn-N77163" label="tok" ref="penn-n471" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n472">
+    <link targets="seg-r866"/>
+  </node>
+  <a xml:id="penn-N77191" label="tok" ref="penn-n472" as="anc">
+    <fs>
+      <f name="string" value="health"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="health"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n473">
+    <link targets="seg-r868"/>
+  </node>
+  <a xml:id="penn-N77219" label="tok" ref="penn-n473" as="anc">
+    <fs>
+      <f name="string" value="care"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="care"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n474">
+    <link targets="seg-r869"/>
+  </node>
+  <a xml:id="penn-N77247" label="tok" ref="penn-n474" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n475">
+    <link targets="seg-r871"/>
+  </node>
+  <a xml:id="penn-N77275" label="tok" ref="penn-n475" as="anc">
+    <fs>
+      <f name="string" value="transportation"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="transportation"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n476">
+    <link targets="seg-r873"/>
+  </node>
+  <a xml:id="penn-N77303" label="tok" ref="penn-n476" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n477">
+    <link targets="seg-r875"/>
+  </node>
+  <a xml:id="penn-N77331" label="tok" ref="penn-n477" as="anc">
+    <fs>
+      <f name="string" value="child"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="child"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n478">
+    <link targets="seg-r877"/>
+  </node>
+  <a xml:id="penn-N77359" label="tok" ref="penn-n478" as="anc">
+    <fs>
+      <f name="string" value="care"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="care"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n479">
+    <link targets="seg-r879"/>
+  </node>
+  <a xml:id="penn-N77387" label="tok" ref="penn-n479" as="anc">
+    <fs>
+      <f name="string" value="-"/>
+      <f name="msd" value=":"/>
+      <f name="base" value="-"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n48">
+    <link targets="seg-r91"/>
+  </node>
+  <a xml:id="penn-N77415" label="tok" ref="penn-n48" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n480">
+    <link targets="seg-r880"/>
+  </node>
+  <a xml:id="penn-N77443" label="tok" ref="penn-n480" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="problem"/>
+      <f name="string" value="problems"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n481">
+    <link targets="seg-r882"/>
+  </node>
+  <a xml:id="penn-N77471" label="tok" ref="penn-n481" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="WDT"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n482">
+    <link targets="seg-r884"/>
+  </node>
+  <a xml:id="penn-N77499" label="tok" ref="penn-n482" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="are"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n483">
+    <link targets="seg-r886"/>
+  </node>
+  <a xml:id="penn-N77527" label="tok" ref="penn-n483" as="anc">
+    <fs>
+      <f name="string" value="big"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="big"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n484">
+    <link targets="seg-r888"/>
+  </node>
+  <a xml:id="penn-N77555" label="tok" ref="penn-n484" as="anc">
+    <fs>
+      <f name="string" value="enough"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="enough"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n485">
+    <link targets="seg-r890"/>
+  </node>
+  <a xml:id="penn-N77583" label="tok" ref="penn-n485" as="anc">
+    <fs>
+      <f name="string" value="on"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="on"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n486">
+    <link targets="seg-r892"/>
+  </node>
+  <a xml:id="penn-N77611" label="tok" ref="penn-n486" as="anc">
+    <fs>
+      <f name="string" value="their"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="their"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n487">
+    <link targets="seg-r894"/>
+  </node>
+  <a xml:id="penn-N77639" label="tok" ref="penn-n487" as="anc">
+    <fs>
+      <f name="string" value="own"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="own"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n488">
+    <link targets="seg-r896"/>
+  </node>
+  <a xml:id="penn-N77667" label="tok" ref="penn-n488" as="anc">
+    <fs>
+      <f name="string" value="without"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="without"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n489">
+    <link targets="seg-r898"/>
+  </node>
+  <a xml:id="penn-N77695" label="tok" ref="penn-n489" as="anc">
+    <fs>
+      <f name="msd" value="VBG"/>
+      <f name="base" value="be"/>
+      <f name="string" value="being"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n49">
+    <link targets="seg-r93"/>
+  </node>
+  <a xml:id="penn-N77723" label="tok" ref="penn-n49" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n490">
+    <link targets="seg-r900"/>
+  </node>
+  <a xml:id="penn-N77751" label="tok" ref="penn-n490" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="compound"/>
+      <f name="string" value="compounded"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n491">
+    <link targets="seg-r902"/>
+  </node>
+  <a xml:id="penn-N77779" label="tok" ref="penn-n491" as="anc">
+    <fs>
+      <f name="string" value="by"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="by"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n492">
+    <link targets="seg-r904"/>
+  </node>
+  <a xml:id="penn-N77807" label="tok" ref="penn-n492" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="factor"/>
+      <f name="string" value="factors"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n493">
+    <link targets="seg-r906"/>
+  </node>
+  <a xml:id="penn-N77835" label="tok" ref="penn-n493" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n494">
+    <link targets="seg-r908"/>
+  </node>
+  <a xml:id="penn-N77863" label="tok" ref="penn-n494" as="anc">
+    <fs>
+      <f name="string" value="physical"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="physical"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n495">
+    <link targets="seg-r910"/>
+  </node>
+  <a xml:id="penn-N77891" label="tok" ref="penn-n495" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n496">
+    <link targets="seg-r912"/>
+  </node>
+  <a xml:id="penn-N77919" label="tok" ref="penn-n496" as="anc">
+    <fs>
+      <f name="string" value="mental"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="mental"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n497">
+    <link targets="seg-r914"/>
+  </node>
+  <a xml:id="penn-N77947" label="tok" ref="penn-n497" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="disability"/>
+      <f name="string" value="disabilities"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n498">
+    <link targets="seg-r915"/>
+  </node>
+  <a xml:id="penn-N77975" label="tok" ref="penn-n498" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n499">
+    <link targets="seg-r917"/>
+  </node>
+  <a xml:id="penn-N78003" label="tok" ref="penn-n499" as="anc">
+    <fs>
+      <f name="string" value="illiteracy"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="illiteracy"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n5">
+    <link targets="seg-r10"/>
+  </node>
+  <a xml:id="penn-N78031" label="tok" ref="penn-n5" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n50">
+    <link targets="seg-r95"/>
+  </node>
+  <a xml:id="penn-N78059" label="tok" ref="penn-n50" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="be"/>
+      <f name="string" value="is"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n500">
+    <link targets="seg-r919"/>
+  </node>
+  <a xml:id="penn-N78087" label="tok" ref="penn-n500" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n501">
+    <link targets="seg-r921"/>
+  </node>
+  <a xml:id="penn-N78115" label="tok" ref="penn-n501" as="anc">
+    <fs>
+      <f name="string" value="lack"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="lack"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n502">
+    <link targets="seg-r923"/>
+  </node>
+  <a xml:id="penn-N78143" label="tok" ref="penn-n502" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n503">
+    <link targets="seg-r925"/>
+  </node>
+  <a xml:id="penn-N78171" label="tok" ref="penn-n503" as="anc">
+    <fs>
+      <f name="string" value="job"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="job"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n504">
+    <link targets="seg-r927"/>
+  </node>
+  <a xml:id="penn-N78199" label="tok" ref="penn-n504" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="skill"/>
+      <f name="string" value="skills"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n505">
+    <link targets="seg-r928"/>
+  </node>
+  <a xml:id="penn-N78227" label="tok" ref="penn-n505" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n506">
+    <link targets="seg-r930"/>
+  </node>
+  <a xml:id="penn-N78255" label="tok" ref="penn-n506" as="anc">
+    <fs>
+      <f name="string" value="Last"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="last"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n507">
+    <link targets="seg-r932"/>
+  </node>
+  <a xml:id="penn-N78283" label="tok" ref="penn-n507" as="anc">
+    <fs>
+      <f name="string" value="year"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="year"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n508">
+    <link targets="seg-r933"/>
+  </node>
+  <a xml:id="penn-N78311" label="tok" ref="penn-n508" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n509">
+    <link targets="seg-r935"/>
+  </node>
+  <a xml:id="penn-N78339" label="tok" ref="penn-n509" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n51">
+    <link targets="seg-r97"/>
+  </node>
+  <a xml:id="penn-N78367" label="tok" ref="penn-n51" as="anc">
+    <fs>
+      <f name="string" value="so"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="so"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n510">
+    <link targets="seg-r937"/>
+  </node>
+  <a xml:id="penn-N78395" label="tok" ref="penn-n510" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="help"/>
+      <f name="string" value="helped"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n511">
+    <link targets="seg-r939"/>
+  </node>
+  <a xml:id="penn-N78423" label="tok" ref="penn-n511" as="anc">
+    <fs>
+      <f name="msd" value="CD"/>
+      <f name="string" value="3,300"/>
+      <f name="base" value="3,300"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n512">
+    <link targets="seg-r941"/>
+  </node>
+  <a xml:id="penn-N78451" label="tok" ref="penn-n512" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n513">
+    <link targets="seg-r943"/>
+  </node>
+  <a xml:id="penn-N78479" label="tok" ref="penn-n513" as="anc">
+    <fs>
+      <f name="string" value="find"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="find"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n514">
+    <link targets="seg-r945"/>
+  </node>
+  <a xml:id="penn-N78507" label="tok" ref="penn-n514" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="job"/>
+      <f name="string" value="jobs"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n515">
+    <link targets="seg-r947"/>
+  </node>
+  <a xml:id="penn-N78535" label="tok" ref="penn-n515" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="WDT"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n516">
+    <link targets="seg-r949"/>
+  </node>
+  <a xml:id="penn-N78563" label="tok" ref="penn-n516" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="increase"/>
+      <f name="string" value="increased"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n517">
+    <link targets="seg-r951"/>
+  </node>
+  <a xml:id="penn-N78591" label="tok" ref="penn-n517" as="anc">
+    <fs>
+      <f name="string" value="their"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="their"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n518">
+    <link targets="seg-r953"/>
+  </node>
+  <a xml:id="penn-N78619" label="tok" ref="penn-n518" as="anc">
+    <fs>
+      <f name="string" value="self-sufficiency"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="self-sufficiency"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n519">
+    <link targets="seg-r954"/>
+  </node>
+  <a xml:id="penn-N78647" label="tok" ref="penn-n519" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n52">
+    <link targets="seg-r99"/>
+  </node>
+  <a xml:id="penn-N78675" label="tok" ref="penn-n52" as="anc">
+    <fs>
+      <f name="string" value="important"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="important"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n520">
+    <link targets="seg-r956"/>
+  </node>
+  <a xml:id="penn-N78703" label="tok" ref="penn-n520" as="anc">
+    <fs>
+      <f name="string" value="Your"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="your"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n521">
+    <link targets="seg-r958"/>
+  </node>
+  <a xml:id="penn-N78731" label="tok" ref="penn-n521" as="anc">
+    <fs>
+      <f name="string" value="gift"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="gift"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n522">
+    <link targets="seg-r960"/>
+  </node>
+  <a xml:id="penn-N78759" label="tok" ref="penn-n522" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n523">
+    <link targets="seg-r962"/>
+  </node>
+  <a xml:id="penn-N78787" label="tok" ref="penn-n523" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n524">
+    <link targets="seg-r964"/>
+  </node>
+  <a xml:id="penn-N78815" label="tok" ref="penn-n524" as="anc">
+    <fs>
+      <f name="string" value="will"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="will"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n525">
+    <link targets="seg-r966"/>
+  </node>
+  <a xml:id="penn-N78843" label="tok" ref="penn-n525" as="anc">
+    <fs>
+      <f name="string" value="be"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="be"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n526">
+    <link targets="seg-r968"/>
+  </node>
+  <a xml:id="penn-N78871" label="tok" ref="penn-n526" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="use"/>
+      <f name="string" value="used"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n527">
+    <link targets="seg-r970"/>
+  </node>
+  <a xml:id="penn-N78899" label="tok" ref="penn-n527" as="anc">
+    <fs>
+      <f name="string" value="directly"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="directly"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n528">
+    <link targets="seg-r972"/>
+  </node>
+  <a xml:id="penn-N78927" label="tok" ref="penn-n528" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n529">
+    <link targets="seg-r974"/>
+  </node>
+  <a xml:id="penn-N78955" label="tok" ref="penn-n529" as="anc">
+    <fs>
+      <f name="string" value="support"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="support"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n53">
+    <link targets="seg-r100"/>
+  </node>
+  <a xml:id="penn-N78983" label="tok" ref="penn-n53" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n530">
+    <link targets="seg-r976"/>
+  </node>
+  <a xml:id="penn-N79011" label="tok" ref="penn-n530" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="service"/>
+      <f name="string" value="services"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n531">
+    <link targets="seg-r978"/>
+  </node>
+  <a xml:id="penn-N79039" label="tok" ref="penn-n531" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="WDT"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n532">
+    <link targets="seg-r980"/>
+  </node>
+  <a xml:id="penn-N79067" label="tok" ref="penn-n532" as="anc">
+    <fs>
+      <f name="string" value="will"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="will"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n533">
+    <link targets="seg-r982"/>
+  </node>
+  <a xml:id="penn-N79095" label="tok" ref="penn-n533" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n534">
+    <link targets="seg-r984"/>
+  </node>
+  <a xml:id="penn-N79123" label="tok" ref="penn-n534" as="anc">
+    <fs>
+      <f name="string" value="even"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="even"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n535">
+    <link targets="seg-r986"/>
+  </node>
+  <a xml:id="penn-N79151" label="tok" ref="penn-n535" as="anc">
+    <fs>
+      <f name="string" value="more"/>
+      <f name="msd" value="JJR"/>
+      <f name="base" value="more"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n536">
+    <link targets="seg-r988"/>
+  </node>
+  <a xml:id="penn-N79179" label="tok" ref="penn-n536" as="anc">
+    <fs>
+      <f name="string" value="find"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="find"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n537">
+    <link targets="seg-r990"/>
+  </node>
+  <a xml:id="penn-N79207" label="tok" ref="penn-n537" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="job"/>
+      <f name="string" value="jobs"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n538">
+    <link targets="seg-r991"/>
+  </node>
+  <a xml:id="penn-N79235" label="tok" ref="penn-n538" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n539">
+    <link targets="seg-r993"/>
+  </node>
+  <a xml:id="penn-N79263" label="tok" ref="penn-n539" as="anc">
+    <fs>
+      <f name="string" value="Right"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="right"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n54">
+    <link targets="seg-r102"/>
+  </node>
+  <a xml:id="penn-N79291" label="tok" ref="penn-n54" as="anc">
+    <fs>
+      <f name="string" value="Your"/>
+      <f name="msd" value="PRP$"/>
+      <f name="base" value="your"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n540">
+    <link targets="seg-r995"/>
+  </node>
+  <a xml:id="penn-N79319" label="tok" ref="penn-n540" as="anc">
+    <fs>
+      <f name="string" value="now"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="now"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n541">
+    <link targets="seg-r996"/>
+  </node>
+  <a xml:id="penn-N79347" label="tok" ref="penn-n541" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n542">
+    <link targets="seg-r998"/>
+  </node>
+  <a xml:id="penn-N79375" label="tok" ref="penn-n542" as="anc">
+    <fs>
+      <f name="string" value="there"/>
+      <f name="msd" value="EX"/>
+      <f name="base" value="there"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n543">
+    <link targets="seg-r1000"/>
+  </node>
+  <a xml:id="penn-N79403" label="tok" ref="penn-n543" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="be"/>
+      <f name="string" value="are"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n544">
+    <link targets="seg-r1002"/>
+  </node>
+  <a xml:id="penn-N79431" label="tok" ref="penn-n544" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="thousand"/>
+      <f name="string" value="thousands"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n545">
+    <link targets="seg-r1004"/>
+  </node>
+  <a xml:id="penn-N79459" label="tok" ref="penn-n545" as="anc">
+    <fs>
+      <f name="string" value="of"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="of"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n546">
+    <link targets="seg-r1006"/>
+  </node>
+  <a xml:id="penn-N79487" label="tok" ref="penn-n546" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n547">
+    <link targets="seg-r1008"/>
+  </node>
+  <a xml:id="penn-N79515" label="tok" ref="penn-n547" as="anc">
+    <fs>
+      <f name="string" value="who"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="who"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n548">
+    <link targets="seg-r1010"/>
+  </node>
+  <a xml:id="penn-N79543" label="tok" ref="penn-n548" as="anc">
+    <fs>
+      <f name="string" value="do"/>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="do"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n549">
+    <link targets="seg-r1012"/>
+  </node>
+  <a xml:id="penn-N79571" label="tok" ref="penn-n549" as="anc">
+    <fs>
+      <f name="string" value="not"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="not"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n55">
+    <link targets="seg-r104"/>
+  </node>
+  <a xml:id="penn-N79599" label="tok" ref="penn-n55" as="anc">
+    <fs>
+      <f name="string" value="gift"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="gift"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n550">
+    <link targets="seg-r1014"/>
+  </node>
+  <a xml:id="penn-N79627" label="tok" ref="penn-n550" as="anc">
+    <fs>
+      <f name="string" value="know"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n551">
+    <link targets="seg-r1016"/>
+  </node>
+  <a xml:id="penn-N79655" label="tok" ref="penn-n551" as="anc">
+    <fs>
+      <f name="string" value="what"/>
+      <f name="msd" value="WP"/>
+      <f name="base" value="what"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n552">
+    <link targets="seg-r1018"/>
+  </node>
+  <a xml:id="penn-N79683" label="tok" ref="penn-n552" as="anc">
+    <fs>
+      <f name="string" value="it"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="it"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n553">
+    <link targets="seg-r1020"/>
+  </node>
+  <a xml:id="penn-N79711" label="tok" ref="penn-n553" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="feel"/>
+      <f name="string" value="feels"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n554">
+    <link targets="seg-r1022"/>
+  </node>
+  <a xml:id="penn-N79739" label="tok" ref="penn-n554" as="anc">
+    <fs>
+      <f name="string" value="like"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="like"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n555">
+    <link targets="seg-r1024"/>
+  </node>
+  <a xml:id="penn-N79767" label="tok" ref="penn-n555" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n556">
+    <link targets="seg-r1026"/>
+  </node>
+  <a xml:id="penn-N79795" label="tok" ref="penn-n556" as="anc">
+    <fs>
+      <f name="string" value="support"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="support"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n557">
+    <link targets="seg-r1028"/>
+  </node>
+  <a xml:id="penn-N79823" label="tok" ref="penn-n557" as="anc">
+    <fs>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="themselve"/>
+      <f name="string" value="themselves"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n558">
+    <link targets="seg-r1029"/>
+  </node>
+  <a xml:id="penn-N79851" label="tok" ref="penn-n558" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n559">
+    <link targets="seg-r1031"/>
+  </node>
+  <a xml:id="penn-N79879" label="tok" ref="penn-n559" as="anc">
+    <fs>
+      <f name="string" value="You"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="you"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n56">
+    <link targets="seg-r106"/>
+  </node>
+  <a xml:id="penn-N79907" label="tok" ref="penn-n56" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n560">
+    <link targets="seg-r1033"/>
+  </node>
+  <a xml:id="penn-N79935" label="tok" ref="penn-n560" as="anc">
+    <fs>
+      <f name="string" value="can"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="can"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n561">
+    <link targets="seg-r1035"/>
+  </node>
+  <a xml:id="penn-N79963" label="tok" ref="penn-n561" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n562">
+    <link targets="seg-r1037"/>
+  </node>
+  <a xml:id="penn-N79991" label="tok" ref="penn-n562" as="anc">
+    <fs>
+      <f name="string" value="them"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="them"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n563">
+    <link targets="seg-r1039"/>
+  </node>
+  <a xml:id="penn-N80019" label="tok" ref="penn-n563" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n564">
+    <link targets="seg-r1041"/>
+  </node>
+  <a xml:id="penn-N80047" label="tok" ref="penn-n564" as="anc">
+    <fs>
+      <f name="string" value="know"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n565">
+    <link targets="seg-r1043"/>
+  </node>
+  <a xml:id="penn-N80075" label="tok" ref="penn-n565" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n566">
+    <link targets="seg-r1045"/>
+  </node>
+  <a xml:id="penn-N80103" label="tok" ref="penn-n566" as="anc">
+    <fs>
+      <f name="string" value="feeling"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="feeling"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n567">
+    <link targets="seg-r1046"/>
+  </node>
+  <a xml:id="penn-N80131" label="tok" ref="penn-n567" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n568">
+    <link targets="seg-r1048"/>
+  </node>
+  <a xml:id="penn-N80159" label="tok" ref="penn-n568" as="anc">
+    <fs>
+      <f name="string" value="Please"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="please"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n569">
+    <link targets="seg-r1050"/>
+  </node>
+  <a xml:id="penn-N80187" label="tok" ref="penn-n569" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n57">
+    <link targets="seg-r108"/>
+  </node>
+  <a xml:id="penn-N80215" label="tok" ref="penn-n57" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n570">
+    <link targets="seg-r1052"/>
+  </node>
+  <a xml:id="penn-N80243" label="tok" ref="penn-n570" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n571">
+    <link targets="seg-r1054"/>
+  </node>
+  <a xml:id="penn-N80271" label="tok" ref="penn-n571" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n572">
+    <link targets="seg-r1056"/>
+  </node>
+  <a xml:id="penn-N80299" label="tok" ref="penn-n572" as="anc">
+    <fs>
+      <f name="string" value="help"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="help"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n573">
+    <link targets="seg-r1058"/>
+  </node>
+  <a xml:id="penn-N80327" label="tok" ref="penn-n573" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n574">
+    <link targets="seg-r1060"/>
+  </node>
+  <a xml:id="penn-N80355" label="tok" ref="penn-n574" as="anc">
+    <fs>
+      <f name="string" value="find"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="find"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n575">
+    <link targets="seg-r1062"/>
+  </node>
+  <a xml:id="penn-N80383" label="tok" ref="penn-n575" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="job"/>
+      <f name="string" value="jobs"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n576">
+    <link targets="seg-r1063"/>
+  </node>
+  <a xml:id="penn-N80411" label="tok" ref="penn-n576" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n577">
+    <link targets="seg-r1065"/>
+  </node>
+  <a xml:id="penn-N80439" label="tok" ref="penn-n577" as="anc">
+    <fs>
+      <f name="string" value="Use"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="use"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n578">
+    <link targets="seg-r1067"/>
+  </node>
+  <a xml:id="penn-N80467" label="tok" ref="penn-n578" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n579">
+    <link targets="seg-r1069"/>
+  </node>
+  <a xml:id="penn-N80495" label="tok" ref="penn-n579" as="anc">
+    <fs>
+      <f name="msd" value="VBN"/>
+      <f name="base" value="enclose"/>
+      <f name="string" value="enclosed"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n58">
+    <link targets="seg-r110"/>
+  </node>
+  <a xml:id="penn-N80523" label="tok" ref="penn-n58" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="be"/>
+      <f name="string" value="is"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n580">
+    <link targets="seg-r1071"/>
+  </node>
+  <a xml:id="penn-N80551" label="tok" ref="penn-n580" as="anc">
+    <fs>
+      <f name="string" value="card"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="card"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n581">
+    <link targets="seg-r1073"/>
+  </node>
+  <a xml:id="penn-N80579" label="tok" ref="penn-n581" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n582">
+    <link targets="seg-r1075"/>
+  </node>
+  <a xml:id="penn-N80607" label="tok" ref="penn-n582" as="anc">
+    <fs>
+      <f name="string" value="give"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="give"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n583">
+    <link targets="seg-r1077"/>
+  </node>
+  <a xml:id="penn-N80635" label="tok" ref="penn-n583" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n584">
+    <link targets="seg-r1079"/>
+  </node>
+  <a xml:id="penn-N80663" label="tok" ref="penn-n584" as="anc">
+    <fs>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="generous"/>
+      <f name="string" value="generous"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n585">
+    <link targets="seg-r1081"/>
+  </node>
+  <a xml:id="penn-N80691" label="tok" ref="penn-n585" as="anc">
+    <fs>
+      <f name="string" value="gift"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="gift"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n586">
+    <link targets="seg-r1083"/>
+  </node>
+  <a xml:id="penn-N80719" label="tok" ref="penn-n586" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n587">
+    <link targets="seg-r1085"/>
+  </node>
+  <a xml:id="penn-N80747" label="tok" ref="penn-n587" as="anc">
+    <fs>
+      <f name="string" value="Goodwill"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="goodwill"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n588">
+    <link targets="seg-r1087"/>
+  </node>
+  <a xml:id="penn-N80775" label="tok" ref="penn-n588" as="anc">
+    <fs>
+      <f name="string" value="today"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="today"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n589">
+    <link targets="seg-r1088"/>
+  </node>
+  <a xml:id="penn-N80803" label="tok" ref="penn-n589" as="anc">
+    <fs>
+      <f name="string" value="!"/>
+      <f name="msd" value="."/>
+      <f name="base" value="!"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n59">
+    <link targets="seg-r112"/>
+  </node>
+  <a xml:id="penn-N80831" label="tok" ref="penn-n59" as="anc">
+    <fs>
+      <f name="string" value="important"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="important"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n590">
+    <link targets="seg-r1090"/>
+  </node>
+  <a xml:id="penn-N80859" label="tok" ref="penn-n590" as="anc">
+    <fs>
+      <f name="string" value="Sincerely"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="sincerely"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n591">
+    <link targets="seg-r1091"/>
+  </node>
+  <a xml:id="penn-N80887" label="tok" ref="penn-n591" as="anc">
+    <fs>
+      <f name="string" value=","/>
+      <f name="msd" value=","/>
+      <f name="base" value=","/>
+    </fs>
+  </a>
+  <node xml:id="penn-n592">
+    <link targets="seg-r1093"/>
+  </node>
+  <a xml:id="penn-N80915" label="tok" ref="penn-n592" as="anc">
+    <fs>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="jame"/>
+      <f name="string" value="James"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n593">
+    <link targets="seg-r1095"/>
+  </node>
+  <a xml:id="penn-N80943" label="tok" ref="penn-n593" as="anc">
+    <fs>
+      <f name="msd" value="NN"/>
+      <f name="string" value="M."/>
+      <f name="base" value="M."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n594">
+    <link targets="seg-r1097"/>
+  </node>
+  <a xml:id="penn-N80971" label="tok" ref="penn-n594" as="anc">
+    <fs>
+      <f name="string" value="McClelland"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="mcclelland"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n595">
+    <link targets="seg-r1099"/>
+  </node>
+  <a xml:id="penn-N80999" label="tok" ref="penn-n595" as="anc">
+    <fs>
+      <f name="string" value="President"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="president"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n6">
+    <link targets="seg-r12"/>
+  </node>
+  <a xml:id="penn-N81027" label="tok" ref="penn-n6" as="anc">
+    <fs>
+      <f name="string" value="will"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="will"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n60">
+    <link targets="seg-r114"/>
+  </node>
+  <a xml:id="penn-N81055" label="tok" ref="penn-n60" as="anc">
+    <fs>
+      <f name="string" value="because"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="because"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n61">
+    <link targets="seg-r116"/>
+  </node>
+  <a xml:id="penn-N81083" label="tok" ref="penn-n61" as="anc">
+    <fs>
+      <f name="string" value="people"/>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="people"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n62">
+    <link targets="seg-r118"/>
+  </node>
+  <a xml:id="penn-N81111" label="tok" ref="penn-n62" as="anc">
+    <fs>
+      <f name="string" value="with"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="with"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n63">
+    <link targets="seg-r120"/>
+  </node>
+  <a xml:id="penn-N81139" label="tok" ref="penn-n63" as="anc">
+    <fs>
+      <f name="string" value="physical"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="physical"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n64">
+    <link targets="seg-r122"/>
+  </node>
+  <a xml:id="penn-N81167" label="tok" ref="penn-n64" as="anc">
+    <fs>
+      <f name="string" value="and"/>
+      <f name="msd" value="CC"/>
+      <f name="base" value="and"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n65">
+    <link targets="seg-r124"/>
+  </node>
+  <a xml:id="penn-N81195" label="tok" ref="penn-n65" as="anc">
+    <fs>
+      <f name="string" value="Mental"/>
+      <f name="msd" value="NNP"/>
+      <f name="base" value="mental"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n66">
+    <link targets="seg-r126"/>
+  </node>
+  <a xml:id="penn-N81223" label="tok" ref="penn-n66" as="anc">
+    <fs>
+      <f name="msd" value="NNS"/>
+      <f name="base" value="disability"/>
+      <f name="string" value="disabilities"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n67">
+    <link targets="seg-r128"/>
+  </node>
+  <a xml:id="penn-N81251" label="tok" ref="penn-n67" as="anc">
+    <fs>
+      <f name="msd" value="RB"/>
+      <f name="base" value="sometime"/>
+      <f name="string" value="sometimes"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n68">
+    <link targets="seg-r130"/>
+  </node>
+  <a xml:id="penn-N81279" label="tok" ref="penn-n68" as="anc">
+    <fs>
+      <f name="msd" value="VBP"/>
+      <f name="base" value="need"/>
+      <f name="string" value="need"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n69">
+    <link targets="seg-r132"/>
+  </node>
+  <a xml:id="penn-N81307" label="tok" ref="penn-n69" as="anc">
+    <fs>
+      <f name="string" value="an"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="an"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n7">
+    <link targets="seg-r14"/>
+  </node>
+  <a xml:id="penn-N81335" label="tok" ref="penn-n7" as="anc">
+    <fs>
+      <f name="string" value="mean"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="mean"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n70">
+    <link targets="seg-r134"/>
+  </node>
+  <a xml:id="penn-N81363" label="tok" ref="penn-n70" as="anc">
+    <fs>
+      <f name="string" value="extra"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="extra"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n71">
+    <link targets="seg-r136"/>
+  </node>
+  <a xml:id="penn-N81391" label="tok" ref="penn-n71" as="anc">
+    <fs>
+      <f name="string" value="hand"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="hand"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n72">
+    <link targets="seg-r138"/>
+  </node>
+  <a xml:id="penn-N81419" label="tok" ref="penn-n72" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n73">
+    <link targets="seg-r140"/>
+  </node>
+  <a xml:id="penn-N81447" label="tok" ref="penn-n73" as="anc">
+    <fs>
+      <f name="string" value="know"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="know"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n74">
+    <link targets="seg-r142"/>
+  </node>
+  <a xml:id="penn-N81475" label="tok" ref="penn-n74" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n75">
+    <link targets="seg-r144"/>
+  </node>
+  <a xml:id="penn-N81503" label="tok" ref="penn-n75" as="anc">
+    <fs>
+      <f name="string" value="pride"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="pride"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n76">
+    <link targets="seg-r146"/>
+  </node>
+  <a xml:id="penn-N81531" label="tok" ref="penn-n76" as="anc">
+    <fs>
+      <f name="string" value="that"/>
+      <f name="msd" value="WDT"/>
+      <f name="base" value="that"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n77">
+    <link targets="seg-r148"/>
+  </node>
+  <a xml:id="penn-N81559" label="tok" ref="penn-n77" as="anc">
+    <fs>
+      <f name="msd" value="VBZ"/>
+      <f name="base" value="come"/>
+      <f name="string" value="comes"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n78">
+    <link targets="seg-r150"/>
+  </node>
+  <a xml:id="penn-N81587" label="tok" ref="penn-n78" as="anc">
+    <fs>
+      <f name="string" value="with"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="with"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n79">
+    <link targets="seg-r152"/>
+  </node>
+  <a xml:id="penn-N81615" label="tok" ref="penn-n79" as="anc">
+    <fs>
+      <f name="string" value="work"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="work"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n8">
+    <link targets="seg-r16"/>
+  </node>
+  <a xml:id="penn-N81643" label="tok" ref="penn-n8" as="anc">
+    <fs>
+      <f name="string" value="more"/>
+      <f name="msd" value="JJR"/>
+      <f name="base" value="more"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n80">
+    <link targets="seg-r153"/>
+  </node>
+  <a xml:id="penn-N81671" label="tok" ref="penn-n80" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n81">
+    <link targets="seg-r155"/>
+  </node>
+  <a xml:id="penn-N81699" label="tok" ref="penn-n81" as="anc">
+    <fs>
+      <f name="string" value="&quot;"/>
+      <f name="msd" value="''"/>
+      <f name="base" value="&quot;"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n82">
+    <link targets="seg-r156"/>
+  </node>
+  <a xml:id="penn-N81727" label="tok" ref="penn-n82" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n83">
+    <link targets="seg-r158"/>
+  </node>
+  <a xml:id="penn-N81755" label="tok" ref="penn-n83" as="anc">
+    <fs>
+      <f name="msd" value="VBD"/>
+      <f name="base" value="be"/>
+      <f name="string" value="was"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n84">
+    <link targets="seg-r160"/>
+  </node>
+  <a xml:id="penn-N81783" label="tok" ref="penn-n84" as="anc">
+    <fs>
+      <f name="string" value="sad"/>
+      <f name="msd" value="JJ"/>
+      <f name="base" value="sad"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n85">
+    <link targets="seg-r162"/>
+  </node>
+  <a xml:id="penn-N81811" label="tok" ref="penn-n85" as="anc">
+    <fs>
+      <f name="string" value="when"/>
+      <f name="msd" value="WRB"/>
+      <f name="base" value="when"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n86">
+    <link targets="seg-r164"/>
+  </node>
+  <a xml:id="penn-N81839" label="tok" ref="penn-n86" as="anc">
+    <fs>
+      <f name="string" value="I"/>
+      <f name="msd" value="PRP"/>
+      <f name="base" value="i"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n87">
+    <link targets="seg-r166"/>
+  </node>
+  <a xml:id="penn-N81867" label="tok" ref="penn-n87" as="anc">
+    <fs>
+      <f name="string" value="could"/>
+      <f name="msd" value="MD"/>
+      <f name="base" value="could"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n88">
+    <link targets="seg-r167"/>
+  </node>
+  <a xml:id="penn-N81895" label="tok" ref="penn-n88" as="anc">
+    <fs>
+      <f name="string" value="n't"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="n't"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n89">
+    <link targets="seg-r169"/>
+  </node>
+  <a xml:id="penn-N81923" label="tok" ref="penn-n89" as="anc">
+    <fs>
+      <f name="string" value="go"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="go"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n9">
+    <link targets="seg-r18"/>
+  </node>
+  <a xml:id="penn-N81951" label="tok" ref="penn-n9" as="anc">
+    <fs>
+      <f name="string" value="than"/>
+      <f name="msd" value="IN"/>
+      <f name="base" value="than"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n90">
+    <link targets="seg-r171"/>
+  </node>
+  <a xml:id="penn-N81979" label="tok" ref="penn-n90" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n91">
+    <link targets="seg-r173"/>
+  </node>
+  <a xml:id="penn-N82007" label="tok" ref="penn-n91" as="anc">
+    <fs>
+      <f name="string" value="the"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="the"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n92">
+    <link targets="seg-r175"/>
+  </node>
+  <a xml:id="penn-N82035" label="tok" ref="penn-n92" as="anc">
+    <fs>
+      <f name="string" value="snack"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="snack"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n93">
+    <link targets="seg-r177"/>
+  </node>
+  <a xml:id="penn-N82063" label="tok" ref="penn-n93" as="anc">
+    <fs>
+      <f name="string" value="bar"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="bar"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n94">
+    <link targets="seg-r179"/>
+  </node>
+  <a xml:id="penn-N82091" label="tok" ref="penn-n94" as="anc">
+    <fs>
+      <f name="string" value="to"/>
+      <f name="msd" value="TO"/>
+      <f name="base" value="to"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n95">
+    <link targets="seg-r181"/>
+  </node>
+  <a xml:id="penn-N82119" label="tok" ref="penn-n95" as="anc">
+    <fs>
+      <f name="string" value="buy"/>
+      <f name="msd" value="VB"/>
+      <f name="base" value="buy"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n96">
+    <link targets="seg-r183"/>
+  </node>
+  <a xml:id="penn-N82147" label="tok" ref="penn-n96" as="anc">
+    <fs>
+      <f name="string" value="a"/>
+      <f name="msd" value="DT"/>
+      <f name="base" value="a"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n97">
+    <link targets="seg-r185"/>
+  </node>
+  <a xml:id="penn-N82175" label="tok" ref="penn-n97" as="anc">
+    <fs>
+      <f name="string" value="soda"/>
+      <f name="msd" value="NN"/>
+      <f name="base" value="soda"/>
+    </fs>
+  </a>
+  <node xml:id="penn-n98">
+    <link targets="seg-r186"/>
+  </node>
+  <a xml:id="penn-N82203" label="tok" ref="penn-n98" as="anc">
+    <fs>
+      <f name="string" value="."/>
+      <f name="msd" value="."/>
+      <f name="base" value="."/>
+    </fs>
+  </a>
+  <node xml:id="penn-n99">
+    <link targets="seg-r188"/>
+  </node>
+  <a xml:id="penn-N82231" label="tok" ref="penn-n99" as="anc">
+    <fs>
+      <f name="string" value="Now"/>
+      <f name="msd" value="RB"/>
+      <f name="base" value="now"/>
+    </fs>
+  </a>
+</graph>

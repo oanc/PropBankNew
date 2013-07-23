@@ -1,0 +1,184 @@
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+  <graphHeader>
+    <labelsDecl>
+      <labelUsage label="person" occurs="2"/>
+      <labelUsage label="date" occurs="4"/>
+      <labelUsage label="org" occurs="16"/>
+    </labelsDecl>
+    <dependencies>
+      <dependsOn f.id="f.penn"/>
+    </dependencies>
+    <annotationSpaces>
+      <annotationSpace as.id="anc"/>
+    </annotationSpaces>
+  </graphHeader>
+  <node xml:id="ne-n0"/>
+  <a xml:id="ne-N65575" label="date" ref="ne-n0" as="anc">
+    <fs>
+      <f name="kind" value="date"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n1"/>
+  <a xml:id="ne-N65591" label="org" ref="ne-n1" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n10"/>
+  <a xml:id="ne-N65607" label="org" ref="ne-n10" as="anc">
+    <fs>
+      <f name="type" value="newspaper/media"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n11"/>
+  <a xml:id="ne-N65623" label="org" ref="ne-n11" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n12"/>
+  <a xml:id="ne-N65639" label="org" ref="ne-n12" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n13"/>
+  <a xml:id="ne-N65655" label="org" ref="ne-n13" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n14"/>
+  <a xml:id="ne-N65671" label="org" ref="ne-n14" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n15"/>
+  <a xml:id="ne-N65687" label="org" ref="ne-n15" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n16"/>
+  <a xml:id="ne-N65703" label="org" ref="ne-n16" as="anc"/>
+  <node xml:id="ne-n17"/>
+  <a xml:id="ne-N65711" label="org" ref="ne-n17" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n18"/>
+  <a xml:id="ne-N65727" label="org" ref="ne-n18" as="anc">
+    <fs>
+      <f name="type" value="newspaper/media"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n19"/>
+  <a xml:id="ne-N65743" label="org" ref="ne-n19" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n2"/>
+  <a xml:id="ne-N65759" label="person" ref="ne-n2" as="anc">
+    <fs>
+      <f name="sex" value="male"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n20"/>
+  <a xml:id="ne-N65775" label="org" ref="ne-n20" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n21"/>
+  <a xml:id="ne-N65791" label="person" ref="ne-n21" as="anc">
+    <fs>
+      <f name="sex" value="male"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n3"/>
+  <a xml:id="ne-N65807" label="date" ref="ne-n3" as="anc">
+    <fs>
+      <f name="kind" value="time"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n4"/>
+  <a xml:id="ne-N65823" label="date" ref="ne-n4" as="anc">
+    <fs>
+      <f name="kind" value="time"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n5"/>
+  <a xml:id="ne-N65839" label="org" ref="ne-n5" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n6"/>
+  <a xml:id="ne-N65855" label="date" ref="ne-n6" as="anc">
+    <fs>
+      <f name="kind" value="date"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n7"/>
+  <a xml:id="ne-N65871" label="org" ref="ne-n7" as="anc">
+    <fs>
+      <f name="type" value="newspaper/media"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n8"/>
+  <a xml:id="ne-N65887" label="org" ref="ne-n8" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <node xml:id="ne-n9"/>
+  <a xml:id="ne-N65903" label="org" ref="ne-n9" as="anc">
+    <fs>
+      <f name="type" value="other"/>
+    </fs>
+  </a>
+  <edge xml:id="ne-lnk39" from="ne-n21" to="penn-n642"/>
+  <edge xml:id="ne-lnk38" from="ne-n20" to="penn-n637"/>
+  <edge xml:id="ne-lnk37" from="ne-n19" to="penn-n558"/>
+  <edge xml:id="ne-lnk36" from="ne-n18" to="penn-n552"/>
+  <edge xml:id="ne-lnk35" from="ne-n18" to="penn-n551"/>
+  <edge xml:id="ne-lnk34" from="ne-n18" to="penn-n550"/>
+  <edge xml:id="ne-lnk33" from="ne-n18" to="penn-n549"/>
+  <edge xml:id="ne-lnk32" from="ne-n18" to="penn-n548"/>
+  <edge xml:id="ne-lnk31" from="ne-n17" to="penn-n487"/>
+  <edge xml:id="ne-lnk30" from="ne-n16" to="penn-n436"/>
+  <edge xml:id="ne-lnk9" from="ne-n5" to="penn-n65"/>
+  <edge xml:id="ne-lnk8" from="ne-n4" to="penn-n44"/>
+  <edge xml:id="ne-lnk7" from="ne-n3" to="penn-n32"/>
+  <edge xml:id="ne-lnk6" from="ne-n3" to="penn-n31"/>
+  <edge xml:id="ne-lnk5" from="ne-n2" to="penn-n20"/>
+  <edge xml:id="ne-lnk4" from="ne-n1" to="penn-n13"/>
+  <edge xml:id="ne-lnk3" from="ne-n0" to="penn-n3"/>
+  <edge xml:id="ne-lnk2" from="ne-n0" to="penn-n2"/>
+  <edge xml:id="ne-lnk1" from="ne-n0" to="penn-n1"/>
+  <edge xml:id="ne-lnk0" from="ne-n0" to="penn-n0"/>
+  <edge xml:id="ne-lnk29" from="ne-n15" to="penn-n429"/>
+  <edge xml:id="ne-lnk28" from="ne-n14" to="penn-n368"/>
+  <edge xml:id="ne-lnk27" from="ne-n13" to="penn-n319"/>
+  <edge xml:id="ne-lnk26" from="ne-n12" to="penn-n290"/>
+  <edge xml:id="ne-lnk25" from="ne-n11" to="penn-n203"/>
+  <edge xml:id="ne-lnk24" from="ne-n10" to="penn-n188"/>
+  <edge xml:id="ne-lnk23" from="ne-n10" to="penn-n187"/>
+  <edge xml:id="ne-lnk22" from="ne-n10" to="penn-n186"/>
+  <edge xml:id="ne-lnk21" from="ne-n10" to="penn-n185"/>
+  <edge xml:id="ne-lnk20" from="ne-n10" to="penn-n184"/>
+  <edge xml:id="ne-lnk19" from="ne-n9" to="penn-n162"/>
+  <edge xml:id="ne-lnk18" from="ne-n8" to="penn-n147"/>
+  <edge xml:id="ne-lnk17" from="ne-n7" to="penn-n145"/>
+  <edge xml:id="ne-lnk16" from="ne-n7" to="penn-n144"/>
+  <edge xml:id="ne-lnk15" from="ne-n7" to="penn-n143"/>
+  <edge xml:id="ne-lnk14" from="ne-n7" to="penn-n142"/>
+  <edge xml:id="ne-lnk13" from="ne-n7" to="penn-n141"/>
+  <edge xml:id="ne-lnk12" from="ne-n6" to="penn-n132"/>
+  <edge xml:id="ne-lnk11" from="ne-n6" to="penn-n131"/>
+  <edge xml:id="ne-lnk10" from="ne-n6" to="penn-n130"/>
+  <edge xml:id="ne-lnk40" from="ne-n21" to="penn-n643"/>
+</graph>
