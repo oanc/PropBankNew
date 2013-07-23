@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><graph xmlns="http://www.xces.org/ns/GrAF/1.0/" xmlns:graf="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+        </labelsDecl>
+    </graphHeader>
+    <region xml:id="seg-r0" anchors="4 11"/>
+    <region xml:id="seg-r2" anchors="12 17"/>
+    <region xml:id="seg-r4" anchors="18 27"/>
+    <region xml:id="seg-r6" anchors="28 32"/>
+    <region xml:id="seg-r7" anchors="32 33"/>
+    <region xml:id="seg-r9" anchors="34 38"/>
+    <region xml:id="seg-r11" anchors="39 51"/>
+    <region xml:id="seg-r13" anchors="52 60"/>
+    <region xml:id="seg-r15" anchors="61 64"/>
+    <region xml:id="seg-r17" anchors="65 76"/>
+    <region xml:id="seg-r19" anchors="77 79"/>
+    <region xml:id="seg-r21" anchors="80 85"/>
+    <region xml:id="seg-r23" anchors="86 93"/>
+    <region xml:id="seg-r25" anchors="94 98"/>
+    <region xml:id="seg-r27" anchors="99 101"/>
+    <region xml:id="seg-r29" anchors="102 109"/>
+    <region xml:id="seg-r31" anchors="110 113"/>
+    <region xml:id="seg-r33" anchors="114 115"/>
+    <region xml:id="seg-r34" anchors="115 117"/>
+    <region xml:id="seg-r36" anchors="118 119"/>
+    <region xml:id="seg-r38" anchors="120 125"/>
+    <region xml:id="seg-r39" anchors="125 126"/>
+    <region xml:id="seg-r41" anchors="127 129"/>
+    <region xml:id="seg-r43" anchors="130 131"/>
+    <region xml:id="seg-r44" anchors="131 134"/>
+    <region xml:id="seg-r46" anchors="135 142"/>
+    <region xml:id="seg-r47" anchors="142 143"/>
+    <region xml:id="seg-r49" anchors="147 150"/>
+    <region xml:id="seg-r51" anchors="151 157"/>
+    <region xml:id="seg-r53" anchors="158 165"/>
+    <region xml:id="seg-r55" anchors="166 173"/>
+    <region xml:id="seg-r57" anchors="174 178"/>
+    <region xml:id="seg-r59" anchors="179 181"/>
+    <region xml:id="seg-r61" anchors="182 189"/>
+    <region xml:id="seg-r63" anchors="190 192"/>
+    <region xml:id="seg-r65" anchors="193 199"/>
+    <region xml:id="seg-r67" anchors="200 210"/>
+    <region xml:id="seg-r69" anchors="211 219"/>
+    <region xml:id="seg-r71" anchors="220 223"/>
+    <region xml:id="seg-r73" anchors="224 232"/>
+    <region xml:id="seg-r75" anchors="233 236"/>
+    <region xml:id="seg-r77" anchors="237 248"/>
+    <region xml:id="seg-r79" anchors="249 251"/>
+    <region xml:id="seg-r81" anchors="252 256"/>
+    <region xml:id="seg-r82" anchors="256 257"/>
+    <region xml:id="seg-r83" anchors="257 260"/>
+    <region xml:id="seg-r84" anchors="260 261"/>
+</graph>
