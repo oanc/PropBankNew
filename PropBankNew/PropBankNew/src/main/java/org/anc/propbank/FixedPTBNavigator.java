@@ -49,7 +49,6 @@ public class FixedPTBNavigator {
 			 ArrayList<INode> terminals = this.depthFirstSearch(this.sentences.get(i));
 			 ArrayList<INode> traceNodes = this.isolateTraces(terminals); 
 			 Collections.sort(terminals, new AnchorComparator());
-			 //////ONLY WORKING ON SENTENCES WITH 1 TYPE OF TRACE NODE (i.e. all 0-degree or all 1-degree) -- FIX THIS!!//
 			 this.sortTerminals(this.sentences.get(i), terminals, traceNodes);
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 	 	}
@@ -77,7 +76,7 @@ public class FixedPTBNavigator {
 			 for (int k = 0; k < this.sentenceTerminalNodes.get(key).size(); k++){
 				 INode terminalNode = this.sentenceTerminalNodes.get(key).get(k);
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-				 		System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString());
+				 		System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString() + terminalNode.getParent().getAnnotation().features().toString());
 				 		//System.out.println(k + ". NEIGHBORING:" + this.findNeighboringNodes(this.sentences.get(key), terminalNode).getAnnotation().features().toString());
 				 }
 				 else{
@@ -307,9 +306,5 @@ private void sortTerminals(INode sentence, ArrayList<INode> terminals, ArrayList
 		terminalList.clear();
 }
 }
-
-
-
-
 
 }
