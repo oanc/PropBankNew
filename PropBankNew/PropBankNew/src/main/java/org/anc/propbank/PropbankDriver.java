@@ -10,7 +10,9 @@ import java.util.Properties;
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
 import org.xces.graf.io.DotRenderer;
+import org.xces.graf.io.GrafParser;
 import org.xces.graf.io.GrafRenderer;
+import org.xces.graf.io.dom.ResourceHeader;
 import org.xml.sax.SAXException;
 
 
@@ -57,7 +59,7 @@ public class PropbankDriver {
 //		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
 //		DotRenderer dotRenderer = new DotRenderer(dotFile);
 //		dotRenderer.render(newGraph);
-
+		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		navigator.printTerminalDetails();
