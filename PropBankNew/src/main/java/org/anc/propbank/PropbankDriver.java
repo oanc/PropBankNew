@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.Properties;
 
+import org.anc.io.UTF8Reader;
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
 import org.xces.graf.io.DotRenderer;
@@ -59,6 +60,23 @@ public class PropbankDriver {
 //		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
 //		DotRenderer dotRenderer = new DotRenderer(dotFile);
 //		dotRenderer.render(newGraph);
+		
+		
+		//Render the original file, -ptb.dot, for checking purposes
+		File headerFile = new File(K.MASC_RESOURCE_HEADER);
+		ResourceHeader header = new ResourceHeader(headerFile);
+		GrafParser graphParse = new GrafParser(header);
+		IGraph graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.INPUT_FILE + "-ptb.xml");
+		// The following will only run with the folder TXTFILES -- make this a var
+		UTF8Reader reader = new UTF8Reader(new File("TXTFILES/" + K.INPUT_FILE + ".txt"));
+		String contents = reader.readString();
+		reader.close();
+		graph.setContent(contents);
+		File originalDotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-withText-ptb.dot");
+		DotRenderer dotRenderer = new DotRenderer(originalDotFile);
+		dotRenderer.render(graph);
+		
+		
 		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
