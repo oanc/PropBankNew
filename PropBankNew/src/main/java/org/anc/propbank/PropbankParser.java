@@ -113,7 +113,7 @@ public class PropbankParser {
 		
 		///----- ADD NEW NODES AND EDGES TO GRAPH ------//
 		
-		PTBNavigator navigator = new PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
+		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		
 		INode propbankNode = this.makeNode("PropBank");
 		for (String argument: argumentInfo.keySet()){
