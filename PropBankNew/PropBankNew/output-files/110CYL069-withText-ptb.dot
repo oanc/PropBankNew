@@ -1,0 +1,4812 @@
+digraph {
+   segr0 [ label="November" shape=none ]
+   segr2 [ label="15" shape=none ]
+   segr3 [ label="," shape=none ]
+   segr5 [ label="1996" shape=none ]
+   segr7 [ label="Dear" shape=none ]
+   segr9 [ label="Personal" shape=none ]
+   segr11 [ label="Donor" shape=none ]
+   segr12 [ label=":" shape=none ]
+   segr14 [ label="In" shape=none ]
+   segr16 [ label="the" shape=none ]
+   segr18 [ label="short" shape=none ]
+   segr20 [ label="while" shape=none ]
+   segr22 [ label="since" shape=none ]
+   segr24 [ label="Goodwill" shape=none ]
+   segr26 [ label="helped" shape=none ]
+   segr28 [ label="him" shape=none ]
+   segr30 [ label="find" shape=none ]
+   segr32 [ label="his" shape=none ]
+   segr34 [ label="job" shape=none ]
+   segr35 [ label="," shape=none ]
+   segr37 [ label="Robert" shape=none ]
+   segr39 [ label="has" shape=none ]
+   segr41 [ label="learned" shape=none ]
+   segr43 [ label="to" shape=none ]
+   ptbr00023 [ label="" shape=none ]
+   segr45 [ label="thoroughly" shape=none ]
+   segr47 [ label="clean" shape=none ]
+   segr49 [ label="a" shape=none ]
+   segr51 [ label="motel" shape=none ]
+   segr53 [ label="room" shape=none ]
+   segr55 [ label="in" shape=none ]
+   segr57 [ label="about" shape=none ]
+   segr59 [ label="40" shape=none ]
+   segr61 [ label="minutes" shape=none ]
+   segr62 [ label="." shape=none ]
+   segr64 [ label="His" shape=none ]
+   segr66 [ label="job" shape=none ]
+   segr68 [ label="objectives" shape=none ]
+   segr70 [ label="call" shape=none ]
+   segr72 [ label="for" shape=none ]
+   segr74 [ label="him" shape=none ]
+   segr76 [ label="to" shape=none ]
+   segr78 [ label="do" shape=none ]
+   segr80 [ label="it" shape=none ]
+   segr82 [ label="in" shape=none ]
+   segr84 [ label="30" shape=none ]
+   segr85 [ label="." shape=none ]
+   segr87 [ label="He" shape=none ]
+   segr89 [ label="has" shape=none ]
+   segr91 [ label="no" shape=none ]
+   segr93 [ label="time" shape=none ]
+   segr95 [ label="to" shape=none ]
+   ptbr00051 [ label="" shape=none ]
+   ptbr00052 [ label="" shape=none ]
+   segr97 [ label="waste" shape=none ]
+   segr98 [ label="." shape=none ]
+   ptbr00055 [ label="" shape=none ]
+   segr100 [ label="Neither" shape=none ]
+   segr102 [ label="do" shape=none ]
+   segr104 [ label="we" shape=none ]
+   segr105 [ label="." shape=none ]
+   ptbr00060 [ label="" shape=none ]
+   segr107 [ label="With" shape=none ]
+   segr109 [ label="the" shape=none ]
+   segr111 [ label="help" shape=none ]
+   segr113 [ label="of" shape=none ]
+   segr115 [ label="friends" shape=none ]
+   segr117 [ label="like" shape=none ]
+   segr119 [ label="you" shape=none ]
+   segr120 [ label="," shape=none ]
+   segr122 [ label="Goodwill" shape=none ]
+   segr124 [ label="has" shape=none ]
+   segr126 [ label="continued" shape=none ]
+   segr128 [ label="to" shape=none ]
+   ptbr00073 [ label="" shape=none ]
+   segr130 [ label="adapt" shape=none ]
+   segr132 [ label="our" shape=none ]
+   segr134 [ label="services" shape=none ]
+   segr136 [ label="to" shape=none ]
+   ptbr00078 [ label="" shape=none ]
+   segr138 [ label="meet" shape=none ]
+   segr140 [ label="the" shape=none ]
+   segr142 [ label="human" shape=none ]
+   segr144 [ label="needs" shape=none ]
+   segr146 [ label="of" shape=none ]
+   segr148 [ label="our" shape=none ]
+   segr150 [ label="changing" shape=none ]
+   segr152 [ label="society" shape=none ]
+   segr153 [ label="." shape=none ]
+   segr155 [ label="We" shape=none ]
+   segr157 [ label="do" shape=none ]
+   segr158 [ label="n't" shape=none ]
+   segr160 [ label="waste" shape=none ]
+   segr162 [ label="time" shape=none ]
+   segr164 [ label="as" shape=none ]
+   segr166 [ label="we" shape=none ]
+   segr168 [ label="are" shape=none ]
+   segr170 [ label="helping" shape=none ]
+   segr172 [ label="the" shape=none ]
+   segr174 [ label="community" shape=none ]
+   segr175 [ label="." shape=none ]
+   segr177 [ label="And" shape=none ]
+   segr179 [ label="we" shape=none ]
+   segr181 [ label="do" shape=none ]
+   segr182 [ label="n't" shape=none ]
+   segr184 [ label="waste" shape=none ]
+   segr186 [ label="money" shape=none ]
+   segr187 [ label="." shape=none ]
+   segr189 [ label="The" shape=none ]
+   segr191 [ label="gift" shape=none ]
+   segr193 [ label="that" shape=none ]
+   segr195 [ label="I" shape=none ]
+   segr197 [ label="am" shape=none ]
+   segr199 [ label="asking" shape=none ]
+   segr201 [ label="you" shape=none ]
+   segr203 [ label="to" shape=none ]
+   ptbr00115 [ label="" shape=none ]
+   segr205 [ label="make" shape=none ]
+   segr207 [ label="will" shape=none ]
+   ptbr00118 [ label="" shape=none ]
+   segr209 [ label="be" shape=none ]
+   segr211 [ label="used" shape=none ]
+   segr213 [ label="to" shape=none ]
+   ptbr00122 [ label="" shape=none ]
+   ptbr00123 [ label="" shape=none ]
+   segr215 [ label="continue" shape=none ]
+   segr217 [ label="our" shape=none ]
+   segr219 [ label="mission" shape=none ]
+   segr221 [ label="of" shape=none ]
+   segr223 [ label="helping" shape=none ]
+   ptbr00129 [ label="" shape=none ]
+   segr225 [ label="people" shape=none ]
+   segr227 [ label="prepare" shape=none ]
+   segr229 [ label="for" shape=none ]
+   segr230 [ label="," shape=none ]
+   ptbr00134 [ label="" shape=none ]
+   segr232 [ label="find" shape=none ]
+   segr234 [ label="and" shape=none ]
+   ptbr00137 [ label="" shape=none ]
+   segr236 [ label="keep" shape=none ]
+   segr238 [ label="jobs" shape=none ]
+   ptbr00140 [ label="" shape=none ]
+   segr239 [ label="." shape=none ]
+   segr241 [ label="In" shape=none ]
+   segr243 [ label="their" shape=none ]
+   segr245 [ label="December" shape=none ]
+   segr246 [ label="," shape=none ]
+   segr248 [ label="1995" shape=none ]
+   segr250 [ label="review" shape=none ]
+   segr252 [ label="of" shape=none ]
+   segr254 [ label="the" shape=none ]
+   segr256 [ label="nation" shape=none ]
+   segr257 [ label="'s" shape=none ]
+   segr259 [ label="best" shape=none ]
+   segr261 [ label="charities" shape=none ]
+   segr262 [ label="," shape=none ]
+   segr264 [ label="U.S." shape=none ]
+   segr266 [ label="News" shape=none ]
+   segr268 [ label="&" shape=none ]
+   segr270 [ label="World" shape=none ]
+   segr272 [ label="Report" shape=none ]
+   segr274 [ label="called" shape=none ]
+   segr276 [ label="Goodwill" shape=none ]
+   segr278 [ label="one" shape=none ]
+   ptbr00163 [ label="" shape=none ]
+   segr280 [ label="of" shape=none ]
+   segr282 [ label="the" shape=none ]
+   segr284 [ label="five" shape=none ]
+   segr286 [ label=""" shape=none ]
+   segr287 [ label="Standout" shape=none ]
+   segr289 [ label="Good" shape=none ]
+   segr291 [ label="Guys" shape=none ]
+   segr292 [ label="." shape=none ]
+   segr293 [ label=""" shape=none ]
+   segr295 [ label="The" shape=none ]
+   segr297 [ label="magazine" shape=none ]
+   segr299 [ label="stated" shape=none ]
+   segr301 [ label="that" shape=none ]
+   segr303 [ label="Goodwill" shape=none ]
+   segr305 [ label="(" shape=none ]
+   segr306 [ label="as" shape=none ]
+   segr308 [ label="well" shape=none ]
+   segr310 [ label="as" shape=none ]
+   segr312 [ label="the" shape=none ]
+   segr314 [ label="other" shape=none ]
+   segr316 [ label="standouts" shape=none ]
+   segr317 [ label=")" shape=none ]
+   segr319 [ label="is" shape=none ]
+   segr321 [ label=""" shape=none ]
+   segr322 [ label="uniquely" shape=none ]
+   segr324 [ label="effective" shape=none ]
+   segr325 [ label="," shape=none ]
+   segr327 [ label="innovative" shape=none ]
+   segr329 [ label="or" shape=none ]
+   segr331 [ label="valuable" shape=none ]
+   segr332 [ label="." shape=none ]
+   segr333 [ label=""" shape=none ]
+   segr335 [ label="While" shape=none ]
+   segr337 [ label="I" shape=none ]
+   segr339 [ label="appreciate" shape=none ]
+   segr341 [ label="U.S." shape=none ]
+   segr343 [ label="News" shape=none ]
+   segr345 [ label="&" shape=none ]
+   segr347 [ label="World" shape=none ]
+   segr349 [ label="Report" shape=none ]
+   segr350 [ label="'s" shape=none ]
+   segr352 [ label="endorsement" shape=none ]
+   segr353 [ label="," shape=none ]
+   segr355 [ label="the" shape=none ]
+   segr357 [ label="true" shape=none ]
+   segr359 [ label="value" shape=none ]
+   segr361 [ label="of" shape=none ]
+   segr363 [ label="your" shape=none ]
+   segr365 [ label="support" shape=none ]
+   segr367 [ label="is" shape=none ]
+   segr369 [ label="measured" shape=none ]
+   segr371 [ label="by" shape=none ]
+   ptbr00216 [ label="" shape=none ]
+   segr373 [ label="the" shape=none ]
+   segr375 [ label="way" shape=none ]
+   segr377 [ label="Goodwill" shape=none ]
+   ptbr00220 [ label="" shape=none ]
+   segr379 [ label="takes" shape=none ]
+   segr381 [ label="on" shape=none ]
+   segr383 [ label="problems" shape=none ]
+   segr385 [ label="that" shape=none ]
+   segr387 [ label="affect" shape=none ]
+   ptbr00226 [ label="" shape=none ]
+   segr389 [ label="all" shape=none ]
+   segr391 [ label="of" shape=none ]
+   segr393 [ label="us" shape=none ]
+   segr394 [ label="." shape=none ]
+   ptbr00231 [ label="" shape=none ]
+   segr396 [ label="Every" shape=none ]
+   segr398 [ label="time" shape=none ]
+   segr400 [ label="we" shape=none ]
+   ptbr00235 [ label="" shape=none ]
+   segr402 [ label="help" shape=none ]
+   segr404 [ label="someone" shape=none ]
+   segr406 [ label="find" shape=none ]
+   segr408 [ label="a" shape=none ]
+   segr410 [ label="solution" shape=none ]
+   segr412 [ label="to" shape=none ]
+   segr414 [ label="their" shape=none ]
+   segr416 [ label="employment" shape=none ]
+   segr418 [ label="barrier" shape=none ]
+   segr419 [ label="," shape=none ]
+   ptbr00246 [ label="" shape=none ]
+   segr421 [ label="the" shape=none ]
+   segr423 [ label="positive" shape=none ]
+   segr425 [ label="effects" shape=none ]
+   segr427 [ label="radiate" shape=none ]
+   segr429 [ label="throughout" shape=none ]
+   segr431 [ label="our" shape=none ]
+   segr433 [ label="community" shape=none ]
+   segr434 [ label=":" shape=none ]
+   segr436 [ label="The" shape=none ]
+   segr438 [ label="business" shape=none ]
+   segr440 [ label="community" shape=none ]
+   segr442 [ label="welcomes" shape=none ]
+   segr444 [ label="not" shape=none ]
+   segr446 [ label="only" shape=none ]
+   segr448 [ label="another" shape=none ]
+   segr450 [ label="worker" shape=none ]
+   segr451 [ label="," shape=none ]
+   segr453 [ label="but" shape=none ]
+   segr455 [ label="a" shape=none ]
+   segr457 [ label="consumer" shape=none ]
+   segr459 [ label="with" shape=none ]
+   segr461 [ label="increased" shape=none ]
+   segr463 [ label="purchasing" shape=none ]
+   segr465 [ label="power" shape=none ]
+   segr466 [ label="." shape=none ]
+   segr468 [ label="Parents" shape=none ]
+   segr470 [ label="act" shape=none ]
+   segr472 [ label="as" shape=none ]
+   segr474 [ label="role" shape=none ]
+   segr476 [ label="models" shape=none ]
+   segr478 [ label="of" shape=none ]
+   segr480 [ label="self-sufficiency" shape=none ]
+   segr482 [ label="instead" shape=none ]
+   segr484 [ label="of" shape=none ]
+   segr486 [ label="dependency" shape=none ]
+   segr487 [ label="." shape=none ]
+   segr489 [ label="Tax" shape=none ]
+   segr491 [ label="dollars" shape=none ]
+   segr493 [ label="that" shape=none ]
+   segr495 [ label="would" shape=none ]
+   ptbr00287 [ label="" shape=none ]
+   segr497 [ label="have" shape=none ]
+   segr499 [ label="been" shape=none ]
+   segr501 [ label="spent" shape=none ]
+   segr503 [ label="on" shape=none ]
+   ptbr00292 [ label="" shape=none ]
+   segr505 [ label="public" shape=none ]
+   segr507 [ label="assistance" shape=none ]
+   segr509 [ label="are" shape=none ]
+   segr511 [ label="saved" shape=none ]
+   segr512 [ label="." shape=none ]
+   ptbr00298 [ label="" shape=none ]
+   segr514 [ label="You" shape=none ]
+   segr516 [ label="and" shape=none ]
+   segr518 [ label="I" shape=none ]
+   segr520 [ label="know" shape=none ]
+   segr522 [ label="that" shape=none ]
+   segr524 [ label="solutions" shape=none ]
+   segr526 [ label="to" shape=none ]
+   segr528 [ label="difficult" shape=none ]
+   segr530 [ label="problems" shape=none ]
+   segr532 [ label="do" shape=none ]
+   segr533 [ label="n't" shape=none ]
+   segr535 [ label="just" shape=none ]
+   segr537 [ label="happen" shape=none ]
+   segr538 [ label="." shape=none ]
+   segr540 [ label="At" shape=none ]
+   segr542 [ label="Goodwill" shape=none ]
+   segr543 [ label="," shape=none ]
+   segr545 [ label="it" shape=none ]
+   segr547 [ label="is" shape=none ]
+   segr549 [ label="the" shape=none ]
+   segr551 [ label="hard" shape=none ]
+   segr553 [ label="work" shape=none ]
+   segr555 [ label="of" shape=none ]
+   segr557 [ label="staff" shape=none ]
+   segr559 [ label="and" shape=none ]
+   segr561 [ label="those" shape=none ]
+   segr563 [ label="who" shape=none ]
+   segr565 [ label="benefit" shape=none ]
+   ptbr00327 [ label="" shape=none ]
+   segr567 [ label="from" shape=none ]
+   segr569 [ label="our" shape=none ]
+   segr571 [ label="services" shape=none ]
+   segr573 [ label="that" shape=none ]
+   segr575 [ label="produces" shape=none ]
+   ptbr00333 [ label="" shape=none ]
+   segr577 [ label="the" shape=none ]
+   segr579 [ label="kind" shape=none ]
+   segr581 [ label="of" shape=none ]
+   segr583 [ label="inspiring" shape=none ]
+   segr585 [ label="results" shape=none ]
+   segr587 [ label="I" shape=none ]
+   ptbr00340 [ label="" shape=none ]
+   segr589 [ label="see" shape=none ]
+   segr591 [ label="every" shape=none ]
+   ptbr00343 [ label="" shape=none ]
+   segr593 [ label="day" shape=none ]
+   segr594 [ label=":" shape=none ]
+   segr596 [ label="A" shape=none ]
+   segr598 [ label="Goodwill" shape=none ]
+   segr600 [ label="staff" shape=none ]
+   segr602 [ label="member" shape=none ]
+   segr604 [ label="addresses" shape=none ]
+   segr606 [ label="a" shape=none ]
+   segr608 [ label="group" shape=none ]
+   segr610 [ label="of" shape=none ]
+   segr612 [ label="welfare" shape=none ]
+   segr614 [ label="recipients" shape=none ]
+   segr615 [ label=":" shape=none ]
+   segr617 [ label=""" shape=none ]
+   segr618 [ label="You" shape=none ]
+   segr620 [ label="can" shape=none ]
+   segr622 [ label="earn" shape=none ]
+   segr624 [ label="the" shape=none ]
+   segr626 [ label="money" shape=none ]
+   segr628 [ label="to" shape=none ]
+   ptbr00364 [ label="" shape=none ]
+   ptbr00365 [ label="" shape=none ]
+   segr630 [ label="support" shape=none ]
+   segr632 [ label="yourself" shape=none ]
+   segr634 [ label="and" shape=none ]
+   segr636 [ label="your" shape=none ]
+   segr638 [ label="family" shape=none ]
+   segr639 [ label="," shape=none ]
+   segr640 [ label=""" shape=none ]
+   segr642 [ label="she" shape=none ]
+   segr644 [ label="says" shape=none ]
+   segr645 [ label="." shape=none ]
+   ptbr00376 [ label="" shape=none ]
+   ptbr00377 [ label="" shape=none ]
+   segr647 [ label=""" shape=none ]
+   segr648 [ label="You" shape=none ]
+   segr650 [ label="can" shape=none ]
+   segr652 [ label="get" shape=none ]
+   segr654 [ label="off" shape=none ]
+   segr656 [ label="welfare" shape=none ]
+   segr657 [ label="." shape=none ]
+   segr659 [ label="I" shape=none ]
+   segr661 [ label="know" shape=none ]
+   segr663 [ label="you" shape=none ]
+   ptbr00388 [ label="" shape=none ]
+   segr665 [ label="can" shape=none ]
+   segr666 [ label="." shape=none ]
+   ptbr00391 [ label="" shape=none ]
+   segr667 [ label="." shape=none ]
+   segr668 [ label="." shape=none ]
+   segr670 [ label="I" shape=none ]
+   segr672 [ label="did" shape=none ]
+   segr673 [ label="." shape=none ]
+   ptbr00395 [ label="" shape=none ]
+   segr674 [ label=""" shape=none ]
+   segr676 [ label="A" shape=none ]
+   segr678 [ label="participant" shape=none ]
+   segr680 [ label="in" shape=none ]
+   segr682 [ label="a" shape=none ]
+   segr684 [ label="Goodwill" shape=none ]
+   segr686 [ label="program" shape=none ]
+   segr688 [ label="rushes" shape=none ]
+   segr690 [ label="back" shape=none ]
+   segr692 [ label="from" shape=none ]
+   segr694 [ label="a" shape=none ]
+   segr696 [ label="job" shape=none ]
+   segr698 [ label="interview" shape=none ]
+   segr700 [ label="to" shape=none ]
+   ptbr00410 [ label="" shape=none ]
+   segr702 [ label="share" shape=none ]
+   segr704 [ label="the" shape=none ]
+   segr706 [ label="results" shape=none ]
+   segr708 [ label="with" shape=none ]
+   segr710 [ label="his" shape=none ]
+   segr712 [ label="classmates" shape=none ]
+   segr714 [ label="in" shape=none ]
+   segr716 [ label="our" shape=none ]
+   segr718 [ label="desktop" shape=none ]
+   segr720 [ label="publishing" shape=none ]
+   segr722 [ label="training" shape=none ]
+   segr724 [ label="program" shape=none ]
+   segr725 [ label="." shape=none ]
+   segr727 [ label="once" shape=none ]
+   segr729 [ label="his" shape=none ]
+   segr731 [ label="tears" shape=none ]
+   segr733 [ label="have" shape=none ]
+   segr735 [ label="subsided" shape=none ]
+   segr736 [ label="," shape=none ]
+   segr738 [ label="he" shape=none ]
+   segr740 [ label="confirms" shape=none ]
+   segr742 [ label="what" shape=none ]
+   segr744 [ label="his" shape=none ]
+   segr746 [ label="classmates" shape=none ]
+   segr748 [ label="have" shape=none ]
+   segr750 [ label="already" shape=none ]
+   segr752 [ label="figured" shape=none ]
+   segr754 [ label="out" shape=none ]
+   ptbr00439 [ label="" shape=none ]
+   segr755 [ label=":" shape=none ]
+   segr757 [ label="he" shape=none ]
+   segr759 [ label="just" shape=none ]
+   segr761 [ label="received" shape=none ]
+   segr763 [ label="a" shape=none ]
+   segr765 [ label="job" shape=none ]
+   segr767 [ label="offer" shape=none ]
+   segr769 [ label="-" shape=none ]
+   segr770 [ label="-" shape=none ]
+   segr772 [ label="his" shape=none ]
+   segr774 [ label="first" shape=none ]
+   segr776 [ label="in" shape=none ]
+   segr778 [ label="five" shape=none ]
+   segr780 [ label="years" shape=none ]
+   segr781 [ label="." shape=none ]
+   segr783 [ label="Addressing" shape=none ]
+   ptbr00455 [ label="" shape=none ]
+   segr785 [ label="a" shape=none ]
+   segr787 [ label="meeting" shape=none ]
+   segr789 [ label="at" shape=none ]
+   segr791 [ label="a" shape=none ]
+   segr793 [ label="neighborhood" shape=none ]
+   segr795 [ label="center" shape=none ]
+   segr796 [ label="," shape=none ]
+   segr798 [ label="a" shape=none ]
+   segr800 [ label="Goodwill" shape=none ]
+   segr802 [ label="staff" shape=none ]
+   segr804 [ label="member" shape=none ]
+   segr806 [ label="tells" shape=none ]
+   segr808 [ label="the" shape=none ]
+   segr810 [ label="audience" shape=none ]
+   segr812 [ label="how" shape=none ]
+   segr814 [ label="Goodwill" shape=none ]
+   segr816 [ label="can" shape=none ]
+   segr818 [ label="help" shape=none ]
+   segr820 [ label="them" shape=none ]
+   segr822 [ label="find" shape=none ]
+   segr824 [ label="and" shape=none ]
+   segr826 [ label="keep" shape=none ]
+   segr828 [ label="jobs" shape=none ]
+   segr829 [ label="." shape=none ]
+   ptbr00480 [ label="" shape=none ]
+   segr831 [ label="On" shape=none ]
+   segr833 [ label="his" shape=none ]
+   segr835 [ label="way" shape=none ]
+   segr837 [ label="home" shape=none ]
+   segr838 [ label="," shape=none ]
+   segr840 [ label="he" shape=none ]
+   segr842 [ label="shares" shape=none ]
+   segr844 [ label="the" shape=none ]
+   segr846 [ label="story" shape=none ]
+   segr848 [ label="with" shape=none ]
+   segr850 [ label="four" shape=none ]
+   segr852 [ label="people" shape=none ]
+   segr854 [ label="at" shape=none ]
+   segr856 [ label="a" shape=none ]
+   segr858 [ label="street" shape=none ]
+   segr860 [ label="corner" shape=none ]
+   segr861 [ label="." shape=none ]
+   segr863 [ label="At" shape=none ]
+   segr865 [ label="the" shape=none ]
+   segr867 [ label="next" shape=none ]
+   segr869 [ label="corner" shape=none ]
+   segr871 [ label="he" shape=none ]
+   segr873 [ label="tells" shape=none ]
+   segr875 [ label="five" shape=none ]
+   segr877 [ label="more" shape=none ]
+   segr878 [ label="." shape=none ]
+   segr880 [ label="In" shape=none ]
+   segr882 [ label="order" shape=none ]
+   segr884 [ label="to" shape=none ]
+   ptbr00510 [ label="" shape=none ]
+   segr886 [ label="develop" shape=none ]
+   segr888 [ label="job" shape=none ]
+   segr890 [ label="skills" shape=none ]
+   segr891 [ label="," shape=none ]
+   segr893 [ label="a" shape=none ]
+   segr895 [ label="man" shape=none ]
+   segr897 [ label="with" shape=none ]
+   segr899 [ label="some" shape=none ]
+   segr901 [ label="serious" shape=none ]
+   segr903 [ label="disabilities" shape=none ]
+   segr905 [ label="begins" shape=none ]
+   segr907 [ label="working" shape=none ]
+   ptbr00523 [ label="" shape=none ]
+   segr909 [ label="in" shape=none ]
+   segr911 [ label="Goodwill" shape=none ]
+   segr912 [ label="'s" shape=none ]
+   segr914 [ label="industrial" shape=none ]
+   segr916 [ label="division" shape=none ]
+   segr917 [ label="." shape=none ]
+   segr919 [ label="It" shape=none ]
+   segr921 [ label="takes" shape=none ]
+   ptbr00532 [ label="" shape=none ]
+   segr923 [ label="a" shape=none ]
+   segr925 [ label="long" shape=none ]
+   segr927 [ label="time" shape=none ]
+   segr929 [ label="for" shape=none ]
+   segr931 [ label="him" shape=none ]
+   segr933 [ label="to" shape=none ]
+   segr935 [ label="gain" shape=none ]
+   segr937 [ label="the" shape=none ]
+   segr939 [ label="self-confidence" shape=none ]
+   segr941 [ label="to" shape=none ]
+   ptbr00543 [ label="" shape=none ]
+   segr943 [ label="work" shape=none ]
+   segr945 [ label="elsewhere" shape=none ]
+   segr947 [ label="in" shape=none ]
+   segr949 [ label="the" shape=none ]
+   segr951 [ label="community" shape=none ]
+   segr952 [ label="." shape=none ]
+   segr954 [ label="Eventually" shape=none ]
+   segr955 [ label="," shape=none ]
+   segr957 [ label="he" shape=none ]
+   segr959 [ label="turns" shape=none ]
+   segr961 [ label="your" shape=none ]
+   segr963 [ label="support" shape=none ]
+   segr965 [ label="into" shape=none ]
+   segr967 [ label="a" shape=none ]
+   segr969 [ label="payoff" shape=none ]
+   segr971 [ label="for" shape=none ]
+   segr973 [ label="all" shape=none ]
+   segr975 [ label="of" shape=none ]
+   segr977 [ label="us" shape=none ]
+   segr978 [ label="." shape=none ]
+   segr980 [ label="He" shape=none ]
+   segr982 [ label="proudly" shape=none ]
+   segr984 [ label="leaves" shape=none ]
+   segr986 [ label="Goodwill" shape=none ]
+   segr988 [ label="to" shape=none ]
+   ptbr00569 [ label="" shape=none ]
+   segr990 [ label="support" shape=none ]
+   segr992 [ label="himself" shape=none ]
+   segr993 [ label="." shape=none ]
+   segr995 [ label="These" shape=none ]
+   segr997 [ label="people" shape=none ]
+   segr999 [ label="and" shape=none ]
+   segr1001 [ label="their" shape=none ]
+   segr1003 [ label="successes" shape=none ]
+   segr1005 [ label="are" shape=none ]
+   segr1007 [ label="real" shape=none ]
+   segr1008 [ label="." shape=none ]
+   segr1010 [ label="Just" shape=none ]
+   segr1012 [ label="like" shape=none ]
+   segr1014 [ label="the" shape=none ]
+   segr1016 [ label="respect" shape=none ]
+   segr1018 [ label="we" shape=none ]
+   ptbr00586 [ label="" shape=none ]
+   segr1019 [ label="'ve" shape=none ]
+   segr1021 [ label="earned" shape=none ]
+   segr1023 [ label="from" shape=none ]
+   ptbr00590 [ label="" shape=none ]
+   segr1025 [ label="U.S." shape=none ]
+   segr1027 [ label="News" shape=none ]
+   segr1029 [ label="&" shape=none ]
+   segr1031 [ label="World" shape=none ]
+   segr1033 [ label="Report" shape=none ]
+   segr1034 [ label="." shape=none ]
+   segr1036 [ label="Just" shape=none ]
+   segr1038 [ label="like" shape=none ]
+   segr1040 [ label="the" shape=none ]
+   segr1042 [ label="impact" shape=none ]
+   segr1044 [ label="Goodwill" shape=none ]
+   ptbr00602 [ label="" shape=none ]
+   segr1045 [ label="'s" shape=none ]
+   segr1047 [ label="work" shape=none ]
+   segr1049 [ label="has" shape=none ]
+   segr1051 [ label="on" shape=none ]
+   ptbr00607 [ label="" shape=none ]
+   segr1053 [ label="our" shape=none ]
+   segr1055 [ label="community" shape=none ]
+   segr1056 [ label="." shape=none ]
+   segr1058 [ label="Real" shape=none ]
+   segr1060 [ label="work" shape=none ]
+   segr1061 [ label="." shape=none ]
+   segr1063 [ label="Real" shape=none ]
+   segr1065 [ label="results" shape=none ]
+   segr1066 [ label="." shape=none ]
+   segr1068 [ label="A" shape=none ]
+   segr1070 [ label="real" shape=none ]
+   segr1072 [ label="difference" shape=none ]
+   segr1074 [ label="in" shape=none ]
+   segr1076 [ label="people" shape=none ]
+   segr1077 [ label="'" shape=none ]
+   segr1078 [ label="s" shape=none ]
+   segr1080 [ label="lives" shape=none ]
+   segr1082 [ label="-" shape=none ]
+   segr1083 [ label="-" shape=none ]
+   segr1085 [ label="in" shape=none ]
+   segr1087 [ label="all" shape=none ]
+   segr1090 [ label="of" shape=none ]
+   segr1092 [ label="our" shape=none ]
+   segr1094 [ label="lives" shape=none ]
+   segr1095 [ label="." shape=none ]
+   segr1097 [ label="The" shape=none ]
+   segr1099 [ label="people" shape=none ]
+   segr1101 [ label="who" shape=none ]
+   segr1103 [ label="can" shape=none ]
+   ptbr00635 [ label="" shape=none ]
+   segr1105 [ label="benefit" shape=none ]
+   segr1107 [ label="most" shape=none ]
+   segr1109 [ label="directly" shape=none ]
+   segr1111 [ label="from" shape=none ]
+   segr1113 [ label="your" shape=none ]
+   segr1115 [ label="generosity" shape=none ]
+   segr1117 [ label="have" shape=none ]
+   segr1119 [ label="no" shape=none ]
+   segr1121 [ label="time" shape=none ]
+   segr1123 [ label="to" shape=none ]
+   ptbr00646 [ label="" shape=none ]
+   ptbr00647 [ label="" shape=none ]
+   segr1125 [ label="waste" shape=none ]
+   segr1126 [ label="." shape=none ]
+   ptbr00650 [ label="" shape=none ]
+   segr1128 [ label="Neither" shape=none ]
+   segr1130 [ label="do" shape=none ]
+   segr1132 [ label="the" shape=none ]
+   segr1134 [ label="rest" shape=none ]
+   segr1136 [ label="of" shape=none ]
+   segr1138 [ label="us" shape=none ]
+   segr1140 [ label="who" shape=none ]
+   segr1142 [ label="feel" shape=none ]
+   ptbr00659 [ label="" shape=none ]
+   segr1144 [ label="the" shape=none ]
+   segr1146 [ label="positive" shape=none ]
+   segr1148 [ label="results" shape=none ]
+   segr1150 [ label="of" shape=none ]
+   segr1152 [ label="their" shape=none ]
+   segr1154 [ label="success" shape=none ]
+   segr1155 [ label="." shape=none ]
+   ptbr00667 [ label="" shape=none ]
+   segr1157 [ label="Your" shape=none ]
+   segr1159 [ label="support" shape=none ]
+   segr1161 [ label="helps" shape=none ]
+   segr1163 [ label="provide" shape=none ]
+   ptbr00672 [ label="" shape=none ]
+   segr1165 [ label="real" shape=none ]
+   segr1167 [ label="solutions" shape=none ]
+   segr1168 [ label="." shape=none ]
+   segr1170 [ label="Please" shape=none ]
+   segr1172 [ label="use" shape=none ]
+   ptbr00678 [ label="" shape=none ]
+   segr1174 [ label="the" shape=none ]
+   segr1176 [ label="enclosed" shape=none ]
+   segr1178 [ label="response" shape=none ]
+   segr1180 [ label="card" shape=none ]
+   segr1182 [ label="and" shape=none ]
+   segr1184 [ label="envelope" shape=none ]
+   segr1186 [ label="to" shape=none ]
+   ptbr00686 [ label="" shape=none ]
+   segr1188 [ label="give" shape=none ]
+   segr1190 [ label="generously" shape=none ]
+   segr1192 [ label="to" shape=none ]
+   segr1194 [ label="Goodwill" shape=none ]
+   segr1196 [ label="today" shape=none ]
+   segr1197 [ label="." shape=none ]
+   segr1199 [ label="Sincerely" shape=none ]
+   segr1200 [ label="," shape=none ]
+   segr1202 [ label="Jack" shape=none ]
+   segr1204 [ label="Dustman" shape=none ]
+   segr1206 [ label="Board" shape=none ]
+   segr1208 [ label="Member" shape=none ]
+   segr1210 [ label="and" shape=none ]
+   segr1212 [ label="Former" shape=none ]
+   segr1214 [ label="Chairman" shape=none ]
+   ptbn00081 [ label="tok" ]
+  ptbn00081 -> segr80
+   ptbn00082 [ label="PP" ]
+   ptbn00080 [ label="NP" ]
+   ptbn00970 [ label="NP" ]
+   ptbn00085 [ label="tok" ]
+  ptbn00085 -> segr84
+   ptbn00971 [ label="NP" ]
+   ptbn00972 [ label="tok" ]
+  ptbn00972 -> segr893
+   ptbn00086 [ label="tok" ]
+  ptbn00086 -> segr85
+   ptbn01131 [ label="NP" ]
+   ptbn00973 [ label="tok" ]
+  ptbn00973 -> segr895
+   ptbn00083 [ label="tok" ]
+  ptbn00083 -> segr82
+   ptbn00084 [ label="NP" ]
+   ptbn01130 [ label="tok" ]
+  ptbn01130 -> segr1038
+   ptbn00974 [ label="PP" ]
+   ptbn00290 [ label="PP" ]
+   ptbn00496 [ label="NP" ]
+   ptbn00975 [ label="tok" ]
+  ptbn00975 -> segr897
+   ptbn00497 [ label="NP" ]
+   ptbn00291 [ label="tok" ]
+  ptbn00291 -> segr252
+   ptbn00976 [ label="NP" ]
+   ptbn00494 [ label="tok" ]
+  ptbn00494 -> segr451
+   ptbn00977 [ label="tok" ]
+  ptbn00977 -> segr899
+   ptbn00978 [ label="tok" ]
+  ptbn00978 -> segr901
+   ptbn00495 [ label="tok" ]
+  ptbn00495 -> segr453
+   ptbn00979 [ label="tok" ]
+  ptbn00979 -> segr903
+   ptbn00294 [ label="tok" ]
+  ptbn00294 -> segr254
+   ptbn00295 [ label="tok" ]
+  ptbn00295 -> segr256
+   ptbn00292 [ label="NP" ]
+   ptbn00498 [ label="tok" ]
+  ptbn00498 -> segr455
+   ptbn00293 [ label="NP" ]
+   ptbn00499 [ label="tok" ]
+  ptbn00499 -> segr457
+   ptbn00299 [ label="tok" ]
+  ptbn00299 -> segr262
+   ptbn00298 [ label="tok" ]
+  ptbn00298 -> segr261
+   ptbn00297 [ label="tok" ]
+  ptbn00297 -> segr259
+   ptbn00296 [ label="tok" ]
+  ptbn00296 -> segr257
+   ptbn00493 [ label="tok" ]
+  ptbn00493 -> segr450
+   ptbn00492 [ label="tok" ]
+  ptbn00492 -> segr448
+   ptbn00491 [ label="NP" ]
+   ptbn00490 [ label="tok" ]
+  ptbn00490 -> segr446
+   ptbn01132 [ label="NP" ]
+   ptbn01133 [ label="tok" ]
+  ptbn01133 -> segr1040
+   ptbn00089 [ label="tok" ]
+  ptbn00089 -> segr87
+   ptbn00088 [ label="NP" ]
+   ptbn01134 [ label="tok" ]
+  ptbn01134 -> segr1042
+   ptbn00087 [ label="S" ]
+   ptbn01135 [ label="SBAR" ]
+   ptbn01136 [ label="WHNP" ]
+   ptbn01137 [ label="Trace" ]
+  ptbn01137 -> ptbr00602
+   ptbn01138 [ label="S" ]
+   ptbn01139 [ label="NP" ]
+   ptbn00090 [ label="VP" ]
+   ptbn00091 [ label="tok" ]
+  ptbn00091 -> segr89
+   ptbn00092 [ label="NP" ]
+   ptbn00093 [ label="NP" ]
+   ptbn00094 [ label="tok" ]
+  ptbn00094 -> segr91
+   ptbn01142 [ label="tok" ]
+  ptbn01142 -> segr1045
+   ptbn00962 [ label="VP" ]
+   ptbn00095 [ label="tok" ]
+  ptbn00095 -> segr93
+   ptbn00963 [ label="tok" ]
+  ptbn00963 -> segr884
+   ptbn01141 [ label="tok" ]
+  ptbn01141 -> segr1044
+   ptbn00096 [ label="SBAR" ]
+   ptbn01140 [ label="NP" ]
+   ptbn00960 [ label="NP" ]
+   ptbn00097 [ label="WHNP" ]
+   ptbn00961 [ label="Trace" ]
+  ptbn00961 -> ptbr00510
+   ptbn00483 [ label="tok" ]
+  ptbn00483 -> segr438
+   ptbn00966 [ label="NP" ]
+   ptbn00484 [ label="tok" ]
+  ptbn00484 -> segr440
+   ptbn00967 [ label="tok" ]
+  ptbn00967 -> segr888
+   ptbn00485 [ label="VP" ]
+   ptbn00964 [ label="VP" ]
+   ptbn00280 [ label="PP" ]
+   ptbn00486 [ label="tok" ]
+  ptbn00486 -> segr442
+   ptbn00965 [ label="tok" ]
+  ptbn00965 -> segr886
+   ptbn00487 [ label="NP" ]
+   ptbn00281 [ label="tok" ]
+  ptbn00281 -> segr241
+   ptbn00282 [ label="NP" ]
+   ptbn00488 [ label="CONJP" ]
+   ptbn00283 [ label="NP" ]
+   ptbn00489 [ label="tok" ]
+  ptbn00489 -> segr444
+   ptbn00968 [ label="tok" ]
+  ptbn00968 -> segr890
+   ptbn00284 [ label="tok" ]
+  ptbn00284 -> segr243
+   ptbn00969 [ label="tok" ]
+  ptbn00969 -> segr891
+   ptbn00286 [ label="tok" ]
+  ptbn00286 -> segr245
+   ptbn00285 [ label="NML" ]
+   ptbn00288 [ label="tok" ]
+  ptbn00288 -> segr248
+   ptbn00287 [ label="tok" ]
+  ptbn00287 -> segr246
+   ptbn00480 [ label="S" ]
+   ptbn00289 [ label="tok" ]
+  ptbn00289 -> segr250
+   ptbn00482 [ label="tok" ]
+  ptbn00482 -> segr436
+   ptbn00481 [ label="NP" ]
+   ptbn00099 [ label="S" ]
+   ptbn01145 [ label="tok" ]
+  ptbn01145 -> segr1049
+   ptbn00098 [ label="Trace" ]
+  ptbn00098 -> ptbr00051
+   ptbn01146 [ label="NP" ]
+   ptbn01143 [ label="tok" ]
+  ptbn01143 -> segr1047
+   ptbn01144 [ label="VP" ]
+   ptbn01149 [ label="tok" ]
+  ptbn01149 -> segr1051
+   ptbn01147 [ label="Trace" ]
+  ptbn01147 -> ptbr00607
+   ptbn01148 [ label="PP" ]
+   ptbn01313 [ label="tok" ]
+  ptbn01313 -> segr1200
+   ptbn00063 [ label="tok" ]
+  ptbn00063 -> segr62
+   ptbn00064 [ label="S" ]
+   ptbn00950 [ label="NP" ]
+   ptbn01312 [ label="tok" ]
+  ptbn01312 -> segr1199
+   ptbn01315 [ label="NP" ]
+   ptbn00951 [ label="tok" ]
+  ptbn00951 -> segr875
+   ptbn00061 [ label="tok" ]
+  ptbn00061 -> segr59
+   ptbn01314 [ label="NP" ]
+   ptbn00952 [ label="tok" ]
+  ptbn00952 -> segr877
+   ptbn00062 [ label="tok" ]
+  ptbn00062 -> segr61
+   ptbn00060 [ label="tok" ]
+  ptbn00060 -> segr57
+   ptbn01311 [ label="ADVP" ]
+   ptbn01310 [ label="FRAG" ]
+   ptbn00272 [ label="VP" ]
+   ptbn00478 [ label="tok" ]
+  ptbn00478 -> segr433
+   ptbn00957 [ label="NP" ]
+   ptbn00958 [ label="tok" ]
+  ptbn00958 -> segr882
+   ptbn00273 [ label="tok" ]
+  ptbn00273 -> segr236
+   ptbn00479 [ label="tok" ]
+  ptbn00479 -> segr434
+   ptbn00270 [ label="Trace" ]
+  ptbn00270 -> ptbr00137
+   ptbn00476 [ label="NP" ]
+   ptbn00959 [ label="S" ]
+   ptbn00271 [ label="tok" ]
+  ptbn00271 -> segr234
+   ptbn00477 [ label="tok" ]
+  ptbn00477 -> segr431
+   ptbn00474 [ label="PP" ]
+   ptbn01317 [ label="tok" ]
+  ptbn01317 -> segr1204
+   ptbn00953 [ label="tok" ]
+  ptbn00953 -> segr878
+   ptbn01316 [ label="tok" ]
+  ptbn01316 -> segr1202
+   ptbn00475 [ label="tok" ]
+  ptbn00475 -> segr429
+   ptbn00954 [ label="S" ]
+   ptbn01319 [ label="NP" ]
+   ptbn00472 [ label="VP" ]
+   ptbn00955 [ label="PP" ]
+   ptbn01318 [ label="NP" ]
+   ptbn00956 [ label="tok" ]
+  ptbn00956 -> segr880
+   ptbn00473 [ label="tok" ]
+  ptbn00473 -> segr427
+   ptbn00471 [ label="tok" ]
+  ptbn00471 -> segr425
+   ptbn00470 [ label="tok" ]
+  ptbn00470 -> segr423
+   ptbn00279 [ label="S" ]
+   ptbn00278 [ label="tok" ]
+  ptbn00278 -> segr239
+   ptbn01118 [ label="NP" ]
+   ptbn00277 [ label="tok" ]
+  ptbn00277 -> segr238
+   ptbn01119 [ label="NP" ]
+   ptbn00276 [ label="NP" ]
+   ptbn00275 [ label="Trace" ]
+  ptbn00275 -> ptbr00140
+   ptbn00274 [ label="NP" ]
+   ptbn01114 [ label="NP" ]
+   ptbn01115 [ label="Trace" ]
+  ptbn01115 -> ptbr00590
+   ptbn01116 [ label="PP" ]
+   ptbn00069 [ label="VP" ]
+   ptbn01117 [ label="tok" ]
+  ptbn01117 -> segr1023
+   ptbn01110 [ label="VP" ]
+   ptbn00068 [ label="tok" ]
+  ptbn00068 -> segr68
+   ptbn01111 [ label="tok" ]
+  ptbn01111 -> segr1019
+   ptbn00067 [ label="tok" ]
+  ptbn00067 -> segr66
+   ptbn01112 [ label="VP" ]
+   ptbn00066 [ label="tok" ]
+  ptbn00066 -> segr64
+   ptbn00065 [ label="NP" ]
+   ptbn01113 [ label="tok" ]
+  ptbn01113 -> segr1021
+   ptbn00940 [ label="PP" ]
+   ptbn01120 [ label="tok" ]
+  ptbn01120 -> segr1025
+   ptbn00072 [ label="tok" ]
+  ptbn00072 -> segr72
+   ptbn00073 [ label="S" ]
+   ptbn01325 [ label="tok" ]
+  ptbn01325 -> segr1214
+   ptbn00941 [ label="tok" ]
+  ptbn00941 -> segr863
+   ptbn00074 [ label="NP" ]
+   ptbn01324 [ label="tok" ]
+  ptbn01324 -> segr1212
+   ptbn01323 [ label="NP" ]
+   ptbn00075 [ label="tok" ]
+  ptbn00075 -> segr74
+   ptbn01322 [ label="tok" ]
+  ptbn01322 -> segr1210
+   ptbn00469 [ label="tok" ]
+  ptbn00469 -> segr421
+   ptbn01321 [ label="tok" ]
+  ptbn01321 -> segr1208
+   ptbn01320 [ label="tok" ]
+  ptbn01320 -> segr1206
+   ptbn00070 [ label="tok" ]
+  ptbn00070 -> segr70
+   ptbn00071 [ label="SBAR" ]
+   ptbn00948 [ label="VP" ]
+   ptbn00465 [ label="Trace" ]
+  ptbn00465 -> ptbr00246
+   ptbn00260 [ label="VP" ]
+   ptbn00949 [ label="tok" ]
+  ptbn00949 -> segr873
+   ptbn00466 [ label="tok" ]
+  ptbn00466 -> segr419
+   ptbn00946 [ label="NP" ]
+   ptbn00467 [ label="S" ]
+   ptbn00261 [ label="tok" ]
+  ptbn00261 -> segr227
+   ptbn00262 [ label="PP" ]
+   ptbn00468 [ label="NP" ]
+   ptbn00947 [ label="tok" ]
+  ptbn00947 -> segr871
+   ptbn00944 [ label="tok" ]
+  ptbn00944 -> segr867
+   ptbn00461 [ label="tok" ]
+  ptbn00461 -> segr414
+   ptbn00945 [ label="tok" ]
+  ptbn00945 -> segr869
+   ptbn00462 [ label="tok" ]
+  ptbn00462 -> segr416
+   ptbn00942 [ label="NP" ]
+   ptbn00463 [ label="tok" ]
+  ptbn00463 -> segr418
+   ptbn00464 [ label="ADVP" ]
+   ptbn00943 [ label="tok" ]
+  ptbn00943 -> segr865
+   ptbn00268 [ label="tok" ]
+  ptbn00268 -> segr232
+   ptbn00267 [ label="VP" ]
+   ptbn00460 [ label="NP" ]
+   ptbn00269 [ label="NP" ]
+   ptbn00264 [ label="NP" ]
+   ptbn00263 [ label="tok" ]
+  ptbn00263 -> segr229
+   ptbn01129 [ label="tok" ]
+  ptbn01129 -> segr1036
+   ptbn00266 [ label="tok" ]
+  ptbn00266 -> segr230
+   ptbn00939 [ label="S" ]
+   ptbn00265 [ label="Trace" ]
+  ptbn00265 -> ptbr00134
+   ptbn01127 [ label="PP" ]
+   ptbn01128 [ label="ADVP" ]
+   ptbn01125 [ label="tok" ]
+  ptbn01125 -> segr1033
+   ptbn01126 [ label="tok" ]
+  ptbn01126 -> segr1034
+   ptbn01123 [ label="NP" ]
+   ptbn00077 [ label="tok" ]
+  ptbn00077 -> segr76
+   ptbn00076 [ label="VP" ]
+   ptbn01124 [ label="tok" ]
+  ptbn01124 -> segr1031
+   ptbn01121 [ label="tok" ]
+  ptbn01121 -> segr1027
+   ptbn00079 [ label="tok" ]
+  ptbn00079 -> segr78
+   ptbn00078 [ label="VP" ]
+   ptbn01122 [ label="tok" ]
+  ptbn01122 -> segr1029
+   ptbn00932 [ label="PP" ]
+   ptbn00931 [ label="tok" ]
+  ptbn00931 -> segr852
+   ptbn00934 [ label="NP" ]
+   ptbn00933 [ label="tok" ]
+  ptbn00933 -> segr854
+   ptbn00251 [ label="S" ]
+   ptbn00936 [ label="tok" ]
+  ptbn00936 -> segr858
+   ptbn00935 [ label="tok" ]
+  ptbn00935 -> segr856
+   ptbn00250 [ label="tok" ]
+  ptbn00250 -> segr221
+   ptbn00938 [ label="tok" ]
+  ptbn00938 -> segr861
+   ptbn00937 [ label="tok" ]
+  ptbn00937 -> segr860
+   ptbn00930 [ label="tok" ]
+  ptbn00930 -> segr850
+   ptbn00730 [ label="S" ]
+   ptbn00731 [ label="S" ]
+   ptbn00732 [ label="NP" ]
+   ptbn00928 [ label="NP" ]
+   ptbn00254 [ label="VP" ]
+   ptbn00733 [ label="tok" ]
+  ptbn00733 -> segr659
+   ptbn00734 [ label="VP" ]
+   ptbn00929 [ label="NP" ]
+   ptbn00255 [ label="tok" ]
+  ptbn00255 -> segr223
+   ptbn00252 [ label="NP" ]
+   ptbn00735 [ label="tok" ]
+  ptbn00735 -> segr661
+   ptbn00736 [ label="SBAR" ]
+   ptbn00253 [ label="Trace" ]
+  ptbn00253 -> ptbr00129
+   ptbn00737 [ label="Trace" ]
+  ptbn00737 -> ptbr00388
+   ptbn00258 [ label="tok" ]
+  ptbn00258 -> segr225
+   ptbn00738 [ label="S" ]
+   ptbn00259 [ label="VP" ]
+   ptbn00739 [ label="NP" ]
+   ptbn00256 [ label="S" ]
+   ptbn00257 [ label="NP" ]
+   ptbn00923 [ label="NP" ]
+   ptbn00922 [ label="tok" ]
+  ptbn00922 -> segr842
+   ptbn00921 [ label="VP" ]
+   ptbn00719 [ label="NP" ]
+   ptbn00920 [ label="tok" ]
+  ptbn00920 -> segr840
+   ptbn00927 [ label="tok" ]
+  ptbn00927 -> segr848
+   ptbn00926 [ label="PP" ]
+   ptbn00240 [ label="Trace" ]
+  ptbn00240 -> ptbr00123
+   ptbn00925 [ label="tok" ]
+  ptbn00925 -> segr846
+   ptbn00924 [ label="tok" ]
+  ptbn00924 -> segr844
+   ptbn00249 [ label="PP" ]
+   ptbn01102 [ label="tok" ]
+  ptbn01102 -> segr1014
+   ptbn01101 [ label="NP" ]
+   ptbn01100 [ label="NP" ]
+   ptbn01106 [ label="Trace" ]
+  ptbn01106 -> ptbr00586
+   ptbn00720 [ label="tok" ]
+  ptbn00720 -> segr648
+   ptbn01105 [ label="WHNP" ]
+   ptbn00721 [ label="VP" ]
+   ptbn01104 [ label="SBAR" ]
+   ptbn01103 [ label="tok" ]
+  ptbn01103 -> segr1016
+   ptbn00919 [ label="NP" ]
+   ptbn00241 [ label="VP" ]
+   ptbn00724 [ label="tok" ]
+  ptbn00724 -> segr652
+   ptbn00725 [ label="PRT" ]
+   ptbn00242 [ label="tok" ]
+  ptbn00242 -> segr213
+   ptbn01109 [ label="tok" ]
+  ptbn01109 -> segr1018
+   ptbn01108 [ label="NP" ]
+   ptbn00243 [ label="VP" ]
+   ptbn00722 [ label="tok" ]
+  ptbn00722 -> segr650
+   ptbn00917 [ label="tok" ]
+  ptbn00917 -> segr837
+   ptbn01107 [ label="S" ]
+   ptbn00723 [ label="VP" ]
+   ptbn00244 [ label="tok" ]
+  ptbn00244 -> segr215
+   ptbn00918 [ label="tok" ]
+  ptbn00918 -> segr838
+   ptbn00245 [ label="NP" ]
+   ptbn00728 [ label="tok" ]
+  ptbn00728 -> segr656
+   ptbn00246 [ label="NP" ]
+   ptbn00729 [ label="tok" ]
+  ptbn00729 -> segr657
+   ptbn00726 [ label="tok" ]
+  ptbn00726 -> segr654
+   ptbn00247 [ label="tok" ]
+  ptbn00247 -> segr217
+   ptbn00727 [ label="NP" ]
+   ptbn00248 [ label="tok" ]
+  ptbn00248 -> segr219
+   ptbn00914 [ label="tok" ]
+  ptbn00914 -> segr833
+   ptbn00913 [ label="NP" ]
+   ptbn00916 [ label="ADVP" ]
+   ptbn00915 [ label="tok" ]
+  ptbn00915 -> segr835
+   ptbn00910 [ label="PP" ]
+   ptbn00709 [ label="tok" ]
+  ptbn00709 -> segr642
+   ptbn00708 [ label="NP" ]
+   ptbn00912 [ label="NP" ]
+   ptbn00911 [ label="tok" ]
+  ptbn00911 -> segr831
+   ptbn00710 [ label="VP" ]
+   ptbn00238 [ label="S" ]
+   ptbn00239 [ label="NP" ]
+   ptbn00715 [ label="Trace" ]
+  ptbn00715 -> ptbr00377
+   ptbn00236 [ label="NP" ]
+   ptbn00237 [ label="Trace" ]
+  ptbn00237 -> ptbr00122
+   ptbn00716 [ label="tok" ]
+  ptbn00716 -> segr645
+   ptbn00717 [ label="S" ]
+   ptbn00234 [ label="VP" ]
+   ptbn00718 [ label="tok" ]
+  ptbn00718 -> segr647
+   ptbn00235 [ label="tok" ]
+  ptbn00235 -> segr211
+   ptbn00232 [ label="VP" ]
+   ptbn00906 [ label="ADVP" ]
+   ptbn00711 [ label="tok" ]
+  ptbn00711 -> segr644
+   ptbn00712 [ label="SBAR" ]
+   ptbn00907 [ label="Trace" ]
+  ptbn00907 -> ptbr00480
+   ptbn00233 [ label="tok" ]
+  ptbn00233 -> segr209
+   ptbn00713 [ label="Trace" ]
+  ptbn00713 -> ptbr00376
+   ptbn00230 [ label="VP" ]
+   ptbn00908 [ label="tok" ]
+  ptbn00908 -> segr829
+   ptbn00714 [ label="S" ]
+   ptbn00909 [ label="S" ]
+   ptbn00231 [ label="tok" ]
+  ptbn00231 -> segr207
+   ptbn00905 [ label="tok" ]
+  ptbn00905 -> segr828
+   ptbn00904 [ label="NP" ]
+   ptbn00903 [ label="tok" ]
+  ptbn00903 -> segr826
+   ptbn00902 [ label="tok" ]
+  ptbn00902 -> segr824
+   ptbn00901 [ label="tok" ]
+  ptbn00901 -> segr822
+   ptbn00900 [ label="VP" ]
+   ptbn00227 [ label="tok" ]
+  ptbn00227 -> segr205
+   ptbn00228 [ label="NP" ]
+   ptbn00229 [ label="Trace" ]
+  ptbn00229 -> ptbr00118
+   ptbn00223 [ label="Trace" ]
+  ptbn00223 -> ptbr00115
+   ptbn00706 [ label="tok" ]
+  ptbn00706 -> segr639
+   ptbn00224 [ label="VP" ]
+   ptbn00707 [ label="tok" ]
+  ptbn00707 -> segr640
+   ptbn00704 [ label="tok" ]
+  ptbn00704 -> segr636
+   ptbn00225 [ label="tok" ]
+  ptbn00225 -> segr203
+   ptbn00226 [ label="VP" ]
+   ptbn00705 [ label="tok" ]
+  ptbn00705 -> segr638
+   ptbn00702 [ label="tok" ]
+  ptbn00702 -> segr634
+   ptbn00703 [ label="NP" ]
+   ptbn00220 [ label="tok" ]
+  ptbn00220 -> segr201
+   ptbn00221 [ label="S" ]
+   ptbn00700 [ label="NP" ]
+   ptbn00222 [ label="NP" ]
+   ptbn00701 [ label="tok" ]
+  ptbn00701 -> segr632
+   ptbn00008 [ label="NP" ]
+   ptbn00779 [ label="VP" ]
+   ptbn00007 [ label="tok" ]
+  ptbn00007 -> segr5
+   ptbn00778 [ label="Trace" ]
+  ptbn00778 -> ptbr00410
+   ptbn00777 [ label="NP" ]
+   ptbn00009 [ label="tok" ]
+  ptbn00009 -> segr7
+   ptbn00772 [ label="NP" ]
+   ptbn00000 [ label="ptb-n00000" ]
+   ptbn00771 [ label="tok" ]
+  ptbn00771 -> segr692
+   ptbn00770 [ label="PP" ]
+   ptbn00002 [ label="NP" ]
+   ptbn00001 [ label="NP" ]
+   ptbn00776 [ label="S" ]
+   ptbn00004 [ label="tok" ]
+  ptbn00004 -> segr2
+   ptbn00775 [ label="tok" ]
+  ptbn00775 -> segr698
+   ptbn00003 [ label="tok" ]
+  ptbn00003 -> segr0
+   ptbn00006 [ label="NP" ]
+   ptbn00774 [ label="tok" ]
+  ptbn00774 -> segr696
+   ptbn00773 [ label="tok" ]
+  ptbn00773 -> segr694
+   ptbn00005 [ label="tok" ]
+  ptbn00005 -> segr3
+   ptbn00767 [ label="tok" ]
+  ptbn00767 -> segr688
+   ptbn00766 [ label="VP" ]
+   ptbn00769 [ label="tok" ]
+  ptbn00769 -> segr690
+   ptbn00019 [ label="tok" ]
+  ptbn00019 -> segr18
+   ptbn00768 [ label="ADVP" ]
+   ptbn00018 [ label="tok" ]
+  ptbn00018 -> segr16
+   ptbn00013 [ label="S" ]
+   ptbn00012 [ label="tok" ]
+  ptbn00012 -> segr12
+   ptbn00761 [ label="tok" ]
+  ptbn00761 -> segr680
+   ptbn00011 [ label="tok" ]
+  ptbn00011 -> segr11
+   ptbn00760 [ label="PP" ]
+   ptbn00010 [ label="tok" ]
+  ptbn00010 -> segr9
+   ptbn00017 [ label="NP" ]
+   ptbn00763 [ label="tok" ]
+  ptbn00763 -> segr682
+   ptbn00762 [ label="NP" ]
+   ptbn00016 [ label="NP" ]
+   ptbn00765 [ label="tok" ]
+  ptbn00765 -> segr686
+   ptbn00015 [ label="tok" ]
+  ptbn00015 -> segr14
+   ptbn00014 [ label="PP" ]
+   ptbn00764 [ label="tok" ]
+  ptbn00764 -> segr684
+   ptbn00759 [ label="tok" ]
+  ptbn00759 -> segr678
+   ptbn00758 [ label="tok" ]
+  ptbn00758 -> segr676
+   ptbn00757 [ label="NP" ]
+   ptbn00756 [ label="NP" ]
+   ptbn00755 [ label="S" ]
+   ptbn00754 [ label="tok" ]
+  ptbn00754 -> segr674
+   ptbn00753 [ label="tok" ]
+  ptbn00753 -> segr673
+   ptbn00752 [ label="Trace" ]
+  ptbn00752 -> ptbr00395
+   ptbn00751 [ label="VP" ]
+   ptbn00750 [ label="tok" ]
+  ptbn00750 -> segr672
+   ptbn01198 [ label="VP" ]
+   ptbn01199 [ label="tok" ]
+  ptbn01199 -> segr1103
+   ptbn01197 [ label="Trace" ]
+  ptbn01197 -> ptbr00635
+   ptbn01196 [ label="NP" ]
+   ptbn01195 [ label="S" ]
+   ptbn01194 [ label="tok" ]
+  ptbn01194 -> segr1101
+   ptbn01193 [ label="WHNP" ]
+   ptbn01192 [ label="SBAR" ]
+   ptbn01191 [ label="tok" ]
+  ptbn01191 -> segr1099
+   ptbn01190 [ label="tok" ]
+  ptbn01190 -> segr1097
+   ptbn00749 [ label="VP" ]
+   ptbn00748 [ label="tok" ]
+  ptbn00748 -> segr670
+   ptbn00745 [ label="tok" ]
+  ptbn00745 -> segr666
+  ptbn00745 -> segr667
+  ptbn00745 -> segr668
+   ptbn00744 [ label="Trace" ]
+  ptbn00744 -> ptbr00391
+   ptbn00747 [ label="NP" ]
+   ptbn00746 [ label="S" ]
+   ptbn00741 [ label="VP" ]
+   ptbn00740 [ label="tok" ]
+  ptbn00740 -> segr663
+   ptbn00743 [ label="VP" ]
+   ptbn00742 [ label="tok" ]
+  ptbn00742 -> segr665
+   ptbn00043 [ label="S" ]
+   ptbn01179 [ label="NP" ]
+   ptbn00044 [ label="NP" ]
+   ptbn01178 [ label="NP" ]
+   ptbn00045 [ label="Trace" ]
+  ptbn00045 -> ptbr00023
+   ptbn01177 [ label="tok" ]
+  ptbn01177 -> segr1085
+   ptbn00046 [ label="VP" ]
+   ptbn01176 [ label="PP" ]
+   ptbn00047 [ label="tok" ]
+  ptbn00047 -> segr43
+   ptbn00048 [ label="ADVP" ]
+   ptbn00049 [ label="tok" ]
+  ptbn00049 -> segr45
+   ptbn01170 [ label="NP" ]
+   ptbn01171 [ label="NP" ]
+   ptbn01174 [ label="tok" ]
+  ptbn01174 -> segr1080
+   ptbn00040 [ label="tok" ]
+  ptbn00040 -> segr39
+   ptbn01175 [ label="tok" ]
+  ptbn01175 -> segr1082
+  ptbn01175 -> segr1083
+   ptbn01172 [ label="tok" ]
+  ptbn01172 -> segr1076
+   ptbn00042 [ label="tok" ]
+  ptbn00042 -> segr41
+   ptbn00041 [ label="VP" ]
+   ptbn01173 [ label="tok" ]
+  ptbn01173 -> segr1077
+  ptbn01173 -> segr1078
+   ptbn00056 [ label="PP" ]
+   ptbn01188 [ label="NP" ]
+   ptbn00057 [ label="tok" ]
+  ptbn00057 -> segr55
+   ptbn01187 [ label="S" ]
+   ptbn00054 [ label="tok" ]
+  ptbn00054 -> segr51
+   ptbn00055 [ label="tok" ]
+  ptbn00055 -> segr53
+   ptbn01189 [ label="NP" ]
+   ptbn00058 [ label="NP" ]
+   ptbn00059 [ label="QP" ]
+   ptbn01180 [ label="tok" ]
+  ptbn01180 -> segr1087
+   ptbn01181 [ label="PP" ]
+   ptbn01182 [ label="tok" ]
+  ptbn01182 -> segr1090
+   ptbn01183 [ label="NP" ]
+   ptbn00053 [ label="tok" ]
+  ptbn00053 -> segr49
+   ptbn00052 [ label="NP" ]
+   ptbn01184 [ label="tok" ]
+  ptbn01184 -> segr1092
+   ptbn01185 [ label="tok" ]
+  ptbn01185 -> segr1094
+   ptbn00051 [ label="tok" ]
+  ptbn00051 -> segr47
+   ptbn00050 [ label="VP" ]
+   ptbn01186 [ label="tok" ]
+  ptbn01186 -> segr1095
+   ptbn00025 [ label="tok" ]
+  ptbn00025 -> segr24
+   ptbn00797 [ label="tok" ]
+  ptbn00797 -> segr718
+   ptbn00026 [ label="VP" ]
+   ptbn00798 [ label="tok" ]
+  ptbn00798 -> segr720
+   ptbn01159 [ label="tok" ]
+  ptbn01159 -> segr1063
+   ptbn00027 [ label="tok" ]
+  ptbn00027 -> segr26
+   ptbn00795 [ label="tok" ]
+  ptbn00795 -> segr716
+   ptbn00796 [ label="NML" ]
+   ptbn01158 [ label="NP" ]
+   ptbn00028 [ label="S" ]
+   ptbn00021 [ label="SBAR" ]
+   ptbn01157 [ label="tok" ]
+  ptbn01157 -> segr1061
+   ptbn00793 [ label="tok" ]
+  ptbn00793 -> segr714
+   ptbn00794 [ label="NP" ]
+   ptbn01156 [ label="tok" ]
+  ptbn01156 -> segr1060
+   ptbn00022 [ label="tok" ]
+  ptbn00022 -> segr22
+   ptbn00023 [ label="S" ]
+   ptbn01155 [ label="tok" ]
+  ptbn01155 -> segr1058
+   ptbn00791 [ label="tok" ]
+  ptbn00791 -> segr712
+   ptbn00792 [ label="PP" ]
+   ptbn01154 [ label="NP" ]
+   ptbn00024 [ label="NP" ]
+   ptbn00029 [ label="NP" ]
+   ptbn00799 [ label="tok" ]
+  ptbn00799 -> segr722
+   ptbn00999 [ label="tok" ]
+  ptbn00999 -> segr919
+   ptbn00998 [ label="NP" ]
+   ptbn00997 [ label="NP" ]
+   ptbn01152 [ label="tok" ]
+  ptbn01152 -> segr1055
+   ptbn00790 [ label="tok" ]
+  ptbn00790 -> segr710
+   ptbn00996 [ label="S" ]
+   ptbn01153 [ label="tok" ]
+  ptbn01153 -> segr1056
+   ptbn00995 [ label="tok" ]
+  ptbn00995 -> segr917
+   ptbn01150 [ label="NP" ]
+   ptbn00994 [ label="tok" ]
+  ptbn00994 -> segr916
+   ptbn00020 [ label="tok" ]
+  ptbn00020 -> segr20
+   ptbn01151 [ label="tok" ]
+  ptbn01151 -> segr1053
+   ptbn00993 [ label="tok" ]
+  ptbn00993 -> segr914
+   ptbn00992 [ label="tok" ]
+  ptbn00992 -> segr912
+   ptbn00991 [ label="tok" ]
+  ptbn00991 -> segr911
+   ptbn00990 [ label="NP" ]
+   ptbn00038 [ label="tok" ]
+  ptbn00038 -> segr37
+   ptbn00784 [ label="tok" ]
+  ptbn00784 -> segr704
+   ptbn00039 [ label="VP" ]
+   ptbn01169 [ label="tok" ]
+  ptbn01169 -> segr1074
+   ptbn00785 [ label="tok" ]
+  ptbn00785 -> segr706
+   ptbn00786 [ label="PP" ]
+   ptbn00036 [ label="tok" ]
+  ptbn00036 -> segr35
+   ptbn00037 [ label="NP" ]
+   ptbn00787 [ label="tok" ]
+  ptbn00787 -> segr708
+   ptbn01166 [ label="tok" ]
+  ptbn01166 -> segr1072
+   ptbn00034 [ label="tok" ]
+  ptbn00034 -> segr32
+   ptbn00780 [ label="tok" ]
+  ptbn00780 -> segr700
+   ptbn00781 [ label="VP" ]
+   ptbn01165 [ label="tok" ]
+  ptbn01165 -> segr1070
+   ptbn00035 [ label="tok" ]
+  ptbn00035 -> segr34
+   ptbn01168 [ label="PP" ]
+   ptbn00032 [ label="tok" ]
+  ptbn00032 -> segr30
+   ptbn00782 [ label="tok" ]
+  ptbn00782 -> segr702
+   ptbn00783 [ label="NP" ]
+   ptbn00033 [ label="NP" ]
+   ptbn01167 [ label="PP" ]
+   ptbn00788 [ label="NP" ]
+   ptbn00789 [ label="NP" ]
+   ptbn00987 [ label="PP" ]
+   ptbn00986 [ label="tok" ]
+  ptbn00986 -> segr907
+   ptbn00989 [ label="NP" ]
+   ptbn00988 [ label="tok" ]
+  ptbn00988 -> segr909
+   ptbn00031 [ label="VP" ]
+   ptbn01161 [ label="tok" ]
+  ptbn01161 -> segr1066
+   ptbn00983 [ label="NP" ]
+   ptbn01162 [ label="NP" ]
+   ptbn00030 [ label="tok" ]
+  ptbn00030 -> segr28
+   ptbn00982 [ label="S" ]
+   ptbn01163 [ label="NP" ]
+   ptbn00985 [ label="VP" ]
+   ptbn01164 [ label="tok" ]
+  ptbn01164 -> segr1068
+   ptbn00984 [ label="Trace" ]
+  ptbn00984 -> ptbr00523
+   ptbn00981 [ label="tok" ]
+  ptbn00981 -> segr905
+   ptbn01160 [ label="tok" ]
+  ptbn01160 -> segr1065
+   ptbn00980 [ label="VP" ]
+   ptbn00204 [ label="S" ]
+   ptbn00203 [ label="tok" ]
+  ptbn00203 -> segr187
+   ptbn00202 [ label="tok" ]
+  ptbn00202 -> segr186
+   ptbn00201 [ label="NP" ]
+   ptbn00200 [ label="tok" ]
+  ptbn00200 -> segr184
+   ptbn00209 [ label="SBAR" ]
+   ptbn00208 [ label="tok" ]
+  ptbn00208 -> segr191
+   ptbn00207 [ label="tok" ]
+  ptbn00207 -> segr189
+   ptbn00206 [ label="NP" ]
+   ptbn00205 [ label="NP" ]
+   ptbn00409 [ label="NP" ]
+   ptbn00407 [ label="Trace" ]
+  ptbn00407 -> ptbr00220
+   ptbn00408 [ label="S" ]
+   ptbn00405 [ label="SBAR" ]
+   ptbn00406 [ label="WHADVP" ]
+   ptbn00403 [ label="tok" ]
+  ptbn00403 -> segr373
+   ptbn00404 [ label="tok" ]
+  ptbn00404 -> segr375
+   ptbn00401 [ label="NP" ]
+   ptbn00402 [ label="NP" ]
+   ptbn00400 [ label="tok" ]
+  ptbn00400 -> segr371
+   ptbn00213 [ label="NP" ]
+   ptbn00212 [ label="S" ]
+   ptbn00215 [ label="VP" ]
+   ptbn00214 [ label="tok" ]
+  ptbn00214 -> segr195
+   ptbn00211 [ label="tok" ]
+  ptbn00211 -> segr193
+   ptbn00210 [ label="WHNP" ]
+   ptbn00217 [ label="VP" ]
+   ptbn00216 [ label="tok" ]
+  ptbn00216 -> segr197
+   ptbn00219 [ label="NP" ]
+   ptbn00218 [ label="tok" ]
+  ptbn00218 -> segr199
+   ptbn00418 [ label="SBAR" ]
+   ptbn00419 [ label="WHNP" ]
+   ptbn00414 [ label="tok" ]
+  ptbn00414 -> segr381
+   ptbn00415 [ label="NP" ]
+   ptbn00416 [ label="NP" ]
+   ptbn00417 [ label="tok" ]
+  ptbn00417 -> segr383
+   ptbn00410 [ label="tok" ]
+  ptbn00410 -> segr377
+   ptbn00411 [ label="VP" ]
+   ptbn00412 [ label="tok" ]
+  ptbn00412 -> segr379
+   ptbn00413 [ label="PRT" ]
+   ptbn01309 [ label="tok" ]
+  ptbn01309 -> segr1197
+   ptbn00446 [ label="tok" ]
+  ptbn00446 -> segr400
+   ptbn00445 [ label="NP" ]
+   ptbn00444 [ label="S" ]
+   ptbn00443 [ label="Trace" ]
+  ptbn00443 -> ptbr00235
+   ptbn01305 [ label="NP" ]
+   ptbn00442 [ label="WHADVP" ]
+   ptbn00441 [ label="SBAR" ]
+   ptbn01306 [ label="tok" ]
+  ptbn01306 -> segr1194
+   ptbn01307 [ label="NP" ]
+   ptbn00440 [ label="tok" ]
+  ptbn00440 -> segr398
+   ptbn01308 [ label="tok" ]
+  ptbn01308 -> segr1196
+   ptbn01301 [ label="ADVP" ]
+   ptbn01302 [ label="tok" ]
+  ptbn01302 -> segr1190
+   ptbn01303 [ label="PP" ]
+   ptbn01304 [ label="tok" ]
+  ptbn01304 -> segr1192
+   ptbn00449 [ label="S" ]
+   ptbn00448 [ label="tok" ]
+  ptbn00448 -> segr402
+   ptbn00447 [ label="VP" ]
+   ptbn01300 [ label="tok" ]
+  ptbn01300 -> segr1188
+   ptbn00455 [ label="NP" ]
+   ptbn00454 [ label="NP" ]
+   ptbn00457 [ label="tok" ]
+  ptbn00457 -> segr410
+   ptbn00456 [ label="tok" ]
+  ptbn00456 -> segr408
+   ptbn00451 [ label="tok" ]
+  ptbn00451 -> segr404
+   ptbn00450 [ label="NP" ]
+   ptbn00453 [ label="tok" ]
+  ptbn00453 -> segr406
+   ptbn00452 [ label="VP" ]
+   ptbn00459 [ label="tok" ]
+  ptbn00459 -> segr412
+   ptbn00458 [ label="PP" ]
+   ptbn00420 [ label="tok" ]
+  ptbn00420 -> segr385
+   ptbn00424 [ label="VP" ]
+   ptbn00423 [ label="Trace" ]
+  ptbn00423 -> ptbr00226
+   ptbn00422 [ label="NP" ]
+   ptbn00421 [ label="S" ]
+   ptbn00428 [ label="tok" ]
+  ptbn00428 -> segr389
+   ptbn00427 [ label="NP" ]
+   ptbn00426 [ label="NP" ]
+   ptbn00425 [ label="tok" ]
+  ptbn00425 -> segr387
+   ptbn00429 [ label="PP" ]
+   ptbn00431 [ label="NP" ]
+   ptbn00430 [ label="tok" ]
+  ptbn00430 -> segr391
+   ptbn00433 [ label="ADVP" ]
+   ptbn00432 [ label="tok" ]
+  ptbn00432 -> segr393
+   ptbn00435 [ label="tok" ]
+  ptbn00435 -> segr394
+   ptbn00434 [ label="Trace" ]
+  ptbn00434 -> ptbr00231
+   ptbn00437 [ label="NP" ]
+   ptbn00436 [ label="S" ]
+   ptbn00439 [ label="tok" ]
+  ptbn00439 -> segr396
+   ptbn00438 [ label="NP" ]
+   ptbn00393 [ label="VP" ]
+   ptbn00836 [ label="tok" ]
+  ptbn00836 -> segr755
+   ptbn00599 [ label="NP" ]
+   ptbn00837 [ label="S" ]
+   ptbn00394 [ label="tok" ]
+  ptbn00394 -> segr367
+   ptbn00838 [ label="NP" ]
+   ptbn00391 [ label="tok" ]
+  ptbn00391 -> segr363
+   ptbn00597 [ label="tok" ]
+  ptbn00597 -> segr547
+   ptbn00839 [ label="tok" ]
+  ptbn00839 -> segr757
+   ptbn00392 [ label="tok" ]
+  ptbn00392 -> segr365
+   ptbn00598 [ label="NP" ]
+   ptbn00832 [ label="NP" ]
+   ptbn00595 [ label="tok" ]
+  ptbn00595 -> segr545
+   ptbn00833 [ label="Trace" ]
+  ptbn00833 -> ptbr00439
+   ptbn00390 [ label="NP" ]
+   ptbn00596 [ label="VP" ]
+   ptbn00834 [ label="PRT" ]
+   ptbn00593 [ label="tok" ]
+  ptbn00593 -> segr543
+   ptbn00835 [ label="tok" ]
+  ptbn00835 -> segr754
+   ptbn00594 [ label="NP" ]
+   ptbn00184 [ label="VP" ]
+   ptbn00185 [ label="tok" ]
+  ptbn00185 -> segr168
+   ptbn00830 [ label="VP" ]
+   ptbn00182 [ label="NP" ]
+   ptbn01230 [ label="tok" ]
+  ptbn01230 -> segr1128
+   ptbn00183 [ label="tok" ]
+  ptbn00183 -> segr166
+   ptbn00831 [ label="tok" ]
+  ptbn00831 -> segr752
+   ptbn00180 [ label="tok" ]
+  ptbn00180 -> segr164
+   ptbn00181 [ label="S" ]
+   ptbn01235 [ label="tok" ]
+  ptbn01235 -> segr1132
+   ptbn01236 [ label="tok" ]
+  ptbn01236 -> segr1134
+   ptbn01237 [ label="PP" ]
+   ptbn01238 [ label="tok" ]
+  ptbn01238 -> segr1136
+   ptbn01231 [ label="tok" ]
+  ptbn01231 -> segr1130
+   ptbn00189 [ label="tok" ]
+  ptbn00189 -> segr172
+   ptbn00188 [ label="NP" ]
+   ptbn01232 [ label="NP" ]
+   ptbn01233 [ label="NP" ]
+   ptbn00187 [ label="tok" ]
+  ptbn00187 -> segr170
+   ptbn00186 [ label="VP" ]
+   ptbn01234 [ label="NP" ]
+   ptbn00592 [ label="tok" ]
+  ptbn00592 -> segr542
+   ptbn00591 [ label="NP" ]
+   ptbn00590 [ label="tok" ]
+  ptbn00590 -> segr540
+   ptbn00399 [ label="PP" ]
+   ptbn00398 [ label="Trace" ]
+  ptbn00398 -> ptbr00216
+   ptbn01239 [ label="NP" ]
+   ptbn00397 [ label="NP" ]
+   ptbn00829 [ label="tok" ]
+  ptbn00829 -> segr750
+   ptbn00396 [ label="tok" ]
+  ptbn00396 -> segr369
+   ptbn00395 [ label="VP" ]
+   ptbn00586 [ label="tok" ]
+  ptbn00586 -> segr537
+   ptbn00380 [ label="tok" ]
+  ptbn00380 -> segr350
+   ptbn00827 [ label="tok" ]
+  ptbn00827 -> segr748
+   ptbn00828 [ label="ADVP" ]
+   ptbn00587 [ label="tok" ]
+  ptbn00587 -> segr538
+   ptbn00381 [ label="tok" ]
+  ptbn00381 -> segr352
+   ptbn00382 [ label="tok" ]
+  ptbn00382 -> segr353
+   ptbn00825 [ label="tok" ]
+  ptbn00825 -> segr746
+   ptbn00588 [ label="S" ]
+   ptbn00826 [ label="VP" ]
+   ptbn00383 [ label="NP" ]
+   ptbn00589 [ label="PP" ]
+   ptbn00823 [ label="NP" ]
+   ptbn00582 [ label="tok" ]
+  ptbn00582 -> segr533
+   ptbn00583 [ label="ADVP" ]
+   ptbn00824 [ label="tok" ]
+  ptbn00824 -> segr744
+   ptbn00584 [ label="tok" ]
+  ptbn00584 -> segr535
+   ptbn00821 [ label="tok" ]
+  ptbn00821 -> segr742
+   ptbn00822 [ label="S" ]
+   ptbn00585 [ label="VP" ]
+   ptbn01241 [ label="SBAR" ]
+   ptbn00193 [ label="tok" ]
+  ptbn00193 -> segr177
+   ptbn00820 [ label="WHNP" ]
+   ptbn00194 [ label="NP" ]
+   ptbn01240 [ label="tok" ]
+  ptbn01240 -> segr1138
+   ptbn00195 [ label="tok" ]
+  ptbn00195 -> segr179
+   ptbn00196 [ label="VP" ]
+   ptbn00190 [ label="tok" ]
+  ptbn00190 -> segr174
+   ptbn00191 [ label="tok" ]
+  ptbn00191 -> segr175
+   ptbn00192 [ label="S" ]
+   ptbn01248 [ label="tok" ]
+  ptbn01248 -> segr1142
+   ptbn01249 [ label="NP" ]
+   ptbn01246 [ label="Trace" ]
+  ptbn01246 -> ptbr00659
+   ptbn01247 [ label="VP" ]
+   ptbn01244 [ label="S" ]
+   ptbn00198 [ label="tok" ]
+  ptbn00198 -> segr182
+   ptbn01245 [ label="NP" ]
+   ptbn00197 [ label="tok" ]
+  ptbn00197 -> segr181
+   ptbn01242 [ label="WHNP" ]
+   ptbn00199 [ label="VP" ]
+   ptbn01243 [ label="tok" ]
+  ptbn01243 -> segr1140
+   ptbn00389 [ label="tok" ]
+  ptbn00389 -> segr361
+   ptbn00388 [ label="PP" ]
+   ptbn00581 [ label="tok" ]
+  ptbn00581 -> segr532
+   ptbn00580 [ label="VP" ]
+   ptbn00385 [ label="tok" ]
+  ptbn00385 -> segr355
+   ptbn00384 [ label="NP" ]
+   ptbn00819 [ label="SBAR" ]
+   ptbn00387 [ label="tok" ]
+  ptbn00387 -> segr359
+   ptbn00818 [ label="tok" ]
+  ptbn00818 -> segr740
+   ptbn00386 [ label="tok" ]
+  ptbn00386 -> segr357
+   ptbn00854 [ label="PP" ]
+   ptbn00855 [ label="tok" ]
+  ptbn00855 -> segr776
+   ptbn00856 [ label="NP" ]
+   ptbn00857 [ label="tok" ]
+  ptbn00857 -> segr778
+   ptbn00858 [ label="tok" ]
+  ptbn00858 -> segr780
+   ptbn00859 [ label="tok" ]
+  ptbn00859 -> segr781
+   ptbn00850 [ label="NP" ]
+   ptbn01250 [ label="NP" ]
+   ptbn00851 [ label="NP" ]
+   ptbn01252 [ label="tok" ]
+  ptbn01252 -> segr1146
+   ptbn00852 [ label="tok" ]
+  ptbn00852 -> segr772
+   ptbn01251 [ label="tok" ]
+  ptbn01251 -> segr1144
+   ptbn00853 [ label="tok" ]
+  ptbn00853 -> segr774
+   ptbn01253 [ label="tok" ]
+  ptbn01253 -> segr1148
+   ptbn01254 [ label="PP" ]
+   ptbn01255 [ label="tok" ]
+  ptbn01255 -> segr1150
+   ptbn01256 [ label="NP" ]
+   ptbn01257 [ label="tok" ]
+  ptbn01257 -> segr1152
+   ptbn01258 [ label="tok" ]
+  ptbn01258 -> segr1154
+   ptbn01259 [ label="VP" ]
+   ptbn00845 [ label="NP" ]
+   ptbn00846 [ label="tok" ]
+  ptbn00846 -> segr763
+   ptbn00843 [ label="tok" ]
+  ptbn00843 -> segr761
+   ptbn00844 [ label="NP" ]
+   ptbn00849 [ label="tok" ]
+  ptbn00849 -> segr769
+  ptbn00849 -> segr770
+   ptbn00847 [ label="tok" ]
+  ptbn00847 -> segr765
+   ptbn00848 [ label="tok" ]
+  ptbn00848 -> segr767
+   ptbn01263 [ label="NP" ]
+   ptbn00841 [ label="tok" ]
+  ptbn00841 -> segr759
+   ptbn00842 [ label="VP" ]
+   ptbn01262 [ label="S" ]
+   ptbn01261 [ label="tok" ]
+  ptbn01261 -> segr1155
+   ptbn00840 [ label="ADVP" ]
+   ptbn01260 [ label="Trace" ]
+  ptbn01260 -> ptbr00667
+   ptbn01266 [ label="VP" ]
+   ptbn01267 [ label="tok" ]
+  ptbn01267 -> segr1161
+   ptbn01264 [ label="tok" ]
+  ptbn01264 -> segr1157
+   ptbn01265 [ label="tok" ]
+  ptbn01265 -> segr1159
+   ptbn01268 [ label="S" ]
+   ptbn01269 [ label="NP" ]
+   ptbn00350 [ label="tok" ]
+  ptbn00350 -> segr317
+   ptbn00357 [ label="tok" ]
+  ptbn00357 -> segr325
+   ptbn00358 [ label="tok" ]
+  ptbn00358 -> segr327
+   ptbn00355 [ label="tok" ]
+  ptbn00355 -> segr322
+   ptbn00356 [ label="tok" ]
+  ptbn00356 -> segr324
+   ptbn00353 [ label="tok" ]
+  ptbn00353 -> segr321
+   ptbn00354 [ label="ADJP" ]
+   ptbn00351 [ label="VP" ]
+   ptbn00352 [ label="tok" ]
+  ptbn00352 -> segr319
+   ptbn00359 [ label="tok" ]
+  ptbn00359 -> segr329
+   ptbn00344 [ label="tok" ]
+  ptbn00344 -> segr308
+   ptbn00345 [ label="tok" ]
+  ptbn00345 -> segr310
+   ptbn00346 [ label="NP" ]
+   ptbn00347 [ label="tok" ]
+  ptbn00347 -> segr312
+   ptbn00340 [ label="tok" ]
+  ptbn00340 -> segr303
+   ptbn01209 [ label="tok" ]
+  ptbn01209 -> segr1115
+   ptbn00341 [ label="tok" ]
+  ptbn00341 -> segr305
+   ptbn01208 [ label="tok" ]
+  ptbn01208 -> segr1113
+   ptbn00342 [ label="CONJP" ]
+   ptbn01207 [ label="NP" ]
+   ptbn00343 [ label="tok" ]
+  ptbn00343 -> segr306
+   ptbn01206 [ label="tok" ]
+  ptbn01206 -> segr1111
+   ptbn01205 [ label="PP" ]
+   ptbn01204 [ label="tok" ]
+  ptbn01204 -> segr1109
+   ptbn01203 [ label="tok" ]
+  ptbn01203 -> segr1107
+   ptbn01202 [ label="ADVP" ]
+   ptbn00348 [ label="tok" ]
+  ptbn00348 -> segr314
+   ptbn01201 [ label="tok" ]
+  ptbn01201 -> segr1105
+   ptbn00349 [ label="tok" ]
+  ptbn00349 -> segr316
+   ptbn01200 [ label="VP" ]
+   ptbn00811 [ label="VP" ]
+   ptbn00609 [ label="tok" ]
+  ptbn00609 -> segr559
+   ptbn00810 [ label="tok" ]
+  ptbn00810 -> segr733
+   ptbn00813 [ label="tok" ]
+  ptbn00813 -> segr736
+   ptbn00812 [ label="tok" ]
+  ptbn00812 -> segr735
+   ptbn00815 [ label="NP" ]
+   ptbn00372 [ label="NP" ]
+   ptbn00814 [ label="S" ]
+   ptbn00371 [ label="NP" ]
+   ptbn00817 [ label="VP" ]
+   ptbn00370 [ label="tok" ]
+  ptbn00370 -> segr339
+   ptbn00816 [ label="tok" ]
+  ptbn00816 -> segr738
+   ptbn00612 [ label="tok" ]
+  ptbn00612 -> segr561
+   ptbn00375 [ label="tok" ]
+  ptbn00375 -> segr343
+   ptbn00807 [ label="tok" ]
+  ptbn00807 -> segr729
+   ptbn01218 [ label="Trace" ]
+  ptbn01218 -> ptbr00646
+   ptbn00376 [ label="tok" ]
+  ptbn00376 -> segr345
+   ptbn00808 [ label="tok" ]
+  ptbn00808 -> segr731
+   ptbn01217 [ label="WHNP" ]
+   ptbn00613 [ label="SBAR" ]
+   ptbn00809 [ label="VP" ]
+   ptbn00373 [ label="NP" ]
+   ptbn00614 [ label="WHNP" ]
+   ptbn00615 [ label="tok" ]
+  ptbn00615 -> segr563
+   ptbn00374 [ label="tok" ]
+  ptbn00374 -> segr341
+   ptbn01219 [ label="S" ]
+   ptbn00379 [ label="tok" ]
+  ptbn00379 -> segr349
+   ptbn00616 [ label="S" ]
+   ptbn00617 [ label="NP" ]
+   ptbn00377 [ label="NP" ]
+   ptbn00618 [ label="Trace" ]
+  ptbn00618 -> ptbr00327
+   ptbn00378 [ label="tok" ]
+  ptbn00378 -> segr347
+   ptbn00619 [ label="VP" ]
+   ptbn01210 [ label="VP" ]
+   ptbn01212 [ label="NP" ]
+   ptbn01211 [ label="tok" ]
+  ptbn01211 -> segr1117
+   ptbn01214 [ label="tok" ]
+  ptbn01214 -> segr1119
+   ptbn01213 [ label="NP" ]
+   ptbn01216 [ label="SBAR" ]
+   ptbn00610 [ label="NP" ]
+   ptbn01215 [ label="tok" ]
+  ptbn01215 -> segr1121
+   ptbn00611 [ label="NP" ]
+   ptbn00802 [ label="S" ]
+   ptbn00801 [ label="tok" ]
+  ptbn00801 -> segr725
+   ptbn00800 [ label="tok" ]
+  ptbn00800 -> segr724
+   ptbn00806 [ label="NP" ]
+   ptbn00805 [ label="S" ]
+   ptbn00361 [ label="tok" ]
+  ptbn00361 -> segr332
+   ptbn00804 [ label="tok" ]
+  ptbn00804 -> segr727
+   ptbn00803 [ label="SBAR" ]
+   ptbn00360 [ label="tok" ]
+  ptbn00360 -> segr331
+   ptbn00603 [ label="tok" ]
+  ptbn00603 -> segr553
+   ptbn00362 [ label="tok" ]
+  ptbn00362 -> segr333
+   ptbn00363 [ label="S" ]
+   ptbn00604 [ label="PP" ]
+   ptbn00364 [ label="SBAR" ]
+   ptbn01229 [ label="SINV" ]
+   ptbn00601 [ label="tok" ]
+  ptbn00601 -> segr549
+   ptbn00602 [ label="tok" ]
+  ptbn00602 -> segr551
+   ptbn00365 [ label="tok" ]
+  ptbn00365 -> segr335
+   ptbn01228 [ label="tok" ]
+  ptbn01228 -> segr1126
+   ptbn00366 [ label="S" ]
+   ptbn00607 [ label="NP" ]
+   ptbn00367 [ label="NP" ]
+   ptbn00608 [ label="tok" ]
+  ptbn00608 -> segr557
+   ptbn00605 [ label="tok" ]
+  ptbn00605 -> segr555
+   ptbn00368 [ label="tok" ]
+  ptbn00368 -> segr337
+   ptbn00369 [ label="VP" ]
+   ptbn00606 [ label="NP" ]
+   ptbn01223 [ label="tok" ]
+  ptbn01223 -> segr1123
+   ptbn01222 [ label="VP" ]
+   ptbn01221 [ label="Trace" ]
+  ptbn01221 -> ptbr00647
+   ptbn01220 [ label="NP" ]
+   ptbn01227 [ label="Trace" ]
+  ptbn01227 -> ptbr00650
+   ptbn01226 [ label="NP" ]
+   ptbn00600 [ label="NP" ]
+   ptbn01225 [ label="tok" ]
+  ptbn01225 -> segr1125
+   ptbn01224 [ label="VP" ]
+   ptbn00633 [ label="tok" ]
+  ptbn00633 -> segr575
+   ptbn00103 [ label="tok" ]
+  ptbn00103 -> segr95
+   ptbn00102 [ label="VP" ]
+   ptbn00632 [ label="VP" ]
+   ptbn00105 [ label="tok" ]
+  ptbn00105 -> segr97
+   ptbn00631 [ label="Trace" ]
+  ptbn00631 -> ptbr00333
+   ptbn00104 [ label="VP" ]
+   ptbn00630 [ label="NP" ]
+   ptbn00101 [ label="Trace" ]
+  ptbn00101 -> ptbr00052
+   ptbn00100 [ label="NP" ]
+   ptbn00639 [ label="PP" ]
+   ptbn00638 [ label="tok" ]
+  ptbn00638 -> segr579
+   ptbn00107 [ label="Trace" ]
+  ptbn00107 -> ptbr00055
+   ptbn00637 [ label="tok" ]
+  ptbn00637 -> segr577
+   ptbn00106 [ label="NP" ]
+   ptbn00636 [ label="NP" ]
+   ptbn00109 [ label="SINV" ]
+   ptbn00635 [ label="NP" ]
+   ptbn00108 [ label="tok" ]
+  ptbn00108 -> segr98
+   ptbn00634 [ label="NP" ]
+   ptbn00620 [ label="tok" ]
+  ptbn00620 -> segr565
+   ptbn00116 [ label="tok" ]
+  ptbn00116 -> segr105
+   ptbn00115 [ label="Trace" ]
+  ptbn00115 -> ptbr00060
+   ptbn00114 [ label="VP" ]
+   ptbn00622 [ label="tok" ]
+  ptbn00622 -> segr567
+   ptbn00113 [ label="tok" ]
+  ptbn00113 -> segr104
+   ptbn00621 [ label="PP" ]
+   ptbn00112 [ label="NP" ]
+   ptbn00111 [ label="tok" ]
+  ptbn00111 -> segr102
+   ptbn00110 [ label="tok" ]
+  ptbn00110 -> segr100
+   ptbn00628 [ label="tok" ]
+  ptbn00628 -> segr573
+   ptbn00627 [ label="WHNP" ]
+   ptbn00629 [ label="S" ]
+   ptbn00624 [ label="tok" ]
+  ptbn00624 -> segr569
+   ptbn00119 [ label="tok" ]
+  ptbn00119 -> segr107
+   ptbn00623 [ label="NP" ]
+   ptbn00118 [ label="PP" ]
+   ptbn00626 [ label="SBAR" ]
+   ptbn00117 [ label="S" ]
+   ptbn00625 [ label="tok" ]
+  ptbn00625 -> segr571
+   ptbn00121 [ label="NP" ]
+   ptbn00651 [ label="tok" ]
+  ptbn00651 -> segr589
+   ptbn00120 [ label="NP" ]
+   ptbn00650 [ label="VP" ]
+   ptbn00123 [ label="tok" ]
+  ptbn00123 -> segr111
+   ptbn00122 [ label="tok" ]
+  ptbn00122 -> segr109
+   ptbn00655 [ label="tok" ]
+  ptbn00655 -> segr591
+   ptbn00125 [ label="tok" ]
+  ptbn00125 -> segr113
+   ptbn00124 [ label="PP" ]
+   ptbn00654 [ label="NP" ]
+   ptbn00127 [ label="NP" ]
+   ptbn00653 [ label="Trace" ]
+  ptbn00653 -> ptbr00343
+   ptbn00126 [ label="NP" ]
+   ptbn00652 [ label="NP" ]
+   ptbn00129 [ label="PP" ]
+   ptbn00659 [ label="NP" ]
+   ptbn00658 [ label="S" ]
+   ptbn00128 [ label="tok" ]
+  ptbn00128 -> segr115
+   ptbn00657 [ label="tok" ]
+  ptbn00657 -> segr594
+   ptbn00656 [ label="tok" ]
+  ptbn00656 -> segr593
+   ptbn00134 [ label="NP" ]
+   ptbn00133 [ label="tok" ]
+  ptbn00133 -> segr120
+   ptbn00640 [ label="tok" ]
+  ptbn00640 -> segr581
+   ptbn00132 [ label="tok" ]
+  ptbn00132 -> segr119
+   ptbn00131 [ label="NP" ]
+   ptbn00138 [ label="VP" ]
+   ptbn00642 [ label="tok" ]
+  ptbn00642 -> segr583
+   ptbn00137 [ label="tok" ]
+  ptbn00137 -> segr124
+   ptbn00641 [ label="NP" ]
+   ptbn00136 [ label="VP" ]
+   ptbn00644 [ label="SBAR" ]
+   ptbn00643 [ label="tok" ]
+  ptbn00643 -> segr585
+   ptbn00135 [ label="tok" ]
+  ptbn00135 -> segr122
+   ptbn00646 [ label="Trace" ]
+  ptbn00646 -> ptbr00340
+   ptbn00645 [ label="WHNP" ]
+   ptbn00648 [ label="NP" ]
+   ptbn00139 [ label="tok" ]
+  ptbn00139 -> segr126
+   ptbn00647 [ label="S" ]
+   ptbn00649 [ label="tok" ]
+  ptbn00649 -> segr587
+   ptbn00130 [ label="tok" ]
+  ptbn00130 -> segr117
+   ptbn00678 [ label="tok" ]
+  ptbn00678 -> segr617
+   ptbn00679 [ label="NP" ]
+   ptbn00676 [ label="S" ]
+   ptbn00146 [ label="tok" ]
+  ptbn00146 -> segr130
+   ptbn00147 [ label="NP" ]
+   ptbn00677 [ label="S" ]
+   ptbn00674 [ label="tok" ]
+  ptbn00674 -> segr614
+   ptbn00148 [ label="tok" ]
+  ptbn00148 -> segr132
+   ptbn00675 [ label="tok" ]
+  ptbn00675 -> segr615
+   ptbn00149 [ label="tok" ]
+  ptbn00149 -> segr134
+   ptbn01279 [ label="tok" ]
+  ptbn01279 -> segr1170
+   ptbn00142 [ label="Trace" ]
+  ptbn00142 -> ptbr00073
+   ptbn01278 [ label="INTJ" ]
+   ptbn00672 [ label="NP" ]
+   ptbn00143 [ label="VP" ]
+   ptbn01277 [ label="S" ]
+   ptbn00673 [ label="tok" ]
+  ptbn00673 -> segr612
+   ptbn00670 [ label="PP" ]
+   ptbn00144 [ label="tok" ]
+  ptbn00144 -> segr128
+   ptbn01276 [ label="tok" ]
+  ptbn01276 -> segr1168
+   ptbn00145 [ label="VP" ]
+   ptbn00671 [ label="tok" ]
+  ptbn00671 -> segr610
+   ptbn01275 [ label="tok" ]
+  ptbn01275 -> segr1167
+   ptbn01273 [ label="NP" ]
+   ptbn00875 [ label="tok" ]
+  ptbn00875 -> segr795
+   ptbn00874 [ label="tok" ]
+  ptbn00874 -> segr793
+   ptbn01274 [ label="tok" ]
+  ptbn01274 -> segr1165
+   ptbn00141 [ label="NP" ]
+   ptbn01271 [ label="VP" ]
+   ptbn00873 [ label="tok" ]
+  ptbn00873 -> segr791
+   ptbn00140 [ label="S" ]
+   ptbn00872 [ label="NP" ]
+   ptbn01272 [ label="tok" ]
+  ptbn01272 -> segr1163
+   ptbn00871 [ label="tok" ]
+  ptbn00871 -> segr789
+   ptbn01270 [ label="Trace" ]
+  ptbn01270 -> ptbr00672
+   ptbn00870 [ label="PP" ]
+   ptbn00879 [ label="tok" ]
+  ptbn00879 -> segr800
+   ptbn00878 [ label="tok" ]
+  ptbn00878 -> segr798
+   ptbn00877 [ label="NP" ]
+   ptbn00876 [ label="tok" ]
+  ptbn00876 -> segr796
+   ptbn00667 [ label="NP" ]
+   ptbn00668 [ label="tok" ]
+  ptbn00668 -> segr606
+   ptbn00669 [ label="tok" ]
+  ptbn00669 -> segr608
+   ptbn00159 [ label="tok" ]
+  ptbn00159 -> segr140
+   ptbn00663 [ label="tok" ]
+  ptbn00663 -> segr602
+   ptbn00664 [ label="VP" ]
+   ptbn00157 [ label="NP" ]
+   ptbn00665 [ label="tok" ]
+  ptbn00665 -> segr604
+   ptbn00158 [ label="NP" ]
+   ptbn00666 [ label="NP" ]
+   ptbn00155 [ label="VP" ]
+   ptbn01287 [ label="NML" ]
+   ptbn01286 [ label="tok" ]
+  ptbn01286 -> segr1176
+   ptbn00156 [ label="tok" ]
+  ptbn00156 -> segr138
+   ptbn00660 [ label="tok" ]
+  ptbn00660 -> segr596
+   ptbn00153 [ label="VP" ]
+   ptbn01289 [ label="tok" ]
+  ptbn01289 -> segr1178
+   ptbn00661 [ label="tok" ]
+  ptbn00661 -> segr598
+   ptbn01288 [ label="NML" ]
+   ptbn00154 [ label="tok" ]
+  ptbn00154 -> segr136
+   ptbn00662 [ label="tok" ]
+  ptbn00662 -> segr600
+   ptbn00152 [ label="Trace" ]
+  ptbn00152 -> ptbr00078
+   ptbn01282 [ label="VP" ]
+   ptbn00862 [ label="NP" ]
+   ptbn00151 [ label="NP" ]
+   ptbn00861 [ label="S" ]
+   ptbn01283 [ label="tok" ]
+  ptbn01283 -> segr1172
+   ptbn00150 [ label="S" ]
+   ptbn01284 [ label="NP" ]
+   ptbn00864 [ label="VP" ]
+   ptbn00863 [ label="Trace" ]
+  ptbn00863 -> ptbr00455
+   ptbn01285 [ label="tok" ]
+  ptbn01285 -> segr1174
+   ptbn01280 [ label="NP" ]
+   ptbn00860 [ label="S" ]
+   ptbn01281 [ label="Trace" ]
+  ptbn01281 -> ptbr00678
+   ptbn00869 [ label="tok" ]
+  ptbn00869 -> segr787
+   ptbn00866 [ label="NP" ]
+   ptbn00865 [ label="tok" ]
+  ptbn00865 -> segr783
+   ptbn00868 [ label="tok" ]
+  ptbn00868 -> segr785
+   ptbn00867 [ label="NP" ]
+   ptbn00164 [ label="NP" ]
+   ptbn00694 [ label="Trace" ]
+  ptbn00694 -> ptbr00365
+   ptbn01299 [ label="VP" ]
+   ptbn00695 [ label="VP" ]
+   ptbn00165 [ label="tok" ]
+  ptbn00165 -> segr148
+   ptbn00692 [ label="S" ]
+   ptbn01298 [ label="tok" ]
+  ptbn01298 -> segr1186
+   ptbn00166 [ label="tok" ]
+  ptbn00166 -> segr150
+   ptbn01297 [ label="VP" ]
+   ptbn00693 [ label="NP" ]
+   ptbn00167 [ label="tok" ]
+  ptbn00167 -> segr152
+   ptbn00168 [ label="tok" ]
+  ptbn00168 -> segr153
+   ptbn00698 [ label="tok" ]
+  ptbn00698 -> segr630
+   ptbn00169 [ label="S" ]
+   ptbn00699 [ label="NP" ]
+   ptbn00696 [ label="tok" ]
+  ptbn00696 -> segr628
+   ptbn00697 [ label="VP" ]
+   ptbn00893 [ label="VP" ]
+   ptbn01291 [ label="tok" ]
+  ptbn01291 -> segr1182
+   ptbn01292 [ label="NML" ]
+   ptbn00892 [ label="tok" ]
+  ptbn00892 -> segr814
+   ptbn00891 [ label="NP" ]
+   ptbn00890 [ label="S" ]
+   ptbn01290 [ label="tok" ]
+  ptbn01290 -> segr1180
+   ptbn01295 [ label="NP" ]
+   ptbn00691 [ label="Trace" ]
+  ptbn00691 -> ptbr00364
+   ptbn00897 [ label="S" ]
+   ptbn00161 [ label="tok" ]
+  ptbn00161 -> segr144
+   ptbn01296 [ label="Trace" ]
+  ptbn01296 -> ptbr00686
+   ptbn00690 [ label="WHNP" ]
+   ptbn00896 [ label="tok" ]
+  ptbn00896 -> segr818
+   ptbn00160 [ label="tok" ]
+  ptbn00160 -> segr142
+   ptbn00895 [ label="VP" ]
+   ptbn01293 [ label="tok" ]
+  ptbn01293 -> segr1184
+   ptbn00163 [ label="tok" ]
+  ptbn00163 -> segr146
+   ptbn00162 [ label="PP" ]
+   ptbn01294 [ label="S" ]
+   ptbn00894 [ label="tok" ]
+  ptbn00894 -> segr816
+   ptbn00899 [ label="tok" ]
+  ptbn00899 -> segr820
+   ptbn00898 [ label="NP" ]
+   ptbn00689 [ label="SBAR" ]
+   ptbn00177 [ label="NP" ]
+   ptbn00681 [ label="VP" ]
+   ptbn00178 [ label="tok" ]
+  ptbn00178 -> segr162
+   ptbn00682 [ label="tok" ]
+  ptbn00682 -> segr620
+   ptbn00175 [ label="VP" ]
+   ptbn00683 [ label="VP" ]
+   ptbn00176 [ label="tok" ]
+  ptbn00176 -> segr160
+   ptbn00684 [ label="tok" ]
+  ptbn00684 -> segr622
+   ptbn00685 [ label="NP" ]
+   ptbn00686 [ label="NP" ]
+   ptbn00179 [ label="SBAR" ]
+   ptbn00687 [ label="tok" ]
+  ptbn00687 -> segr624
+   ptbn00688 [ label="tok" ]
+  ptbn00688 -> segr626
+   ptbn00170 [ label="NP" ]
+   ptbn00880 [ label="tok" ]
+  ptbn00880 -> segr802
+   ptbn00882 [ label="VP" ]
+   ptbn00881 [ label="tok" ]
+  ptbn00881 -> segr804
+   ptbn00884 [ label="NP" ]
+   ptbn00174 [ label="tok" ]
+  ptbn00174 -> segr158
+   ptbn00883 [ label="tok" ]
+  ptbn00883 -> segr806
+   ptbn00173 [ label="tok" ]
+  ptbn00173 -> segr157
+   ptbn00172 [ label="VP" ]
+   ptbn00886 [ label="tok" ]
+  ptbn00886 -> segr810
+   ptbn00680 [ label="tok" ]
+  ptbn00680 -> segr618
+   ptbn00885 [ label="tok" ]
+  ptbn00885 -> segr808
+   ptbn00171 [ label="tok" ]
+  ptbn00171 -> segr155
+   ptbn00888 [ label="WHADVP" ]
+   ptbn00887 [ label="SBAR" ]
+   ptbn00889 [ label="tok" ]
+  ptbn00889 -> segr812
+   ptbn01061 [ label="tok" ]
+  ptbn01061 -> segr977
+   ptbn01060 [ label="NP" ]
+   ptbn01065 [ label="tok" ]
+  ptbn01065 -> segr980
+   ptbn01064 [ label="NP" ]
+   ptbn01063 [ label="S" ]
+   ptbn01062 [ label="tok" ]
+  ptbn01062 -> segr978
+   ptbn01068 [ label="VP" ]
+   ptbn01069 [ label="tok" ]
+  ptbn01069 -> segr984
+   ptbn01066 [ label="ADVP" ]
+   ptbn01067 [ label="tok" ]
+  ptbn01067 -> segr982
+   ptbn01050 [ label="NP" ]
+   ptbn01052 [ label="tok" ]
+  ptbn01052 -> segr969
+   ptbn01051 [ label="tok" ]
+  ptbn01051 -> segr967
+   ptbn01054 [ label="tok" ]
+  ptbn01054 -> segr971
+   ptbn01053 [ label="PP" ]
+   ptbn01055 [ label="NP" ]
+   ptbn01056 [ label="NP" ]
+   ptbn01057 [ label="tok" ]
+  ptbn01057 -> segr973
+   ptbn01058 [ label="PP" ]
+   ptbn01059 [ label="tok" ]
+  ptbn01059 -> segr975
+   ptbn01043 [ label="tok" ]
+  ptbn01043 -> segr959
+   ptbn01042 [ label="VP" ]
+   ptbn01041 [ label="tok" ]
+  ptbn01041 -> segr957
+   ptbn01040 [ label="NP" ]
+   ptbn01048 [ label="tok" ]
+  ptbn01048 -> segr965
+   ptbn01049 [ label="NP" ]
+   ptbn01046 [ label="tok" ]
+  ptbn01046 -> segr963
+   ptbn01047 [ label="PP" ]
+   ptbn01044 [ label="NP" ]
+   ptbn01045 [ label="tok" ]
+  ptbn01045 -> segr961
+   ptbn01030 [ label="PP" ]
+   ptbn01032 [ label="NP" ]
+   ptbn01031 [ label="tok" ]
+  ptbn01031 -> segr947
+   ptbn01037 [ label="ADVP" ]
+   ptbn01038 [ label="tok" ]
+  ptbn01038 -> segr954
+   ptbn01039 [ label="tok" ]
+  ptbn01039 -> segr955
+   ptbn01033 [ label="tok" ]
+  ptbn01033 -> segr949
+   ptbn01034 [ label="tok" ]
+  ptbn01034 -> segr951
+   ptbn01035 [ label="tok" ]
+  ptbn01035 -> segr952
+   ptbn01036 [ label="S" ]
+   ptbn01090 [ label="tok" ]
+  ptbn01090 -> segr1003
+   ptbn01091 [ label="VP" ]
+   ptbn01092 [ label="tok" ]
+  ptbn01092 -> segr1005
+   ptbn01093 [ label="ADJP" ]
+   ptbn01094 [ label="tok" ]
+  ptbn01094 -> segr1007
+   ptbn01095 [ label="tok" ]
+  ptbn01095 -> segr1008
+   ptbn01096 [ label="PP" ]
+   ptbn01097 [ label="ADVP" ]
+   ptbn01098 [ label="tok" ]
+  ptbn01098 -> segr1010
+   ptbn01099 [ label="tok" ]
+  ptbn01099 -> segr1012
+   ptbn01086 [ label="tok" ]
+  ptbn01086 -> segr997
+   ptbn01087 [ label="tok" ]
+  ptbn01087 -> segr999
+   ptbn01084 [ label="NP" ]
+   ptbn01085 [ label="tok" ]
+  ptbn01085 -> segr995
+   ptbn01082 [ label="S" ]
+   ptbn01083 [ label="NP" ]
+   ptbn01080 [ label="tok" ]
+  ptbn01080 -> segr992
+   ptbn01081 [ label="tok" ]
+  ptbn01081 -> segr993
+   ptbn01089 [ label="tok" ]
+  ptbn01089 -> segr1001
+   ptbn01088 [ label="NP" ]
+   ptbn01073 [ label="NP" ]
+   ptbn01074 [ label="Trace" ]
+  ptbn01074 -> ptbr00569
+   ptbn01075 [ label="VP" ]
+   ptbn01076 [ label="tok" ]
+  ptbn01076 -> segr988
+   ptbn01070 [ label="NP" ]
+   ptbn01071 [ label="tok" ]
+  ptbn01071 -> segr986
+   ptbn01072 [ label="S" ]
+   ptbn01078 [ label="tok" ]
+  ptbn01078 -> segr990
+   ptbn01077 [ label="VP" ]
+   ptbn01079 [ label="NP" ]
+   ptbn00307 [ label="tok" ]
+  ptbn00307 -> segr272
+   ptbn00306 [ label="tok" ]
+  ptbn00306 -> segr270
+   ptbn00305 [ label="NP" ]
+   ptbn00304 [ label="tok" ]
+  ptbn00304 -> segr268
+   ptbn00309 [ label="tok" ]
+  ptbn00309 -> segr274
+   ptbn00308 [ label="VP" ]
+   ptbn00303 [ label="tok" ]
+  ptbn00303 -> segr266
+   ptbn00302 [ label="tok" ]
+  ptbn00302 -> segr264
+   ptbn00301 [ label="NP" ]
+   ptbn00300 [ label="NP" ]
+   ptbn00500 [ label="PP" ]
+   ptbn00501 [ label="tok" ]
+  ptbn00501 -> segr459
+   ptbn00504 [ label="tok" ]
+  ptbn00504 -> segr463
+   ptbn00505 [ label="tok" ]
+  ptbn00505 -> segr465
+   ptbn00502 [ label="NP" ]
+   ptbn00503 [ label="tok" ]
+  ptbn00503 -> segr461
+   ptbn00508 [ label="NP" ]
+   ptbn00509 [ label="tok" ]
+  ptbn00509 -> segr468
+   ptbn00506 [ label="tok" ]
+  ptbn00506 -> segr466
+   ptbn00507 [ label="S" ]
+   ptbn00316 [ label="NP" ]
+   ptbn00315 [ label="NP" ]
+   ptbn00318 [ label="PP" ]
+   ptbn00317 [ label="tok" ]
+  ptbn00317 -> segr278
+   ptbn00319 [ label="tok" ]
+  ptbn00319 -> segr280
+   ptbn00310 [ label="NP" ]
+   ptbn00312 [ label="S" ]
+   ptbn00311 [ label="tok" ]
+  ptbn00311 -> segr276
+   ptbn00314 [ label="Trace" ]
+  ptbn00314 -> ptbr00163
+   ptbn00313 [ label="NP" ]
+   ptbn00510 [ label="VP" ]
+   ptbn00511 [ label="tok" ]
+  ptbn00511 -> segr470
+   ptbn00512 [ label="PP" ]
+   ptbn00513 [ label="tok" ]
+  ptbn00513 -> segr472
+   ptbn00514 [ label="NP" ]
+   ptbn00515 [ label="NP" ]
+   ptbn00516 [ label="tok" ]
+  ptbn00516 -> segr474
+   ptbn00517 [ label="tok" ]
+  ptbn00517 -> segr476
+   ptbn00518 [ label="PP" ]
+   ptbn00519 [ label="tok" ]
+  ptbn00519 -> segr478
+   ptbn00329 [ label="S" ]
+   ptbn00328 [ label="tok" ]
+  ptbn00328 -> segr293
+   ptbn00327 [ label="tok" ]
+  ptbn00327 -> segr292
+   ptbn00326 [ label="tok" ]
+  ptbn00326 -> segr291
+   ptbn00325 [ label="tok" ]
+  ptbn00325 -> segr289
+   ptbn00324 [ label="tok" ]
+  ptbn00324 -> segr287
+   ptbn00323 [ label="tok" ]
+  ptbn00323 -> segr286
+   ptbn00322 [ label="tok" ]
+  ptbn00322 -> segr284
+   ptbn00321 [ label="tok" ]
+  ptbn00321 -> segr282
+   ptbn00320 [ label="NP" ]
+   ptbn00522 [ label="tok" ]
+  ptbn00522 -> segr480
+   ptbn00523 [ label="CONJP" ]
+   ptbn00520 [ label="NP" ]
+   ptbn00521 [ label="NP" ]
+   ptbn00528 [ label="tok" ]
+  ptbn00528 -> segr487
+   ptbn00529 [ label="S" ]
+   ptbn00526 [ label="NP" ]
+   ptbn00527 [ label="tok" ]
+  ptbn00527 -> segr486
+   ptbn00524 [ label="tok" ]
+  ptbn00524 -> segr482
+   ptbn00525 [ label="tok" ]
+  ptbn00525 -> segr484
+   ptbn00338 [ label="NP" ]
+   ptbn00337 [ label="S" ]
+   ptbn00339 [ label="NP" ]
+   ptbn00334 [ label="tok" ]
+  ptbn00334 -> segr299
+   ptbn00333 [ label="VP" ]
+   ptbn00336 [ label="tok" ]
+  ptbn00336 -> segr301
+   ptbn00335 [ label="SBAR" ]
+   ptbn00330 [ label="NP" ]
+   ptbn00332 [ label="tok" ]
+  ptbn00332 -> segr297
+   ptbn00331 [ label="tok" ]
+  ptbn00331 -> segr295
+   ptbn00531 [ label="NP" ]
+   ptbn00532 [ label="tok" ]
+  ptbn00532 -> segr489
+   ptbn00533 [ label="tok" ]
+  ptbn00533 -> segr491
+   ptbn00534 [ label="SBAR" ]
+   ptbn00530 [ label="NP" ]
+   ptbn00539 [ label="Trace" ]
+  ptbn00539 -> ptbr00287
+   ptbn00535 [ label="WHNP" ]
+   ptbn00536 [ label="tok" ]
+  ptbn00536 -> segr493
+   ptbn00537 [ label="S" ]
+   ptbn00538 [ label="NP" ]
+   ptbn01023 [ label="Trace" ]
+  ptbn01023 -> ptbr00543
+   ptbn01022 [ label="NP" ]
+   ptbn01025 [ label="tok" ]
+  ptbn01025 -> segr941
+   ptbn01024 [ label="VP" ]
+   ptbn01027 [ label="tok" ]
+  ptbn01027 -> segr943
+   ptbn01026 [ label="VP" ]
+   ptbn01029 [ label="tok" ]
+  ptbn01029 -> segr945
+   ptbn01028 [ label="ADVP" ]
+   ptbn00549 [ label="Trace" ]
+  ptbn00549 -> ptbr00292
+   ptbn00548 [ label="NP" ]
+   ptbn00547 [ label="tok" ]
+  ptbn00547 -> segr501
+   ptbn00546 [ label="VP" ]
+   ptbn00541 [ label="tok" ]
+  ptbn00541 -> segr495
+   ptbn00540 [ label="VP" ]
+   ptbn00545 [ label="tok" ]
+  ptbn00545 -> segr499
+   ptbn00544 [ label="VP" ]
+   ptbn01020 [ label="tok" ]
+  ptbn01020 -> segr939
+   ptbn00543 [ label="tok" ]
+  ptbn00543 -> segr497
+   ptbn00542 [ label="VP" ]
+   ptbn01021 [ label="S" ]
+   ptbn01014 [ label="tok" ]
+  ptbn01014 -> segr933
+   ptbn01013 [ label="VP" ]
+   ptbn01012 [ label="tok" ]
+  ptbn01012 -> segr931
+   ptbn01011 [ label="NP" ]
+   ptbn01018 [ label="NP" ]
+   ptbn01017 [ label="NP" ]
+   ptbn01016 [ label="tok" ]
+  ptbn01016 -> segr935
+   ptbn01015 [ label="VP" ]
+   ptbn01019 [ label="tok" ]
+  ptbn01019 -> segr937
+   ptbn00558 [ label="tok" ]
+  ptbn00558 -> segr511
+   ptbn00557 [ label="VP" ]
+   ptbn00559 [ label="NP" ]
+   ptbn00550 [ label="PP" ]
+   ptbn00552 [ label="NP" ]
+   ptbn00551 [ label="tok" ]
+  ptbn00551 -> segr503
+   ptbn00554 [ label="tok" ]
+  ptbn00554 -> segr507
+   ptbn00553 [ label="tok" ]
+  ptbn00553 -> segr505
+   ptbn01010 [ label="S" ]
+   ptbn00556 [ label="tok" ]
+  ptbn00556 -> segr509
+   ptbn00555 [ label="VP" ]
+   ptbn01005 [ label="tok" ]
+  ptbn01005 -> segr923
+   ptbn01004 [ label="NP" ]
+   ptbn01007 [ label="tok" ]
+  ptbn01007 -> segr927
+   ptbn01006 [ label="tok" ]
+  ptbn01006 -> segr925
+   ptbn01001 [ label="Trace" ]
+  ptbn01001 -> ptbr00532
+   ptbn01000 [ label="SBAR" ]
+   ptbn01003 [ label="tok" ]
+  ptbn01003 -> segr921
+   ptbn01002 [ label="VP" ]
+   ptbn01009 [ label="tok" ]
+  ptbn01009 -> segr929
+   ptbn01008 [ label="SBAR" ]
+   ptbn00569 [ label="SBAR" ]
+   ptbn00568 [ label="tok" ]
+  ptbn00568 -> segr520
+   ptbn00567 [ label="VP" ]
+   ptbn00566 [ label="tok" ]
+  ptbn00566 -> segr518
+   ptbn00565 [ label="tok" ]
+  ptbn00565 -> segr516
+   ptbn00564 [ label="tok" ]
+  ptbn00564 -> segr514
+   ptbn00563 [ label="NP" ]
+   ptbn00562 [ label="S" ]
+   ptbn00561 [ label="tok" ]
+  ptbn00561 -> segr512
+   ptbn00560 [ label="Trace" ]
+  ptbn00560 -> ptbr00298
+   ptbn00570 [ label="tok" ]
+  ptbn00570 -> segr522
+   ptbn00579 [ label="tok" ]
+  ptbn00579 -> segr530
+   ptbn00576 [ label="tok" ]
+  ptbn00576 -> segr526
+   ptbn00575 [ label="PP" ]
+   ptbn00578 [ label="tok" ]
+  ptbn00578 -> segr528
+   ptbn00577 [ label="NP" ]
+   ptbn00572 [ label="NP" ]
+   ptbn00571 [ label="S" ]
+   ptbn00574 [ label="tok" ]
+  ptbn00574 -> segr524
+   ptbn00573 [ label="NP" ]
+   { rank=same; segr0 segr2 segr3 segr5 segr7 segr9 segr11 segr12 segr14 segr16 segr18 segr20 segr22 segr24 segr26 segr28 segr30 segr32 segr34 segr35 segr37 segr39 segr41 segr43 ptbr00023 segr45 segr47 segr49 segr51 segr53 segr55 segr57 segr59 segr61 segr62 segr64 segr66 segr68 segr70 segr72 segr74 segr76 segr78 segr80 segr82 segr84 segr85 segr87 segr89 segr91 segr93 segr95 ptbr00051 ptbr00052 segr97 segr98 ptbr00055 segr100 segr102 segr104 segr105 ptbr00060 segr107 segr109 segr111 segr113 segr115 segr117 segr119 segr120 segr122 segr124 segr126 segr128 ptbr00073 segr130 segr132 segr134 segr136 ptbr00078 segr138 segr140 segr142 segr144 segr146 segr148 segr150 segr152 segr153 segr155 segr157 segr158 segr160 segr162 segr164 segr166 segr168 segr170 segr172 segr174 segr175 segr177 segr179 segr181 segr182 segr184 segr186 segr187 segr189 segr191 segr193 segr195 segr197 segr199 segr201 segr203 ptbr00115 segr205 segr207 ptbr00118 segr209 segr211 segr213 ptbr00122 ptbr00123 segr215 segr217 segr219 segr221 segr223 ptbr00129 segr225 segr227 segr229 segr230 ptbr00134 segr232 segr234 ptbr00137 segr236 segr238 ptbr00140 segr239 segr241 segr243 segr245 segr246 segr248 segr250 segr252 segr254 segr256 segr257 segr259 segr261 segr262 segr264 segr266 segr268 segr270 segr272 segr274 segr276 segr278 ptbr00163 segr280 segr282 segr284 segr286 segr287 segr289 segr291 segr292 segr293 segr295 segr297 segr299 segr301 segr303 segr305 segr306 segr308 segr310 segr312 segr314 segr316 segr317 segr319 segr321 segr322 segr324 segr325 segr327 segr329 segr331 segr332 segr333 segr335 segr337 segr339 segr341 segr343 segr345 segr347 segr349 segr350 segr352 segr353 segr355 segr357 segr359 segr361 segr363 segr365 segr367 segr369 segr371 ptbr00216 segr373 segr375 segr377 ptbr00220 segr379 segr381 segr383 segr385 segr387 ptbr00226 segr389 segr391 segr393 segr394 ptbr00231 segr396 segr398 segr400 ptbr00235 segr402 segr404 segr406 segr408 segr410 segr412 segr414 segr416 segr418 segr419 ptbr00246 segr421 segr423 segr425 segr427 segr429 segr431 segr433 segr434 segr436 segr438 segr440 segr442 segr444 segr446 segr448 segr450 segr451 segr453 segr455 segr457 segr459 segr461 segr463 segr465 segr466 segr468 segr470 segr472 segr474 segr476 segr478 segr480 segr482 segr484 segr486 segr487 segr489 segr491 segr493 segr495 ptbr00287 segr497 segr499 segr501 segr503 ptbr00292 segr505 segr507 segr509 segr511 segr512 ptbr00298 segr514 segr516 segr518 segr520 segr522 segr524 segr526 segr528 segr530 segr532 segr533 segr535 segr537 segr538 segr540 segr542 segr543 segr545 segr547 segr549 segr551 segr553 segr555 segr557 segr559 segr561 segr563 segr565 ptbr00327 segr567 segr569 segr571 segr573 segr575 ptbr00333 segr577 segr579 segr581 segr583 segr585 segr587 ptbr00340 segr589 segr591 ptbr00343 segr593 segr594 segr596 segr598 segr600 segr602 segr604 segr606 segr608 segr610 segr612 segr614 segr615 segr617 segr618 segr620 segr622 segr624 segr626 segr628 ptbr00364 ptbr00365 segr630 segr632 segr634 segr636 segr638 segr639 segr640 segr642 segr644 segr645 ptbr00376 ptbr00377 segr647 segr648 segr650 segr652 segr654 segr656 segr657 segr659 segr661 segr663 ptbr00388 segr665 segr666 ptbr00391 segr667 segr668 segr670 segr672 segr673 ptbr00395 segr674 segr676 segr678 segr680 segr682 segr684 segr686 segr688 segr690 segr692 segr694 segr696 segr698 segr700 ptbr00410 segr702 segr704 segr706 segr708 segr710 segr712 segr714 segr716 segr718 segr720 segr722 segr724 segr725 segr727 segr729 segr731 segr733 segr735 segr736 segr738 segr740 segr742 segr744 segr746 segr748 segr750 segr752 segr754 ptbr00439 segr755 segr757 segr759 segr761 segr763 segr765 segr767 segr769 segr770 segr772 segr774 segr776 segr778 segr780 segr781 segr783 ptbr00455 segr785 segr787 segr789 segr791 segr793 segr795 segr796 segr798 segr800 segr802 segr804 segr806 segr808 segr810 segr812 segr814 segr816 segr818 segr820 segr822 segr824 segr826 segr828 segr829 ptbr00480 segr831 segr833 segr835 segr837 segr838 segr840 segr842 segr844 segr846 segr848 segr850 segr852 segr854 segr856 segr858 segr860 segr861 segr863 segr865 segr867 segr869 segr871 segr873 segr875 segr877 segr878 segr880 segr882 segr884 ptbr00510 segr886 segr888 segr890 segr891 segr893 segr895 segr897 segr899 segr901 segr903 segr905 segr907 ptbr00523 segr909 segr911 segr912 segr914 segr916 segr917 segr919 segr921 ptbr00532 segr923 segr925 segr927 segr929 segr931 segr933 segr935 segr937 segr939 segr941 ptbr00543 segr943 segr945 segr947 segr949 segr951 segr952 segr954 segr955 segr957 segr959 segr961 segr963 segr965 segr967 segr969 segr971 segr973 segr975 segr977 segr978 segr980 segr982 segr984 segr986 segr988 ptbr00569 segr990 segr992 segr993 segr995 segr997 segr999 segr1001 segr1003 segr1005 segr1007 segr1008 segr1010 segr1012 segr1014 segr1016 segr1018 ptbr00586 segr1019 segr1021 segr1023 ptbr00590 segr1025 segr1027 segr1029 segr1031 segr1033 segr1034 segr1036 segr1038 segr1040 segr1042 segr1044 ptbr00602 segr1045 segr1047 segr1049 segr1051 ptbr00607 segr1053 segr1055 segr1056 segr1058 segr1060 segr1061 segr1063 segr1065 segr1066 segr1068 segr1070 segr1072 segr1074 segr1076 segr1077 segr1078 segr1080 segr1082 segr1083 segr1085 segr1087 segr1090 segr1092 segr1094 segr1095 segr1097 segr1099 segr1101 segr1103 ptbr00635 segr1105 segr1107 segr1109 segr1111 segr1113 segr1115 segr1117 segr1119 segr1121 segr1123 ptbr00646 ptbr00647 segr1125 segr1126 ptbr00650 segr1128 segr1130 segr1132 segr1134 segr1136 segr1138 segr1140 segr1142 ptbr00659 segr1144 segr1146 segr1148 segr1150 segr1152 segr1154 segr1155 ptbr00667 segr1157 segr1159 segr1161 segr1163 ptbr00672 segr1165 segr1167 segr1168 segr1170 segr1172 ptbr00678 segr1174 segr1176 segr1178 segr1180 segr1182 segr1184 segr1186 ptbr00686 segr1188 segr1190 segr1192 segr1194 segr1196 segr1197 segr1199 segr1200 segr1202 segr1204 segr1206 segr1208 segr1210 segr1212 segr1214 }
+   segr0 -> segr2 [ color="white" ]
+   segr2 -> segr3 [ color="white" ]
+   segr3 -> segr5 [ color="white" ]
+   segr5 -> segr7 [ color="white" ]
+   segr7 -> segr9 [ color="white" ]
+   segr9 -> segr11 [ color="white" ]
+   segr11 -> segr12 [ color="white" ]
+   segr12 -> segr14 [ color="white" ]
+   segr14 -> segr16 [ color="white" ]
+   segr16 -> segr18 [ color="white" ]
+   segr18 -> segr20 [ color="white" ]
+   segr20 -> segr22 [ color="white" ]
+   segr22 -> segr24 [ color="white" ]
+   segr24 -> segr26 [ color="white" ]
+   segr26 -> segr28 [ color="white" ]
+   segr28 -> segr30 [ color="white" ]
+   segr30 -> segr32 [ color="white" ]
+   segr32 -> segr34 [ color="white" ]
+   segr34 -> segr35 [ color="white" ]
+   segr35 -> segr37 [ color="white" ]
+   segr37 -> segr39 [ color="white" ]
+   segr39 -> segr41 [ color="white" ]
+   segr41 -> segr43 [ color="white" ]
+   segr43 -> ptbr00023 [ color="white" ]
+   ptbr00023 -> segr45 [ color="white" ]
+   segr45 -> segr47 [ color="white" ]
+   segr47 -> segr49 [ color="white" ]
+   segr49 -> segr51 [ color="white" ]
+   segr51 -> segr53 [ color="white" ]
+   segr53 -> segr55 [ color="white" ]
+   segr55 -> segr57 [ color="white" ]
+   segr57 -> segr59 [ color="white" ]
+   segr59 -> segr61 [ color="white" ]
+   segr61 -> segr62 [ color="white" ]
+   segr62 -> segr64 [ color="white" ]
+   segr64 -> segr66 [ color="white" ]
+   segr66 -> segr68 [ color="white" ]
+   segr68 -> segr70 [ color="white" ]
+   segr70 -> segr72 [ color="white" ]
+   segr72 -> segr74 [ color="white" ]
+   segr74 -> segr76 [ color="white" ]
+   segr76 -> segr78 [ color="white" ]
+   segr78 -> segr80 [ color="white" ]
+   segr80 -> segr82 [ color="white" ]
+   segr82 -> segr84 [ color="white" ]
+   segr84 -> segr85 [ color="white" ]
+   segr85 -> segr87 [ color="white" ]
+   segr87 -> segr89 [ color="white" ]
+   segr89 -> segr91 [ color="white" ]
+   segr91 -> segr93 [ color="white" ]
+   segr93 -> segr95 [ color="white" ]
+   segr95 -> ptbr00051 [ color="white" ]
+   ptbr00051 -> ptbr00052 [ color="white" ]
+   ptbr00052 -> segr97 [ color="white" ]
+   segr97 -> segr98 [ color="white" ]
+   segr98 -> ptbr00055 [ color="white" ]
+   ptbr00055 -> segr100 [ color="white" ]
+   segr100 -> segr102 [ color="white" ]
+   segr102 -> segr104 [ color="white" ]
+   segr104 -> segr105 [ color="white" ]
+   segr105 -> ptbr00060 [ color="white" ]
+   ptbr00060 -> segr107 [ color="white" ]
+   segr107 -> segr109 [ color="white" ]
+   segr109 -> segr111 [ color="white" ]
+   segr111 -> segr113 [ color="white" ]
+   segr113 -> segr115 [ color="white" ]
+   segr115 -> segr117 [ color="white" ]
+   segr117 -> segr119 [ color="white" ]
+   segr119 -> segr120 [ color="white" ]
+   segr120 -> segr122 [ color="white" ]
+   segr122 -> segr124 [ color="white" ]
+   segr124 -> segr126 [ color="white" ]
+   segr126 -> segr128 [ color="white" ]
+   segr128 -> ptbr00073 [ color="white" ]
+   ptbr00073 -> segr130 [ color="white" ]
+   segr130 -> segr132 [ color="white" ]
+   segr132 -> segr134 [ color="white" ]
+   segr134 -> segr136 [ color="white" ]
+   segr136 -> ptbr00078 [ color="white" ]
+   ptbr00078 -> segr138 [ color="white" ]
+   segr138 -> segr140 [ color="white" ]
+   segr140 -> segr142 [ color="white" ]
+   segr142 -> segr144 [ color="white" ]
+   segr144 -> segr146 [ color="white" ]
+   segr146 -> segr148 [ color="white" ]
+   segr148 -> segr150 [ color="white" ]
+   segr150 -> segr152 [ color="white" ]
+   segr152 -> segr153 [ color="white" ]
+   segr153 -> segr155 [ color="white" ]
+   segr155 -> segr157 [ color="white" ]
+   segr157 -> segr158 [ color="white" ]
+   segr158 -> segr160 [ color="white" ]
+   segr160 -> segr162 [ color="white" ]
+   segr162 -> segr164 [ color="white" ]
+   segr164 -> segr166 [ color="white" ]
+   segr166 -> segr168 [ color="white" ]
+   segr168 -> segr170 [ color="white" ]
+   segr170 -> segr172 [ color="white" ]
+   segr172 -> segr174 [ color="white" ]
+   segr174 -> segr175 [ color="white" ]
+   segr175 -> segr177 [ color="white" ]
+   segr177 -> segr179 [ color="white" ]
+   segr179 -> segr181 [ color="white" ]
+   segr181 -> segr182 [ color="white" ]
+   segr182 -> segr184 [ color="white" ]
+   segr184 -> segr186 [ color="white" ]
+   segr186 -> segr187 [ color="white" ]
+   segr187 -> segr189 [ color="white" ]
+   segr189 -> segr191 [ color="white" ]
+   segr191 -> segr193 [ color="white" ]
+   segr193 -> segr195 [ color="white" ]
+   segr195 -> segr197 [ color="white" ]
+   segr197 -> segr199 [ color="white" ]
+   segr199 -> segr201 [ color="white" ]
+   segr201 -> segr203 [ color="white" ]
+   segr203 -> ptbr00115 [ color="white" ]
+   ptbr00115 -> segr205 [ color="white" ]
+   segr205 -> segr207 [ color="white" ]
+   segr207 -> ptbr00118 [ color="white" ]
+   ptbr00118 -> segr209 [ color="white" ]
+   segr209 -> segr211 [ color="white" ]
+   segr211 -> segr213 [ color="white" ]
+   segr213 -> ptbr00122 [ color="white" ]
+   ptbr00122 -> ptbr00123 [ color="white" ]
+   ptbr00123 -> segr215 [ color="white" ]
+   segr215 -> segr217 [ color="white" ]
+   segr217 -> segr219 [ color="white" ]
+   segr219 -> segr221 [ color="white" ]
+   segr221 -> segr223 [ color="white" ]
+   segr223 -> ptbr00129 [ color="white" ]
+   ptbr00129 -> segr225 [ color="white" ]
+   segr225 -> segr227 [ color="white" ]
+   segr227 -> segr229 [ color="white" ]
+   segr229 -> segr230 [ color="white" ]
+   segr230 -> ptbr00134 [ color="white" ]
+   ptbr00134 -> segr232 [ color="white" ]
+   segr232 -> segr234 [ color="white" ]
+   segr234 -> ptbr00137 [ color="white" ]
+   ptbr00137 -> segr236 [ color="white" ]
+   segr236 -> segr238 [ color="white" ]
+   segr238 -> ptbr00140 [ color="white" ]
+   ptbr00140 -> segr239 [ color="white" ]
+   segr239 -> segr241 [ color="white" ]
+   segr241 -> segr243 [ color="white" ]
+   segr243 -> segr245 [ color="white" ]
+   segr245 -> segr246 [ color="white" ]
+   segr246 -> segr248 [ color="white" ]
+   segr248 -> segr250 [ color="white" ]
+   segr250 -> segr252 [ color="white" ]
+   segr252 -> segr254 [ color="white" ]
+   segr254 -> segr256 [ color="white" ]
+   segr256 -> segr257 [ color="white" ]
+   segr257 -> segr259 [ color="white" ]
+   segr259 -> segr261 [ color="white" ]
+   segr261 -> segr262 [ color="white" ]
+   segr262 -> segr264 [ color="white" ]
+   segr264 -> segr266 [ color="white" ]
+   segr266 -> segr268 [ color="white" ]
+   segr268 -> segr270 [ color="white" ]
+   segr270 -> segr272 [ color="white" ]
+   segr272 -> segr274 [ color="white" ]
+   segr274 -> segr276 [ color="white" ]
+   segr276 -> segr278 [ color="white" ]
+   segr278 -> ptbr00163 [ color="white" ]
+   ptbr00163 -> segr280 [ color="white" ]
+   segr280 -> segr282 [ color="white" ]
+   segr282 -> segr284 [ color="white" ]
+   segr284 -> segr286 [ color="white" ]
+   segr286 -> segr287 [ color="white" ]
+   segr287 -> segr289 [ color="white" ]
+   segr289 -> segr291 [ color="white" ]
+   segr291 -> segr292 [ color="white" ]
+   segr292 -> segr293 [ color="white" ]
+   segr293 -> segr295 [ color="white" ]
+   segr295 -> segr297 [ color="white" ]
+   segr297 -> segr299 [ color="white" ]
+   segr299 -> segr301 [ color="white" ]
+   segr301 -> segr303 [ color="white" ]
+   segr303 -> segr305 [ color="white" ]
+   segr305 -> segr306 [ color="white" ]
+   segr306 -> segr308 [ color="white" ]
+   segr308 -> segr310 [ color="white" ]
+   segr310 -> segr312 [ color="white" ]
+   segr312 -> segr314 [ color="white" ]
+   segr314 -> segr316 [ color="white" ]
+   segr316 -> segr317 [ color="white" ]
+   segr317 -> segr319 [ color="white" ]
+   segr319 -> segr321 [ color="white" ]
+   segr321 -> segr322 [ color="white" ]
+   segr322 -> segr324 [ color="white" ]
+   segr324 -> segr325 [ color="white" ]
+   segr325 -> segr327 [ color="white" ]
+   segr327 -> segr329 [ color="white" ]
+   segr329 -> segr331 [ color="white" ]
+   segr331 -> segr332 [ color="white" ]
+   segr332 -> segr333 [ color="white" ]
+   segr333 -> segr335 [ color="white" ]
+   segr335 -> segr337 [ color="white" ]
+   segr337 -> segr339 [ color="white" ]
+   segr339 -> segr341 [ color="white" ]
+   segr341 -> segr343 [ color="white" ]
+   segr343 -> segr345 [ color="white" ]
+   segr345 -> segr347 [ color="white" ]
+   segr347 -> segr349 [ color="white" ]
+   segr349 -> segr350 [ color="white" ]
+   segr350 -> segr352 [ color="white" ]
+   segr352 -> segr353 [ color="white" ]
+   segr353 -> segr355 [ color="white" ]
+   segr355 -> segr357 [ color="white" ]
+   segr357 -> segr359 [ color="white" ]
+   segr359 -> segr361 [ color="white" ]
+   segr361 -> segr363 [ color="white" ]
+   segr363 -> segr365 [ color="white" ]
+   segr365 -> segr367 [ color="white" ]
+   segr367 -> segr369 [ color="white" ]
+   segr369 -> segr371 [ color="white" ]
+   segr371 -> ptbr00216 [ color="white" ]
+   ptbr00216 -> segr373 [ color="white" ]
+   segr373 -> segr375 [ color="white" ]
+   segr375 -> segr377 [ color="white" ]
+   segr377 -> ptbr00220 [ color="white" ]
+   ptbr00220 -> segr379 [ color="white" ]
+   segr379 -> segr381 [ color="white" ]
+   segr381 -> segr383 [ color="white" ]
+   segr383 -> segr385 [ color="white" ]
+   segr385 -> segr387 [ color="white" ]
+   segr387 -> ptbr00226 [ color="white" ]
+   ptbr00226 -> segr389 [ color="white" ]
+   segr389 -> segr391 [ color="white" ]
+   segr391 -> segr393 [ color="white" ]
+   segr393 -> segr394 [ color="white" ]
+   segr394 -> ptbr00231 [ color="white" ]
+   ptbr00231 -> segr396 [ color="white" ]
+   segr396 -> segr398 [ color="white" ]
+   segr398 -> segr400 [ color="white" ]
+   segr400 -> ptbr00235 [ color="white" ]
+   ptbr00235 -> segr402 [ color="white" ]
+   segr402 -> segr404 [ color="white" ]
+   segr404 -> segr406 [ color="white" ]
+   segr406 -> segr408 [ color="white" ]
+   segr408 -> segr410 [ color="white" ]
+   segr410 -> segr412 [ color="white" ]
+   segr412 -> segr414 [ color="white" ]
+   segr414 -> segr416 [ color="white" ]
+   segr416 -> segr418 [ color="white" ]
+   segr418 -> segr419 [ color="white" ]
+   segr419 -> ptbr00246 [ color="white" ]
+   ptbr00246 -> segr421 [ color="white" ]
+   segr421 -> segr423 [ color="white" ]
+   segr423 -> segr425 [ color="white" ]
+   segr425 -> segr427 [ color="white" ]
+   segr427 -> segr429 [ color="white" ]
+   segr429 -> segr431 [ color="white" ]
+   segr431 -> segr433 [ color="white" ]
+   segr433 -> segr434 [ color="white" ]
+   segr434 -> segr436 [ color="white" ]
+   segr436 -> segr438 [ color="white" ]
+   segr438 -> segr440 [ color="white" ]
+   segr440 -> segr442 [ color="white" ]
+   segr442 -> segr444 [ color="white" ]
+   segr444 -> segr446 [ color="white" ]
+   segr446 -> segr448 [ color="white" ]
+   segr448 -> segr450 [ color="white" ]
+   segr450 -> segr451 [ color="white" ]
+   segr451 -> segr453 [ color="white" ]
+   segr453 -> segr455 [ color="white" ]
+   segr455 -> segr457 [ color="white" ]
+   segr457 -> segr459 [ color="white" ]
+   segr459 -> segr461 [ color="white" ]
+   segr461 -> segr463 [ color="white" ]
+   segr463 -> segr465 [ color="white" ]
+   segr465 -> segr466 [ color="white" ]
+   segr466 -> segr468 [ color="white" ]
+   segr468 -> segr470 [ color="white" ]
+   segr470 -> segr472 [ color="white" ]
+   segr472 -> segr474 [ color="white" ]
+   segr474 -> segr476 [ color="white" ]
+   segr476 -> segr478 [ color="white" ]
+   segr478 -> segr480 [ color="white" ]
+   segr480 -> segr482 [ color="white" ]
+   segr482 -> segr484 [ color="white" ]
+   segr484 -> segr486 [ color="white" ]
+   segr486 -> segr487 [ color="white" ]
+   segr487 -> segr489 [ color="white" ]
+   segr489 -> segr491 [ color="white" ]
+   segr491 -> segr493 [ color="white" ]
+   segr493 -> segr495 [ color="white" ]
+   segr495 -> ptbr00287 [ color="white" ]
+   ptbr00287 -> segr497 [ color="white" ]
+   segr497 -> segr499 [ color="white" ]
+   segr499 -> segr501 [ color="white" ]
+   segr501 -> segr503 [ color="white" ]
+   segr503 -> ptbr00292 [ color="white" ]
+   ptbr00292 -> segr505 [ color="white" ]
+   segr505 -> segr507 [ color="white" ]
+   segr507 -> segr509 [ color="white" ]
+   segr509 -> segr511 [ color="white" ]
+   segr511 -> segr512 [ color="white" ]
+   segr512 -> ptbr00298 [ color="white" ]
+   ptbr00298 -> segr514 [ color="white" ]
+   segr514 -> segr516 [ color="white" ]
+   segr516 -> segr518 [ color="white" ]
+   segr518 -> segr520 [ color="white" ]
+   segr520 -> segr522 [ color="white" ]
+   segr522 -> segr524 [ color="white" ]
+   segr524 -> segr526 [ color="white" ]
+   segr526 -> segr528 [ color="white" ]
+   segr528 -> segr530 [ color="white" ]
+   segr530 -> segr532 [ color="white" ]
+   segr532 -> segr533 [ color="white" ]
+   segr533 -> segr535 [ color="white" ]
+   segr535 -> segr537 [ color="white" ]
+   segr537 -> segr538 [ color="white" ]
+   segr538 -> segr540 [ color="white" ]
+   segr540 -> segr542 [ color="white" ]
+   segr542 -> segr543 [ color="white" ]
+   segr543 -> segr545 [ color="white" ]
+   segr545 -> segr547 [ color="white" ]
+   segr547 -> segr549 [ color="white" ]
+   segr549 -> segr551 [ color="white" ]
+   segr551 -> segr553 [ color="white" ]
+   segr553 -> segr555 [ color="white" ]
+   segr555 -> segr557 [ color="white" ]
+   segr557 -> segr559 [ color="white" ]
+   segr559 -> segr561 [ color="white" ]
+   segr561 -> segr563 [ color="white" ]
+   segr563 -> segr565 [ color="white" ]
+   segr565 -> ptbr00327 [ color="white" ]
+   ptbr00327 -> segr567 [ color="white" ]
+   segr567 -> segr569 [ color="white" ]
+   segr569 -> segr571 [ color="white" ]
+   segr571 -> segr573 [ color="white" ]
+   segr573 -> segr575 [ color="white" ]
+   segr575 -> ptbr00333 [ color="white" ]
+   ptbr00333 -> segr577 [ color="white" ]
+   segr577 -> segr579 [ color="white" ]
+   segr579 -> segr581 [ color="white" ]
+   segr581 -> segr583 [ color="white" ]
+   segr583 -> segr585 [ color="white" ]
+   segr585 -> segr587 [ color="white" ]
+   segr587 -> ptbr00340 [ color="white" ]
+   ptbr00340 -> segr589 [ color="white" ]
+   segr589 -> segr591 [ color="white" ]
+   segr591 -> ptbr00343 [ color="white" ]
+   ptbr00343 -> segr593 [ color="white" ]
+   segr593 -> segr594 [ color="white" ]
+   segr594 -> segr596 [ color="white" ]
+   segr596 -> segr598 [ color="white" ]
+   segr598 -> segr600 [ color="white" ]
+   segr600 -> segr602 [ color="white" ]
+   segr602 -> segr604 [ color="white" ]
+   segr604 -> segr606 [ color="white" ]
+   segr606 -> segr608 [ color="white" ]
+   segr608 -> segr610 [ color="white" ]
+   segr610 -> segr612 [ color="white" ]
+   segr612 -> segr614 [ color="white" ]
+   segr614 -> segr615 [ color="white" ]
+   segr615 -> segr617 [ color="white" ]
+   segr617 -> segr618 [ color="white" ]
+   segr618 -> segr620 [ color="white" ]
+   segr620 -> segr622 [ color="white" ]
+   segr622 -> segr624 [ color="white" ]
+   segr624 -> segr626 [ color="white" ]
+   segr626 -> segr628 [ color="white" ]
+   segr628 -> ptbr00364 [ color="white" ]
+   ptbr00364 -> ptbr00365 [ color="white" ]
+   ptbr00365 -> segr630 [ color="white" ]
+   segr630 -> segr632 [ color="white" ]
+   segr632 -> segr634 [ color="white" ]
+   segr634 -> segr636 [ color="white" ]
+   segr636 -> segr638 [ color="white" ]
+   segr638 -> segr639 [ color="white" ]
+   segr639 -> segr640 [ color="white" ]
+   segr640 -> segr642 [ color="white" ]
+   segr642 -> segr644 [ color="white" ]
+   segr644 -> segr645 [ color="white" ]
+   segr645 -> ptbr00376 [ color="white" ]
+   ptbr00376 -> ptbr00377 [ color="white" ]
+   ptbr00377 -> segr647 [ color="white" ]
+   segr647 -> segr648 [ color="white" ]
+   segr648 -> segr650 [ color="white" ]
+   segr650 -> segr652 [ color="white" ]
+   segr652 -> segr654 [ color="white" ]
+   segr654 -> segr656 [ color="white" ]
+   segr656 -> segr657 [ color="white" ]
+   segr657 -> segr659 [ color="white" ]
+   segr659 -> segr661 [ color="white" ]
+   segr661 -> segr663 [ color="white" ]
+   segr663 -> ptbr00388 [ color="white" ]
+   ptbr00388 -> segr665 [ color="white" ]
+   segr665 -> segr666 [ color="white" ]
+   segr666 -> ptbr00391 [ color="white" ]
+   ptbr00391 -> segr667 [ color="white" ]
+   segr667 -> segr668 [ color="white" ]
+   segr668 -> segr670 [ color="white" ]
+   segr670 -> segr672 [ color="white" ]
+   segr672 -> segr673 [ color="white" ]
+   segr673 -> ptbr00395 [ color="white" ]
+   ptbr00395 -> segr674 [ color="white" ]
+   segr674 -> segr676 [ color="white" ]
+   segr676 -> segr678 [ color="white" ]
+   segr678 -> segr680 [ color="white" ]
+   segr680 -> segr682 [ color="white" ]
+   segr682 -> segr684 [ color="white" ]
+   segr684 -> segr686 [ color="white" ]
+   segr686 -> segr688 [ color="white" ]
+   segr688 -> segr690 [ color="white" ]
+   segr690 -> segr692 [ color="white" ]
+   segr692 -> segr694 [ color="white" ]
+   segr694 -> segr696 [ color="white" ]
+   segr696 -> segr698 [ color="white" ]
+   segr698 -> segr700 [ color="white" ]
+   segr700 -> ptbr00410 [ color="white" ]
+   ptbr00410 -> segr702 [ color="white" ]
+   segr702 -> segr704 [ color="white" ]
+   segr704 -> segr706 [ color="white" ]
+   segr706 -> segr708 [ color="white" ]
+   segr708 -> segr710 [ color="white" ]
+   segr710 -> segr712 [ color="white" ]
+   segr712 -> segr714 [ color="white" ]
+   segr714 -> segr716 [ color="white" ]
+   segr716 -> segr718 [ color="white" ]
+   segr718 -> segr720 [ color="white" ]
+   segr720 -> segr722 [ color="white" ]
+   segr722 -> segr724 [ color="white" ]
+   segr724 -> segr725 [ color="white" ]
+   segr725 -> segr727 [ color="white" ]
+   segr727 -> segr729 [ color="white" ]
+   segr729 -> segr731 [ color="white" ]
+   segr731 -> segr733 [ color="white" ]
+   segr733 -> segr735 [ color="white" ]
+   segr735 -> segr736 [ color="white" ]
+   segr736 -> segr738 [ color="white" ]
+   segr738 -> segr740 [ color="white" ]
+   segr740 -> segr742 [ color="white" ]
+   segr742 -> segr744 [ color="white" ]
+   segr744 -> segr746 [ color="white" ]
+   segr746 -> segr748 [ color="white" ]
+   segr748 -> segr750 [ color="white" ]
+   segr750 -> segr752 [ color="white" ]
+   segr752 -> segr754 [ color="white" ]
+   segr754 -> ptbr00439 [ color="white" ]
+   ptbr00439 -> segr755 [ color="white" ]
+   segr755 -> segr757 [ color="white" ]
+   segr757 -> segr759 [ color="white" ]
+   segr759 -> segr761 [ color="white" ]
+   segr761 -> segr763 [ color="white" ]
+   segr763 -> segr765 [ color="white" ]
+   segr765 -> segr767 [ color="white" ]
+   segr767 -> segr769 [ color="white" ]
+   segr769 -> segr770 [ color="white" ]
+   segr770 -> segr772 [ color="white" ]
+   segr772 -> segr774 [ color="white" ]
+   segr774 -> segr776 [ color="white" ]
+   segr776 -> segr778 [ color="white" ]
+   segr778 -> segr780 [ color="white" ]
+   segr780 -> segr781 [ color="white" ]
+   segr781 -> segr783 [ color="white" ]
+   segr783 -> ptbr00455 [ color="white" ]
+   ptbr00455 -> segr785 [ color="white" ]
+   segr785 -> segr787 [ color="white" ]
+   segr787 -> segr789 [ color="white" ]
+   segr789 -> segr791 [ color="white" ]
+   segr791 -> segr793 [ color="white" ]
+   segr793 -> segr795 [ color="white" ]
+   segr795 -> segr796 [ color="white" ]
+   segr796 -> segr798 [ color="white" ]
+   segr798 -> segr800 [ color="white" ]
+   segr800 -> segr802 [ color="white" ]
+   segr802 -> segr804 [ color="white" ]
+   segr804 -> segr806 [ color="white" ]
+   segr806 -> segr808 [ color="white" ]
+   segr808 -> segr810 [ color="white" ]
+   segr810 -> segr812 [ color="white" ]
+   segr812 -> segr814 [ color="white" ]
+   segr814 -> segr816 [ color="white" ]
+   segr816 -> segr818 [ color="white" ]
+   segr818 -> segr820 [ color="white" ]
+   segr820 -> segr822 [ color="white" ]
+   segr822 -> segr824 [ color="white" ]
+   segr824 -> segr826 [ color="white" ]
+   segr826 -> segr828 [ color="white" ]
+   segr828 -> segr829 [ color="white" ]
+   segr829 -> ptbr00480 [ color="white" ]
+   ptbr00480 -> segr831 [ color="white" ]
+   segr831 -> segr833 [ color="white" ]
+   segr833 -> segr835 [ color="white" ]
+   segr835 -> segr837 [ color="white" ]
+   segr837 -> segr838 [ color="white" ]
+   segr838 -> segr840 [ color="white" ]
+   segr840 -> segr842 [ color="white" ]
+   segr842 -> segr844 [ color="white" ]
+   segr844 -> segr846 [ color="white" ]
+   segr846 -> segr848 [ color="white" ]
+   segr848 -> segr850 [ color="white" ]
+   segr850 -> segr852 [ color="white" ]
+   segr852 -> segr854 [ color="white" ]
+   segr854 -> segr856 [ color="white" ]
+   segr856 -> segr858 [ color="white" ]
+   segr858 -> segr860 [ color="white" ]
+   segr860 -> segr861 [ color="white" ]
+   segr861 -> segr863 [ color="white" ]
+   segr863 -> segr865 [ color="white" ]
+   segr865 -> segr867 [ color="white" ]
+   segr867 -> segr869 [ color="white" ]
+   segr869 -> segr871 [ color="white" ]
+   segr871 -> segr873 [ color="white" ]
+   segr873 -> segr875 [ color="white" ]
+   segr875 -> segr877 [ color="white" ]
+   segr877 -> segr878 [ color="white" ]
+   segr878 -> segr880 [ color="white" ]
+   segr880 -> segr882 [ color="white" ]
+   segr882 -> segr884 [ color="white" ]
+   segr884 -> ptbr00510 [ color="white" ]
+   ptbr00510 -> segr886 [ color="white" ]
+   segr886 -> segr888 [ color="white" ]
+   segr888 -> segr890 [ color="white" ]
+   segr890 -> segr891 [ color="white" ]
+   segr891 -> segr893 [ color="white" ]
+   segr893 -> segr895 [ color="white" ]
+   segr895 -> segr897 [ color="white" ]
+   segr897 -> segr899 [ color="white" ]
+   segr899 -> segr901 [ color="white" ]
+   segr901 -> segr903 [ color="white" ]
+   segr903 -> segr905 [ color="white" ]
+   segr905 -> segr907 [ color="white" ]
+   segr907 -> ptbr00523 [ color="white" ]
+   ptbr00523 -> segr909 [ color="white" ]
+   segr909 -> segr911 [ color="white" ]
+   segr911 -> segr912 [ color="white" ]
+   segr912 -> segr914 [ color="white" ]
+   segr914 -> segr916 [ color="white" ]
+   segr916 -> segr917 [ color="white" ]
+   segr917 -> segr919 [ color="white" ]
+   segr919 -> segr921 [ color="white" ]
+   segr921 -> ptbr00532 [ color="white" ]
+   ptbr00532 -> segr923 [ color="white" ]
+   segr923 -> segr925 [ color="white" ]
+   segr925 -> segr927 [ color="white" ]
+   segr927 -> segr929 [ color="white" ]
+   segr929 -> segr931 [ color="white" ]
+   segr931 -> segr933 [ color="white" ]
+   segr933 -> segr935 [ color="white" ]
+   segr935 -> segr937 [ color="white" ]
+   segr937 -> segr939 [ color="white" ]
+   segr939 -> segr941 [ color="white" ]
+   segr941 -> ptbr00543 [ color="white" ]
+   ptbr00543 -> segr943 [ color="white" ]
+   segr943 -> segr945 [ color="white" ]
+   segr945 -> segr947 [ color="white" ]
+   segr947 -> segr949 [ color="white" ]
+   segr949 -> segr951 [ color="white" ]
+   segr951 -> segr952 [ color="white" ]
+   segr952 -> segr954 [ color="white" ]
+   segr954 -> segr955 [ color="white" ]
+   segr955 -> segr957 [ color="white" ]
+   segr957 -> segr959 [ color="white" ]
+   segr959 -> segr961 [ color="white" ]
+   segr961 -> segr963 [ color="white" ]
+   segr963 -> segr965 [ color="white" ]
+   segr965 -> segr967 [ color="white" ]
+   segr967 -> segr969 [ color="white" ]
+   segr969 -> segr971 [ color="white" ]
+   segr971 -> segr973 [ color="white" ]
+   segr973 -> segr975 [ color="white" ]
+   segr975 -> segr977 [ color="white" ]
+   segr977 -> segr978 [ color="white" ]
+   segr978 -> segr980 [ color="white" ]
+   segr980 -> segr982 [ color="white" ]
+   segr982 -> segr984 [ color="white" ]
+   segr984 -> segr986 [ color="white" ]
+   segr986 -> segr988 [ color="white" ]
+   segr988 -> ptbr00569 [ color="white" ]
+   ptbr00569 -> segr990 [ color="white" ]
+   segr990 -> segr992 [ color="white" ]
+   segr992 -> segr993 [ color="white" ]
+   segr993 -> segr995 [ color="white" ]
+   segr995 -> segr997 [ color="white" ]
+   segr997 -> segr999 [ color="white" ]
+   segr999 -> segr1001 [ color="white" ]
+   segr1001 -> segr1003 [ color="white" ]
+   segr1003 -> segr1005 [ color="white" ]
+   segr1005 -> segr1007 [ color="white" ]
+   segr1007 -> segr1008 [ color="white" ]
+   segr1008 -> segr1010 [ color="white" ]
+   segr1010 -> segr1012 [ color="white" ]
+   segr1012 -> segr1014 [ color="white" ]
+   segr1014 -> segr1016 [ color="white" ]
+   segr1016 -> segr1018 [ color="white" ]
+   segr1018 -> ptbr00586 [ color="white" ]
+   ptbr00586 -> segr1019 [ color="white" ]
+   segr1019 -> segr1021 [ color="white" ]
+   segr1021 -> segr1023 [ color="white" ]
+   segr1023 -> ptbr00590 [ color="white" ]
+   ptbr00590 -> segr1025 [ color="white" ]
+   segr1025 -> segr1027 [ color="white" ]
+   segr1027 -> segr1029 [ color="white" ]
+   segr1029 -> segr1031 [ color="white" ]
+   segr1031 -> segr1033 [ color="white" ]
+   segr1033 -> segr1034 [ color="white" ]
+   segr1034 -> segr1036 [ color="white" ]
+   segr1036 -> segr1038 [ color="white" ]
+   segr1038 -> segr1040 [ color="white" ]
+   segr1040 -> segr1042 [ color="white" ]
+   segr1042 -> segr1044 [ color="white" ]
+   segr1044 -> ptbr00602 [ color="white" ]
+   ptbr00602 -> segr1045 [ color="white" ]
+   segr1045 -> segr1047 [ color="white" ]
+   segr1047 -> segr1049 [ color="white" ]
+   segr1049 -> segr1051 [ color="white" ]
+   segr1051 -> ptbr00607 [ color="white" ]
+   ptbr00607 -> segr1053 [ color="white" ]
+   segr1053 -> segr1055 [ color="white" ]
+   segr1055 -> segr1056 [ color="white" ]
+   segr1056 -> segr1058 [ color="white" ]
+   segr1058 -> segr1060 [ color="white" ]
+   segr1060 -> segr1061 [ color="white" ]
+   segr1061 -> segr1063 [ color="white" ]
+   segr1063 -> segr1065 [ color="white" ]
+   segr1065 -> segr1066 [ color="white" ]
+   segr1066 -> segr1068 [ color="white" ]
+   segr1068 -> segr1070 [ color="white" ]
+   segr1070 -> segr1072 [ color="white" ]
+   segr1072 -> segr1074 [ color="white" ]
+   segr1074 -> segr1076 [ color="white" ]
+   segr1076 -> segr1077 [ color="white" ]
+   segr1077 -> segr1078 [ color="white" ]
+   segr1078 -> segr1080 [ color="white" ]
+   segr1080 -> segr1082 [ color="white" ]
+   segr1082 -> segr1083 [ color="white" ]
+   segr1083 -> segr1085 [ color="white" ]
+   segr1085 -> segr1087 [ color="white" ]
+   segr1087 -> segr1090 [ color="white" ]
+   segr1090 -> segr1092 [ color="white" ]
+   segr1092 -> segr1094 [ color="white" ]
+   segr1094 -> segr1095 [ color="white" ]
+   segr1095 -> segr1097 [ color="white" ]
+   segr1097 -> segr1099 [ color="white" ]
+   segr1099 -> segr1101 [ color="white" ]
+   segr1101 -> segr1103 [ color="white" ]
+   segr1103 -> ptbr00635 [ color="white" ]
+   ptbr00635 -> segr1105 [ color="white" ]
+   segr1105 -> segr1107 [ color="white" ]
+   segr1107 -> segr1109 [ color="white" ]
+   segr1109 -> segr1111 [ color="white" ]
+   segr1111 -> segr1113 [ color="white" ]
+   segr1113 -> segr1115 [ color="white" ]
+   segr1115 -> segr1117 [ color="white" ]
+   segr1117 -> segr1119 [ color="white" ]
+   segr1119 -> segr1121 [ color="white" ]
+   segr1121 -> segr1123 [ color="white" ]
+   segr1123 -> ptbr00646 [ color="white" ]
+   ptbr00646 -> ptbr00647 [ color="white" ]
+   ptbr00647 -> segr1125 [ color="white" ]
+   segr1125 -> segr1126 [ color="white" ]
+   segr1126 -> ptbr00650 [ color="white" ]
+   ptbr00650 -> segr1128 [ color="white" ]
+   segr1128 -> segr1130 [ color="white" ]
+   segr1130 -> segr1132 [ color="white" ]
+   segr1132 -> segr1134 [ color="white" ]
+   segr1134 -> segr1136 [ color="white" ]
+   segr1136 -> segr1138 [ color="white" ]
+   segr1138 -> segr1140 [ color="white" ]
+   segr1140 -> segr1142 [ color="white" ]
+   segr1142 -> ptbr00659 [ color="white" ]
+   ptbr00659 -> segr1144 [ color="white" ]
+   segr1144 -> segr1146 [ color="white" ]
+   segr1146 -> segr1148 [ color="white" ]
+   segr1148 -> segr1150 [ color="white" ]
+   segr1150 -> segr1152 [ color="white" ]
+   segr1152 -> segr1154 [ color="white" ]
+   segr1154 -> segr1155 [ color="white" ]
+   segr1155 -> ptbr00667 [ color="white" ]
+   ptbr00667 -> segr1157 [ color="white" ]
+   segr1157 -> segr1159 [ color="white" ]
+   segr1159 -> segr1161 [ color="white" ]
+   segr1161 -> segr1163 [ color="white" ]
+   segr1163 -> ptbr00672 [ color="white" ]
+   ptbr00672 -> segr1165 [ color="white" ]
+   segr1165 -> segr1167 [ color="white" ]
+   segr1167 -> segr1168 [ color="white" ]
+   segr1168 -> segr1170 [ color="white" ]
+   segr1170 -> segr1172 [ color="white" ]
+   segr1172 -> ptbr00678 [ color="white" ]
+   ptbr00678 -> segr1174 [ color="white" ]
+   segr1174 -> segr1176 [ color="white" ]
+   segr1176 -> segr1178 [ color="white" ]
+   segr1178 -> segr1180 [ color="white" ]
+   segr1180 -> segr1182 [ color="white" ]
+   segr1182 -> segr1184 [ color="white" ]
+   segr1184 -> segr1186 [ color="white" ]
+   segr1186 -> ptbr00686 [ color="white" ]
+   ptbr00686 -> segr1188 [ color="white" ]
+   segr1188 -> segr1190 [ color="white" ]
+   segr1190 -> segr1192 [ color="white" ]
+   segr1192 -> segr1194 [ color="white" ]
+   segr1194 -> segr1196 [ color="white" ]
+   segr1196 -> segr1197 [ color="white" ]
+   segr1197 -> segr1199 [ color="white" ]
+   segr1199 -> segr1200 [ color="white" ]
+   segr1200 -> segr1202 [ color="white" ]
+   segr1202 -> segr1204 [ color="white" ]
+   segr1204 -> segr1206 [ color="white" ]
+   segr1206 -> segr1208 [ color="white" ]
+   segr1208 -> segr1210 [ color="white" ]
+   segr1210 -> segr1212 [ color="white" ]
+   segr1212 -> segr1214 [ color="white" ]
+   ptbn01042 -> ptbn01043
+   ptbn01036 -> ptbn01040
+   ptbn01040 -> ptbn01041
+   ptbn01036 -> ptbn01039
+   ptbn01044 -> ptbn01045
+   ptbn00996 -> ptbn01002
+   ptbn01036 -> ptbn01037
+   ptbn01037 -> ptbn01038
+   ptbn00491 -> ptbn00492
+   ptbn00000 -> ptbn00996
+   ptbn00996 -> ptbn01035
+   ptbn00290 -> ptbn00292
+   ptbn01229 -> ptbn01230
+   ptbn00292 -> ptbn00298
+   ptbn01229 -> ptbn01231
+   ptbn00292 -> ptbn00297
+   ptbn00000 -> ptbn01187
+   ptbn01233 -> ptbn01234
+   ptbn01237 -> ptbn01238
+   ptbn01234 -> ptbn01235
+   ptbn01234 -> ptbn01236
+   ptbn01233 -> ptbn01237
+   ptbn01239 -> ptbn01240
+   ptbn01237 -> ptbn01239
+   ptbn01056 -> ptbn01057
+   ptbn01053 -> ptbn01054
+   ptbn01058 -> ptbn01059
+   ptbn01055 -> ptbn01056
+   ptbn01042 -> ptbn01044
+   ptbn01044 -> ptbn01046
+   ptbn01050 -> ptbn01051
+   ptbn01047 -> ptbn01048
+   ptbn01049 -> ptbn01050
+   ptbn01050 -> ptbn01052
+   ptbn01232 -> ptbn01233
+   ptbn01242 -> ptbn01243
+   ptbn01241 -> ptbn01242
+   ptbn01246 -> ptbn01242
+   ptbn01245 -> ptbn01246
+   ptbn01244 -> ptbn01245
+   ptbn01247 -> ptbn01248
+   ptbn01250 -> ptbn01251
+   ptbn01250 -> ptbn01252
+   ptbn01250 -> ptbn01253
+   ptbn01030 -> ptbn01032
+   ptbn01032 -> ptbn01034
+   ptbn01032 -> ptbn01033
+   ptbn01030 -> ptbn01031
+   ptbn01028 -> ptbn01029
+   ptbn01187 -> ptbn01188
+   ptbn01026 -> ptbn01027
+   ptbn01188 -> ptbn01192
+   ptbn01024 -> ptbn01025
+   ptbn01021 -> ptbn01022
+   ptbn01022 -> ptbn01023
+   ptbn01017 -> ptbn01018
+   ptbn01210 -> ptbn01211
+   ptbn01219 -> ptbn01220
+   ptbn01222 -> ptbn01223
+   ptbn01216 -> ptbn01217
+   ptbn01220 -> ptbn01221
+   ptbn01212 -> ptbn01213
+   ptbn01217 -> ptbn01218
+   ptbn01213 -> ptbn01214
+   ptbn01213 -> ptbn01215
+   ptbn01002 -> ptbn01008
+   ptbn01008 -> ptbn01010
+   ptbn01015 -> ptbn01017
+   ptbn01224 -> ptbn01225
+   ptbn01017 -> ptbn01021
+   ptbn01010 -> ptbn01013
+   ptbn01013 -> ptbn01015
+   ptbn01026 -> ptbn01028
+   ptbn01028 -> ptbn01030
+   ptbn01021 -> ptbn01024
+   ptbn01024 -> ptbn01026
+   ptbn01227 -> ptbn01217
+   ptbn01226 -> ptbn01227
+   ptbn01212 -> ptbn01216
+   ptbn01210 -> ptbn01212
+   ptbn01187 -> ptbn01210
+   ptbn01187 -> ptbn01228
+   ptbn01224 -> ptbn01226
+   ptbn01222 -> ptbn01224
+   ptbn01219 -> ptbn01222
+   ptbn01216 -> ptbn01219
+   ptbn00507 -> ptbn00528
+   ptbn00530 -> ptbn00531
+   ptbn00531 -> ptbn00533
+   ptbn00954 -> ptbn00995
+   ptbn00531 -> ptbn00532
+   ptbn00000 -> ptbn00507
+   ptbn00667 -> ptbn00668
+   ptbn00997 -> ptbn00998
+   ptbn00664 -> ptbn00665
+   ptbn01001 -> ptbn00970
+   ptbn00658 -> ptbn00659
+   ptbn00000 -> ptbn00954
+   ptbn00659 -> ptbn00663
+   ptbn00998 -> ptbn00999
+   ptbn00672 -> ptbn00673
+   ptbn00996 -> ptbn00997
+   ptbn00670 -> ptbn00671
+   ptbn01002 -> ptbn01003
+   ptbn00666 -> ptbn00667
+   ptbn01000 -> ptbn01001
+   ptbn00667 -> ptbn00669
+   ptbn00997 -> ptbn01000
+   ptbn00659 -> ptbn00662
+   ptbn00659 -> ptbn00660
+   ptbn00954 -> ptbn00980
+   ptbn00659 -> ptbn00661
+   ptbn00980 -> ptbn00982
+   ptbn00514 -> ptbn00518
+   ptbn00512 -> ptbn00514
+   ptbn00520 -> ptbn00526
+   ptbn00518 -> ptbn00520
+   ptbn00510 -> ptbn00512
+   ptbn00507 -> ptbn00510
+   ptbn00523 -> ptbn00525
+   ptbn00523 -> ptbn00524
+   ptbn00526 -> ptbn00527
+   ptbn01004 -> ptbn01006
+   ptbn01004 -> ptbn01007
+   ptbn00520 -> ptbn00523
+   ptbn01002 -> ptbn01004
+   ptbn00629 -> ptbn00632
+   ptbn01008 -> ptbn01009
+   ptbn01011 -> ptbn01012
+   ptbn00598 -> ptbn00626
+   ptbn01010 -> ptbn01011
+   ptbn00626 -> ptbn00629
+   ptbn00588 -> ptbn00596
+   ptbn01013 -> ptbn01014
+   ptbn00596 -> ptbn00598
+   ptbn01015 -> ptbn01016
+   ptbn00000 -> ptbn00588
+   ptbn01018 -> ptbn01019
+   ptbn00588 -> ptbn00657
+   ptbn01018 -> ptbn01020
+   ptbn00647 -> ptbn00650
+   ptbn01004 -> ptbn01005
+   ptbn00644 -> ptbn00647
+   ptbn00634 -> ptbn00644
+   ptbn00632 -> ptbn00634
+   ptbn00512 -> ptbn00513
+   ptbn00515 -> ptbn00516
+   ptbn00515 -> ptbn00517
+   ptbn00514 -> ptbn00515
+   ptbn00518 -> ptbn00519
+   ptbn00521 -> ptbn00522
+   ptbn00520 -> ptbn00521
+   ptbn00510 -> ptbn00511
+   ptbn00507 -> ptbn00508
+   ptbn00508 -> ptbn00509
+   ptbn00984 -> ptbn00970
+   ptbn00983 -> ptbn00984
+   ptbn00954 -> ptbn00970
+   ptbn00980 -> ptbn00981
+   ptbn00974 -> ptbn00976
+   ptbn00970 -> ptbn00974
+   ptbn00976 -> ptbn00979
+   ptbn01232 -> ptbn01241
+   ptbn01241 -> ptbn01244
+   ptbn01244 -> ptbn01247
+   ptbn01247 -> ptbn01249
+   ptbn00683 -> ptbn00684
+   ptbn01249 -> ptbn01254
+   ptbn01254 -> ptbn01256
+   ptbn00436 -> ptbn00506
+   ptbn01256 -> ptbn01258
+   ptbn00000 -> ptbn00436
+   ptbn01256 -> ptbn01257
+   ptbn00480 -> ptbn00485
+   ptbn01254 -> ptbn01255
+   ptbn00436 -> ptbn00480
+   ptbn01249 -> ptbn01250
+   ptbn00487 -> ptbn00496
+   ptbn00485 -> ptbn00487
+   ptbn00500 -> ptbn00502
+   ptbn00496 -> ptbn00500
+   ptbn00666 -> ptbn00670
+   ptbn00502 -> ptbn00505
+   ptbn00502 -> ptbn00504
+   ptbn00989 -> ptbn00994
+   ptbn00679 -> ptbn00680
+   ptbn00987 -> ptbn00989
+   ptbn00677 -> ptbn00678
+   ptbn00985 -> ptbn00987
+   ptbn00681 -> ptbn00682
+   ptbn00982 -> ptbn00985
+   ptbn00677 -> ptbn00679
+   ptbn00658 -> ptbn00664
+   ptbn00990 -> ptbn00991
+   ptbn00664 -> ptbn00666
+   ptbn00990 -> ptbn00992
+   ptbn00000 -> ptbn00658
+   ptbn00989 -> ptbn00990
+   ptbn00658 -> ptbn00675
+   ptbn00989 -> ptbn00993
+   ptbn01262 -> ptbn01263
+   ptbn00672 -> ptbn00674
+   ptbn00502 -> ptbn00503
+   ptbn00985 -> ptbn00986
+   ptbn01263 -> ptbn01265
+   ptbn00670 -> ptbn00672
+   ptbn00982 -> ptbn00983
+   ptbn01269 -> ptbn01270
+   ptbn01266 -> ptbn01267
+   ptbn00987 -> ptbn00988
+   ptbn01229 -> ptbn01261
+   ptbn00497 -> ptbn00498
+   ptbn01229 -> ptbn01259
+   ptbn00497 -> ptbn00499
+   ptbn01263 -> ptbn01264
+   ptbn00496 -> ptbn00497
+   ptbn00000 -> ptbn01229
+   ptbn00500 -> ptbn00501
+   ptbn00491 -> ptbn00493
+   ptbn00487 -> ptbn00491
+   ptbn01259 -> ptbn01260
+   ptbn00487 -> ptbn00494
+   ptbn01229 -> ptbn01232
+   ptbn00487 -> ptbn00495
+   ptbn01193 -> ptbn01194
+   ptbn01197 -> ptbn01193
+   ptbn01192 -> ptbn01193
+   ptbn01195 -> ptbn01196
+   ptbn01196 -> ptbn01197
+   ptbn01200 -> ptbn01201
+   ptbn01198 -> ptbn01199
+   ptbn00000 -> ptbn01162
+   ptbn01189 -> ptbn01190
+   ptbn01189 -> ptbn01191
+   ptbn01188 -> ptbn01189
+   ptbn01205 -> ptbn01207
+   ptbn01207 -> ptbn01209
+   ptbn01207 -> ptbn01208
+   ptbn01205 -> ptbn01206
+   ptbn01192 -> ptbn01195
+   ptbn01195 -> ptbn01198
+   ptbn01198 -> ptbn01200
+   ptbn01200 -> ptbn01205
+   ptbn01200 -> ptbn01202
+   ptbn01202 -> ptbn01203
+   ptbn01202 -> ptbn01204
+   ptbn01167 -> ptbn01168
+   ptbn01168 -> ptbn01170
+   ptbn01176 -> ptbn01177
+   ptbn01167 -> ptbn01175
+   ptbn01170 -> ptbn01174
+   ptbn01162 -> ptbn01186
+   ptbn01162 -> ptbn01167
+   ptbn01167 -> ptbn01176
+   ptbn01176 -> ptbn01178
+   ptbn01178 -> ptbn01181
+   ptbn01181 -> ptbn01183
+   ptbn01183 -> ptbn01185
+   ptbn01181 -> ptbn01182
+   ptbn01183 -> ptbn01184
+   ptbn01179 -> ptbn01180
+   ptbn01178 -> ptbn01179
+   ptbn00888 -> ptbn00889
+   ptbn00884 -> ptbn00885
+   ptbn00882 -> ptbn00883
+   ptbn00882 -> ptbn00884
+   ptbn00884 -> ptbn00886
+   ptbn00877 -> ptbn00880
+   ptbn00877 -> ptbn00879
+   ptbn00860 -> ptbn00877
+   ptbn00877 -> ptbn00881
+   ptbn00024 -> ptbn00025
+   ptbn00021 -> ptbn00022
+   ptbn00877 -> ptbn00878
+   ptbn00023 -> ptbn00024
+   ptbn00285 -> ptbn00288
+   ptbn00033 -> ptbn00034
+   ptbn00283 -> ptbn00285
+   ptbn00033 -> ptbn00035
+   ptbn00283 -> ptbn00289
+   ptbn00031 -> ptbn00033
+   ptbn00282 -> ptbn00283
+   ptbn00028 -> ptbn00031
+   ptbn00026 -> ptbn00027
+   ptbn00029 -> ptbn00030
+   ptbn00028 -> ptbn00029
+   ptbn00285 -> ptbn00287
+   ptbn00031 -> ptbn00032
+   ptbn00292 -> ptbn00293
+   ptbn00290 -> ptbn00291
+   ptbn00293 -> ptbn00294
+   ptbn00293 -> ptbn00295
+   ptbn00293 -> ptbn00296
+   ptbn00900 -> ptbn00903
+   ptbn00900 -> ptbn00902
+   ptbn00900 -> ptbn00901
+   ptbn00897 -> ptbn00898
+   ptbn00898 -> ptbn00899
+   ptbn00895 -> ptbn00896
+   ptbn00893 -> ptbn00894
+   ptbn00890 -> ptbn00891
+   ptbn00008 -> ptbn00011
+   ptbn00891 -> ptbn00892
+   ptbn00008 -> ptbn00010
+   ptbn00887 -> ptbn00888
+   ptbn00008 -> ptbn00009
+   ptbn00000 -> ptbn00001
+   ptbn00017 -> ptbn00020
+   ptbn00016 -> ptbn00017
+   ptbn00017 -> ptbn00018
+   ptbn00017 -> ptbn00019
+   ptbn00000 -> ptbn00008
+   ptbn00014 -> ptbn00015
+   ptbn00008 -> ptbn00012
+   ptbn00890 -> ptbn00893
+   ptbn00893 -> ptbn00895
+   ptbn00887 -> ptbn00890
+   ptbn00904 -> ptbn00905
+   ptbn00897 -> ptbn00900
+   ptbn00900 -> ptbn00904
+   ptbn00907 -> ptbn00888
+   ptbn00895 -> ptbn00897
+   ptbn00895 -> ptbn00906
+   ptbn00906 -> ptbn00907
+   ptbn00002 -> ptbn00003
+   ptbn00002 -> ptbn00004
+   ptbn00001 -> ptbn00002
+   ptbn00001 -> ptbn00005
+   ptbn00259 -> ptbn00272
+   ptbn00006 -> ptbn00007
+   ptbn00276 -> ptbn00277
+   ptbn00001 -> ptbn00006
+   ptbn00259 -> ptbn00276
+   ptbn00256 -> ptbn00259
+   ptbn00254 -> ptbn00256
+   ptbn00251 -> ptbn00254
+   ptbn00249 -> ptbn00251
+   ptbn00245 -> ptbn00249
+   ptbn00243 -> ptbn00245
+   ptbn00241 -> ptbn00243
+   ptbn00912 -> ptbn00916
+   ptbn00916 -> ptbn00917
+   ptbn00000 -> ptbn00860
+   ptbn00860 -> ptbn00908
+   ptbn00860 -> ptbn00882
+   ptbn00882 -> ptbn00887
+   ptbn00912 -> ptbn00913
+   ptbn00913 -> ptbn00915
+   ptbn00913 -> ptbn00914
+   ptbn00910 -> ptbn00911
+   ptbn00232 -> ptbn00234
+   ptbn00230 -> ptbn00232
+   ptbn00910 -> ptbn00912
+   ptbn00238 -> ptbn00241
+   ptbn00234 -> ptbn00238
+   ptbn00000 -> ptbn00204
+   ptbn00280 -> ptbn00281
+   ptbn00204 -> ptbn00230
+   ptbn00204 -> ptbn00278
+   ptbn00283 -> ptbn00284
+   ptbn00285 -> ptbn00286
+   ptbn00259 -> ptbn00260
+   ptbn00000 -> ptbn00013
+   ptbn00260 -> ptbn00262
+   ptbn00013 -> ptbn00063
+   ptbn00262 -> ptbn00264
+   ptbn00013 -> ptbn00039
+   ptbn00264 -> ptbn00265
+   ptbn00039 -> ptbn00041
+   ptbn00438 -> ptbn00440
+   ptbn00265 -> ptbn00999
+   ptbn00438 -> ptbn00439
+   ptbn00262 -> ptbn00263
+   ptbn00260 -> ptbn00261
+   ptbn00000 -> ptbn00363
+   ptbn00256 -> ptbn00257
+   ptbn00363 -> ptbn00435
+   ptbn00257 -> ptbn00258
+   ptbn00929 -> ptbn00931
+   ptbn00717 -> ptbn00729
+   ptbn00929 -> ptbn00930
+   ptbn00071 -> ptbn00072
+   ptbn00717 -> ptbn00721
+   ptbn00069 -> ptbn00070
+   ptbn00721 -> ptbn00723
+   ptbn00064 -> ptbn00065
+   ptbn00723 -> ptbn00727
+   ptbn00065 -> ptbn00068
+   ptbn00727 -> ptbn00728
+   ptbn00065 -> ptbn00067
+   ptbn00723 -> ptbn00725
+   ptbn00065 -> ptbn00066
+   ptbn00725 -> ptbn00726
+   ptbn00923 -> ptbn00925
+   ptbn00731 -> ptbn00732
+   ptbn00921 -> ptbn00923
+   ptbn00734 -> ptbn00735
+   ptbn00000 -> ptbn00717
+   ptbn00921 -> ptbn00922
+   ptbn00923 -> ptbn00924
+   ptbn00732 -> ptbn00733
+   ptbn00919 -> ptbn00920
+   ptbn00909 -> ptbn00919
+   ptbn00909 -> ptbn00910
+   ptbn00909 -> ptbn00918
+   ptbn00447 -> ptbn00448
+   ptbn00450 -> ptbn00451
+   ptbn00445 -> ptbn00446
+   ptbn00444 -> ptbn00445
+   ptbn00442 -> ptbn00443
+   ptbn00441 -> ptbn00442
+   ptbn00251 -> ptbn00252
+   ptbn00926 -> ptbn00927
+   ptbn00437 -> ptbn00438
+   ptbn00254 -> ptbn00255
+   ptbn00275 -> ptbn00999
+   ptbn00056 -> ptbn00057
+   ptbn00272 -> ptbn00273
+   ptbn00272 -> ptbn00274
+   ptbn00059 -> ptbn00061
+   ptbn00274 -> ptbn00275
+   ptbn00059 -> ptbn00060
+   ptbn00452 -> ptbn00453
+   ptbn00267 -> ptbn00269
+   ptbn00449 -> ptbn00450
+   ptbn00269 -> ptbn00270
+   ptbn00259 -> ptbn00271
+   ptbn00455 -> ptbn00456
+   ptbn00259 -> ptbn00267
+   ptbn00043 -> ptbn00046
+   ptbn00921 -> ptbn00926
+   ptbn00741 -> ptbn00743
+   ptbn00046 -> ptbn00050
+   ptbn00743 -> ptbn00744
+   ptbn00270 -> ptbn00999
+   ptbn00909 -> ptbn00938
+   ptbn00267 -> ptbn00268
+   ptbn00041 -> ptbn00043
+   ptbn00909 -> ptbn00921
+   ptbn00058 -> ptbn00062
+   ptbn00739 -> ptbn00740
+   ptbn00058 -> ptbn00059
+   ptbn00736 -> ptbn00737
+   ptbn00050 -> ptbn00056
+   ptbn00741 -> ptbn00742
+   ptbn00056 -> ptbn00058
+   ptbn00738 -> ptbn00739
+   ptbn00934 -> ptbn00937
+   ptbn00736 -> ptbn00738
+   ptbn00932 -> ptbn00934
+   ptbn00734 -> ptbn00736
+   ptbn00928 -> ptbn00932
+   ptbn00731 -> ptbn00734
+   ptbn00926 -> ptbn00928
+   ptbn00730 -> ptbn00731
+   ptbn00928 -> ptbn00929
+   ptbn00932 -> ptbn00933
+   ptbn00934 -> ptbn00935
+   ptbn00934 -> ptbn00936
+   ptbn00738 -> ptbn00741
+   ptbn00460 -> ptbn00462
+   ptbn00460 -> ptbn00463
+   ptbn00458 -> ptbn00460
+   ptbn00454 -> ptbn00458
+   ptbn00455 -> ptbn00457
+   ptbn00259 -> ptbn00266
+   ptbn00454 -> ptbn00455
+   ptbn00458 -> ptbn00459
+   ptbn00460 -> ptbn00461
+   ptbn00204 -> ptbn00205
+   ptbn00429 -> ptbn00430
+   ptbn00205 -> ptbn00209
+   ptbn00426 -> ptbn00427
+   ptbn00209 -> ptbn00212
+   ptbn00427 -> ptbn00428
+   ptbn00424 -> ptbn00425
+   ptbn00237 -> ptbn00205
+   ptbn00043 -> ptbn00044
+   ptbn00234 -> ptbn00235
+   ptbn00044 -> ptbn00045
+   ptbn00232 -> ptbn00233
+   ptbn00429 -> ptbn00431
+   ptbn00230 -> ptbn00231
+   ptbn00431 -> ptbn00432
+   ptbn00050 -> ptbn00051
+   ptbn00749 -> ptbn00750
+   ptbn00046 -> ptbn00048
+   ptbn00746 -> ptbn00747
+   ptbn00048 -> ptbn00049
+   ptbn00747 -> ptbn00748
+   ptbn00046 -> ptbn00047
+   ptbn00730 -> ptbn00745
+   ptbn00050 -> ptbn00052
+   ptbn00950 -> ptbn00951
+   ptbn00052 -> ptbn00055
+   ptbn00948 -> ptbn00949
+   ptbn00052 -> ptbn00054
+   ptbn00939 -> ptbn00946
+   ptbn00052 -> ptbn00053
+   ptbn00751 -> ptbn00752
+   ptbn00946 -> ptbn00947
+   ptbn00749 -> ptbn00751
+   ptbn00942 -> ptbn00943
+   ptbn00746 -> ptbn00749
+   ptbn00942 -> ptbn00944
+   ptbn00045 -> ptbn00037
+   ptbn00000 -> ptbn00909
+   ptbn00940 -> ptbn00941
+   ptbn00730 -> ptbn00754
+   ptbn00939 -> ptbn00940
+   ptbn00000 -> ptbn00730
+   ptbn00730 -> ptbn00746
+   ptbn00942 -> ptbn00945
+   ptbn00730 -> ptbn00753
+   ptbn00940 -> ptbn00942
+   ptbn00215 -> ptbn00217
+   ptbn00212 -> ptbn00215
+   ptbn00426 -> ptbn00429
+   ptbn00221 -> ptbn00224
+   ptbn00217 -> ptbn00221
+   ptbn00418 -> ptbn00421
+   ptbn00415 -> ptbn00418
+   ptbn00424 -> ptbn00426
+   ptbn00421 -> ptbn00424
+   ptbn00241 -> ptbn00242
+   ptbn00434 -> ptbn00406
+   ptbn00238 -> ptbn00239
+   ptbn00411 -> ptbn00415
+   ptbn00246 -> ptbn00247
+   ptbn00411 -> ptbn00433
+   ptbn00243 -> ptbn00244
+   ptbn00433 -> ptbn00434
+   ptbn00245 -> ptbn00246
+   ptbn00246 -> ptbn00248
+   ptbn00408 -> ptbn00411
+   ptbn00252 -> ptbn00253
+   ptbn00021 -> ptbn00023
+   ptbn00249 -> ptbn00250
+   ptbn00757 -> ptbn00759
+   ptbn00014 -> ptbn00016
+   ptbn00757 -> ptbn00758
+   ptbn00016 -> ptbn00021
+   ptbn00760 -> ptbn00761
+   ptbn00957 -> ptbn00958
+   ptbn00013 -> ptbn00036
+   ptbn00756 -> ptbn00757
+   ptbn00013 -> ptbn00014
+   ptbn00959 -> ptbn00960
+   ptbn00013 -> ptbn00037
+   ptbn00960 -> ptbn00961
+   ptbn00037 -> ptbn00038
+   ptbn00964 -> ptbn00965
+   ptbn00041 -> ptbn00042
+   ptbn00962 -> ptbn00963
+   ptbn00039 -> ptbn00040
+   ptbn00026 -> ptbn00028
+   ptbn00950 -> ptbn00952
+   ptbn00762 -> ptbn00763
+   ptbn00023 -> ptbn00026
+   ptbn00948 -> ptbn00950
+   ptbn00762 -> ptbn00764
+   ptbn00939 -> ptbn00948
+   ptbn00762 -> ptbn00765
+   ptbn00939 -> ptbn00953
+   ptbn00760 -> ptbn00762
+   ptbn00000 -> ptbn00939
+   ptbn00756 -> ptbn00760
+   ptbn00955 -> ptbn00956
+   ptbn00755 -> ptbn00756
+   ptbn00766 -> ptbn00767
+   ptbn00236 -> ptbn00237
+   ptbn00234 -> ptbn00236
+   ptbn00239 -> ptbn00240
+   ptbn00405 -> ptbn00408
+   ptbn00401 -> ptbn00405
+   ptbn00399 -> ptbn00401
+   ptbn00395 -> ptbn00399
+   ptbn00393 -> ptbn00395
+   ptbn00363 -> ptbn00393
+   ptbn00971 -> ptbn00972
+   ptbn00694 -> ptbn00690
+   ptbn00971 -> ptbn00973
+   ptbn00693 -> ptbn00694
+   ptbn00954 -> ptbn00955
+   ptbn00690 -> ptbn00691
+   ptbn00954 -> ptbn00969
+   ptbn00689 -> ptbn00690
+   ptbn00957 -> ptbn00959
+   ptbn00686 -> ptbn00688
+   ptbn00955 -> ptbn00957
+   ptbn00685 -> ptbn00686
+   ptbn00686 -> ptbn00687
+   ptbn00215 -> ptbn00216
+   ptbn00217 -> ptbn00218
+   ptbn00213 -> ptbn00214
+   ptbn00212 -> ptbn00213
+   ptbn00697 -> ptbn00698
+   ptbn00209 -> ptbn00210
+   ptbn00692 -> ptbn00693
+   ptbn00695 -> ptbn00696
+   ptbn00487 -> ptbn00488
+   ptbn00488 -> ptbn00490
+   ptbn00210 -> ptbn00211
+   ptbn00488 -> ptbn00489
+   ptbn00205 -> ptbn00206
+   ptbn00485 -> ptbn00486
+   ptbn00206 -> ptbn00208
+   ptbn00480 -> ptbn00481
+   ptbn00206 -> ptbn00207
+   ptbn00000 -> ptbn00192
+   ptbn00481 -> ptbn00484
+   ptbn00481 -> ptbn00483
+   ptbn00192 -> ptbn00203
+   ptbn00481 -> ptbn00482
+   ptbn00436 -> ptbn00479
+   ptbn00436 -> ptbn00467
+   ptbn00959 -> ptbn00962
+   ptbn00962 -> ptbn00964
+   ptbn00964 -> ptbn00966
+   ptbn00966 -> ptbn00968
+   ptbn00966 -> ptbn00967
+   ptbn00703 -> ptbn00705
+   ptbn00699 -> ptbn00703
+   ptbn00697 -> ptbn00699
+   ptbn00695 -> ptbn00697
+   ptbn00102 -> ptbn00103
+   ptbn00700 -> ptbn00701
+   ptbn00104 -> ptbn00105
+   ptbn00699 -> ptbn00700
+   ptbn00107 -> ptbn00097
+   ptbn00699 -> ptbn00702
+   ptbn00703 -> ptbn00704
+   ptbn00097 -> ptbn00098
+   ptbn00229 -> ptbn00210
+   ptbn00096 -> ptbn00097
+   ptbn00228 -> ptbn00229
+   ptbn00100 -> ptbn00101
+   ptbn00226 -> ptbn00228
+   ptbn00099 -> ptbn00100
+   ptbn00224 -> ptbn00226
+   ptbn00692 -> ptbn00695
+   ptbn00093 -> ptbn00094
+   ptbn00689 -> ptbn00692
+   ptbn00093 -> ptbn00095
+   ptbn00224 -> ptbn00225
+   ptbn00092 -> ptbn00093
+   ptbn00226 -> ptbn00227
+   ptbn00221 -> ptbn00222
+   ptbn00217 -> ptbn00219
+   ptbn00219 -> ptbn00220
+   ptbn00222 -> ptbn00223
+   ptbn00223 -> ptbn00219
+   ptbn00685 -> ptbn00689
+   ptbn00974 -> ptbn00975
+   ptbn00970 -> ptbn00971
+   ptbn00976 -> ptbn00978
+   ptbn00976 -> ptbn00977
+   ptbn00087 -> ptbn00088
+   ptbn00677 -> ptbn00681
+   ptbn00090 -> ptbn00091
+   ptbn00677 -> ptbn00706
+   ptbn00000 -> ptbn00064
+   ptbn00683 -> ptbn00685
+   ptbn00088 -> ptbn00089
+   ptbn00681 -> ptbn00683
+   ptbn00708 -> ptbn00709
+   ptbn00676 -> ptbn00708
+   ptbn00677 -> ptbn00707
+   ptbn00676 -> ptbn00677
+   ptbn00076 -> ptbn00078
+   ptbn00073 -> ptbn00076
+   ptbn00710 -> ptbn00711
+   ptbn00452 -> ptbn00454
+   ptbn00449 -> ptbn00452
+   ptbn00064 -> ptbn00069
+   ptbn00064 -> ptbn00086
+   ptbn00071 -> ptbn00073
+   ptbn00069 -> ptbn00071
+   ptbn01066 -> ptbn01067
+   ptbn00444 -> ptbn00447
+   ptbn01063 -> ptbn01066
+   ptbn00447 -> ptbn00464
+   ptbn01064 -> ptbn01065
+   ptbn00464 -> ptbn00465
+   ptbn01063 -> ptbn01064
+   ptbn00465 -> ptbn00442
+   ptbn01068 -> ptbn01070
+   ptbn00436 -> ptbn00466
+   ptbn01074 -> ptbn01064
+   ptbn00436 -> ptbn00437
+   ptbn01068 -> ptbn01069
+   ptbn00437 -> ptbn00441
+   ptbn01070 -> ptbn01071
+   ptbn00441 -> ptbn00444
+   ptbn01073 -> ptbn01074
+   ptbn01072 -> ptbn01073
+   ptbn00715 -> ptbn00677
+   ptbn00447 -> ptbn00449
+   ptbn00712 -> ptbn00713
+   ptbn00714 -> ptbn00715
+   ptbn00078 -> ptbn00080
+   ptbn00712 -> ptbn00714
+   ptbn00082 -> ptbn00083
+   ptbn00710 -> ptbn00712
+   ptbn00084 -> ptbn00085
+   ptbn00676 -> ptbn00710
+   ptbn00082 -> ptbn00084
+   ptbn00676 -> ptbn00716
+   ptbn00078 -> ptbn00082
+   ptbn00000 -> ptbn00676
+   ptbn00717 -> ptbn00718
+   ptbn00719 -> ptbn00720
+   ptbn00468 -> ptbn00469
+   ptbn00074 -> ptbn00075
+   ptbn00073 -> ptbn00074
+   ptbn00201 -> ptbn00202
+   ptbn00076 -> ptbn00077
+   ptbn00199 -> ptbn00201
+   ptbn00078 -> ptbn00079
+   ptbn00196 -> ptbn00199
+   ptbn00080 -> ptbn00081
+   ptbn00192 -> ptbn00196
+   ptbn00472 -> ptbn00473
+   ptbn01060 -> ptbn01061
+   ptbn00467 -> ptbn00468
+   ptbn01058 -> ptbn01060
+   ptbn00476 -> ptbn00477
+   ptbn01055 -> ptbn01058
+   ptbn00474 -> ptbn00475
+   ptbn01053 -> ptbn01055
+   ptbn00474 -> ptbn00476
+   ptbn01049 -> ptbn01053
+   ptbn00476 -> ptbn00478
+   ptbn01047 -> ptbn01049
+   ptbn00467 -> ptbn00472
+   ptbn01042 -> ptbn01047
+   ptbn00472 -> ptbn00474
+   ptbn01036 -> ptbn01042
+   ptbn01036 -> ptbn01062
+   ptbn00000 -> ptbn01036
+   ptbn00717 -> ptbn00719
+   ptbn00468 -> ptbn00471
+   ptbn00723 -> ptbn00724
+   ptbn00468 -> ptbn00470
+   ptbn00721 -> ptbn00722
+   ptbn01135 -> ptbn01136
+   ptbn01136 -> ptbn01137
+   ptbn01131 -> ptbn01132
+   ptbn01132 -> ptbn01134
+   ptbn01144 -> ptbn01145
+   ptbn01138 -> ptbn01139
+   ptbn01139 -> ptbn01143
+   ptbn01139 -> ptbn01140
+   ptbn01140 -> ptbn01142
+   ptbn01140 -> ptbn01141
+   ptbn00000 -> ptbn01310
+   ptbn01144 -> ptbn01146
+   ptbn01146 -> ptbn01147
+   ptbn01150 -> ptbn01151
+   ptbn01148 -> ptbn01149
+   ptbn01147 -> ptbn01136
+   ptbn01135 -> ptbn01138
+   ptbn01148 -> ptbn01150
+   ptbn01150 -> ptbn01152
+   ptbn01138 -> ptbn01144
+   ptbn01144 -> ptbn01148
+   ptbn01127 -> ptbn01131
+   ptbn01131 -> ptbn01135
+   ptbn01154 -> ptbn01156
+   ptbn01154 -> ptbn01155
+   ptbn00000 -> ptbn01127
+   ptbn01127 -> ptbn01153
+   ptbn01158 -> ptbn01160
+   ptbn01158 -> ptbn01159
+   ptbn00779 -> ptbn00780
+   ptbn00000 -> ptbn01154
+   ptbn00781 -> ptbn00782
+   ptbn01154 -> ptbn01157
+   ptbn01158 -> ptbn01161
+   ptbn01163 -> ptbn01164
+   ptbn00000 -> ptbn01158
+   ptbn01163 -> ptbn01166
+   ptbn01163 -> ptbn01165
+   ptbn00572 -> ptbn00575
+   ptbn01168 -> ptbn01169
+   ptbn00571 -> ptbn00572
+   ptbn01162 -> ptbn01163
+   ptbn00580 -> ptbn00581
+   ptbn00768 -> ptbn00769
+   ptbn01171 -> ptbn01173
+   ptbn00580 -> ptbn00582
+   ptbn00770 -> ptbn00771
+   ptbn01171 -> ptbn01172
+   ptbn00583 -> ptbn00584
+   ptbn00772 -> ptbn00773
+   ptbn00580 -> ptbn00583
+   ptbn01170 -> ptbn01171
+   ptbn00585 -> ptbn00586
+   ptbn00580 -> ptbn00585
+   ptbn00571 -> ptbn00580
+   ptbn00569 -> ptbn00571
+   ptbn00772 -> ptbn00775
+   ptbn00575 -> ptbn00577
+   ptbn00772 -> ptbn00774
+   ptbn00768 -> ptbn00770
+   ptbn00770 -> ptbn00772
+   ptbn00778 -> ptbn00756
+   ptbn00766 -> ptbn00768
+   ptbn00776 -> ptbn00777
+   ptbn00777 -> ptbn00778
+   ptbn00577 -> ptbn00579
+   ptbn01096 -> ptbn01099
+   ptbn00577 -> ptbn00578
+   ptbn01101 -> ptbn01102
+   ptbn00575 -> ptbn00576
+   ptbn01097 -> ptbn01098
+   ptbn00572 -> ptbn00573
+   ptbn01096 -> ptbn01097
+   ptbn00573 -> ptbn00574
+   ptbn01082 -> ptbn01095
+   ptbn00569 -> ptbn00570
+   ptbn00000 -> ptbn01082
+   ptbn00567 -> ptbn00568
+   ptbn01091 -> ptbn01093
+   ptbn00562 -> ptbn00563
+   ptbn01082 -> ptbn01091
+   ptbn00563 -> ptbn00566
+   ptbn00393 -> ptbn00394
+   ptbn00363 -> ptbn00383
+   ptbn01093 -> ptbn01094
+   ptbn00563 -> ptbn00564
+   ptbn01091 -> ptbn01092
+   ptbn00563 -> ptbn00565
+   ptbn01082 -> ptbn01083
+   ptbn01112 -> ptbn01113
+   ptbn00529 -> ptbn00555
+   ptbn01115 -> ptbn01105
+   ptbn00555 -> ptbn00557
+   ptbn01114 -> ptbn01115
+   ptbn00000 -> ptbn00529
+   ptbn01112 -> ptbn01114
+   ptbn00529 -> ptbn00561
+   ptbn01104 -> ptbn01105
+   ptbn00560 -> ptbn00530
+   ptbn01108 -> ptbn01109
+   ptbn00557 -> ptbn00558
+   ptbn01107 -> ptbn01108
+   ptbn00557 -> ptbn00559
+   ptbn01110 -> ptbn01111
+   ptbn00559 -> ptbn00560
+   ptbn01105 -> ptbn01106
+   ptbn01100 -> ptbn01101
+   ptbn00530 -> ptbn00534
+   ptbn01101 -> ptbn01103
+   ptbn00529 -> ptbn00530
+   ptbn00555 -> ptbn00556
+   ptbn01123 -> ptbn01124
+   ptbn00544 -> ptbn00546
+   ptbn01123 -> ptbn01125
+   ptbn00546 -> ptbn00550
+   ptbn01118 -> ptbn01119
+   ptbn00550 -> ptbn00552
+   ptbn01118 -> ptbn01122
+   ptbn01112 -> ptbn01116
+   ptbn00534 -> ptbn00537
+   ptbn01110 -> ptbn01112
+   ptbn00537 -> ptbn00540
+   ptbn01118 -> ptbn01123
+   ptbn00540 -> ptbn00542
+   ptbn01116 -> ptbn01118
+   ptbn00542 -> ptbn00544
+   ptbn01119 -> ptbn01120
+   ptbn00421 -> ptbn00422
+   ptbn01119 -> ptbn01121
+   ptbn00422 -> ptbn00423
+   ptbn00423 -> ptbn00419
+   ptbn00418 -> ptbn00419
+   ptbn00413 -> ptbn00414
+   ptbn00411 -> ptbn00413
+   ptbn00408 -> ptbn00409
+   ptbn00411 -> ptbn00412
+   ptbn00419 -> ptbn00420
+   ptbn00416 -> ptbn00417
+   ptbn00415 -> ptbn00416
+   ptbn00552 -> ptbn00553
+   ptbn00552 -> ptbn00554
+   ptbn00546 -> ptbn00548
+   ptbn01116 -> ptbn01117
+   ptbn00550 -> ptbn00551
+   ptbn01096 -> ptbn01100
+   ptbn01096 -> ptbn01126
+   ptbn00000 -> ptbn01096
+   ptbn00542 -> ptbn00543
+   ptbn00540 -> ptbn00541
+   ptbn01128 -> ptbn01129
+   ptbn00546 -> ptbn00547
+   ptbn01127 -> ptbn01128
+   ptbn00544 -> ptbn00545
+   ptbn01127 -> ptbn01130
+   ptbn00548 -> ptbn00549
+   ptbn01132 -> ptbn01133
+   ptbn00549 -> ptbn00538
+   ptbn00406 -> ptbn00407
+   ptbn01107 -> ptbn01110
+   ptbn01104 -> ptbn01107
+   ptbn00409 -> ptbn00410
+   ptbn01100 -> ptbn01104
+   ptbn00405 -> ptbn00406
+   ptbn00395 -> ptbn00396
+   ptbn00398 -> ptbn00383
+   ptbn00397 -> ptbn00398
+   ptbn00395 -> ptbn00397
+   ptbn00399 -> ptbn00400
+   ptbn00402 -> ptbn00403
+   ptbn00402 -> ptbn00404
+   ptbn00401 -> ptbn00402
+   ptbn00535 -> ptbn00536
+   ptbn00534 -> ptbn00535
+   ptbn00539 -> ptbn00535
+   ptbn00538 -> ptbn00539
+   ptbn00537 -> ptbn00538
+   ptbn01268 -> ptbn01269
+   ptbn01271 -> ptbn01272
+   ptbn01273 -> ptbn01274
+   ptbn01273 -> ptbn01275
+   ptbn01077 -> ptbn01078
+   ptbn01075 -> ptbn01076
+   ptbn01077 -> ptbn01079
+   ptbn01079 -> ptbn01080
+   ptbn01072 -> ptbn01075
+   ptbn01075 -> ptbn01077
+   ptbn01063 -> ptbn01081
+   ptbn01278 -> ptbn01279
+   ptbn00000 -> ptbn01063
+   ptbn01068 -> ptbn01072
+   ptbn01063 -> ptbn01068
+   ptbn01277 -> ptbn01280
+   ptbn01282 -> ptbn01283
+   ptbn01277 -> ptbn01278
+   ptbn01280 -> ptbn01281
+   ptbn01262 -> ptbn01266
+   ptbn01083 -> ptbn01084
+   ptbn01266 -> ptbn01268
+   ptbn01084 -> ptbn01086
+   ptbn01268 -> ptbn01271
+   ptbn01084 -> ptbn01085
+   ptbn01271 -> ptbn01273
+   ptbn01083 -> ptbn01088
+   ptbn01088 -> ptbn01090
+   ptbn00000 -> ptbn01262
+   ptbn01088 -> ptbn01089
+   ptbn01262 -> ptbn01276
+   ptbn01083 -> ptbn01087
+   ptbn01284 -> ptbn01287
+   ptbn01287 -> ptbn01292
+   ptbn01296 -> ptbn01280
+   ptbn01282 -> ptbn01284
+   ptbn01292 -> ptbn01293
+   ptbn01287 -> ptbn01291
+   ptbn01287 -> ptbn01288
+   ptbn01284 -> ptbn01285
+   ptbn01284 -> ptbn01286
+   ptbn01288 -> ptbn01289
+   ptbn01288 -> ptbn01290
+   ptbn01307 -> ptbn01308
+   ptbn01299 -> ptbn01303
+   ptbn01303 -> ptbn01305
+   ptbn01305 -> ptbn01306
+   ptbn01303 -> ptbn01304
+   ptbn01299 -> ptbn01301
+   ptbn01301 -> ptbn01302
+   ptbn01297 -> ptbn01298
+   ptbn01299 -> ptbn01300
+   ptbn01295 -> ptbn01296
+   ptbn01294 -> ptbn01295
+   ptbn01277 -> ptbn01282
+   ptbn01282 -> ptbn01294
+   ptbn00000 -> ptbn01277
+   ptbn01277 -> ptbn01309
+   ptbn01310 -> ptbn01311
+   ptbn01311 -> ptbn01312
+   ptbn01315 -> ptbn01316
+   ptbn01310 -> ptbn01313
+   ptbn01299 -> ptbn01307
+   ptbn01297 -> ptbn01299
+   ptbn01294 -> ptbn01297
+   ptbn01319 -> ptbn01320
+   ptbn01323 -> ptbn01324
+   ptbn01318 -> ptbn01322
+   ptbn01318 -> ptbn01319
+   ptbn01319 -> ptbn01321
+   ptbn01310 -> ptbn01314
+   ptbn01314 -> ptbn01318
+   ptbn01318 -> ptbn01323
+   ptbn01323 -> ptbn01325
+   ptbn01315 -> ptbn01317
+   ptbn01314 -> ptbn01315
+   ptbn00383 -> ptbn00384
+   ptbn00388 -> ptbn00389
+   ptbn00390 -> ptbn00391
+   ptbn00390 -> ptbn00392
+   ptbn00388 -> ptbn00390
+   ptbn00383 -> ptbn00388
+   ptbn00363 -> ptbn00382
+   ptbn00384 -> ptbn00385
+   ptbn00384 -> ptbn00386
+   ptbn00384 -> ptbn00387
+   ptbn00169 -> ptbn00172
+   ptbn00172 -> ptbn00175
+   ptbn00000 -> ptbn00169
+   ptbn00169 -> ptbn00191
+   ptbn00194 -> ptbn00195
+   ptbn00192 -> ptbn00193
+   ptbn00196 -> ptbn00197
+   ptbn00192 -> ptbn00194
+   ptbn00199 -> ptbn00200
+   ptbn00196 -> ptbn00198
+   ptbn00783 -> ptbn00785
+   ptbn00783 -> ptbn00784
+   ptbn00786 -> ptbn00787
+   ptbn00781 -> ptbn00783
+   ptbn00789 -> ptbn00791
+   ptbn00789 -> ptbn00790
+   ptbn00792 -> ptbn00793
+   ptbn00788 -> ptbn00789
+   ptbn00155 -> ptbn00156
+   ptbn00796 -> ptbn00797
+   ptbn00794 -> ptbn00795
+   ptbn00158 -> ptbn00161
+   ptbn00157 -> ptbn00158
+   ptbn00162 -> ptbn00163
+   ptbn00164 -> ptbn00165
+   ptbn00164 -> ptbn00166
+   ptbn00164 -> ptbn00167
+   ptbn00162 -> ptbn00164
+   ptbn00157 -> ptbn00162
+   ptbn00158 -> ptbn00159
+   ptbn00158 -> ptbn00160
+   ptbn00794 -> ptbn00799
+   ptbn00794 -> ptbn00796
+   ptbn00796 -> ptbn00798
+   ptbn00786 -> ptbn00788
+   ptbn00788 -> ptbn00792
+   ptbn00792 -> ptbn00794
+   ptbn00794 -> ptbn00800
+   ptbn00776 -> ptbn00779
+   ptbn00779 -> ptbn00781
+   ptbn00781 -> ptbn00786
+   ptbn00140 -> ptbn00143
+   ptbn00138 -> ptbn00140
+   ptbn00145 -> ptbn00150
+   ptbn00143 -> ptbn00145
+   ptbn00117 -> ptbn00168
+   ptbn00136 -> ptbn00138
+   ptbn00117 -> ptbn00136
+   ptbn00153 -> ptbn00155
+   ptbn00150 -> ptbn00153
+   ptbn00155 -> ptbn00157
+   ptbn00179 -> ptbn00180
+   ptbn00182 -> ptbn00183
+   ptbn00172 -> ptbn00174
+   ptbn00175 -> ptbn00176
+   ptbn00177 -> ptbn00178
+   ptbn00175 -> ptbn00177
+   ptbn00000 -> ptbn00117
+   ptbn00170 -> ptbn00171
+   ptbn00169 -> ptbn00170
+   ptbn00172 -> ptbn00173
+   ptbn00175 -> ptbn00179
+   ptbn00181 -> ptbn00184
+   ptbn00179 -> ptbn00181
+   ptbn00186 -> ptbn00188
+   ptbn00184 -> ptbn00186
+   ptbn00188 -> ptbn00189
+   ptbn00188 -> ptbn00190
+   ptbn00184 -> ptbn00185
+   ptbn00186 -> ptbn00187
+   ptbn00181 -> ptbn00182
+   ptbn00636 -> ptbn00638
+   ptbn00636 -> ptbn00637
+   ptbn00632 -> ptbn00633
+   ptbn00629 -> ptbn00630
+   ptbn00826 -> ptbn00830
+   ptbn00830 -> ptbn00834
+   ptbn00834 -> ptbn00835
+   ptbn00639 -> ptbn00640
+   ptbn00635 -> ptbn00636
+   ptbn00279 -> ptbn00299
+   ptbn00109 -> ptbn00111
+   ptbn00279 -> ptbn00280
+   ptbn00109 -> ptbn00110
+   ptbn00280 -> ptbn00282
+   ptbn00282 -> ptbn00290
+   ptbn00109 -> ptbn00114
+   ptbn00300 -> ptbn00301
+   ptbn00114 -> ptbn00115
+   ptbn00301 -> ptbn00303
+   ptbn00109 -> ptbn00112
+   ptbn00301 -> ptbn00302
+   ptbn00112 -> ptbn00113
+   ptbn00087 -> ptbn00090
+   ptbn00087 -> ptbn00108
+   ptbn00092 -> ptbn00096
+   ptbn00090 -> ptbn00092
+   ptbn00305 -> ptbn00307
+   ptbn00300 -> ptbn00305
+   ptbn00300 -> ptbn00304
+   ptbn00000 -> ptbn00087
+   ptbn00305 -> ptbn00306
+   ptbn00828 -> ptbn00829
+   ptbn00826 -> ptbn00828
+   ptbn00641 -> ptbn00642
+   ptbn00822 -> ptbn00823
+   ptbn00826 -> ptbn00827
+   ptbn00832 -> ptbn00833
+   ptbn00635 -> ptbn00639
+   ptbn00830 -> ptbn00832
+   ptbn00634 -> ptbn00635
+   ptbn00830 -> ptbn00831
+   ptbn00641 -> ptbn00643
+   ptbn00833 -> ptbn00820
+   ptbn00639 -> ptbn00641
+   ptbn00644 -> ptbn00645
+   ptbn00645 -> ptbn00646
+   ptbn00647 -> ptbn00648
+   ptbn00648 -> ptbn00649
+   ptbn00840 -> ptbn00841
+   ptbn00837 -> ptbn00838
+   ptbn00650 -> ptbn00651
+   ptbn00842 -> ptbn00843
+   ptbn00837 -> ptbn00840
+   ptbn00308 -> ptbn00309
+   ptbn00121 -> ptbn00123
+   ptbn00279 -> ptbn00300
+   ptbn00308 -> ptbn00310
+   ptbn00124 -> ptbn00125
+   ptbn00310 -> ptbn00311
+   ptbn00120 -> ptbn00121
+   ptbn00313 -> ptbn00314
+   ptbn00126 -> ptbn00127
+   ptbn00314 -> ptbn00310
+   ptbn00127 -> ptbn00128
+   ptbn00131 -> ptbn00132
+   ptbn00129 -> ptbn00130
+   ptbn00109 -> ptbn00116
+   ptbn00000 -> ptbn00109
+   ptbn00118 -> ptbn00119
+   ptbn00312 -> ptbn00313
+   ptbn00121 -> ptbn00122
+   ptbn00316 -> ptbn00317
+   ptbn00315 -> ptbn00316
+   ptbn00318 -> ptbn00319
+   ptbn00320 -> ptbn00321
+   ptbn00822 -> ptbn00826
+   ptbn00819 -> ptbn00822
+   ptbn00817 -> ptbn00819
+   ptbn00653 -> ptbn00645
+   ptbn00814 -> ptbn00817
+   ptbn00652 -> ptbn00653
+   ptbn00802 -> ptbn00814
+   ptbn00650 -> ptbn00652
+   ptbn00802 -> ptbn00836
+   ptbn00654 -> ptbn00655
+   ptbn00838 -> ptbn00839
+   ptbn00654 -> ptbn00656
+   ptbn00650 -> ptbn00654
+   ptbn00809 -> ptbn00811
+   ptbn00623 -> ptbn00624
+   ptbn00621 -> ptbn00622
+   ptbn00619 -> ptbn00620
+   ptbn00616 -> ptbn00617
+   ptbn00617 -> ptbn00618
+   ptbn00618 -> ptbn00614
+   ptbn00613 -> ptbn00614
+   ptbn00614 -> ptbn00615
+   ptbn00138 -> ptbn00139
+   ptbn00136 -> ptbn00137
+   ptbn00117 -> ptbn00134
+   ptbn00320 -> ptbn00326
+   ptbn00134 -> ptbn00135
+   ptbn00320 -> ptbn00325
+   ptbn00117 -> ptbn00133
+   ptbn00320 -> ptbn00324
+   ptbn00117 -> ptbn00118
+   ptbn00320 -> ptbn00323
+   ptbn00118 -> ptbn00120
+   ptbn00320 -> ptbn00322
+   ptbn00120 -> ptbn00124
+   ptbn00279 -> ptbn00308
+   ptbn00279 -> ptbn00327
+   ptbn00312 -> ptbn00315
+   ptbn00308 -> ptbn00312
+   ptbn00318 -> ptbn00320
+   ptbn00124 -> ptbn00126
+   ptbn00315 -> ptbn00318
+   ptbn00809 -> ptbn00810
+   ptbn00129 -> ptbn00131
+   ptbn00811 -> ptbn00812
+   ptbn00126 -> ptbn00129
+   ptbn00806 -> ptbn00808
+   ptbn00621 -> ptbn00623
+   ptbn00805 -> ptbn00806
+   ptbn00619 -> ptbn00621
+   ptbn00803 -> ptbn00804
+   ptbn00806 -> ptbn00807
+   ptbn00623 -> ptbn00625
+   ptbn00755 -> ptbn00801
+   ptbn00000 -> ptbn00755
+   ptbn00766 -> ptbn00776
+   ptbn00755 -> ptbn00766
+   ptbn00599 -> ptbn00604
+   ptbn00604 -> ptbn00606
+   ptbn00823 -> ptbn00825
+   ptbn00140 -> ptbn00141
+   ptbn00823 -> ptbn00824
+   ptbn00598 -> ptbn00599
+   ptbn00613 -> ptbn00616
+   ptbn00616 -> ptbn00619
+   ptbn00606 -> ptbn00610
+   ptbn00610 -> ptbn00613
+   ptbn00151 -> ptbn00152
+   ptbn00145 -> ptbn00147
+   ptbn00153 -> ptbn00154
+   ptbn00150 -> ptbn00151
+   ptbn00000 -> ptbn00279
+   ptbn00145 -> ptbn00146
+   ptbn00279 -> ptbn00328
+   ptbn00143 -> ptbn00144
+   ptbn00330 -> ptbn00332
+   ptbn00147 -> ptbn00149
+   ptbn00330 -> ptbn00331
+   ptbn00147 -> ptbn00148
+   ptbn00339 -> ptbn00340
+   ptbn00338 -> ptbn00339
+   ptbn00338 -> ptbn00341
+   ptbn00342 -> ptbn00343
+   ptbn00819 -> ptbn00820
+   ptbn00142 -> ptbn00134
+   ptbn00329 -> ptbn00330
+   ptbn00141 -> ptbn00142
+   ptbn00333 -> ptbn00334
+   ptbn00335 -> ptbn00336
+   ptbn00815 -> ptbn00816
+   ptbn00627 -> ptbn00628
+   ptbn00814 -> ptbn00815
+   ptbn00626 -> ptbn00627
+   ptbn00817 -> ptbn00818
+   ptbn00631 -> ptbn00627
+   ptbn00820 -> ptbn00821
+   ptbn00630 -> ptbn00631
+   ptbn00805 -> ptbn00809
+   ptbn00803 -> ptbn00805
+   ptbn00802 -> ptbn00803
+   ptbn00802 -> ptbn00813
+   ptbn00338 -> ptbn00342
+   ptbn00342 -> ptbn00344
+   ptbn00588 -> ptbn00593
+   ptbn00342 -> ptbn00345
+   ptbn00594 -> ptbn00595
+   ptbn00562 -> ptbn00587
+   ptbn00872 -> ptbn00873
+   ptbn00000 -> ptbn00562
+   ptbn00872 -> ptbn00874
+   ptbn00567 -> ptbn00569
+   ptbn00562 -> ptbn00567
+   ptbn00870 -> ptbn00871
+   ptbn00589 -> ptbn00591
+   ptbn00866 -> ptbn00870
+   ptbn00588 -> ptbn00589
+   ptbn00864 -> ptbn00866
+   ptbn00589 -> ptbn00590
+   ptbn00872 -> ptbn00875
+   ptbn00591 -> ptbn00592
+   ptbn00870 -> ptbn00872
+   ptbn00866 -> ptbn00867
+   ptbn00867 -> ptbn00869
+   ptbn00867 -> ptbn00868
+   ptbn00864 -> ptbn00865
+   ptbn00588 -> ptbn00594
+   ptbn00338 -> ptbn00346
+   ptbn00346 -> ptbn00349
+   ptbn00346 -> ptbn00348
+   ptbn00346 -> ptbn00347
+   ptbn00351 -> ptbn00353
+   ptbn00351 -> ptbn00352
+   ptbn00337 -> ptbn00338
+   ptbn00338 -> ptbn00350
+   ptbn00354 -> ptbn00355
+   ptbn00606 -> ptbn00609
+   ptbn00354 -> ptbn00356
+   ptbn00596 -> ptbn00597
+   ptbn00600 -> ptbn00601
+   ptbn00600 -> ptbn00602
+   ptbn00600 -> ptbn00603
+   ptbn00599 -> ptbn00600
+   ptbn00604 -> ptbn00605
+   ptbn00607 -> ptbn00608
+   ptbn00606 -> ptbn00607
+   ptbn00860 -> ptbn00861
+   ptbn00861 -> ptbn00864
+   ptbn00860 -> ptbn00876
+   ptbn00354 -> ptbn00357
+   ptbn00610 -> ptbn00611
+   ptbn00611 -> ptbn00612
+   ptbn00354 -> ptbn00359
+   ptbn00354 -> ptbn00358
+   ptbn00351 -> ptbn00354
+   ptbn00354 -> ptbn00360
+   ptbn00335 -> ptbn00337
+   ptbn00337 -> ptbn00351
+   ptbn00329 -> ptbn00333
+   ptbn00333 -> ptbn00335
+   ptbn00329 -> ptbn00361
+   ptbn00856 -> ptbn00857
+   ptbn00856 -> ptbn00858
+   ptbn00850 -> ptbn00851
+   ptbn00854 -> ptbn00855
+   ptbn00851 -> ptbn00853
+   ptbn00000 -> ptbn00329
+   ptbn00329 -> ptbn00362
+   ptbn00851 -> ptbn00852
+   ptbn00844 -> ptbn00849
+   ptbn00844 -> ptbn00845
+   ptbn00845 -> ptbn00848
+   ptbn00845 -> ptbn00847
+   ptbn00845 -> ptbn00846
+   ptbn00372 -> ptbn00376
+   ptbn00372 -> ptbn00373
+   ptbn00373 -> ptbn00375
+   ptbn00373 -> ptbn00374
+   ptbn00369 -> ptbn00370
+   ptbn00366 -> ptbn00367
+   ptbn00367 -> ptbn00368
+   ptbn00364 -> ptbn00365
+   ptbn00104 -> ptbn00106
+   ptbn00102 -> ptbn00104
+   ptbn00099 -> ptbn00102
+   ptbn00096 -> ptbn00099
+   ptbn00106 -> ptbn00107
+   ptbn00000 -> ptbn00802
+   ptbn00863 -> ptbn00677
+   ptbn00862 -> ptbn00863
+   ptbn00861 -> ptbn00862
+   ptbn00802 -> ptbn00837
+   ptbn00802 -> ptbn00859
+   ptbn00377 -> ptbn00378
+   ptbn00837 -> ptbn00842
+   ptbn00372 -> ptbn00377
+   ptbn00377 -> ptbn00379
+   ptbn00850 -> ptbn00854
+   ptbn00854 -> ptbn00856
+   ptbn00842 -> ptbn00844
+   ptbn00844 -> ptbn00850
+   ptbn00364 -> ptbn00366
+   ptbn00366 -> ptbn00369
+   ptbn00363 -> ptbn00364
+   ptbn00371 -> ptbn00372
+   ptbn00372 -> ptbn00380
+   ptbn00369 -> ptbn00371
+   ptbn00371 -> ptbn00381
+}
