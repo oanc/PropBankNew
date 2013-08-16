@@ -37,29 +37,29 @@ public class PropbankDriver {
 		prop.setProperty("OUTPUT_DATA_PATH", outputPath);
 		prop.store(new FileOutputStream("conf/sandramiller/org.anc.propbank.Constants.properties"), null);
 		
-//		
-//		//Initialize path to propbank file
-//		File testDir = new File(K.PROP_DATA_PATH);		
-//		File testFile = new File(testDir, K.INPUT_FILE + ".prop");
-//		
-//		//Initialize New_PropbankParser
-//		System.out.println("=====================================");
-//		System.out.println("============PROPBANK INFO============");
-//		System.out.println("=====================================");
-//		New_PropbankParser parser = new New_PropbankParser();
-//		
-//		// Process the .prop file and return the corresponding graph
-//		IGraph newGraph = parser.process(testFile);
-//		
-//		// Render the new -pb.xml file
-//		File newFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.xml");
-//		GrafRenderer grafRenderer = new GrafRenderer(newFile);
-//		grafRenderer.render(newGraph);
-//		
-//		// Render the new -pb.dot file
-//		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
-//		DotRenderer dotRenderer = new DotRenderer(dotFile);
-//		dotRenderer.render(newGraph);
+		
+		//Initialize path to propbank file
+		File testDir = new File(K.PROP_DATA_PATH);		
+		File testFile = new File(testDir, K.INPUT_FILE + ".prop");
+		
+		//Initialize New_PropbankParser
+		System.out.println("=====================================");
+		System.out.println("============PROPBANK INFO============");		
+		System.out.println("=====================================");
+		PropbankParser parser = new PropbankParser();
+		
+		// Process the .prop file and return the corresponding graph
+		IGraph newGraph = parser.process(testFile);
+		
+		// Render the new -pb.xml file
+		File newFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.xml");
+		GrafRenderer grafRenderer = new GrafRenderer(newFile);
+		grafRenderer.render(newGraph);
+		
+		// Render the new -pb.dot file
+		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
+		DotRenderer dotRenderer = new DotRenderer(dotFile);
+		dotRenderer.render(newGraph);
 		
 		
 		//Render the original file, -ptb.dot, for checking purposes
@@ -67,22 +67,20 @@ public class PropbankDriver {
 		ResourceHeader header = new ResourceHeader(headerFile);
 		GrafParser graphParse = new GrafParser(header);
 		IGraph graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.INPUT_FILE + "-ptb.xml");
+		
 		// The following will only run with the folder TXTFILES -- make this a var
 		UTF8Reader reader = new UTF8Reader(new File("TXTFILES/" + K.INPUT_FILE + ".txt"));
 		String contents = reader.readString();
 		reader.close();
 		graph.setContent(contents);
 		File originalDotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-withText-ptb.dot");
-		DotRenderer dotRenderer = new DotRenderer(originalDotFile);
-		dotRenderer.render(graph);
-		
-		
+		DotRenderer dotRenderer1 = new DotRenderer(originalDotFile);
+		dotRenderer1.render(graph);
 		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		navigator.printTerminalDetails();
 
-		
 //		System.out.println("=========== NAVIGATE DETAILS=============");
 //		System.out.println("NavigateTerminals (4,7): " + navigator.navigateTerminals(4,7).getAnnotation().features().toString());
 //		System.out.println("Navigate (4,7,1): " + navigator.navigate(4,7,1).getAnnotation().features().toString());
