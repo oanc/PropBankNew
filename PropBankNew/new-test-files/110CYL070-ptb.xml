@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="FRAG" occurs="1"/>
+            <labelUsage label="INTJ" occurs="1"/>
+            <labelUsage label="Trace" occurs="16"/>
+            <labelUsage label="VP" occurs="42"/>
+            <labelUsage label="ADVP" occurs="6"/>
+            <labelUsage label="QP" occurs="1"/>
+            <labelUsage label="NP" occurs="98"/>
+            <labelUsage label="SQ" occurs="1"/>
+            <labelUsage label="SBAR" occurs="7"/>
+            <labelUsage label="SBARQ" occurs="1"/>
+            <labelUsage label="PP" occurs="17"/>
+            <labelUsage label="S" occurs="32"/>
+            <labelUsage label="WHNP" occurs="5"/>
+            <labelUsage label="WHADVP" occurs="2"/>
+            <labelUsage label="ADJP" occurs="3"/>
+        </labelsDecl>
+        <roots>
+            <root node.id="ptb-n00000"/>        </roots>
+        <dependencies>
+            <dependsOn f.id="ptbtok"/>
+        </dependencies>
+        <annotationSpaces>
+            <annotationSpace as.id="ptb"/>
+        </annotationSpaces>
+    </graphHeader>
+    <node xml:id="ptb-n00000"/>
+    <node xml:id="ptb-n00385"/>
+    <a xml:id="ptb-a00384" label="S" ref="ptb-n00385" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00388"/>
+    <a xml:id="ptb-a00387" label="VP" ref="ptb-n00388" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00390"/>
+    <a xml:id="ptb-a00389" label="PP" ref="ptb-n00390" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00392"/>
+    <a xml:id="ptb-a00391" label="NP" ref="ptb-n00392" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00393"/>
+    <a xml:id="ptb-a00392" label="NP" ref="ptb-n00393" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00398" from="ptb-n00393" to="ptb-n00394"/>
+    <edge xml:id="ptb-e00399" from="ptb-n00393" to="ptb-n00395"/>
+    <edge xml:id="ptb-e00400" from="ptb-n00392" to="ptb-n00393"/>
+    <node xml:id="ptb-n00396"/>
+    <a xml:id="ptb-a00395" label="SBAR" ref="ptb-n00396" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00399"/>
+    <a xml:id="ptb-a00398" label="S" ref="ptb-n00399" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00402"/>
+    <a xml:id="ptb-a00401" label="VP" ref="ptb-n00402" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00406"/>
+    <a xml:id="ptb-a00405" label="ADVP" ref="ptb-n00406" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00409" from="ptb-n00406" to="ptb-n00407"/>
+    <edge xml:id="ptb-e00410" from="ptb-n00402" to="ptb-n00406"/>
+    <edge xml:id="ptb-e00405" from="ptb-n00402" to="ptb-n00403"/>
+    <node xml:id="ptb-n00404"/>
+    <a xml:id="ptb-a00403" label="NP" ref="ptb-n00404" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00209" anchors="1172 1172"/>
+    <node xml:id="ptb-n00405">
+        <link targets="ptb-r00209"/>
+    </node>
+    <a xml:id="ptb-a00404" label="Trace" ref="ptb-n00405" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00397"/>
+    <a xml:id="ptb-a00396" label="WHNP" ref="ptb-n00397" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00206" anchors="1166 1166"/>
+    <node xml:id="ptb-n00398">
+        <link targets="ptb-r00206"/>
+    </node>
+    <a xml:id="ptb-a00397" label="Trace" ref="ptb-n00398" as="ptb">
+        <fs>
+            <f name="cat" value="0"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00401" from="ptb-n00397" to="ptb-n00398"/>
+    <edge xml:id="ptb-e00406" from="ptb-n00405" to="ptb-n00397"/>
+    <edge xml:id="ptb-e00407" from="ptb-n00404" to="ptb-n00405"/>
+    <edge xml:id="ptb-e00408" from="ptb-n00402" to="ptb-n00404"/>
+    <edge xml:id="ptb-e00411" from="ptb-n00399" to="ptb-n00402"/>
+    <node xml:id="ptb-n00400"/>
+    <a xml:id="ptb-a00399" label="NP" ref="ptb-n00400" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00403" from="ptb-n00400" to="ptb-n00401"/>
+    <edge xml:id="ptb-e00404" from="ptb-n00399" to="ptb-n00400"/>
+    <edge xml:id="ptb-e00412" from="ptb-n00396" to="ptb-n00399"/>
+    <edge xml:id="ptb-e00402" from="ptb-n00396" to="ptb-n00397"/>
+    <edge xml:id="ptb-e00413" from="ptb-n00392" to="ptb-n00396"/>
+    <edge xml:id="ptb-e00414" from="ptb-n00390" to="ptb-n00392"/>
+    <edge xml:id="ptb-e00397" from="ptb-n00390" to="ptb-n00391"/>
+    <edge xml:id="ptb-e00415" from="ptb-n00388" to="ptb-n00390"/>
+    <edge xml:id="ptb-e00396" from="ptb-n00388" to="ptb-n00389"/>
+    <edge xml:id="ptb-e00416" from="ptb-n00385" to="ptb-n00388"/>
+    <edge xml:id="ptb-e00417" from="ptb-n00385" to="ptb-n00408"/>
+    <node xml:id="ptb-n00386"/>
+    <a xml:id="ptb-a00385" label="NP" ref="ptb-n00386" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00394" from="ptb-n00386" to="ptb-n00387"/>
+    <edge xml:id="ptb-e00395" from="ptb-n00385" to="ptb-n00386"/>
+    <edge xml:id="ptb-e00418" from="ptb-n00000" to="ptb-n00385"/>
+    <node xml:id="ptb-n00375"/>
+    <a xml:id="ptb-a00374" label="S" ref="ptb-n00375" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00380"/>
+    <a xml:id="ptb-a00379" label="VP" ref="ptb-n00380" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00382"/>
+    <a xml:id="ptb-a00381" label="VP" ref="ptb-n00382" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00389" from="ptb-n00382" to="ptb-n00383"/>
+    <edge xml:id="ptb-e00390" from="ptb-n00380" to="ptb-n00382"/>
+    <edge xml:id="ptb-e00388" from="ptb-n00380" to="ptb-n00381"/>
+    <edge xml:id="ptb-e00391" from="ptb-n00375" to="ptb-n00380"/>
+    <edge xml:id="ptb-e00392" from="ptb-n00375" to="ptb-n00384"/>
+    <node xml:id="ptb-n00377"/>
+    <a xml:id="ptb-a00376" label="NP" ref="ptb-n00377" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00386" from="ptb-n00377" to="ptb-n00379"/>
+    <edge xml:id="ptb-e00385" from="ptb-n00377" to="ptb-n00378"/>
+    <edge xml:id="ptb-e00387" from="ptb-n00375" to="ptb-n00377"/>
+    <edge xml:id="ptb-e00384" from="ptb-n00375" to="ptb-n00376"/>
+    <edge xml:id="ptb-e00393" from="ptb-n00000" to="ptb-n00375"/>
+    <node xml:id="ptb-n00162"/>
+    <a xml:id="ptb-a00161" label="S" ref="ptb-n00162" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00190" from="ptb-n00162" to="ptb-n00188"/>
+    <node xml:id="ptb-n00163"/>
+    <a xml:id="ptb-a00162" label="NP" ref="ptb-n00163" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00164" from="ptb-n00163" to="ptb-n00164"/>
+    <edge xml:id="ptb-e00165" from="ptb-n00162" to="ptb-n00163"/>
+    <node xml:id="ptb-n00165"/>
+    <a xml:id="ptb-a00164" label="VP" ref="ptb-n00165" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00166" from="ptb-n00165" to="ptb-n00166"/>
+    <node xml:id="ptb-n00167"/>
+    <a xml:id="ptb-a00166" label="VP" ref="ptb-n00167" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00167" from="ptb-n00167" to="ptb-n00168"/>
+    <node xml:id="ptb-n00169"/>
+    <a xml:id="ptb-a00168" label="NP" ref="ptb-n00169" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00170"/>
+    <a xml:id="ptb-a00169" label="NP" ref="ptb-n00170" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00169" from="ptb-n00170" to="ptb-n00172"/>
+    <edge xml:id="ptb-e00168" from="ptb-n00170" to="ptb-n00171"/>
+    <edge xml:id="ptb-e00170" from="ptb-n00169" to="ptb-n00170"/>
+    <node xml:id="ptb-n00173"/>
+    <a xml:id="ptb-a00172" label="SBAR" ref="ptb-n00173" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00174"/>
+    <a xml:id="ptb-a00173" label="WHNP" ref="ptb-n00174" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00171" from="ptb-n00174" to="ptb-n00175"/>
+    <edge xml:id="ptb-e00172" from="ptb-n00173" to="ptb-n00174"/>
+    <node xml:id="ptb-n00176"/>
+    <a xml:id="ptb-a00175" label="S" ref="ptb-n00176" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00177"/>
+    <a xml:id="ptb-a00176" label="NP" ref="ptb-n00177" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00092" anchors="544 544"/>
+    <node xml:id="ptb-n00178">
+        <link targets="ptb-r00092"/>
+    </node>
+    <a xml:id="ptb-a00177" label="Trace" ref="ptb-n00178" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00173" from="ptb-n00178" to="ptb-n00174"/>
+    <edge xml:id="ptb-e00174" from="ptb-n00177" to="ptb-n00178"/>
+    <edge xml:id="ptb-e00175" from="ptb-n00176" to="ptb-n00177"/>
+    <node xml:id="ptb-n00179"/>
+    <a xml:id="ptb-a00178" label="VP" ref="ptb-n00179" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00181"/>
+    <a xml:id="ptb-a00180" label="NP" ref="ptb-n00181" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00178" from="ptb-n00181" to="ptb-n00183"/>
+    <edge xml:id="ptb-e00177" from="ptb-n00181" to="ptb-n00182"/>
+    <edge xml:id="ptb-e00179" from="ptb-n00179" to="ptb-n00181"/>
+    <edge xml:id="ptb-e00176" from="ptb-n00179" to="ptb-n00180"/>
+    <node xml:id="ptb-n00184"/>
+    <a xml:id="ptb-a00183" label="PP" ref="ptb-n00184" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00186"/>
+    <a xml:id="ptb-a00185" label="NP" ref="ptb-n00186" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00181" from="ptb-n00186" to="ptb-n00187"/>
+    <edge xml:id="ptb-e00182" from="ptb-n00184" to="ptb-n00186"/>
+    <edge xml:id="ptb-e00180" from="ptb-n00184" to="ptb-n00185"/>
+    <edge xml:id="ptb-e00183" from="ptb-n00179" to="ptb-n00184"/>
+    <edge xml:id="ptb-e00184" from="ptb-n00176" to="ptb-n00179"/>
+    <edge xml:id="ptb-e00185" from="ptb-n00173" to="ptb-n00176"/>
+    <edge xml:id="ptb-e00186" from="ptb-n00169" to="ptb-n00173"/>
+    <edge xml:id="ptb-e00187" from="ptb-n00167" to="ptb-n00169"/>
+    <edge xml:id="ptb-e00188" from="ptb-n00165" to="ptb-n00167"/>
+    <edge xml:id="ptb-e00189" from="ptb-n00162" to="ptb-n00165"/>
+    <edge xml:id="ptb-e00191" from="ptb-n00000" to="ptb-n00162"/>
+    <node xml:id="ptb-n00001"/>
+    <a xml:id="ptb-a00000" label="NP" ref="ptb-n00001" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00002"/>
+    <a xml:id="ptb-a00001" label="NP" ref="ptb-n00002" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00000" from="ptb-n00002" to="ptb-n00003"/>
+    <edge xml:id="ptb-e00001" from="ptb-n00002" to="ptb-n00004"/>
+    <edge xml:id="ptb-e00002" from="ptb-n00001" to="ptb-n00002"/>
+    <edge xml:id="ptb-e00003" from="ptb-n00001" to="ptb-n00005"/>
+    <node xml:id="ptb-n00006"/>
+    <a xml:id="ptb-a00005" label="NP" ref="ptb-n00006" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00004" from="ptb-n00006" to="ptb-n00007"/>
+    <edge xml:id="ptb-e00005" from="ptb-n00001" to="ptb-n00006"/>
+    <edge xml:id="ptb-e00006" from="ptb-n00000" to="ptb-n00001"/>
+    <node xml:id="ptb-n00135"/>
+    <a xml:id="ptb-a00134" label="S" ref="ptb-n00135" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00138"/>
+    <a xml:id="ptb-a00137" label="VP" ref="ptb-n00138" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00140"/>
+    <a xml:id="ptb-a00139" label="VP" ref="ptb-n00140" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00142"/>
+    <a xml:id="ptb-a00141" label="S" ref="ptb-n00142" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00145"/>
+    <a xml:id="ptb-a00144" label="VP" ref="ptb-n00145" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00147"/>
+    <a xml:id="ptb-a00146" label="S" ref="ptb-n00147" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00153"/>
+    <a xml:id="ptb-a00152" label="ADJP" ref="ptb-n00153" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00149" from="ptb-n00153" to="ptb-n00154"/>
+    <edge xml:id="ptb-e00150" from="ptb-n00147" to="ptb-n00153"/>
+    <node xml:id="ptb-n00148"/>
+    <a xml:id="ptb-a00147" label="NP" ref="ptb-n00148" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00149"/>
+    <a xml:id="ptb-a00148" label="NP" ref="ptb-n00149" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00145" from="ptb-n00149" to="ptb-n00151"/>
+    <edge xml:id="ptb-e00144" from="ptb-n00149" to="ptb-n00150"/>
+    <edge xml:id="ptb-e00146" from="ptb-n00148" to="ptb-n00149"/>
+    <edge xml:id="ptb-e00147" from="ptb-n00148" to="ptb-n00152"/>
+    <edge xml:id="ptb-e00148" from="ptb-n00147" to="ptb-n00148"/>
+    <edge xml:id="ptb-e00151" from="ptb-n00145" to="ptb-n00147"/>
+    <edge xml:id="ptb-e00143" from="ptb-n00145" to="ptb-n00146"/>
+    <edge xml:id="ptb-e00152" from="ptb-n00142" to="ptb-n00145"/>
+    <node xml:id="ptb-n00143"/>
+    <a xml:id="ptb-a00142" label="NP" ref="ptb-n00143" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00075" anchors="435 435"/>
+    <node xml:id="ptb-n00144">
+        <link targets="ptb-r00075"/>
+    </node>
+    <a xml:id="ptb-a00143" label="Trace" ref="ptb-n00144" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00141" from="ptb-n00143" to="ptb-n00144"/>
+    <edge xml:id="ptb-e00142" from="ptb-n00142" to="ptb-n00143"/>
+    <edge xml:id="ptb-e00153" from="ptb-n00140" to="ptb-n00142"/>
+    <node xml:id="ptb-n00155"/>
+    <a xml:id="ptb-a00154" label="PP" ref="ptb-n00155" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00154" from="ptb-n00155" to="ptb-n00156"/>
+    <node xml:id="ptb-n00157"/>
+    <a xml:id="ptb-a00156" label="NP" ref="ptb-n00157" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00155" from="ptb-n00157" to="ptb-n00158"/>
+    <edge xml:id="ptb-e00156" from="ptb-n00157" to="ptb-n00159"/>
+    <edge xml:id="ptb-e00157" from="ptb-n00157" to="ptb-n00160"/>
+    <edge xml:id="ptb-e00158" from="ptb-n00155" to="ptb-n00157"/>
+    <edge xml:id="ptb-e00159" from="ptb-n00140" to="ptb-n00155"/>
+    <edge xml:id="ptb-e00140" from="ptb-n00140" to="ptb-n00141"/>
+    <edge xml:id="ptb-e00160" from="ptb-n00138" to="ptb-n00140"/>
+    <edge xml:id="ptb-e00139" from="ptb-n00138" to="ptb-n00139"/>
+    <edge xml:id="ptb-e00161" from="ptb-n00135" to="ptb-n00138"/>
+    <edge xml:id="ptb-e00162" from="ptb-n00135" to="ptb-n00161"/>
+    <node xml:id="ptb-n00136"/>
+    <a xml:id="ptb-a00135" label="NP" ref="ptb-n00136" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00137" from="ptb-n00136" to="ptb-n00137"/>
+    <edge xml:id="ptb-e00138" from="ptb-n00135" to="ptb-n00136"/>
+    <edge xml:id="ptb-e00163" from="ptb-n00000" to="ptb-n00135"/>
+    <node xml:id="ptb-n00008"/>
+    <a xml:id="ptb-a00007" label="NP" ref="ptb-n00008" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="VOC"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00009" from="ptb-n00008" to="ptb-n00011"/>
+    <edge xml:id="ptb-e00008" from="ptb-n00008" to="ptb-n00010"/>
+    <edge xml:id="ptb-e00007" from="ptb-n00008" to="ptb-n00009"/>
+    <edge xml:id="ptb-e00011" from="ptb-n00008" to="ptb-n00013"/>
+    <edge xml:id="ptb-e00010" from="ptb-n00008" to="ptb-n00012"/>
+    <edge xml:id="ptb-e00012" from="ptb-n00000" to="ptb-n00008"/>
+    <node xml:id="ptb-n00212"/>
+    <a xml:id="ptb-a00211" label="S" ref="ptb-n00212" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00252"/>
+    <a xml:id="ptb-a00251" label="S" ref="ptb-n00252" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00257"/>
+    <a xml:id="ptb-a00256" label="VP" ref="ptb-n00257" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00259"/>
+    <a xml:id="ptb-a00258" label="VP" ref="ptb-n00259" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00263"/>
+    <a xml:id="ptb-a00262" label="PP" ref="ptb-n00263" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00265"/>
+    <a xml:id="ptb-a00264" label="NP" ref="ptb-n00265" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00267" from="ptb-n00265" to="ptb-n00267"/>
+    <edge xml:id="ptb-e00266" from="ptb-n00265" to="ptb-n00266"/>
+    <edge xml:id="ptb-e00268" from="ptb-n00263" to="ptb-n00265"/>
+    <edge xml:id="ptb-e00265" from="ptb-n00263" to="ptb-n00264"/>
+    <edge xml:id="ptb-e00269" from="ptb-n00259" to="ptb-n00263"/>
+    <node xml:id="ptb-n00261"/>
+    <a xml:id="ptb-a00260" label="NP" ref="ptb-n00261" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00137" anchors="769 769"/>
+    <node xml:id="ptb-n00262">
+        <link targets="ptb-r00137"/>
+    </node>
+    <a xml:id="ptb-a00261" label="Trace" ref="ptb-n00262" as="ptb">
+        <fs>
+            <f name="cat" value="*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00253"/>
+    <a xml:id="ptb-a00252" label="NP" ref="ptb-n00253" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00258" from="ptb-n00253" to="ptb-n00256"/>
+    <edge xml:id="ptb-e00257" from="ptb-n00253" to="ptb-n00255"/>
+    <edge xml:id="ptb-e00256" from="ptb-n00253" to="ptb-n00254"/>
+    <edge xml:id="ptb-e00262" from="ptb-n00262" to="ptb-n00253"/>
+    <edge xml:id="ptb-e00263" from="ptb-n00261" to="ptb-n00262"/>
+    <edge xml:id="ptb-e00264" from="ptb-n00259" to="ptb-n00261"/>
+    <edge xml:id="ptb-e00261" from="ptb-n00259" to="ptb-n00260"/>
+    <edge xml:id="ptb-e00270" from="ptb-n00257" to="ptb-n00259"/>
+    <edge xml:id="ptb-e00260" from="ptb-n00257" to="ptb-n00258"/>
+    <edge xml:id="ptb-e00271" from="ptb-n00252" to="ptb-n00257"/>
+    <edge xml:id="ptb-e00259" from="ptb-n00252" to="ptb-n00253"/>
+    <edge xml:id="ptb-e00272" from="ptb-n00212" to="ptb-n00252"/>
+    <edge xml:id="ptb-e00273" from="ptb-n00212" to="ptb-n00268"/>
+    <edge xml:id="ptb-e00282" from="ptb-n00212" to="ptb-n00277"/>
+    <node xml:id="ptb-n00269"/>
+    <a xml:id="ptb-a00268" label="S" ref="ptb-n00269" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00270"/>
+    <a xml:id="ptb-a00269" label="NP" ref="ptb-n00270" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00274" from="ptb-n00270" to="ptb-n00271"/>
+    <edge xml:id="ptb-e00275" from="ptb-n00269" to="ptb-n00270"/>
+    <node xml:id="ptb-n00272"/>
+    <a xml:id="ptb-a00271" label="VP" ref="ptb-n00272" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00276" from="ptb-n00272" to="ptb-n00273"/>
+    <node xml:id="ptb-n00274"/>
+    <a xml:id="ptb-a00273" label="NP" ref="ptb-n00274" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00277" from="ptb-n00274" to="ptb-n00275"/>
+    <edge xml:id="ptb-e00278" from="ptb-n00274" to="ptb-n00276"/>
+    <edge xml:id="ptb-e00279" from="ptb-n00272" to="ptb-n00274"/>
+    <edge xml:id="ptb-e00280" from="ptb-n00269" to="ptb-n00272"/>
+    <edge xml:id="ptb-e00281" from="ptb-n00212" to="ptb-n00269"/>
+    <edge xml:id="ptb-e00255" from="ptb-n00212" to="ptb-n00251"/>
+    <node xml:id="ptb-n00234"/>
+    <a xml:id="ptb-a00233" label="S" ref="ptb-n00234" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00240"/>
+    <a xml:id="ptb-a00239" label="VP" ref="ptb-n00240" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00242"/>
+    <a xml:id="ptb-a00241" label="NP" ref="ptb-n00242" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00246"/>
+    <a xml:id="ptb-a00245" label="PP" ref="ptb-n00246" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00248"/>
+    <a xml:id="ptb-a00247" label="NP" ref="ptb-n00248" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00248" from="ptb-n00248" to="ptb-n00249"/>
+    <edge xml:id="ptb-e00249" from="ptb-n00248" to="ptb-n00250"/>
+    <edge xml:id="ptb-e00250" from="ptb-n00246" to="ptb-n00248"/>
+    <edge xml:id="ptb-e00247" from="ptb-n00246" to="ptb-n00247"/>
+    <edge xml:id="ptb-e00251" from="ptb-n00242" to="ptb-n00246"/>
+    <node xml:id="ptb-n00243"/>
+    <a xml:id="ptb-a00242" label="NP" ref="ptb-n00243" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00245" from="ptb-n00243" to="ptb-n00245"/>
+    <edge xml:id="ptb-e00244" from="ptb-n00243" to="ptb-n00244"/>
+    <edge xml:id="ptb-e00246" from="ptb-n00242" to="ptb-n00243"/>
+    <edge xml:id="ptb-e00252" from="ptb-n00240" to="ptb-n00242"/>
+    <edge xml:id="ptb-e00243" from="ptb-n00240" to="ptb-n00241"/>
+    <edge xml:id="ptb-e00253" from="ptb-n00234" to="ptb-n00240"/>
+    <node xml:id="ptb-n00235"/>
+    <a xml:id="ptb-a00234" label="NP" ref="ptb-n00235" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00241" from="ptb-n00235" to="ptb-n00239"/>
+    <node xml:id="ptb-n00236"/>
+    <a xml:id="ptb-a00235" label="QP" ref="ptb-n00236" as="ptb">
+        <fs>
+            <f name="cat" value="QP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00238" from="ptb-n00236" to="ptb-n00237"/>
+    <edge xml:id="ptb-e00239" from="ptb-n00236" to="ptb-n00238"/>
+    <edge xml:id="ptb-e00240" from="ptb-n00235" to="ptb-n00236"/>
+    <edge xml:id="ptb-e00242" from="ptb-n00234" to="ptb-n00235"/>
+    <edge xml:id="ptb-e00254" from="ptb-n00212" to="ptb-n00234"/>
+    <node xml:id="ptb-n00213"/>
+    <a xml:id="ptb-a00212" label="SBAR" ref="ptb-n00213" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00216"/>
+    <a xml:id="ptb-a00215" label="S" ref="ptb-n00216" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00221"/>
+    <a xml:id="ptb-a00220" label="VP" ref="ptb-n00221" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00223"/>
+    <a xml:id="ptb-a00222" label="S" ref="ptb-n00223" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00226"/>
+    <a xml:id="ptb-a00225" label="VP" ref="ptb-n00226" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00228"/>
+    <a xml:id="ptb-a00227" label="NP" ref="ptb-n00228" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00226" from="ptb-n00228" to="ptb-n00229"/>
+    <edge xml:id="ptb-e00227" from="ptb-n00228" to="ptb-n00230"/>
+    <edge xml:id="ptb-e00228" from="ptb-n00226" to="ptb-n00228"/>
+    <edge xml:id="ptb-e00225" from="ptb-n00226" to="ptb-n00227"/>
+    <edge xml:id="ptb-e00229" from="ptb-n00223" to="ptb-n00226"/>
+    <node xml:id="ptb-n00224"/>
+    <a xml:id="ptb-a00223" label="NP" ref="ptb-n00224" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00223" from="ptb-n00224" to="ptb-n00225"/>
+    <edge xml:id="ptb-e00224" from="ptb-n00223" to="ptb-n00224"/>
+    <edge xml:id="ptb-e00230" from="ptb-n00221" to="ptb-n00223"/>
+    <node xml:id="ptb-n00231"/>
+    <a xml:id="ptb-a00230" label="ADVP" ref="ptb-n00231" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00120" anchors="686 686"/>
+    <node xml:id="ptb-n00232">
+        <link targets="ptb-r00120"/>
+    </node>
+    <a xml:id="ptb-a00231" label="Trace" ref="ptb-n00232" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00214"/>
+    <a xml:id="ptb-a00213" label="WHADVP" ref="ptb-n00214" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00216" from="ptb-n00214" to="ptb-n00215"/>
+    <edge xml:id="ptb-e00231" from="ptb-n00232" to="ptb-n00214"/>
+    <edge xml:id="ptb-e00232" from="ptb-n00231" to="ptb-n00232"/>
+    <edge xml:id="ptb-e00233" from="ptb-n00221" to="ptb-n00231"/>
+    <edge xml:id="ptb-e00222" from="ptb-n00221" to="ptb-n00222"/>
+    <edge xml:id="ptb-e00234" from="ptb-n00216" to="ptb-n00221"/>
+    <node xml:id="ptb-n00217"/>
+    <a xml:id="ptb-a00216" label="NP" ref="ptb-n00217" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00220" from="ptb-n00217" to="ptb-n00220"/>
+    <edge xml:id="ptb-e00219" from="ptb-n00217" to="ptb-n00219"/>
+    <edge xml:id="ptb-e00218" from="ptb-n00217" to="ptb-n00218"/>
+    <edge xml:id="ptb-e00221" from="ptb-n00216" to="ptb-n00217"/>
+    <edge xml:id="ptb-e00235" from="ptb-n00213" to="ptb-n00216"/>
+    <edge xml:id="ptb-e00217" from="ptb-n00213" to="ptb-n00214"/>
+    <edge xml:id="ptb-e00236" from="ptb-n00212" to="ptb-n00213"/>
+    <edge xml:id="ptb-e00237" from="ptb-n00212" to="ptb-n00233"/>
+    <edge xml:id="ptb-e00283" from="ptb-n00000" to="ptb-n00212"/>
+    <node xml:id="ptb-n00431"/>
+    <a xml:id="ptb-a00430" label="S" ref="ptb-n00431" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="IMP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00455" from="ptb-n00431" to="ptb-n00446"/>
+    <node xml:id="ptb-n00434"/>
+    <a xml:id="ptb-a00433" label="VP" ref="ptb-n00434" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00444"/>
+    <a xml:id="ptb-a00443" label="NP" ref="ptb-n00444" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00452" from="ptb-n00444" to="ptb-n00445"/>
+    <edge xml:id="ptb-e00453" from="ptb-n00434" to="ptb-n00444"/>
+    <node xml:id="ptb-n00438"/>
+    <a xml:id="ptb-a00437" label="PP" ref="ptb-n00438" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00446" from="ptb-n00438" to="ptb-n00439"/>
+    <node xml:id="ptb-n00440"/>
+    <a xml:id="ptb-a00439" label="NP" ref="ptb-n00440" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00449" from="ptb-n00440" to="ptb-n00443"/>
+    <edge xml:id="ptb-e00448" from="ptb-n00440" to="ptb-n00442"/>
+    <edge xml:id="ptb-e00447" from="ptb-n00440" to="ptb-n00441"/>
+    <edge xml:id="ptb-e00450" from="ptb-n00438" to="ptb-n00440"/>
+    <edge xml:id="ptb-e00451" from="ptb-n00434" to="ptb-n00438"/>
+    <edge xml:id="ptb-e00443" from="ptb-n00434" to="ptb-n00435"/>
+    <node xml:id="ptb-n00436"/>
+    <a xml:id="ptb-a00435" label="NP" ref="ptb-n00436" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00444" from="ptb-n00436" to="ptb-n00437"/>
+    <edge xml:id="ptb-e00445" from="ptb-n00434" to="ptb-n00436"/>
+    <edge xml:id="ptb-e00454" from="ptb-n00431" to="ptb-n00434"/>
+    <node xml:id="ptb-n00432"/>
+    <a xml:id="ptb-a00431" label="NP" ref="ptb-n00432" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00225" anchors="1264 1264"/>
+    <node xml:id="ptb-n00433">
+        <link targets="ptb-r00225"/>
+    </node>
+    <a xml:id="ptb-a00432" label="Trace" ref="ptb-n00433" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00441" from="ptb-n00432" to="ptb-n00433"/>
+    <edge xml:id="ptb-e00442" from="ptb-n00431" to="ptb-n00432"/>
+    <edge xml:id="ptb-e00456" from="ptb-n00000" to="ptb-n00431"/>
+    <node xml:id="ptb-n00082"/>
+    <a xml:id="ptb-a00081" label="S" ref="ptb-n00082" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00085"/>
+    <a xml:id="ptb-a00084" label="VP" ref="ptb-n00085" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00087"/>
+    <a xml:id="ptb-a00086" label="VP" ref="ptb-n00087" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00095"/>
+    <a xml:id="ptb-a00094" label="PP" ref="ptb-n00095" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00097"/>
+    <a xml:id="ptb-a00096" label="NP" ref="ptb-n00097" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00102"/>
+    <a xml:id="ptb-a00101" label="SBAR" ref="ptb-n00102" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00105"/>
+    <a xml:id="ptb-a00104" label="S" ref="ptb-n00105" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00108"/>
+    <a xml:id="ptb-a00107" label="VP" ref="ptb-n00108" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00110"/>
+    <a xml:id="ptb-a00109" label="VP" ref="ptb-n00110" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00116"/>
+    <a xml:id="ptb-a00115" label="ADVP" ref="ptb-n00116" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="LOC"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00061" anchors="370 370"/>
+    <node xml:id="ptb-n00117">
+        <link targets="ptb-r00061"/>
+    </node>
+    <a xml:id="ptb-a00116" label="Trace" ref="ptb-n00117" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00103"/>
+    <a xml:id="ptb-a00102" label="WHADVP" ref="ptb-n00103" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00097" from="ptb-n00103" to="ptb-n00104"/>
+    <edge xml:id="ptb-e00108" from="ptb-n00117" to="ptb-n00103"/>
+    <edge xml:id="ptb-e00109" from="ptb-n00116" to="ptb-n00117"/>
+    <edge xml:id="ptb-e00110" from="ptb-n00110" to="ptb-n00116"/>
+    <node xml:id="ptb-n00114"/>
+    <a xml:id="ptb-a00113" label="ADVP" ref="ptb-n00114" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00106" from="ptb-n00114" to="ptb-n00115"/>
+    <edge xml:id="ptb-e00107" from="ptb-n00110" to="ptb-n00114"/>
+    <node xml:id="ptb-n00112"/>
+    <a xml:id="ptb-a00111" label="NP" ref="ptb-n00112" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00059" anchors="366 366"/>
+    <node xml:id="ptb-n00113">
+        <link targets="ptb-r00059"/>
+    </node>
+    <a xml:id="ptb-a00112" label="Trace" ref="ptb-n00113" as="ptb">
+        <fs>
+            <f name="cat" value="*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00106"/>
+    <a xml:id="ptb-a00105" label="NP" ref="ptb-n00106" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00099" from="ptb-n00106" to="ptb-n00107"/>
+    <edge xml:id="ptb-e00103" from="ptb-n00113" to="ptb-n00106"/>
+    <edge xml:id="ptb-e00104" from="ptb-n00112" to="ptb-n00113"/>
+    <edge xml:id="ptb-e00105" from="ptb-n00110" to="ptb-n00112"/>
+    <edge xml:id="ptb-e00102" from="ptb-n00110" to="ptb-n00111"/>
+    <edge xml:id="ptb-e00111" from="ptb-n00108" to="ptb-n00110"/>
+    <edge xml:id="ptb-e00101" from="ptb-n00108" to="ptb-n00109"/>
+    <edge xml:id="ptb-e00112" from="ptb-n00105" to="ptb-n00108"/>
+    <edge xml:id="ptb-e00100" from="ptb-n00105" to="ptb-n00106"/>
+    <edge xml:id="ptb-e00113" from="ptb-n00102" to="ptb-n00105"/>
+    <edge xml:id="ptb-e00098" from="ptb-n00102" to="ptb-n00103"/>
+    <edge xml:id="ptb-e00114" from="ptb-n00097" to="ptb-n00102"/>
+    <node xml:id="ptb-n00098"/>
+    <a xml:id="ptb-a00097" label="NP" ref="ptb-n00098" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00093" from="ptb-n00098" to="ptb-n00099"/>
+    <edge xml:id="ptb-e00094" from="ptb-n00098" to="ptb-n00100"/>
+    <edge xml:id="ptb-e00095" from="ptb-n00098" to="ptb-n00101"/>
+    <edge xml:id="ptb-e00096" from="ptb-n00097" to="ptb-n00098"/>
+    <edge xml:id="ptb-e00115" from="ptb-n00095" to="ptb-n00097"/>
+    <edge xml:id="ptb-e00092" from="ptb-n00095" to="ptb-n00096"/>
+    <edge xml:id="ptb-e00116" from="ptb-n00087" to="ptb-n00095"/>
+    <node xml:id="ptb-n00089"/>
+    <a xml:id="ptb-a00088" label="NP" ref="ptb-n00089" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00090" from="ptb-n00089" to="ptb-n00094"/>
+    <node xml:id="ptb-n00090"/>
+    <a xml:id="ptb-a00089" label="NP" ref="ptb-n00090" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00086" from="ptb-n00090" to="ptb-n00091"/>
+    <edge xml:id="ptb-e00087" from="ptb-n00090" to="ptb-n00092"/>
+    <edge xml:id="ptb-e00088" from="ptb-n00089" to="ptb-n00090"/>
+    <edge xml:id="ptb-e00089" from="ptb-n00089" to="ptb-n00093"/>
+    <edge xml:id="ptb-e00091" from="ptb-n00087" to="ptb-n00089"/>
+    <edge xml:id="ptb-e00085" from="ptb-n00087" to="ptb-n00088"/>
+    <edge xml:id="ptb-e00117" from="ptb-n00085" to="ptb-n00087"/>
+    <edge xml:id="ptb-e00084" from="ptb-n00085" to="ptb-n00086"/>
+    <edge xml:id="ptb-e00118" from="ptb-n00082" to="ptb-n00085"/>
+    <edge xml:id="ptb-e00119" from="ptb-n00082" to="ptb-n00118"/>
+    <node xml:id="ptb-n00083"/>
+    <a xml:id="ptb-a00082" label="NP" ref="ptb-n00083" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00082" from="ptb-n00083" to="ptb-n00084"/>
+    <edge xml:id="ptb-e00083" from="ptb-n00082" to="ptb-n00083"/>
+    <edge xml:id="ptb-e00120" from="ptb-n00000" to="ptb-n00082"/>
+    <node xml:id="ptb-n00030"/>
+    <a xml:id="ptb-a00029" label="S" ref="ptb-n00030" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00052" from="ptb-n00030" to="ptb-n00053"/>
+    <node xml:id="ptb-n00033"/>
+    <a xml:id="ptb-a00032" label="VP" ref="ptb-n00033" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00035"/>
+    <a xml:id="ptb-a00034" label="VP" ref="ptb-n00035" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00037"/>
+    <a xml:id="ptb-a00036" label="S" ref="ptb-n00037" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00040"/>
+    <a xml:id="ptb-a00039" label="VP" ref="ptb-n00040" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00042"/>
+    <a xml:id="ptb-a00041" label="S" ref="ptb-n00042" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00045"/>
+    <a xml:id="ptb-a00044" label="ADJP" ref="ptb-n00045" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00047"/>
+    <a xml:id="ptb-a00046" label="PP" ref="ptb-n00047" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00040" from="ptb-n00047" to="ptb-n00048"/>
+    <node xml:id="ptb-n00049"/>
+    <a xml:id="ptb-a00048" label="NP" ref="ptb-n00049" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00041" from="ptb-n00049" to="ptb-n00050"/>
+    <edge xml:id="ptb-e00043" from="ptb-n00049" to="ptb-n00052"/>
+    <edge xml:id="ptb-e00042" from="ptb-n00049" to="ptb-n00051"/>
+    <edge xml:id="ptb-e00044" from="ptb-n00047" to="ptb-n00049"/>
+    <edge xml:id="ptb-e00045" from="ptb-n00045" to="ptb-n00047"/>
+    <edge xml:id="ptb-e00039" from="ptb-n00045" to="ptb-n00046"/>
+    <edge xml:id="ptb-e00046" from="ptb-n00042" to="ptb-n00045"/>
+    <node xml:id="ptb-n00043"/>
+    <a xml:id="ptb-a00042" label="NP" ref="ptb-n00043" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00024" anchors="161 161"/>
+    <node xml:id="ptb-n00044">
+        <link targets="ptb-r00024"/>
+    </node>
+    <a xml:id="ptb-a00043" label="Trace" ref="ptb-n00044" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00038"/>
+    <a xml:id="ptb-a00037" label="NP" ref="ptb-n00038" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00033" from="ptb-n00038" to="ptb-n00039"/>
+    <edge xml:id="ptb-e00036" from="ptb-n00044" to="ptb-n00038"/>
+    <edge xml:id="ptb-e00037" from="ptb-n00043" to="ptb-n00044"/>
+    <edge xml:id="ptb-e00038" from="ptb-n00042" to="ptb-n00043"/>
+    <edge xml:id="ptb-e00047" from="ptb-n00040" to="ptb-n00042"/>
+    <edge xml:id="ptb-e00035" from="ptb-n00040" to="ptb-n00041"/>
+    <edge xml:id="ptb-e00048" from="ptb-n00037" to="ptb-n00040"/>
+    <edge xml:id="ptb-e00034" from="ptb-n00037" to="ptb-n00038"/>
+    <edge xml:id="ptb-e00049" from="ptb-n00035" to="ptb-n00037"/>
+    <edge xml:id="ptb-e00032" from="ptb-n00035" to="ptb-n00036"/>
+    <edge xml:id="ptb-e00050" from="ptb-n00033" to="ptb-n00035"/>
+    <edge xml:id="ptb-e00031" from="ptb-n00033" to="ptb-n00034"/>
+    <edge xml:id="ptb-e00051" from="ptb-n00030" to="ptb-n00033"/>
+    <node xml:id="ptb-n00031"/>
+    <a xml:id="ptb-a00030" label="NP" ref="ptb-n00031" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00029" from="ptb-n00031" to="ptb-n00032"/>
+    <edge xml:id="ptb-e00030" from="ptb-n00030" to="ptb-n00031"/>
+    <edge xml:id="ptb-e00053" from="ptb-n00000" to="ptb-n00030"/>
+    <node xml:id="ptb-n00447"/>
+    <a xml:id="ptb-a00446" label="FRAG" ref="ptb-n00447" as="ptb">
+        <fs>
+            <f name="cat" value="FRAG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00448"/>
+    <a xml:id="ptb-a00447" label="ADVP" ref="ptb-n00448" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00457" from="ptb-n00448" to="ptb-n00449"/>
+    <edge xml:id="ptb-e00458" from="ptb-n00447" to="ptb-n00448"/>
+    <edge xml:id="ptb-e00459" from="ptb-n00447" to="ptb-n00450"/>
+    <node xml:id="ptb-n00451"/>
+    <a xml:id="ptb-a00450" label="NP" ref="ptb-n00451" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00456"/>
+    <a xml:id="ptb-a00455" label="NP" ref="ptb-n00456" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00464" from="ptb-n00456" to="ptb-n00457"/>
+    <edge xml:id="ptb-e00465" from="ptb-n00451" to="ptb-n00456"/>
+    <node xml:id="ptb-n00452"/>
+    <a xml:id="ptb-a00451" label="NP" ref="ptb-n00452" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00460" from="ptb-n00452" to="ptb-n00453"/>
+    <edge xml:id="ptb-e00461" from="ptb-n00452" to="ptb-n00454"/>
+    <edge xml:id="ptb-e00462" from="ptb-n00452" to="ptb-n00455"/>
+    <edge xml:id="ptb-e00463" from="ptb-n00451" to="ptb-n00452"/>
+    <edge xml:id="ptb-e00466" from="ptb-n00447" to="ptb-n00451"/>
+    <edge xml:id="ptb-e00467" from="ptb-n00000" to="ptb-n00447"/>
+    <node xml:id="ptb-n00409"/>
+    <a xml:id="ptb-a00408" label="S" ref="ptb-n00409" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00410"/>
+    <a xml:id="ptb-a00409" label="NP" ref="ptb-n00410" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00420" from="ptb-n00410" to="ptb-n00412"/>
+    <edge xml:id="ptb-e00419" from="ptb-n00410" to="ptb-n00411"/>
+    <edge xml:id="ptb-e00421" from="ptb-n00409" to="ptb-n00410"/>
+    <edge xml:id="ptb-e00427" from="ptb-n00409" to="ptb-n00418"/>
+    <node xml:id="ptb-n00413"/>
+    <a xml:id="ptb-a00412" label="VP" ref="ptb-n00413" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00422" from="ptb-n00413" to="ptb-n00414"/>
+    <node xml:id="ptb-n00415"/>
+    <a xml:id="ptb-a00414" label="NP" ref="ptb-n00415" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00423" from="ptb-n00415" to="ptb-n00416"/>
+    <edge xml:id="ptb-e00424" from="ptb-n00415" to="ptb-n00417"/>
+    <edge xml:id="ptb-e00425" from="ptb-n00413" to="ptb-n00415"/>
+    <edge xml:id="ptb-e00426" from="ptb-n00409" to="ptb-n00413"/>
+    <edge xml:id="ptb-e00428" from="ptb-n00000" to="ptb-n00409"/>
+    <node xml:id="ptb-n00119"/>
+    <a xml:id="ptb-a00118" label="S" ref="ptb-n00119" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00120"/>
+    <a xml:id="ptb-a00119" label="PP" ref="ptb-n00120" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00121" from="ptb-n00120" to="ptb-n00121"/>
+    <node xml:id="ptb-n00122"/>
+    <a xml:id="ptb-a00121" label="NP" ref="ptb-n00122" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00122" from="ptb-n00122" to="ptb-n00123"/>
+    <edge xml:id="ptb-e00123" from="ptb-n00120" to="ptb-n00122"/>
+    <edge xml:id="ptb-e00124" from="ptb-n00119" to="ptb-n00120"/>
+    <edge xml:id="ptb-e00125" from="ptb-n00119" to="ptb-n00124"/>
+    <edge xml:id="ptb-e00135" from="ptb-n00119" to="ptb-n00134"/>
+    <node xml:id="ptb-n00127"/>
+    <a xml:id="ptb-a00126" label="VP" ref="ptb-n00127" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00129"/>
+    <a xml:id="ptb-a00128" label="VP" ref="ptb-n00129" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00131"/>
+    <a xml:id="ptb-a00130" label="NP" ref="ptb-n00131" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00131" from="ptb-n00131" to="ptb-n00133"/>
+    <edge xml:id="ptb-e00130" from="ptb-n00131" to="ptb-n00132"/>
+    <edge xml:id="ptb-e00132" from="ptb-n00129" to="ptb-n00131"/>
+    <edge xml:id="ptb-e00129" from="ptb-n00129" to="ptb-n00130"/>
+    <edge xml:id="ptb-e00133" from="ptb-n00127" to="ptb-n00129"/>
+    <edge xml:id="ptb-e00128" from="ptb-n00127" to="ptb-n00128"/>
+    <edge xml:id="ptb-e00134" from="ptb-n00119" to="ptb-n00127"/>
+    <node xml:id="ptb-n00125"/>
+    <a xml:id="ptb-a00124" label="NP" ref="ptb-n00125" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00126" from="ptb-n00125" to="ptb-n00126"/>
+    <edge xml:id="ptb-e00127" from="ptb-n00119" to="ptb-n00125"/>
+    <edge xml:id="ptb-e00136" from="ptb-n00000" to="ptb-n00119"/>
+    <node xml:id="ptb-n00014"/>
+    <a xml:id="ptb-a00013" label="S" ref="ptb-n00014" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00019"/>
+    <a xml:id="ptb-a00018" label="VP" ref="ptb-n00019" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00017" from="ptb-n00019" to="ptb-n00020"/>
+    <node xml:id="ptb-n00021"/>
+    <a xml:id="ptb-a00020" label="VP" ref="ptb-n00021" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00018" from="ptb-n00021" to="ptb-n00022"/>
+    <node xml:id="ptb-n00027"/>
+    <a xml:id="ptb-a00026" label="ADVP" ref="ptb-n00027" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00023" from="ptb-n00027" to="ptb-n00028"/>
+    <edge xml:id="ptb-e00024" from="ptb-n00021" to="ptb-n00027"/>
+    <node xml:id="ptb-n00023"/>
+    <a xml:id="ptb-a00022" label="NP" ref="ptb-n00023" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00019" from="ptb-n00023" to="ptb-n00024"/>
+    <edge xml:id="ptb-e00020" from="ptb-n00023" to="ptb-n00025"/>
+    <edge xml:id="ptb-e00021" from="ptb-n00023" to="ptb-n00026"/>
+    <edge xml:id="ptb-e00022" from="ptb-n00021" to="ptb-n00023"/>
+    <edge xml:id="ptb-e00025" from="ptb-n00019" to="ptb-n00021"/>
+    <edge xml:id="ptb-e00026" from="ptb-n00014" to="ptb-n00019"/>
+    <edge xml:id="ptb-e00027" from="ptb-n00014" to="ptb-n00029"/>
+    <node xml:id="ptb-n00015"/>
+    <a xml:id="ptb-a00014" label="NP" ref="ptb-n00015" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00015" from="ptb-n00015" to="ptb-n00018"/>
+    <edge xml:id="ptb-e00013" from="ptb-n00015" to="ptb-n00016"/>
+    <edge xml:id="ptb-e00014" from="ptb-n00015" to="ptb-n00017"/>
+    <edge xml:id="ptb-e00016" from="ptb-n00014" to="ptb-n00015"/>
+    <edge xml:id="ptb-e00028" from="ptb-n00000" to="ptb-n00014"/>
+    <node xml:id="ptb-n00419"/>
+    <a xml:id="ptb-a00418" label="S" ref="ptb-n00419" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="IMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00420"/>
+    <a xml:id="ptb-a00419" label="INTJ" ref="ptb-n00420" as="ptb">
+        <fs>
+            <f name="cat" value="INTJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00429" from="ptb-n00420" to="ptb-n00421"/>
+    <edge xml:id="ptb-e00430" from="ptb-n00419" to="ptb-n00420"/>
+    <node xml:id="ptb-n00422"/>
+    <a xml:id="ptb-a00421" label="NP" ref="ptb-n00422" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00219" anchors="1228 1228"/>
+    <node xml:id="ptb-n00423">
+        <link targets="ptb-r00219"/>
+    </node>
+    <a xml:id="ptb-a00422" label="Trace" ref="ptb-n00423" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00431" from="ptb-n00422" to="ptb-n00423"/>
+    <edge xml:id="ptb-e00432" from="ptb-n00419" to="ptb-n00422"/>
+    <node xml:id="ptb-n00424"/>
+    <a xml:id="ptb-a00423" label="VP" ref="ptb-n00424" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00433" from="ptb-n00424" to="ptb-n00425"/>
+    <node xml:id="ptb-n00426"/>
+    <a xml:id="ptb-a00425" label="NP" ref="ptb-n00426" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00434" from="ptb-n00426" to="ptb-n00427"/>
+    <edge xml:id="ptb-e00436" from="ptb-n00426" to="ptb-n00429"/>
+    <edge xml:id="ptb-e00435" from="ptb-n00426" to="ptb-n00428"/>
+    <edge xml:id="ptb-e00437" from="ptb-n00424" to="ptb-n00426"/>
+    <edge xml:id="ptb-e00438" from="ptb-n00419" to="ptb-n00424"/>
+    <edge xml:id="ptb-e00439" from="ptb-n00419" to="ptb-n00430"/>
+    <edge xml:id="ptb-e00440" from="ptb-n00000" to="ptb-n00419"/>
+    <node xml:id="ptb-n00278"/>
+    <a xml:id="ptb-a00277" label="S" ref="ptb-n00278" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00279"/>
+    <a xml:id="ptb-a00278" label="NP" ref="ptb-n00279" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00284" from="ptb-n00279" to="ptb-n00280"/>
+    <edge xml:id="ptb-e00285" from="ptb-n00278" to="ptb-n00279"/>
+    <node xml:id="ptb-n00281"/>
+    <a xml:id="ptb-a00280" label="VP" ref="ptb-n00281" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00286" from="ptb-n00281" to="ptb-n00282"/>
+    <node xml:id="ptb-n00283"/>
+    <a xml:id="ptb-a00282" label="NP" ref="ptb-n00283" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00315" from="ptb-n00283" to="ptb-n00310"/>
+    <node xml:id="ptb-n00284"/>
+    <a xml:id="ptb-a00283" label="NP" ref="ptb-n00284" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00285"/>
+    <a xml:id="ptb-a00284" label="NP" ref="ptb-n00285" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00287" from="ptb-n00285" to="ptb-n00286"/>
+    <edge xml:id="ptb-e00288" from="ptb-n00285" to="ptb-n00287"/>
+    <edge xml:id="ptb-e00289" from="ptb-n00284" to="ptb-n00285"/>
+    <node xml:id="ptb-n00288"/>
+    <a xml:id="ptb-a00287" label="PP" ref="ptb-n00288" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00290" from="ptb-n00288" to="ptb-n00289"/>
+    <node xml:id="ptb-n00290"/>
+    <a xml:id="ptb-a00289" label="NP" ref="ptb-n00290" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00291"/>
+    <a xml:id="ptb-a00290" label="NP" ref="ptb-n00291" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00291" from="ptb-n00291" to="ptb-n00292"/>
+    <edge xml:id="ptb-e00292" from="ptb-n00290" to="ptb-n00291"/>
+    <node xml:id="ptb-n00293"/>
+    <a xml:id="ptb-a00292" label="SBAR" ref="ptb-n00293" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00294"/>
+    <a xml:id="ptb-a00293" label="WHNP" ref="ptb-n00294" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00293" from="ptb-n00294" to="ptb-n00295"/>
+    <edge xml:id="ptb-e00294" from="ptb-n00293" to="ptb-n00294"/>
+    <node xml:id="ptb-n00296"/>
+    <a xml:id="ptb-a00295" label="S" ref="ptb-n00296" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00297"/>
+    <a xml:id="ptb-a00296" label="NP" ref="ptb-n00297" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00154" anchors="873 873"/>
+    <node xml:id="ptb-n00298">
+        <link targets="ptb-r00154"/>
+    </node>
+    <a xml:id="ptb-a00297" label="Trace" ref="ptb-n00298" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00295" from="ptb-n00298" to="ptb-n00294"/>
+    <edge xml:id="ptb-e00296" from="ptb-n00297" to="ptb-n00298"/>
+    <edge xml:id="ptb-e00297" from="ptb-n00296" to="ptb-n00297"/>
+    <node xml:id="ptb-n00299"/>
+    <a xml:id="ptb-a00298" label="VP" ref="ptb-n00299" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00301"/>
+    <a xml:id="ptb-a00300" label="NP" ref="ptb-n00301" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00299" from="ptb-n00301" to="ptb-n00302"/>
+    <edge xml:id="ptb-e00300" from="ptb-n00299" to="ptb-n00301"/>
+    <edge xml:id="ptb-e00298" from="ptb-n00299" to="ptb-n00300"/>
+    <node xml:id="ptb-n00303"/>
+    <a xml:id="ptb-a00302" label="PP" ref="ptb-n00303" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00301" from="ptb-n00303" to="ptb-n00304"/>
+    <node xml:id="ptb-n00305"/>
+    <a xml:id="ptb-a00304" label="S" ref="ptb-n00305" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="NOM"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00308"/>
+    <a xml:id="ptb-a00307" label="VP" ref="ptb-n00308" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00305" from="ptb-n00308" to="ptb-n00309"/>
+    <edge xml:id="ptb-e00306" from="ptb-n00305" to="ptb-n00308"/>
+    <node xml:id="ptb-n00306"/>
+    <a xml:id="ptb-a00305" label="NP" ref="ptb-n00306" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00158" anchors="890 890"/>
+    <node xml:id="ptb-n00307">
+        <link targets="ptb-r00158"/>
+    </node>
+    <a xml:id="ptb-a00306" label="Trace" ref="ptb-n00307" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00302" from="ptb-n00307" to="ptb-n00301"/>
+    <edge xml:id="ptb-e00303" from="ptb-n00306" to="ptb-n00307"/>
+    <edge xml:id="ptb-e00304" from="ptb-n00305" to="ptb-n00306"/>
+    <edge xml:id="ptb-e00307" from="ptb-n00303" to="ptb-n00305"/>
+    <edge xml:id="ptb-e00308" from="ptb-n00299" to="ptb-n00303"/>
+    <edge xml:id="ptb-e00309" from="ptb-n00296" to="ptb-n00299"/>
+    <edge xml:id="ptb-e00310" from="ptb-n00293" to="ptb-n00296"/>
+    <edge xml:id="ptb-e00311" from="ptb-n00290" to="ptb-n00293"/>
+    <edge xml:id="ptb-e00312" from="ptb-n00288" to="ptb-n00290"/>
+    <edge xml:id="ptb-e00313" from="ptb-n00284" to="ptb-n00288"/>
+    <edge xml:id="ptb-e00314" from="ptb-n00283" to="ptb-n00284"/>
+    <node xml:id="ptb-n00311"/>
+    <a xml:id="ptb-a00310" label="NP" ref="ptb-n00311" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00312"/>
+    <a xml:id="ptb-a00311" label="NP" ref="ptb-n00312" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00313"/>
+    <a xml:id="ptb-a00312" label="ADJP" ref="ptb-n00313" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00317" from="ptb-n00313" to="ptb-n00315"/>
+    <edge xml:id="ptb-e00316" from="ptb-n00313" to="ptb-n00314"/>
+    <edge xml:id="ptb-e00318" from="ptb-n00313" to="ptb-n00316"/>
+    <edge xml:id="ptb-e00319" from="ptb-n00312" to="ptb-n00313"/>
+    <edge xml:id="ptb-e00320" from="ptb-n00312" to="ptb-n00317"/>
+    <edge xml:id="ptb-e00321" from="ptb-n00311" to="ptb-n00312"/>
+    <edge xml:id="ptb-e00322" from="ptb-n00311" to="ptb-n00318"/>
+    <node xml:id="ptb-n00319"/>
+    <a xml:id="ptb-a00318" label="NP" ref="ptb-n00319" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00320"/>
+    <a xml:id="ptb-a00319" label="NP" ref="ptb-n00320" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00323" from="ptb-n00320" to="ptb-n00321"/>
+    <edge xml:id="ptb-e00324" from="ptb-n00319" to="ptb-n00320"/>
+    <node xml:id="ptb-n00322"/>
+    <a xml:id="ptb-a00321" label="PP" ref="ptb-n00322" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00324"/>
+    <a xml:id="ptb-a00323" label="NP" ref="ptb-n00324" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00327" from="ptb-n00324" to="ptb-n00326"/>
+    <edge xml:id="ptb-e00326" from="ptb-n00324" to="ptb-n00325"/>
+    <edge xml:id="ptb-e00328" from="ptb-n00322" to="ptb-n00324"/>
+    <edge xml:id="ptb-e00325" from="ptb-n00322" to="ptb-n00323"/>
+    <edge xml:id="ptb-e00329" from="ptb-n00319" to="ptb-n00322"/>
+    <edge xml:id="ptb-e00330" from="ptb-n00311" to="ptb-n00319"/>
+    <edge xml:id="ptb-e00331" from="ptb-n00311" to="ptb-n00327"/>
+    <node xml:id="ptb-n00328"/>
+    <a xml:id="ptb-a00327" label="NP" ref="ptb-n00328" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00329"/>
+    <a xml:id="ptb-a00328" label="NP" ref="ptb-n00329" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00332" from="ptb-n00329" to="ptb-n00330"/>
+    <edge xml:id="ptb-e00333" from="ptb-n00328" to="ptb-n00329"/>
+    <node xml:id="ptb-n00331"/>
+    <a xml:id="ptb-a00330" label="PP" ref="ptb-n00331" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00334" from="ptb-n00331" to="ptb-n00332"/>
+    <node xml:id="ptb-n00333"/>
+    <a xml:id="ptb-a00332" label="NP" ref="ptb-n00333" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00337" from="ptb-n00333" to="ptb-n00336"/>
+    <node xml:id="ptb-n00334"/>
+    <a xml:id="ptb-a00333" label="NP" ref="ptb-n00334" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00335" from="ptb-n00334" to="ptb-n00335"/>
+    <edge xml:id="ptb-e00336" from="ptb-n00333" to="ptb-n00334"/>
+    <node xml:id="ptb-n00337"/>
+    <a xml:id="ptb-a00336" label="NP" ref="ptb-n00337" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00338" from="ptb-n00337" to="ptb-n00338"/>
+    <edge xml:id="ptb-e00339" from="ptb-n00333" to="ptb-n00337"/>
+    <edge xml:id="ptb-e00340" from="ptb-n00331" to="ptb-n00333"/>
+    <edge xml:id="ptb-e00341" from="ptb-n00328" to="ptb-n00331"/>
+    <edge xml:id="ptb-e00342" from="ptb-n00311" to="ptb-n00328"/>
+    <edge xml:id="ptb-e00343" from="ptb-n00283" to="ptb-n00311"/>
+    <edge xml:id="ptb-e00344" from="ptb-n00281" to="ptb-n00283"/>
+    <edge xml:id="ptb-e00345" from="ptb-n00278" to="ptb-n00281"/>
+    <edge xml:id="ptb-e00346" from="ptb-n00278" to="ptb-n00339"/>
+    <edge xml:id="ptb-e00347" from="ptb-n00000" to="ptb-n00278"/>
+    <node xml:id="ptb-n00189"/>
+    <a xml:id="ptb-a00188" label="SBARQ" ref="ptb-n00189" as="ptb">
+        <fs>
+            <f name="cat" value="SBARQ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00190"/>
+    <a xml:id="ptb-a00189" label="WHNP" ref="ptb-n00190" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00192" from="ptb-n00190" to="ptb-n00191"/>
+    <edge xml:id="ptb-e00193" from="ptb-n00189" to="ptb-n00190"/>
+    <edge xml:id="ptb-e00206" from="ptb-n00189" to="ptb-n00203"/>
+    <node xml:id="ptb-n00192"/>
+    <a xml:id="ptb-a00191" label="SQ" ref="ptb-n00192" as="ptb">
+        <fs>
+            <f name="cat" value="SQ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00194" from="ptb-n00192" to="ptb-n00193"/>
+    <node xml:id="ptb-n00194"/>
+    <a xml:id="ptb-a00193" label="NP" ref="ptb-n00194" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00101" anchors="595 595"/>
+    <node xml:id="ptb-n00195">
+        <link targets="ptb-r00101"/>
+    </node>
+    <a xml:id="ptb-a00194" label="Trace" ref="ptb-n00195" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00195" from="ptb-n00195" to="ptb-n00190"/>
+    <edge xml:id="ptb-e00196" from="ptb-n00194" to="ptb-n00195"/>
+    <edge xml:id="ptb-e00197" from="ptb-n00192" to="ptb-n00194"/>
+    <node xml:id="ptb-n00196"/>
+    <a xml:id="ptb-a00195" label="VP" ref="ptb-n00196" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00198" from="ptb-n00196" to="ptb-n00197"/>
+    <node xml:id="ptb-n00198"/>
+    <a xml:id="ptb-a00197" label="PP" ref="ptb-n00198" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00199" from="ptb-n00198" to="ptb-n00199"/>
+    <node xml:id="ptb-n00200"/>
+    <a xml:id="ptb-a00199" label="NP" ref="ptb-n00200" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00200" from="ptb-n00200" to="ptb-n00201"/>
+    <edge xml:id="ptb-e00201" from="ptb-n00200" to="ptb-n00202"/>
+    <edge xml:id="ptb-e00202" from="ptb-n00198" to="ptb-n00200"/>
+    <edge xml:id="ptb-e00203" from="ptb-n00196" to="ptb-n00198"/>
+    <edge xml:id="ptb-e00204" from="ptb-n00192" to="ptb-n00196"/>
+    <edge xml:id="ptb-e00205" from="ptb-n00189" to="ptb-n00192"/>
+    <edge xml:id="ptb-e00207" from="ptb-n00000" to="ptb-n00189"/>
+    <node xml:id="ptb-n00204"/>
+    <a xml:id="ptb-a00203" label="S" ref="ptb-n00204" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00207"/>
+    <a xml:id="ptb-a00206" label="VP" ref="ptb-n00207" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00209"/>
+    <a xml:id="ptb-a00208" label="VP" ref="ptb-n00209" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00109" anchors="639 639"/>
+    <node xml:id="ptb-n00210">
+        <link targets="ptb-r00109"/>
+    </node>
+    <a xml:id="ptb-a00209" label="Trace" ref="ptb-n00210" as="ptb">
+        <fs>
+            <f name="cat" value="*?*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00211" from="ptb-n00209" to="ptb-n00210"/>
+    <edge xml:id="ptb-e00212" from="ptb-n00207" to="ptb-n00209"/>
+    <edge xml:id="ptb-e00210" from="ptb-n00207" to="ptb-n00208"/>
+    <edge xml:id="ptb-e00213" from="ptb-n00204" to="ptb-n00207"/>
+    <edge xml:id="ptb-e00214" from="ptb-n00204" to="ptb-n00211"/>
+    <node xml:id="ptb-n00205"/>
+    <a xml:id="ptb-a00204" label="NP" ref="ptb-n00205" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00208" from="ptb-n00205" to="ptb-n00206"/>
+    <edge xml:id="ptb-e00209" from="ptb-n00204" to="ptb-n00205"/>
+    <edge xml:id="ptb-e00215" from="ptb-n00000" to="ptb-n00204"/>
+    <node xml:id="ptb-n00054"/>
+    <a xml:id="ptb-a00053" label="S" ref="ptb-n00054" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00055"/>
+    <a xml:id="ptb-a00054" label="NP" ref="ptb-n00055" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00054" from="ptb-n00055" to="ptb-n00056"/>
+    <edge xml:id="ptb-e00055" from="ptb-n00054" to="ptb-n00055"/>
+    <edge xml:id="ptb-e00080" from="ptb-n00054" to="ptb-n00081"/>
+    <node xml:id="ptb-n00057"/>
+    <a xml:id="ptb-a00056" label="VP" ref="ptb-n00057" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00056" from="ptb-n00057" to="ptb-n00058"/>
+    <node xml:id="ptb-n00059"/>
+    <a xml:id="ptb-a00058" label="VP" ref="ptb-n00059" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00057" from="ptb-n00059" to="ptb-n00060"/>
+    <node xml:id="ptb-n00061"/>
+    <a xml:id="ptb-a00060" label="NP" ref="ptb-n00061" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00062"/>
+    <a xml:id="ptb-a00061" label="NP" ref="ptb-n00062" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00058" from="ptb-n00062" to="ptb-n00063"/>
+    <edge xml:id="ptb-e00059" from="ptb-n00061" to="ptb-n00062"/>
+    <node xml:id="ptb-n00064"/>
+    <a xml:id="ptb-a00063" label="SBAR" ref="ptb-n00064" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00060" from="ptb-n00064" to="ptb-n00065"/>
+    <node xml:id="ptb-n00066"/>
+    <a xml:id="ptb-a00065" label="S" ref="ptb-n00066" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00067"/>
+    <a xml:id="ptb-a00066" label="NP" ref="ptb-n00067" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00068"/>
+    <a xml:id="ptb-a00067" label="NP" ref="ptb-n00068" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00061" from="ptb-n00068" to="ptb-n00069"/>
+    <edge xml:id="ptb-e00062" from="ptb-n00067" to="ptb-n00068"/>
+    <node xml:id="ptb-n00070"/>
+    <a xml:id="ptb-a00069" label="PP" ref="ptb-n00070" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00063" from="ptb-n00070" to="ptb-n00071"/>
+    <node xml:id="ptb-n00072"/>
+    <a xml:id="ptb-a00071" label="NP" ref="ptb-n00072" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00064" from="ptb-n00072" to="ptb-n00073"/>
+    <edge xml:id="ptb-e00065" from="ptb-n00070" to="ptb-n00072"/>
+    <edge xml:id="ptb-e00066" from="ptb-n00067" to="ptb-n00070"/>
+    <edge xml:id="ptb-e00067" from="ptb-n00066" to="ptb-n00067"/>
+    <node xml:id="ptb-n00074"/>
+    <a xml:id="ptb-a00073" label="VP" ref="ptb-n00074" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00068" from="ptb-n00074" to="ptb-n00075"/>
+    <node xml:id="ptb-n00076"/>
+    <a xml:id="ptb-a00075" label="VP" ref="ptb-n00076" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00069" from="ptb-n00076" to="ptb-n00077"/>
+    <node xml:id="ptb-n00078"/>
+    <a xml:id="ptb-a00077" label="NP" ref="ptb-n00078" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00070" from="ptb-n00078" to="ptb-n00079"/>
+    <edge xml:id="ptb-e00071" from="ptb-n00078" to="ptb-n00080"/>
+    <edge xml:id="ptb-e00072" from="ptb-n00076" to="ptb-n00078"/>
+    <edge xml:id="ptb-e00073" from="ptb-n00074" to="ptb-n00076"/>
+    <edge xml:id="ptb-e00074" from="ptb-n00066" to="ptb-n00074"/>
+    <edge xml:id="ptb-e00075" from="ptb-n00064" to="ptb-n00066"/>
+    <edge xml:id="ptb-e00076" from="ptb-n00061" to="ptb-n00064"/>
+    <edge xml:id="ptb-e00077" from="ptb-n00059" to="ptb-n00061"/>
+    <edge xml:id="ptb-e00078" from="ptb-n00057" to="ptb-n00059"/>
+    <edge xml:id="ptb-e00079" from="ptb-n00054" to="ptb-n00057"/>
+    <edge xml:id="ptb-e00081" from="ptb-n00000" to="ptb-n00054"/>
+    <node xml:id="ptb-n00340"/>
+    <a xml:id="ptb-a00339" label="S" ref="ptb-n00340" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00348" from="ptb-n00340" to="ptb-n00341"/>
+    <node xml:id="ptb-n00342"/>
+    <a xml:id="ptb-a00341" label="NP" ref="ptb-n00342" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00349" from="ptb-n00342" to="ptb-n00343"/>
+    <edge xml:id="ptb-e00350" from="ptb-n00340" to="ptb-n00342"/>
+    <edge xml:id="ptb-e00382" from="ptb-n00340" to="ptb-n00374"/>
+    <node xml:id="ptb-n00344"/>
+    <a xml:id="ptb-a00343" label="VP" ref="ptb-n00344" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00351" from="ptb-n00344" to="ptb-n00345"/>
+    <node xml:id="ptb-n00346"/>
+    <a xml:id="ptb-a00345" label="NP" ref="ptb-n00346" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00347"/>
+    <a xml:id="ptb-a00346" label="NP" ref="ptb-n00347" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00353" from="ptb-n00347" to="ptb-n00349"/>
+    <edge xml:id="ptb-e00352" from="ptb-n00347" to="ptb-n00348"/>
+    <edge xml:id="ptb-e00354" from="ptb-n00346" to="ptb-n00347"/>
+    <node xml:id="ptb-n00350"/>
+    <a xml:id="ptb-a00349" label="PP" ref="ptb-n00350" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00355" from="ptb-n00350" to="ptb-n00351"/>
+    <node xml:id="ptb-n00352"/>
+    <a xml:id="ptb-a00351" label="NP" ref="ptb-n00352" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00353"/>
+    <a xml:id="ptb-a00352" label="NP" ref="ptb-n00353" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00356" from="ptb-n00353" to="ptb-n00354"/>
+    <edge xml:id="ptb-e00357" from="ptb-n00352" to="ptb-n00353"/>
+    <node xml:id="ptb-n00355"/>
+    <a xml:id="ptb-a00354" label="SBAR" ref="ptb-n00355" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00356"/>
+    <a xml:id="ptb-a00355" label="WHNP" ref="ptb-n00356" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00358" from="ptb-n00356" to="ptb-n00357"/>
+    <edge xml:id="ptb-e00359" from="ptb-n00355" to="ptb-n00356"/>
+    <node xml:id="ptb-n00358"/>
+    <a xml:id="ptb-a00357" label="S" ref="ptb-n00358" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00359"/>
+    <a xml:id="ptb-a00358" label="NP" ref="ptb-n00359" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <region xml:id="ptb-r00185" anchors="1047 1047"/>
+    <node xml:id="ptb-n00360">
+        <link targets="ptb-r00185"/>
+    </node>
+    <a xml:id="ptb-a00359" label="Trace" ref="ptb-n00360" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00360" from="ptb-n00360" to="ptb-n00356"/>
+    <edge xml:id="ptb-e00361" from="ptb-n00359" to="ptb-n00360"/>
+    <edge xml:id="ptb-e00362" from="ptb-n00358" to="ptb-n00359"/>
+    <node xml:id="ptb-n00361"/>
+    <a xml:id="ptb-a00360" label="VP" ref="ptb-n00361" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00363" from="ptb-n00361" to="ptb-n00362"/>
+    <node xml:id="ptb-n00363"/>
+    <a xml:id="ptb-a00362" label="NP" ref="ptb-n00363" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00364" from="ptb-n00363" to="ptb-n00364"/>
+    <edge xml:id="ptb-e00365" from="ptb-n00363" to="ptb-n00365"/>
+    <edge xml:id="ptb-e00366" from="ptb-n00361" to="ptb-n00363"/>
+    <node xml:id="ptb-n00366"/>
+    <a xml:id="ptb-a00365" label="NP" ref="ptb-n00366" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00368" from="ptb-n00366" to="ptb-n00368"/>
+    <edge xml:id="ptb-e00367" from="ptb-n00366" to="ptb-n00367"/>
+    <node xml:id="ptb-n00369"/>
+    <a xml:id="ptb-a00368" label="PP" ref="ptb-n00369" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00369" from="ptb-n00369" to="ptb-n00370"/>
+    <node xml:id="ptb-n00371"/>
+    <a xml:id="ptb-a00370" label="NP" ref="ptb-n00371" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <edge xml:id="ptb-e00371" from="ptb-n00371" to="ptb-n00373"/>
+    <edge xml:id="ptb-e00370" from="ptb-n00371" to="ptb-n00372"/>
+    <edge xml:id="ptb-e00372" from="ptb-n00369" to="ptb-n00371"/>
+    <edge xml:id="ptb-e00373" from="ptb-n00366" to="ptb-n00369"/>
+    <edge xml:id="ptb-e00374" from="ptb-n00361" to="ptb-n00366"/>
+    <edge xml:id="ptb-e00375" from="ptb-n00358" to="ptb-n00361"/>
+    <edge xml:id="ptb-e00376" from="ptb-n00355" to="ptb-n00358"/>
+    <edge xml:id="ptb-e00377" from="ptb-n00352" to="ptb-n00355"/>
+    <edge xml:id="ptb-e00378" from="ptb-n00350" to="ptb-n00352"/>
+    <edge xml:id="ptb-e00379" from="ptb-n00346" to="ptb-n00350"/>
+    <edge xml:id="ptb-e00380" from="ptb-n00344" to="ptb-n00346"/>
+    <edge xml:id="ptb-e00381" from="ptb-n00340" to="ptb-n00344"/>
+    <edge xml:id="ptb-e00383" from="ptb-n00000" to="ptb-n00340"/>
+</graph>

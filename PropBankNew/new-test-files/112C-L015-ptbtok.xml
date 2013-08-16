@@ -1,0 +1,2774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="tok" occurs="345"/>
+        </labelsDecl>
+        <dependencies>
+            <dependsOn f.id="seg"/>
+        </dependencies>
+        <annotationSpaces>
+            <annotationSpace as.id="ptb"/>
+        </annotationSpaces>
+    </graphHeader>
+    <node xml:id="ptb-n00003">
+        <link targets="seg-r0"/>
+    </node>
+    <a xml:id="ptb-a00002" label="tok" ref="ptb-n00003" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00004">
+        <link targets="seg-r2"/>
+    </node>
+    <a xml:id="ptb-a00003" label="tok" ref="ptb-n00004" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00006">
+        <link targets="seg-r4"/>
+    </node>
+    <a xml:id="ptb-a00005" label="tok" ref="ptb-n00006" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00008">
+        <link targets="seg-r6"/>
+    </node>
+    <a xml:id="ptb-a00007" label="tok" ref="ptb-n00008" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00009">
+        <link targets="seg-r8"/>
+    </node>
+    <a xml:id="ptb-a00008" label="tok" ref="ptb-n00009" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00010">
+        <link targets="seg-r9"/>
+    </node>
+    <a xml:id="ptb-a00009" label="tok" ref="ptb-n00010" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00013">
+        <link targets="seg-r11"/>
+    </node>
+    <a xml:id="ptb-a00012" label="tok" ref="ptb-n00013" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00014">
+        <link targets="seg-r13"/>
+    </node>
+    <a xml:id="ptb-a00013" label="tok" ref="ptb-n00014" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00015">
+        <link targets="seg-r15"/>
+    </node>
+    <a xml:id="ptb-a00014" label="tok" ref="ptb-n00015" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00017">
+        <link targets="seg-r17"/>
+    </node>
+    <a xml:id="ptb-a00016" label="tok" ref="ptb-n00017" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00021">
+        <link targets="seg-r19"/>
+    </node>
+    <a xml:id="ptb-a00020" label="tok" ref="ptb-n00021" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00022">
+        <link targets="seg-r21"/>
+    </node>
+    <a xml:id="ptb-a00021" label="tok" ref="ptb-n00022" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00024">
+        <link targets="seg-r23"/>
+    </node>
+    <a xml:id="ptb-a00023" label="tok" ref="ptb-n00024" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00026">
+        <link targets="seg-r25"/>
+    </node>
+    <a xml:id="ptb-a00025" label="tok" ref="ptb-n00026" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00029">
+        <link targets="seg-r27"/>
+    </node>
+    <a xml:id="ptb-a00028" label="tok" ref="ptb-n00029" as="ptb">
+        <fs>
+            <f name="msd" value="WRB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00032">
+        <link targets="seg-r29"/>
+    </node>
+    <a xml:id="ptb-a00031" label="tok" ref="ptb-n00032" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00034">
+        <link targets="seg-r30"/>
+    </node>
+    <a xml:id="ptb-a00033" label="tok" ref="ptb-n00034" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00035">
+        <link targets="seg-r32"/>
+    </node>
+    <a xml:id="ptb-a00034" label="tok" ref="ptb-n00035" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00037">
+        <link targets="seg-r34"/>
+    </node>
+    <a xml:id="ptb-a00036" label="tok" ref="ptb-n00037" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00043">
+        <link targets="seg-r36"/>
+    </node>
+    <a xml:id="ptb-a00042" label="tok" ref="ptb-n00043" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00045">
+        <link targets="seg-r38"/>
+    </node>
+    <a xml:id="ptb-a00044" label="tok" ref="ptb-n00045" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00046">
+        <link targets="seg-r39"/>
+    </node>
+    <a xml:id="ptb-a00045" label="tok" ref="ptb-n00046" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00048">
+        <link targets="seg-r41"/>
+    </node>
+    <a xml:id="ptb-a00047" label="tok" ref="ptb-n00048" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00050">
+        <link targets="seg-r43"/>
+    </node>
+    <a xml:id="ptb-a00049" label="tok" ref="ptb-n00050" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00051">
+        <link targets="seg-r44"/>
+    </node>
+    <a xml:id="ptb-a00050" label="tok" ref="ptb-n00051" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00053">
+        <link targets="seg-r46"/>
+    </node>
+    <a xml:id="ptb-a00052" label="tok" ref="ptb-n00053" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00055">
+        <link targets="seg-r48"/>
+    </node>
+    <a xml:id="ptb-a00054" label="tok" ref="ptb-n00055" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00056">
+        <link targets="seg-r50"/>
+    </node>
+    <a xml:id="ptb-a00055" label="tok" ref="ptb-n00056" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00057">
+        <link targets="seg-r52"/>
+    </node>
+    <a xml:id="ptb-a00056" label="tok" ref="ptb-n00057" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00059">
+        <link targets="seg-r54"/>
+    </node>
+    <a xml:id="ptb-a00058" label="tok" ref="ptb-n00059" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00061">
+        <link targets="seg-r56"/>
+    </node>
+    <a xml:id="ptb-a00060" label="tok" ref="ptb-n00061" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00066">
+        <link targets="seg-r58"/>
+    </node>
+    <a xml:id="ptb-a00065" label="tok" ref="ptb-n00066" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00068">
+        <link targets="seg-r60"/>
+    </node>
+    <a xml:id="ptb-a00067" label="tok" ref="ptb-n00068" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00070">
+        <link targets="seg-r62"/>
+    </node>
+    <a xml:id="ptb-a00069" label="tok" ref="ptb-n00070" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00072">
+        <link targets="seg-r64"/>
+    </node>
+    <a xml:id="ptb-a00071" label="tok" ref="ptb-n00072" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00073">
+        <link targets="seg-r66"/>
+    </node>
+    <a xml:id="ptb-a00072" label="tok" ref="ptb-n00073" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00074">
+        <link targets="seg-r68"/>
+    </node>
+    <a xml:id="ptb-a00073" label="tok" ref="ptb-n00074" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00077">
+        <link targets="seg-r69"/>
+    </node>
+    <a xml:id="ptb-a00076" label="tok" ref="ptb-n00077" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00080">
+        <link targets="seg-r71"/>
+    </node>
+    <a xml:id="ptb-a00079" label="tok" ref="ptb-n00080" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00082">
+        <link targets="seg-r73"/>
+    </node>
+    <a xml:id="ptb-a00081" label="tok" ref="ptb-n00082" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00086">
+        <link targets="seg-r75"/>
+    </node>
+    <a xml:id="ptb-a00085" label="tok" ref="ptb-n00086" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00087">
+        <link targets="seg-r77"/>
+    </node>
+    <a xml:id="ptb-a00086" label="tok" ref="ptb-n00087" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00089">
+        <link targets="seg-r79"/>
+    </node>
+    <a xml:id="ptb-a00088" label="tok" ref="ptb-n00089" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00091">
+        <link targets="seg-r81"/>
+    </node>
+    <a xml:id="ptb-a00090" label="tok" ref="ptb-n00091" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00094">
+        <link targets="seg-r83"/>
+    </node>
+    <a xml:id="ptb-a00093" label="tok" ref="ptb-n00094" as="ptb">
+        <fs>
+            <f name="msd" value="WRB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00097">
+        <link targets="seg-r85"/>
+    </node>
+    <a xml:id="ptb-a00096" label="tok" ref="ptb-n00097" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00099">
+        <link targets="seg-r87"/>
+    </node>
+    <a xml:id="ptb-a00098" label="tok" ref="ptb-n00099" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00102">
+        <link targets="seg-r89"/>
+    </node>
+    <a xml:id="ptb-a00101" label="tok" ref="ptb-n00102" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00104">
+        <link targets="seg-r91"/>
+    </node>
+    <a xml:id="ptb-a00103" label="tok" ref="ptb-n00104" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00107">
+        <link targets="seg-r93"/>
+    </node>
+    <a xml:id="ptb-a00106" label="tok" ref="ptb-n00107" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00108">
+        <link targets="seg-r95"/>
+    </node>
+    <a xml:id="ptb-a00107" label="tok" ref="ptb-n00108" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00109">
+        <link targets="seg-r97"/>
+    </node>
+    <a xml:id="ptb-a00108" label="tok" ref="ptb-n00109" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00110">
+        <link targets="seg-r99"/>
+    </node>
+    <a xml:id="ptb-a00109" label="tok" ref="ptb-n00110" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00113">
+        <link targets="seg-r101"/>
+    </node>
+    <a xml:id="ptb-a00112" label="tok" ref="ptb-n00113" as="ptb">
+        <fs>
+            <f name="msd" value="WDT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00118">
+        <link targets="seg-r103"/>
+    </node>
+    <a xml:id="ptb-a00117" label="tok" ref="ptb-n00118" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00120">
+        <link targets="seg-r105"/>
+    </node>
+    <a xml:id="ptb-a00119" label="tok" ref="ptb-n00120" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00123">
+        <link targets="seg-r106"/>
+    </node>
+    <a xml:id="ptb-a00122" label="tok" ref="ptb-n00123" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00125">
+        <link targets="seg-r108"/>
+    </node>
+    <a xml:id="ptb-a00124" label="tok" ref="ptb-n00125" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00128">
+        <link targets="seg-r110"/>
+    </node>
+    <a xml:id="ptb-a00127" label="tok" ref="ptb-n00128" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00129">
+        <link targets="seg-r112"/>
+    </node>
+    <a xml:id="ptb-a00128" label="tok" ref="ptb-n00129" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00131">
+        <link targets="seg-r114"/>
+    </node>
+    <a xml:id="ptb-a00130" label="tok" ref="ptb-n00131" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00133">
+        <link targets="seg-r116"/>
+    </node>
+    <a xml:id="ptb-a00132" label="tok" ref="ptb-n00133" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00135">
+        <link targets="seg-r118"/>
+    </node>
+    <a xml:id="ptb-a00134" label="tok" ref="ptb-n00135" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00138">
+        <link targets="seg-r120"/>
+    </node>
+    <a xml:id="ptb-a00137" label="tok" ref="ptb-n00138" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00139">
+        <link targets="seg-r122"/>
+    </node>
+    <a xml:id="ptb-a00138" label="tok" ref="ptb-n00139" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00147">
+        <link targets="seg-r124"/>
+    </node>
+    <a xml:id="ptb-a00146" label="tok" ref="ptb-n00147" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00149">
+        <link targets="seg-r126"/>
+    </node>
+    <a xml:id="ptb-a00148" label="tok" ref="ptb-n00149" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00152">
+        <link targets="seg-r128"/>
+    </node>
+    <a xml:id="ptb-a00151" label="tok" ref="ptb-n00152" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00155">
+        <link targets="seg-r130"/>
+    </node>
+    <a xml:id="ptb-a00154" label="tok" ref="ptb-n00155" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00156">
+        <link targets="seg-r132"/>
+    </node>
+    <a xml:id="ptb-a00155" label="tok" ref="ptb-n00156" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00157">
+        <link targets="seg-r134"/>
+    </node>
+    <a xml:id="ptb-a00156" label="tok" ref="ptb-n00157" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00159">
+        <link targets="seg-r136"/>
+    </node>
+    <a xml:id="ptb-a00158" label="tok" ref="ptb-n00159" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00162">
+        <link targets="seg-r138"/>
+    </node>
+    <a xml:id="ptb-a00161" label="tok" ref="ptb-n00162" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00164">
+        <link targets="seg-r140"/>
+    </node>
+    <a xml:id="ptb-a00163" label="tok" ref="ptb-n00164" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00169">
+        <link targets="seg-r141"/>
+    </node>
+    <a xml:id="ptb-a00168" label="tok" ref="ptb-n00169" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00172">
+        <link targets="seg-r143"/>
+    </node>
+    <a xml:id="ptb-a00171" label="tok" ref="ptb-n00172" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00173">
+        <link targets="seg-r145"/>
+    </node>
+    <a xml:id="ptb-a00172" label="tok" ref="ptb-n00173" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00175">
+        <link targets="seg-r147"/>
+    </node>
+    <a xml:id="ptb-a00174" label="tok" ref="ptb-n00175" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00177">
+        <link targets="seg-r149"/>
+    </node>
+    <a xml:id="ptb-a00176" label="tok" ref="ptb-n00177" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00179">
+        <link targets="seg-r151"/>
+    </node>
+    <a xml:id="ptb-a00178" label="tok" ref="ptb-n00179" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00180">
+        <link targets="seg-r153"/>
+    </node>
+    <a xml:id="ptb-a00179" label="tok" ref="ptb-n00180" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00181">
+        <link targets="seg-r155"/>
+    </node>
+    <a xml:id="ptb-a00180" label="tok" ref="ptb-n00181" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00182">
+        <link targets="seg-r157"/>
+    </node>
+    <a xml:id="ptb-a00181" label="tok" ref="ptb-n00182" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00183">
+        <link targets="seg-r158"/>
+    </node>
+    <a xml:id="ptb-a00182" label="tok" ref="ptb-n00183" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00186">
+        <link targets="seg-r160"/>
+    </node>
+    <a xml:id="ptb-a00185" label="tok" ref="ptb-n00186" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00188">
+        <link targets="seg-r162"/>
+    </node>
+    <a xml:id="ptb-a00187" label="tok" ref="ptb-n00188" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00190">
+        <link targets="seg-r164"/>
+    </node>
+    <a xml:id="ptb-a00189" label="tok" ref="ptb-n00190" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00192">
+        <link targets="seg-r166"/>
+    </node>
+    <a xml:id="ptb-a00191" label="tok" ref="ptb-n00192" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00195">
+        <link targets="seg-r168"/>
+    </node>
+    <a xml:id="ptb-a00194" label="tok" ref="ptb-n00195" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00196">
+        <link targets="seg-r170"/>
+    </node>
+    <a xml:id="ptb-a00195" label="tok" ref="ptb-n00196" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00197">
+        <link targets="seg-r172"/>
+    </node>
+    <a xml:id="ptb-a00196" label="tok" ref="ptb-n00197" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00199">
+        <link targets="seg-r174"/>
+    </node>
+    <a xml:id="ptb-a00198" label="tok" ref="ptb-n00199" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00202">
+        <link targets="seg-r176"/>
+    </node>
+    <a xml:id="ptb-a00201" label="tok" ref="ptb-n00202" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00204">
+        <link targets="seg-r178"/>
+    </node>
+    <a xml:id="ptb-a00203" label="tok" ref="ptb-n00204" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00208">
+        <link targets="seg-r180"/>
+    </node>
+    <a xml:id="ptb-a00207" label="tok" ref="ptb-n00208" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00209">
+        <link targets="seg-r181"/>
+    </node>
+    <a xml:id="ptb-a00208" label="tok" ref="ptb-n00209" as="ptb">
+        <fs>
+            <f name="msd" value="HYPH"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00210">
+        <link targets="seg-r183"/>
+    </node>
+    <a xml:id="ptb-a00209" label="tok" ref="ptb-n00210" as="ptb">
+        <fs>
+            <f name="msd" value="VBN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00211">
+        <link targets="seg-r184"/>
+    </node>
+    <a xml:id="ptb-a00210" label="tok" ref="ptb-n00211" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00212">
+        <link targets="seg-r186"/>
+    </node>
+    <a xml:id="ptb-a00211" label="tok" ref="ptb-n00212" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00213">
+        <link targets="seg-r188"/>
+    </node>
+    <a xml:id="ptb-a00212" label="tok" ref="ptb-n00213" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00214">
+        <link targets="seg-r190"/>
+    </node>
+    <a xml:id="ptb-a00213" label="tok" ref="ptb-n00214" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00215">
+        <link targets="seg-r191"/>
+    </node>
+    <a xml:id="ptb-a00214" label="tok" ref="ptb-n00215" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00217">
+        <link targets="seg-r193"/>
+    </node>
+    <a xml:id="ptb-a00216" label="tok" ref="ptb-n00217" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00218">
+        <link targets="seg-r195"/>
+    </node>
+    <a xml:id="ptb-a00217" label="tok" ref="ptb-n00218" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00219">
+        <link targets="seg-r197"/>
+    </node>
+    <a xml:id="ptb-a00218" label="tok" ref="ptb-n00219" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00221">
+        <link targets="seg-r199"/>
+    </node>
+    <a xml:id="ptb-a00220" label="tok" ref="ptb-n00221" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00222">
+        <link targets="seg-r201"/>
+    </node>
+    <a xml:id="ptb-a00221" label="tok" ref="ptb-n00222" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00223">
+        <link targets="seg-r203"/>
+    </node>
+    <a xml:id="ptb-a00222" label="tok" ref="ptb-n00223" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00224">
+        <link targets="seg-r204"/>
+    </node>
+    <a xml:id="ptb-a00223" label="tok" ref="ptb-n00224" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00228">
+        <link targets="seg-r206"/>
+    </node>
+    <a xml:id="ptb-a00227" label="tok" ref="ptb-n00228" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00230">
+        <link targets="seg-r208"/>
+    </node>
+    <a xml:id="ptb-a00229" label="tok" ref="ptb-n00230" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00232">
+        <link targets="seg-r210"/>
+    </node>
+    <a xml:id="ptb-a00231" label="tok" ref="ptb-n00232" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00233">
+        <link targets="seg-r212"/>
+    </node>
+    <a xml:id="ptb-a00232" label="tok" ref="ptb-n00233" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00236">
+        <link targets="seg-r214"/>
+    </node>
+    <a xml:id="ptb-a00235" label="tok" ref="ptb-n00236" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00239">
+        <link targets="seg-r216"/>
+    </node>
+    <a xml:id="ptb-a00238" label="tok" ref="ptb-n00239" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00241">
+        <link targets="seg-r218"/>
+    </node>
+    <a xml:id="ptb-a00240" label="tok" ref="ptb-n00241" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00243">
+        <link targets="seg-r220"/>
+    </node>
+    <a xml:id="ptb-a00242" label="tok" ref="ptb-n00243" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00244">
+        <link targets="seg-r222"/>
+    </node>
+    <a xml:id="ptb-a00243" label="tok" ref="ptb-n00244" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00246">
+        <link targets="seg-r224"/>
+    </node>
+    <a xml:id="ptb-a00245" label="tok" ref="ptb-n00246" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00248">
+        <link targets="seg-r226"/>
+    </node>
+    <a xml:id="ptb-a00247" label="tok" ref="ptb-n00248" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00250">
+        <link targets="seg-r228"/>
+    </node>
+    <a xml:id="ptb-a00249" label="tok" ref="ptb-n00250" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00251">
+        <link targets="seg-r230"/>
+    </node>
+    <a xml:id="ptb-a00250" label="tok" ref="ptb-n00251" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00252">
+        <link targets="seg-r231"/>
+    </node>
+    <a xml:id="ptb-a00251" label="tok" ref="ptb-n00252" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00255">
+        <link targets="seg-r233"/>
+    </node>
+    <a xml:id="ptb-a00254" label="tok" ref="ptb-n00255" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00257">
+        <link targets="seg-r235"/>
+    </node>
+    <a xml:id="ptb-a00256" label="tok" ref="ptb-n00257" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00259">
+        <link targets="seg-r237"/>
+    </node>
+    <a xml:id="ptb-a00258" label="tok" ref="ptb-n00259" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00261">
+        <link targets="seg-r239"/>
+    </node>
+    <a xml:id="ptb-a00260" label="tok" ref="ptb-n00261" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00263">
+        <link targets="seg-r241"/>
+    </node>
+    <a xml:id="ptb-a00262" label="tok" ref="ptb-n00263" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00268">
+        <link targets="seg-r243"/>
+    </node>
+    <a xml:id="ptb-a00267" label="tok" ref="ptb-n00268" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00270">
+        <link targets="seg-r245"/>
+    </node>
+    <a xml:id="ptb-a00269" label="tok" ref="ptb-n00270" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00272">
+        <link targets="seg-r247"/>
+    </node>
+    <a xml:id="ptb-a00271" label="tok" ref="ptb-n00272" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00273">
+        <link targets="seg-r249"/>
+    </node>
+    <a xml:id="ptb-a00272" label="tok" ref="ptb-n00273" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00274">
+        <link targets="seg-r251"/>
+    </node>
+    <a xml:id="ptb-a00273" label="tok" ref="ptb-n00274" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00279">
+        <link targets="seg-r253"/>
+    </node>
+    <a xml:id="ptb-a00278" label="tok" ref="ptb-n00279" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00281">
+        <link targets="seg-r255"/>
+    </node>
+    <a xml:id="ptb-a00280" label="tok" ref="ptb-n00281" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00286">
+        <link targets="seg-r257"/>
+    </node>
+    <a xml:id="ptb-a00285" label="tok" ref="ptb-n00286" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00289">
+        <link targets="seg-r259"/>
+    </node>
+    <a xml:id="ptb-a00288" label="tok" ref="ptb-n00289" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00290">
+        <link targets="seg-r261"/>
+    </node>
+    <a xml:id="ptb-a00289" label="tok" ref="ptb-n00290" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00292">
+        <link targets="seg-r263"/>
+    </node>
+    <a xml:id="ptb-a00291" label="tok" ref="ptb-n00292" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00294">
+        <link targets="seg-r265"/>
+    </node>
+    <a xml:id="ptb-a00293" label="tok" ref="ptb-n00294" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00295">
+        <link targets="seg-r267"/>
+    </node>
+    <a xml:id="ptb-a00294" label="tok" ref="ptb-n00295" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00300">
+        <link targets="seg-r269"/>
+    </node>
+    <a xml:id="ptb-a00299" label="tok" ref="ptb-n00300" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00302">
+        <link targets="seg-r271"/>
+    </node>
+    <a xml:id="ptb-a00301" label="tok" ref="ptb-n00302" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00305">
+        <link targets="seg-r273"/>
+    </node>
+    <a xml:id="ptb-a00304" label="tok" ref="ptb-n00305" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00306">
+        <link targets="seg-r275"/>
+    </node>
+    <a xml:id="ptb-a00305" label="tok" ref="ptb-n00306" as="ptb">
+        <fs>
+            <f name="msd" value="CD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00307">
+        <link targets="seg-r277"/>
+    </node>
+    <a xml:id="ptb-a00306" label="tok" ref="ptb-n00307" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00308">
+        <link targets="seg-r279"/>
+    </node>
+    <a xml:id="ptb-a00307" label="tok" ref="ptb-n00308" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00314">
+        <link targets="seg-r281"/>
+    </node>
+    <a xml:id="ptb-a00313" label="tok" ref="ptb-n00314" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00316">
+        <link targets="seg-r283"/>
+    </node>
+    <a xml:id="ptb-a00315" label="tok" ref="ptb-n00316" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00318">
+        <link targets="seg-r285"/>
+    </node>
+    <a xml:id="ptb-a00317" label="tok" ref="ptb-n00318" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00321">
+        <link targets="seg-r286"/>
+    </node>
+    <a xml:id="ptb-a00320" label="tok" ref="ptb-n00321" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00325">
+        <link targets="seg-r288"/>
+    </node>
+    <a xml:id="ptb-a00324" label="tok" ref="ptb-n00325" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00327">
+        <link targets="seg-r290"/>
+    </node>
+    <a xml:id="ptb-a00326" label="tok" ref="ptb-n00327" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00329">
+        <link targets="seg-r292"/>
+    </node>
+    <a xml:id="ptb-a00328" label="tok" ref="ptb-n00329" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00330">
+        <link targets="seg-r294"/>
+    </node>
+    <a xml:id="ptb-a00329" label="tok" ref="ptb-n00330" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00332">
+        <link targets="seg-r296"/>
+    </node>
+    <a xml:id="ptb-a00331" label="tok" ref="ptb-n00332" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00335">
+        <link targets="seg-r298"/>
+    </node>
+    <a xml:id="ptb-a00334" label="tok" ref="ptb-n00335" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00336">
+        <link targets="seg-r300"/>
+    </node>
+    <a xml:id="ptb-a00335" label="tok" ref="ptb-n00336" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00337">
+        <link targets="seg-r301"/>
+    </node>
+    <a xml:id="ptb-a00336" label="tok" ref="ptb-n00337" as="ptb">
+        <fs>
+            <f name="msd" value=":"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00340">
+        <link targets="seg-r303"/>
+    </node>
+    <a xml:id="ptb-a00339" label="tok" ref="ptb-n00340" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00341">
+        <link targets="seg-r305"/>
+    </node>
+    <a xml:id="ptb-a00340" label="tok" ref="ptb-n00341" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00343">
+        <link targets="seg-r307"/>
+    </node>
+    <a xml:id="ptb-a00342" label="tok" ref="ptb-n00343" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00345">
+        <link targets="seg-r309"/>
+    </node>
+    <a xml:id="ptb-a00344" label="tok" ref="ptb-n00345" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00347">
+        <link targets="seg-r311"/>
+    </node>
+    <a xml:id="ptb-a00346" label="tok" ref="ptb-n00347" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00349">
+        <link targets="seg-r313"/>
+    </node>
+    <a xml:id="ptb-a00348" label="tok" ref="ptb-n00349" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00350">
+        <link targets="seg-r315"/>
+    </node>
+    <a xml:id="ptb-a00349" label="tok" ref="ptb-n00350" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00351">
+        <link targets="seg-r316"/>
+    </node>
+    <a xml:id="ptb-a00350" label="tok" ref="ptb-n00351" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00354">
+        <link targets="seg-r318"/>
+    </node>
+    <a xml:id="ptb-a00353" label="tok" ref="ptb-n00354" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00356">
+        <link targets="seg-r320"/>
+    </node>
+    <a xml:id="ptb-a00355" label="tok" ref="ptb-n00356" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00358">
+        <link targets="seg-r322"/>
+    </node>
+    <a xml:id="ptb-a00357" label="tok" ref="ptb-n00358" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00361">
+        <link targets="seg-r324"/>
+    </node>
+    <a xml:id="ptb-a00360" label="tok" ref="ptb-n00361" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00364">
+        <link targets="seg-r326"/>
+    </node>
+    <a xml:id="ptb-a00363" label="tok" ref="ptb-n00364" as="ptb">
+        <fs>
+            <f name="msd" value="WDT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00370">
+        <link targets="seg-r328"/>
+    </node>
+    <a xml:id="ptb-a00369" label="tok" ref="ptb-n00370" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00372">
+        <link targets="seg-r330"/>
+    </node>
+    <a xml:id="ptb-a00371" label="tok" ref="ptb-n00372" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00377">
+        <link targets="seg-r332"/>
+    </node>
+    <a xml:id="ptb-a00376" label="tok" ref="ptb-n00377" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00379">
+        <link targets="seg-r334"/>
+    </node>
+    <a xml:id="ptb-a00378" label="tok" ref="ptb-n00379" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00381">
+        <link targets="seg-r336"/>
+    </node>
+    <a xml:id="ptb-a00380" label="tok" ref="ptb-n00381" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00382">
+        <link targets="seg-r338"/>
+    </node>
+    <a xml:id="ptb-a00381" label="tok" ref="ptb-n00382" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00383">
+        <link targets="seg-r339"/>
+    </node>
+    <a xml:id="ptb-a00382" label="tok" ref="ptb-n00383" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00384">
+        <link targets="seg-r341"/>
+    </node>
+    <a xml:id="ptb-a00383" label="tok" ref="ptb-n00384" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00385">
+        <link targets="seg-r343"/>
+    </node>
+    <a xml:id="ptb-a00384" label="tok" ref="ptb-n00385" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00386">
+        <link targets="seg-r345"/>
+    </node>
+    <a xml:id="ptb-a00385" label="tok" ref="ptb-n00386" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00388">
+        <link targets="seg-r347"/>
+    </node>
+    <a xml:id="ptb-a00387" label="tok" ref="ptb-n00388" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00389">
+        <link targets="seg-r348"/>
+    </node>
+    <a xml:id="ptb-a00388" label="tok" ref="ptb-n00389" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00391">
+        <link targets="seg-r350"/>
+    </node>
+    <a xml:id="ptb-a00390" label="tok" ref="ptb-n00391" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00394">
+        <link targets="seg-r352"/>
+    </node>
+    <a xml:id="ptb-a00393" label="tok" ref="ptb-n00394" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00395">
+        <link targets="seg-r354"/>
+    </node>
+    <a xml:id="ptb-a00394" label="tok" ref="ptb-n00395" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00403">
+        <link targets="seg-r356"/>
+    </node>
+    <a xml:id="ptb-a00402" label="tok" ref="ptb-n00403" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00405">
+        <link targets="seg-r358"/>
+    </node>
+    <a xml:id="ptb-a00404" label="tok" ref="ptb-n00405" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00408">
+        <link targets="seg-r360"/>
+    </node>
+    <a xml:id="ptb-a00407" label="tok" ref="ptb-n00408" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00410">
+        <link targets="seg-r362"/>
+    </node>
+    <a xml:id="ptb-a00409" label="tok" ref="ptb-n00410" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00411">
+        <link targets="seg-r363"/>
+    </node>
+    <a xml:id="ptb-a00410" label="tok" ref="ptb-n00411" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00414">
+        <link targets="seg-r365"/>
+    </node>
+    <a xml:id="ptb-a00413" label="tok" ref="ptb-n00414" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00415">
+        <link targets="seg-r367"/>
+    </node>
+    <a xml:id="ptb-a00414" label="tok" ref="ptb-n00415" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00417">
+        <link targets="seg-r369"/>
+    </node>
+    <a xml:id="ptb-a00416" label="tok" ref="ptb-n00417" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00419">
+        <link targets="seg-r371"/>
+    </node>
+    <a xml:id="ptb-a00418" label="tok" ref="ptb-n00419" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00422">
+        <link targets="seg-r373"/>
+    </node>
+    <a xml:id="ptb-a00421" label="tok" ref="ptb-n00422" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00423">
+        <link targets="seg-r375"/>
+    </node>
+    <a xml:id="ptb-a00422" label="tok" ref="ptb-n00423" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00425">
+        <link targets="seg-r377"/>
+    </node>
+    <a xml:id="ptb-a00424" label="tok" ref="ptb-n00425" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00428">
+        <link targets="seg-r379"/>
+    </node>
+    <a xml:id="ptb-a00427" label="tok" ref="ptb-n00428" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00429">
+        <link targets="seg-r381"/>
+    </node>
+    <a xml:id="ptb-a00428" label="tok" ref="ptb-n00429" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00430">
+        <link targets="seg-r382"/>
+    </node>
+    <a xml:id="ptb-a00429" label="tok" ref="ptb-n00430" as="ptb">
+        <fs>
+            <f name="msd" value="POS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00431">
+        <link targets="seg-r384"/>
+    </node>
+    <a xml:id="ptb-a00430" label="tok" ref="ptb-n00431" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00432">
+        <link targets="seg-r385"/>
+    </node>
+    <a xml:id="ptb-a00431" label="tok" ref="ptb-n00432" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00435">
+        <link targets="seg-r387"/>
+    </node>
+    <a xml:id="ptb-a00434" label="tok" ref="ptb-n00435" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00437">
+        <link targets="seg-r389"/>
+    </node>
+    <a xml:id="ptb-a00436" label="tok" ref="ptb-n00437" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00439">
+        <link targets="seg-r391"/>
+    </node>
+    <a xml:id="ptb-a00438" label="tok" ref="ptb-n00439" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00442">
+        <link targets="seg-r393"/>
+    </node>
+    <a xml:id="ptb-a00441" label="tok" ref="ptb-n00442" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00443">
+        <link targets="seg-r395"/>
+    </node>
+    <a xml:id="ptb-a00442" label="tok" ref="ptb-n00443" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00445">
+        <link targets="seg-r397"/>
+    </node>
+    <a xml:id="ptb-a00444" label="tok" ref="ptb-n00445" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00447">
+        <link targets="seg-r399"/>
+    </node>
+    <a xml:id="ptb-a00446" label="tok" ref="ptb-n00447" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00448">
+        <link targets="seg-r400"/>
+    </node>
+    <a xml:id="ptb-a00447" label="tok" ref="ptb-n00448" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00451">
+        <link targets="seg-r402"/>
+    </node>
+    <a xml:id="ptb-a00450" label="tok" ref="ptb-n00451" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00453">
+        <link targets="seg-r404"/>
+    </node>
+    <a xml:id="ptb-a00452" label="tok" ref="ptb-n00453" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00455">
+        <link targets="seg-r406"/>
+    </node>
+    <a xml:id="ptb-a00454" label="tok" ref="ptb-n00455" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00457">
+        <link targets="seg-r408"/>
+    </node>
+    <a xml:id="ptb-a00456" label="tok" ref="ptb-n00457" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00459">
+        <link targets="seg-r410"/>
+    </node>
+    <a xml:id="ptb-a00458" label="tok" ref="ptb-n00459" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00460">
+        <link targets="seg-r412"/>
+    </node>
+    <a xml:id="ptb-a00459" label="tok" ref="ptb-n00460" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00461">
+        <link targets="seg-r414"/>
+    </node>
+    <a xml:id="ptb-a00460" label="tok" ref="ptb-n00461" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00462">
+        <link targets="seg-r415"/>
+    </node>
+    <a xml:id="ptb-a00461" label="tok" ref="ptb-n00462" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00466">
+        <link targets="seg-r417"/>
+    </node>
+    <a xml:id="ptb-a00465" label="tok" ref="ptb-n00466" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00467">
+        <link targets="seg-r419"/>
+    </node>
+    <a xml:id="ptb-a00466" label="tok" ref="ptb-n00467" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00469">
+        <link targets="seg-r421"/>
+    </node>
+    <a xml:id="ptb-a00468" label="tok" ref="ptb-n00469" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00471">
+        <link targets="seg-r423"/>
+    </node>
+    <a xml:id="ptb-a00470" label="tok" ref="ptb-n00471" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00472">
+        <link targets="seg-r425"/>
+    </node>
+    <a xml:id="ptb-a00471" label="tok" ref="ptb-n00472" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00474">
+        <link targets="seg-r427"/>
+    </node>
+    <a xml:id="ptb-a00473" label="tok" ref="ptb-n00474" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00480">
+        <link targets="seg-r429"/>
+    </node>
+    <a xml:id="ptb-a00479" label="tok" ref="ptb-n00480" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00481">
+        <link targets="seg-r431"/>
+    </node>
+    <a xml:id="ptb-a00480" label="tok" ref="ptb-n00481" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00483">
+        <link targets="seg-r433"/>
+    </node>
+    <a xml:id="ptb-a00482" label="tok" ref="ptb-n00483" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00485">
+        <link targets="seg-r435"/>
+    </node>
+    <a xml:id="ptb-a00484" label="tok" ref="ptb-n00485" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00486">
+        <link targets="seg-r437"/>
+    </node>
+    <a xml:id="ptb-a00485" label="tok" ref="ptb-n00486" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00488">
+        <link targets="seg-r439"/>
+    </node>
+    <a xml:id="ptb-a00487" label="tok" ref="ptb-n00488" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00490">
+        <link targets="seg-r441"/>
+    </node>
+    <a xml:id="ptb-a00489" label="tok" ref="ptb-n00490" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00492">
+        <link targets="seg-r443"/>
+    </node>
+    <a xml:id="ptb-a00491" label="tok" ref="ptb-n00492" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00500">
+        <link targets="seg-r445"/>
+    </node>
+    <a xml:id="ptb-a00499" label="tok" ref="ptb-n00500" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00502">
+        <link targets="seg-r447"/>
+    </node>
+    <a xml:id="ptb-a00501" label="tok" ref="ptb-n00502" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00505">
+        <link targets="seg-r448"/>
+    </node>
+    <a xml:id="ptb-a00504" label="tok" ref="ptb-n00505" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00508">
+        <link targets="seg-r450"/>
+    </node>
+    <a xml:id="ptb-a00507" label="tok" ref="ptb-n00508" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00509">
+        <link targets="seg-r452"/>
+    </node>
+    <a xml:id="ptb-a00508" label="tok" ref="ptb-n00509" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00511">
+        <link targets="seg-r454"/>
+    </node>
+    <a xml:id="ptb-a00510" label="tok" ref="ptb-n00511" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00516">
+        <link targets="seg-r456"/>
+    </node>
+    <a xml:id="ptb-a00515" label="tok" ref="ptb-n00516" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00517">
+        <link targets="seg-r458"/>
+    </node>
+    <a xml:id="ptb-a00516" label="tok" ref="ptb-n00517" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00519">
+        <link targets="seg-r460"/>
+    </node>
+    <a xml:id="ptb-a00518" label="tok" ref="ptb-n00519" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00521">
+        <link targets="seg-r462"/>
+    </node>
+    <a xml:id="ptb-a00520" label="tok" ref="ptb-n00521" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00524">
+        <link targets="seg-r464"/>
+    </node>
+    <a xml:id="ptb-a00523" label="tok" ref="ptb-n00524" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00525">
+        <link targets="seg-r466"/>
+    </node>
+    <a xml:id="ptb-a00524" label="tok" ref="ptb-n00525" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00526">
+        <link targets="seg-r468"/>
+    </node>
+    <a xml:id="ptb-a00525" label="tok" ref="ptb-n00526" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00527">
+        <link targets="seg-r469"/>
+    </node>
+    <a xml:id="ptb-a00526" label="tok" ref="ptb-n00527" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00530">
+        <link targets="seg-r471"/>
+    </node>
+    <a xml:id="ptb-a00529" label="tok" ref="ptb-n00530" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00531">
+        <link targets="seg-r473"/>
+    </node>
+    <a xml:id="ptb-a00530" label="tok" ref="ptb-n00531" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00539">
+        <link targets="seg-r475"/>
+    </node>
+    <a xml:id="ptb-a00538" label="tok" ref="ptb-n00539" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00541">
+        <link targets="seg-r477"/>
+    </node>
+    <a xml:id="ptb-a00540" label="tok" ref="ptb-n00541" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00543">
+        <link targets="seg-r479"/>
+    </node>
+    <a xml:id="ptb-a00542" label="tok" ref="ptb-n00543" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00544">
+        <link targets="seg-r481"/>
+    </node>
+    <a xml:id="ptb-a00543" label="tok" ref="ptb-n00544" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00547">
+        <link targets="seg-r483"/>
+    </node>
+    <a xml:id="ptb-a00546" label="tok" ref="ptb-n00547" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00550">
+        <link targets="seg-r485"/>
+    </node>
+    <a xml:id="ptb-a00549" label="tok" ref="ptb-n00550" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00558">
+        <link targets="seg-r487"/>
+    </node>
+    <a xml:id="ptb-a00557" label="tok" ref="ptb-n00558" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00560">
+        <link targets="seg-r489"/>
+    </node>
+    <a xml:id="ptb-a00559" label="tok" ref="ptb-n00560" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00562">
+        <link targets="seg-r491"/>
+    </node>
+    <a xml:id="ptb-a00561" label="tok" ref="ptb-n00562" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00564">
+        <link targets="seg-r493"/>
+    </node>
+    <a xml:id="ptb-a00563" label="tok" ref="ptb-n00564" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00567">
+        <link targets="seg-r494"/>
+    </node>
+    <a xml:id="ptb-a00566" label="tok" ref="ptb-n00567" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00570">
+        <link targets="seg-r496"/>
+    </node>
+    <a xml:id="ptb-a00569" label="tok" ref="ptb-n00570" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00571">
+        <link targets="seg-r498"/>
+    </node>
+    <a xml:id="ptb-a00570" label="tok" ref="ptb-n00571" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00573">
+        <link targets="seg-r500"/>
+    </node>
+    <a xml:id="ptb-a00572" label="tok" ref="ptb-n00573" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00575">
+        <link targets="seg-r502"/>
+    </node>
+    <a xml:id="ptb-a00574" label="tok" ref="ptb-n00575" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00577">
+        <link targets="seg-r504"/>
+    </node>
+    <a xml:id="ptb-a00576" label="tok" ref="ptb-n00577" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00579">
+        <link targets="seg-r506"/>
+    </node>
+    <a xml:id="ptb-a00578" label="tok" ref="ptb-n00579" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00580">
+        <link targets="seg-r508"/>
+    </node>
+    <a xml:id="ptb-a00579" label="tok" ref="ptb-n00580" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00581">
+        <link targets="seg-r510"/>
+    </node>
+    <a xml:id="ptb-a00580" label="tok" ref="ptb-n00581" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00582">
+        <link targets="seg-r511"/>
+    </node>
+    <a xml:id="ptb-a00581" label="tok" ref="ptb-n00582" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00585">
+        <link targets="seg-r513"/>
+    </node>
+    <a xml:id="ptb-a00584" label="tok" ref="ptb-n00585" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00587">
+        <link targets="seg-r515"/>
+    </node>
+    <a xml:id="ptb-a00586" label="tok" ref="ptb-n00587" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00589">
+        <link targets="seg-r517"/>
+    </node>
+    <a xml:id="ptb-a00588" label="tok" ref="ptb-n00589" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00594">
+        <link targets="seg-r519"/>
+    </node>
+    <a xml:id="ptb-a00593" label="tok" ref="ptb-n00594" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00597">
+        <link targets="seg-r521"/>
+    </node>
+    <a xml:id="ptb-a00596" label="tok" ref="ptb-n00597" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00598">
+        <link targets="seg-r522"/>
+    </node>
+    <a xml:id="ptb-a00597" label="tok" ref="ptb-n00598" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00600">
+        <link targets="seg-r524"/>
+    </node>
+    <a xml:id="ptb-a00599" label="tok" ref="ptb-n00600" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00601">
+        <link targets="seg-r526"/>
+    </node>
+    <a xml:id="ptb-a00600" label="tok" ref="ptb-n00601" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00602">
+        <link targets="seg-r527"/>
+    </node>
+    <a xml:id="ptb-a00601" label="tok" ref="ptb-n00602" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00604">
+        <link targets="seg-r529"/>
+    </node>
+    <a xml:id="ptb-a00603" label="tok" ref="ptb-n00604" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00605">
+        <link targets="seg-r531"/>
+    </node>
+    <a xml:id="ptb-a00604" label="tok" ref="ptb-n00605" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00607">
+        <link targets="seg-r533"/>
+    </node>
+    <a xml:id="ptb-a00606" label="tok" ref="ptb-n00607" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00608">
+        <link targets="seg-r535"/>
+    </node>
+    <a xml:id="ptb-a00607" label="tok" ref="ptb-n00608" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00610">
+        <link targets="seg-r537"/>
+    </node>
+    <a xml:id="ptb-a00609" label="tok" ref="ptb-n00610" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00612">
+        <link targets="seg-r539"/>
+    </node>
+    <a xml:id="ptb-a00611" label="tok" ref="ptb-n00612" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00613">
+        <link targets="seg-r541"/>
+    </node>
+    <a xml:id="ptb-a00612" label="tok" ref="ptb-n00613" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00614">
+        <link targets="seg-r542"/>
+    </node>
+    <a xml:id="ptb-a00613" label="tok" ref="ptb-n00614" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00617">
+        <link targets="seg-r544"/>
+    </node>
+    <a xml:id="ptb-a00616" label="tok" ref="ptb-n00617" as="ptb">
+        <fs>
+            <f name="msd" value="UH"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00621">
+        <link targets="seg-r546"/>
+    </node>
+    <a xml:id="ptb-a00620" label="tok" ref="ptb-n00621" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00623">
+        <link targets="seg-r548"/>
+    </node>
+    <a xml:id="ptb-a00622" label="tok" ref="ptb-n00623" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00624">
+        <link targets="seg-r550"/>
+    </node>
+    <a xml:id="ptb-a00623" label="tok" ref="ptb-n00624" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00625">
+        <link targets="seg-r552"/>
+    </node>
+    <a xml:id="ptb-a00624" label="tok" ref="ptb-n00625" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00630">
+        <link targets="seg-r554"/>
+    </node>
+    <a xml:id="ptb-a00629" label="tok" ref="ptb-n00630" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00632">
+        <link targets="seg-r556"/>
+    </node>
+    <a xml:id="ptb-a00631" label="tok" ref="ptb-n00632" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00634">
+        <link targets="seg-r558"/>
+    </node>
+    <a xml:id="ptb-a00633" label="tok" ref="ptb-n00634" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00635">
+        <link targets="seg-r560"/>
+    </node>
+    <a xml:id="ptb-a00634" label="tok" ref="ptb-n00635" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00637">
+        <link targets="seg-r562"/>
+    </node>
+    <a xml:id="ptb-a00636" label="tok" ref="ptb-n00637" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00639">
+        <link targets="seg-r564"/>
+    </node>
+    <a xml:id="ptb-a00638" label="tok" ref="ptb-n00639" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00640">
+        <link targets="seg-r566"/>
+    </node>
+    <a xml:id="ptb-a00639" label="tok" ref="ptb-n00640" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00641">
+        <link targets="seg-r567"/>
+    </node>
+    <a xml:id="ptb-a00640" label="tok" ref="ptb-n00641" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00646">
+        <link targets="seg-r569"/>
+    </node>
+    <a xml:id="ptb-a00645" label="tok" ref="ptb-n00646" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00649">
+        <link targets="seg-r571"/>
+    </node>
+    <a xml:id="ptb-a00648" label="tok" ref="ptb-n00649" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00650">
+        <link targets="seg-r573"/>
+    </node>
+    <a xml:id="ptb-a00649" label="tok" ref="ptb-n00650" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00651">
+        <link targets="seg-r575"/>
+    </node>
+    <a xml:id="ptb-a00650" label="tok" ref="ptb-n00651" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00652">
+        <link targets="seg-r577"/>
+    </node>
+    <a xml:id="ptb-a00651" label="tok" ref="ptb-n00652" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00654">
+        <link targets="seg-r579"/>
+    </node>
+    <a xml:id="ptb-a00653" label="tok" ref="ptb-n00654" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00656">
+        <link targets="seg-r581"/>
+    </node>
+    <a xml:id="ptb-a00655" label="tok" ref="ptb-n00656" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00659">
+        <link targets="seg-r583"/>
+    </node>
+    <a xml:id="ptb-a00658" label="tok" ref="ptb-n00659" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00661">
+        <link targets="seg-r585"/>
+    </node>
+    <a xml:id="ptb-a00660" label="tok" ref="ptb-n00661" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00664">
+        <link targets="seg-r587"/>
+    </node>
+    <a xml:id="ptb-a00663" label="tok" ref="ptb-n00664" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00666">
+        <link targets="seg-r589"/>
+    </node>
+    <a xml:id="ptb-a00665" label="tok" ref="ptb-n00666" as="ptb">
+        <fs>
+            <f name="msd" value="TO"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00668">
+        <link targets="seg-r591"/>
+    </node>
+    <a xml:id="ptb-a00667" label="tok" ref="ptb-n00668" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00672">
+        <link targets="seg-r593"/>
+    </node>
+    <a xml:id="ptb-a00671" label="tok" ref="ptb-n00672" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00673">
+        <link targets="seg-r595"/>
+    </node>
+    <a xml:id="ptb-a00672" label="tok" ref="ptb-n00673" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00674">
+        <link targets="seg-r597"/>
+    </node>
+    <a xml:id="ptb-a00673" label="tok" ref="ptb-n00674" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00676">
+        <link targets="seg-r599"/>
+    </node>
+    <a xml:id="ptb-a00675" label="tok" ref="ptb-n00676" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00679">
+        <link targets="seg-r601"/>
+    </node>
+    <a xml:id="ptb-a00678" label="tok" ref="ptb-n00679" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00681">
+        <link targets="seg-r603"/>
+    </node>
+    <a xml:id="ptb-a00680" label="tok" ref="ptb-n00681" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00683">
+        <link targets="seg-r605"/>
+    </node>
+    <a xml:id="ptb-a00682" label="tok" ref="ptb-n00683" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00684">
+        <link targets="seg-r607"/>
+    </node>
+    <a xml:id="ptb-a00683" label="tok" ref="ptb-n00684" as="ptb">
+        <fs>
+            <f name="msd" value="NNS"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00690">
+        <link targets="seg-r609"/>
+    </node>
+    <a xml:id="ptb-a00689" label="tok" ref="ptb-n00690" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00692">
+        <link targets="seg-r611"/>
+    </node>
+    <a xml:id="ptb-a00691" label="tok" ref="ptb-n00692" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00694">
+        <link targets="seg-r613"/>
+    </node>
+    <a xml:id="ptb-a00693" label="tok" ref="ptb-n00694" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00697">
+        <link targets="seg-r614"/>
+    </node>
+    <a xml:id="ptb-a00696" label="tok" ref="ptb-n00697" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00700">
+        <link targets="seg-r616"/>
+    </node>
+    <a xml:id="ptb-a00699" label="tok" ref="ptb-n00700" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00702">
+        <link targets="seg-r618"/>
+    </node>
+    <a xml:id="ptb-a00701" label="tok" ref="ptb-n00702" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00705">
+        <link targets="seg-r620"/>
+    </node>
+    <a xml:id="ptb-a00704" label="tok" ref="ptb-n00705" as="ptb">
+        <fs>
+            <f name="msd" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00706">
+        <link targets="seg-r622"/>
+    </node>
+    <a xml:id="ptb-a00705" label="tok" ref="ptb-n00706" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00708">
+        <link targets="seg-r624"/>
+    </node>
+    <a xml:id="ptb-a00707" label="tok" ref="ptb-n00708" as="ptb">
+        <fs>
+            <f name="msd" value="PRP$"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00709">
+        <link targets="seg-r626"/>
+    </node>
+    <a xml:id="ptb-a00708" label="tok" ref="ptb-n00709" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00712">
+        <link targets="seg-r628"/>
+    </node>
+    <a xml:id="ptb-a00711" label="tok" ref="ptb-n00712" as="ptb">
+        <fs>
+            <f name="msd" value="DT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00713">
+        <link targets="seg-r630"/>
+    </node>
+    <a xml:id="ptb-a00712" label="tok" ref="ptb-n00713" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00714">
+        <link targets="seg-r632"/>
+    </node>
+    <a xml:id="ptb-a00713" label="tok" ref="ptb-n00714" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00716">
+        <link targets="seg-r634"/>
+    </node>
+    <a xml:id="ptb-a00715" label="tok" ref="ptb-n00716" as="ptb">
+        <fs>
+            <f name="msd" value="JJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00718">
+        <link targets="seg-r636"/>
+    </node>
+    <a xml:id="ptb-a00717" label="tok" ref="ptb-n00718" as="ptb">
+        <fs>
+            <f name="msd" value="IN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00720">
+        <link targets="seg-r638"/>
+    </node>
+    <a xml:id="ptb-a00719" label="tok" ref="ptb-n00720" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00721">
+        <link targets="seg-r640"/>
+    </node>
+    <a xml:id="ptb-a00720" label="tok" ref="ptb-n00721" as="ptb">
+        <fs>
+            <f name="msd" value="CC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00722">
+        <link targets="seg-r642"/>
+    </node>
+    <a xml:id="ptb-a00721" label="tok" ref="ptb-n00722" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00723">
+        <link targets="seg-r643"/>
+    </node>
+    <a xml:id="ptb-a00722" label="tok" ref="ptb-n00723" as="ptb">
+        <fs>
+            <f name="msd" value="."/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00726">
+        <link targets="seg-r645"/>
+    </node>
+    <a xml:id="ptb-a00725" label="tok" ref="ptb-n00726" as="ptb">
+        <fs>
+            <f name="msd" value="RB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00727">
+        <link targets="seg-r646"/>
+    </node>
+    <a xml:id="ptb-a00726" label="tok" ref="ptb-n00727" as="ptb">
+        <fs>
+            <f name="msd" value=","/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00730">
+        <link targets="seg-r648"/>
+    </node>
+    <a xml:id="ptb-a00729" label="tok" ref="ptb-n00730" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00731">
+        <link targets="seg-r650"/>
+    </node>
+    <a xml:id="ptb-a00730" label="tok" ref="ptb-n00731" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00733">
+        <link targets="seg-r652"/>
+    </node>
+    <a xml:id="ptb-a00732" label="tok" ref="ptb-n00733" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00734">
+        <link targets="seg-r654"/>
+    </node>
+    <a xml:id="ptb-a00733" label="tok" ref="ptb-n00734" as="ptb">
+        <fs>
+            <f name="msd" value="NNP"/>
+        </fs>
+    </a>
+</graph>

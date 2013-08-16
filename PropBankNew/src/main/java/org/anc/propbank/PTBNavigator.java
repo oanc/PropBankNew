@@ -48,7 +48,7 @@ public class PTBNavigator {
 		 /// in sorted order -- using this map we can navigate to a given terminal ID in a given sentence
 		 for (int i = 0; i < this.sentences.size(); i++){
 			 ArrayList<INode> terminals = this.depthFirstSearch(this.sentences.get(i));
-			 this.sortNodes(this.sentences.get(i), terminals);
+			 //this.sortNodes(this.sentences.get(i), terminals);
 			 this.sentenceTerminalNodes.put(i, new ArrayList<INode>());
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 			 this.terminalNodes.removeAll(terminals);
@@ -74,7 +74,7 @@ public class PTBNavigator {
 			 System.out.println("Sentence " + key + ": ");
 			 for (INode terminalNode: this.sentenceTerminalNodes.get(key)){
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-					 System.out.println("TRACE NODE:" + terminalNode.getAnnotation().features().toString() + terminalNode.outDegree());
+					 System.out.println("HEYTRACE NODE:" + terminalNode.getAnnotation().features().toString() + terminalNode.outDegree());
 				 }
 				 else{
 				 System.out.println(terminalNode.getAnnotation().features().toString());

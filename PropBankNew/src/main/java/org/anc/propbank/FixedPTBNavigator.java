@@ -49,9 +49,8 @@ public class FixedPTBNavigator {
 		 for (int i = 0; i < this.sentences.size(); i++){
 			 this.sentenceTerminalNodes.put(i, new ArrayList<INode>());
 			 ArrayList<INode> terminals = this.depthFirstSearch(this.sentences.get(i));
-			 ArrayList<INode> traceNodes = this.isolateTraces(terminals); 
-			 Collections.sort(terminals, new AnchorComparator());
-			 this.sortTerminals(this.sentences.get(i), terminals, traceNodes);
+			 Collections.sort(terminals, new newAnchorComparator());
+			 this.fixTraces(terminals);
 			 this.sentenceTerminalNodes.get(i).addAll(terminals);
 	 	}
 	 }
@@ -63,8 +62,7 @@ public class FixedPTBNavigator {
 		 for (IEdge edge : this.rootNode.getOutEdges()){
 			 this.sentences.add(edge.getTo());
 		 }
-		 Collections.sort(this.sentences, new AnchorComparator());
-		 
+		 Collections.sort(this.sentences, new AnchorComparator()); 
 	 }
 	 
 	 
@@ -78,8 +76,7 @@ public class FixedPTBNavigator {
 			 for (int k = 0; k < this.sentenceTerminalNodes.get(key).size(); k++){
 				 INode terminalNode = this.sentenceTerminalNodes.get(key).get(k);
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-				 		System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString() + terminalNode.outDegree());
-				 		System.out.println(k + ". NEIGHBORING:" + this.findNeighboringNodes(this.sentences.get(key), terminalNode).getAnnotation().features().toString());
+				 		System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString());
 				 }
 				 else{
 				 	System.out.println(k + ". " + terminalNode.getAnnotation().features().toString());
@@ -173,104 +170,28 @@ public class FixedPTBNavigator {
 	 * @param terminals
 	 * @return
 	 */
-	private ArrayList<INode> isolateTraces(ArrayList<INode> terminals){
+	private void fixTraces(ArrayList<INode> terminals){
 		ArrayList<INode> terminalNodes = new ArrayList<INode>();
 		ArrayList<INode> traces = new ArrayList<INode>();
 		terminalNodes.addAll(terminals);
 		for (INode terminal: terminalNodes){
 			if (terminal.getAnnotation().getLabel().equals("Trace")){
+				int index = terminals.indexOf(terminal);
 				terminals.remove(terminal);
-				traces.add(terminal);
+				if (index != 0){
+					terminals.add(index-1, terminal);
+				}
+				else{
+					terminals.add(0, terminal);
+				}
 			}
 		}
-		return traces;
 	}
 	
 
 	
 
-/**
- * Use depth first search to return the terminal node neighboring a given trace node (OF DEGREE 0), to then be used for sorting. 
- * @param traceNode
- * @return
- */
-private INode findNeighboringNodes(INode sentence, INode traceNode){
-	Stack<INode> stack = new Stack<INode>();
-	ArrayList<INode> DFSoutput = new ArrayList<INode>();
-	stack.push(sentence);
-	sentence.visit();
-	DFSoutput.add(sentence);
-	while(!stack.isEmpty()){
-		INode node = stack.peek();
-		ArrayList<INode> unvisitedChildren = new ArrayList<INode>();
-		for(IEdge edge: node.getOutEdges()){
-			if (edge.getTo().visited() == false){
-				unvisitedChildren.add(edge.getTo());
-			}
-		}
-		if (!unvisitedChildren.isEmpty()){
-			INode child = unvisitedChildren.get(0);
-			stack.push(child);
-			child.visit();
-			DFSoutput.add(child);
-		}
-		else{
-			stack.pop();
-		}
-	}	
-	
-	for (INode graphNode: this.graph.nodes()){
-		graphNode.clear();
-	}
-	
-	ArrayList<INode> terminals = new ArrayList<INode>();
-	for (int i = 0; i < DFSoutput.size(); i++){
-		if (DFSoutput.get(i).annotated()){
-			if ((DFSoutput.get(i).outDegree() == 0) || DFSoutput.get(i).getAnnotation().getLabel().equals("Trace")){
-				terminals.add(DFSoutput.get(i));
-			}
-		}
-	}
-		
-	Integer index = terminals.indexOf(traceNode);
-	if (index != 0){
-		return terminals.get(index-1);
-		}
-		else{
-			return terminals.get(index);
-			}
-}
 
-/**
- * Sort the terminal nodes of a sentence, taking in the terminal (but not trace) nodes and trace nodes.
- * @param sentence
- * @param terminals
- * @param traceNodes
- */
-private void sortTerminals(INode sentence, ArrayList<INode> terminals, ArrayList<INode> traceNodes){
-	//Initialize an arraylist to store terminal nodes at each step -- prevent concurrent modification
-	ArrayList<INode> terminalList = new ArrayList<INode>();
-	for (INode traceNode: traceNodes){
-		terminalList.addAll(terminals);
-		int index;
-		INode neighborNode = this.findNeighboringNodes(sentence, traceNode);
-		if (neighborNode != traceNode){
-			if (terminals.contains(neighborNode)){
-				index = terminals.indexOf(neighborNode);
-			}
-			else{
-				terminalList.add(neighborNode);
-				Collections.sort(terminalList, new AnchorComparator());
-				index = terminalList.indexOf(neighborNode);
-			}
-			terminals.add(index, traceNode);
-		}
-		else{
-			terminals.add(0, traceNode);
-	}
-		terminalList.clear();
-}
-}
 
 
 //-- ACCESSOR FUNCTIONS FOR TESTING -- //

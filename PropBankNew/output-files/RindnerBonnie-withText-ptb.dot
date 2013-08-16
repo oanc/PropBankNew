@@ -9,6 +9,7 @@ digraph {
    segr14 [ label="was" shape=none ]
    segr16 [ label="born" shape=none ]
    segr18 [ label="in" shape=none ]
+   ptbr00009 [ label="" shape=none ]
    segr20 [ label="San" shape=none ]
    segr22 [ label="Antonio" shape=none ]
    segr23 [ label="," shape=none ]
@@ -18,11 +19,14 @@ digraph {
    segr30 [ label="the" shape=none ]
    segr32 [ label="story" shape=none ]
    segr34 [ label="I" shape=none ]
+   ptbr00019 [ label="" shape=none ]
    segr35 [ label="'m" shape=none ]
    segr37 [ label="going" shape=none ]
    segr39 [ label="to" shape=none ]
+   ptbr00023 [ label="" shape=none ]
    segr41 [ label="tell" shape=none ]
    segr43 [ label="is" shape=none ]
+   ptbr00026 [ label="" shape=none ]
    segr45 [ label="about" shape=none ]
    segr47 [ label="my" shape=none ]
    segr49 [ label="mother" shape=none ]
@@ -37,6 +41,7 @@ digraph {
    segr64 [ label="Her" shape=none ]
    segr65 [ label="," shape=none ]
    segr67 [ label="let" shape=none ]
+   ptbr00041 [ label="" shape=none ]
    segr68 [ label="'s" shape=none ]
    segr70 [ label="see" shape=none ]
    segr71 [ label="," shape=none ]
@@ -76,6 +81,7 @@ digraph {
    segr133 [ label="I" shape=none ]
    segr135 [ label="know" shape=none ]
    segr137 [ label="they" shape=none ]
+   ptbr00081 [ label="" shape=none ]
    segr139 [ label="were" shape=none ]
    segr141 [ label="land" shape=none ]
    segr143 [ label="owners" shape=none ]
@@ -93,6 +99,7 @@ digraph {
    segr163 [ label="was" shape=none ]
    segr165 [ label="raised" shape=none ]
    segr167 [ label="in" shape=none ]
+   ptbr00099 [ label="" shape=none ]
    segr169 [ label="wealth" shape=none ]
    segr170 [ label="." shape=none ]
    segr172 [ label="Uh" shape=none ]
@@ -115,6 +122,7 @@ digraph {
    segr203 [ label="was" shape=none ]
    segr205 [ label="raised" shape=none ]
    segr207 [ label="in" shape=none ]
+   ptbr00122 [ label="" shape=none ]
    segr209 [ label="MO" shape=none ]
    segr210 [ label="," shape=none ]
    segr212 [ label="and" shape=none ]
@@ -128,10 +136,12 @@ digraph {
    segr227 [ label="my" shape=none ]
    segr229 [ label="grandmother" shape=none ]
    segr231 [ label="I" shape=none ]
+   ptbr00136 [ label="" shape=none ]
    segr232 [ label="'m" shape=none ]
    segr234 [ label="talking" shape=none ]
    segr236 [ label="about" shape=none ]
    segr237 [ label="." shape=none ]
+   ptbr00141 [ label="" shape=none ]
    segr239 [ label="And" shape=none ]
    segr241 [ label="they" shape=none ]
    segr243 [ label="were" shape=none ]
@@ -148,6 +158,7 @@ digraph {
    segr263 [ label="I" shape=none ]
    segr265 [ label="think" shape=none ]
    segr266 [ label="," shape=none ]
+   ptbr00158 [ label="" shape=none ]
    segr268 [ label="seven" shape=none ]
    segr270 [ label="children" shape=none ]
    segr271 [ label="." shape=none ]
@@ -168,6 +179,8 @@ digraph {
    segr298 [ label="no" shape=none ]
    segr300 [ label="money" shape=none ]
    segr302 [ label="to" shape=none ]
+   ptbr00180 [ label="" shape=none ]
+   ptbr00179 [ label="" shape=none ]
    segr304 [ label="buy" shape=none ]
    segr306 [ label="any" shape=none ]
    segr308 [ label="presents" shape=none ]
@@ -180,19 +193,23 @@ digraph {
    segr320 [ label="the" shape=none ]
    segr322 [ label="children" shape=none ]
    segr323 [ label="," shape=none ]
+   ptbr00193 [ label="" shape=none ]
    segr325 [ label="and" shape=none ]
    segr327 [ label="my" shape=none ]
    segr329 [ label="grandfather" shape=none ]
    segr330 [ label="," shape=none ]
    segr332 [ label="who" shape=none ]
    segr334 [ label="was" shape=none ]
+   ptbr00200 [ label="" shape=none ]
    segr336 [ label="killed" shape=none ]
    segr338 [ label="when" shape=none ]
+   ptbr00203 [ label="" shape=none ]
    segr340 [ label="my" shape=none ]
    segr342 [ label="mother" shape=none ]
    segr344 [ label="was" shape=none ]
    segr346 [ label="16" shape=none ]
    segr347 [ label="," shape=none ]
+   ptbr00209 [ label="" shape=none ]
    segr349 [ label="this" shape=none ]
    segr351 [ label="was" shape=none ]
    segr352 [ label="," shape=none ]
@@ -218,6 +235,7 @@ digraph {
    segr389 [ label="he" shape=none ]
    segr391 [ label="did" shape=none ]
    segr393 [ label="with" shape=none ]
+   ptbr00235 [ label="" shape=none ]
    segr395 [ label="the" shape=none ]
    segr397 [ label="situation" shape=none ]
    segr399 [ label="was" shape=none ]
@@ -243,6 +261,7 @@ digraph {
    segr438 [ label="to" shape=none ]
    segr440 [ label="Santa" shape=none ]
    segr442 [ label="to" shape=none ]
+   ptbr00261 [ label="" shape=none ]
    segr444 [ label="take" shape=none ]
    segr446 [ label="the" shape=none ]
    segr448 [ label="poor" shape=none ]
@@ -261,6 +280,7 @@ digraph {
    segr474 [ label="and" shape=none ]
    segr476 [ label="it" shape=none ]
    segr478 [ label="gave" shape=none ]
+   ptbr00280 [ label="" shape=none ]
    segr480 [ label="them" shape=none ]
    segr482 [ label="a" shape=none ]
    segr484 [ label="good" shape=none ]
@@ -289,6 +309,8 @@ digraph {
    segr528 [ label="a" shape=none ]
    segr530 [ label="way" shape=none ]
    segr532 [ label="to" shape=none ]
+   ptbr00309 [ label="" shape=none ]
+   ptbr00310 [ label="" shape=none ]
    segr534 [ label="face" shape=none ]
    segr536 [ label="that" shape=none ]
    segr538 [ label="situation" shape=none ]
@@ -302,6 +324,7 @@ digraph {
    segr554 [ label="with" shape=none ]
    segr556 [ label="love" shape=none ]
    segr557 [ label="." shape=none ]
+   ptbr00324 [ label="" shape=none ]
    segr559 [ label="And" shape=none ]
    segr561 [ label="although" shape=none ]
    segr563 [ label="I" shape=none ]
@@ -323,6 +346,7 @@ digraph {
    segr594 [ label="of" shape=none ]
    segr596 [ label="him" shape=none ]
    segr598 [ label="I" shape=none ]
+   ptbr00346 [ label="" shape=none ]
    segr600 [ label="think" shape=none ]
    segr602 [ label="what" shape=none ]
    segr604 [ label="a" shape=none ]
@@ -335,6 +359,7 @@ digraph {
    segr617 [ label="have" shape=none ]
    segr619 [ label="been" shape=none ]
    segr620 [ label="." shape=none ]
+   ptbr00359 [ label="" shape=none ]
    segr622 [ label="And" shape=none ]
    segr624 [ label="how" shape=none ]
    segr626 [ label="long" shape=none ]
@@ -344,6 +369,7 @@ digraph {
    segr634 [ label="in" shape=none ]
    segr636 [ label="Charlotte" shape=none ]
    segr637 [ label="?" shape=none ]
+   ptbr00369 [ label="" shape=none ]
    segr639 [ label="Oh" shape=none ]
    segr640 [ label="," shape=none ]
    segr642 [ label="I" shape=none ]
@@ -403,6 +429,7 @@ digraph {
    segr740 [ label="good" shape=none ]
    segr741 [ label="." shape=none ]
    ptbn00081 [ label="Trace" ]
+  ptbn00081 -> ptbr00041
    ptbn00082 [ label="VP" ]
    ptbn00080 [ label="NP" ]
    ptbn00085 [ label="NP" ]
@@ -414,8 +441,9 @@ digraph {
    ptbn00496 [ label="tok" ]
   ptbn00496 -> segr452
    ptbn00290 [ label="SBAR" ]
-   ptbn00497 [ label="NP" ]
    ptbn00291 [ label="Trace" ]
+  ptbn00291 -> ptbr00158
+   ptbn00497 [ label="NP" ]
    ptbn00494 [ label="tok" ]
   ptbn00494 -> segr450
    ptbn00495 [ label="S" ]
@@ -427,8 +455,8 @@ digraph {
   ptbn00498 -> segr454
    ptbn00292 [ label="tok" ]
   ptbn00292 -> segr266
-   ptbn00499 [ label="VP" ]
    ptbn00293 [ label="NP" ]
+   ptbn00499 [ label="VP" ]
    ptbn00299 [ label="NP" ]
    ptbn00298 [ label="tok" ]
   ptbn00298 -> segr273
@@ -467,8 +495,9 @@ digraph {
    ptbn00280 [ label="tok" ]
   ptbn00280 -> segr258
    ptbn00486 [ label="Trace" ]
-   ptbn00487 [ label="VP" ]
+  ptbn00486 -> ptbr00261
    ptbn00281 [ label="VP" ]
+   ptbn00487 [ label="VP" ]
    ptbn00282 [ label="tok" ]
   ptbn00282 -> segr260
    ptbn00488 [ label="tok" ]
@@ -553,6 +582,7 @@ digraph {
   ptbn00465 -> segr424
    ptbn00466 [ label="SBAR" ]
    ptbn00260 [ label="Trace" ]
+  ptbn00260 -> ptbr00141
    ptbn00467 [ label="tok" ]
   ptbn00467 -> segr426
    ptbn00261 [ label="tok" ]
@@ -607,8 +637,8 @@ digraph {
    ptbn00258 [ label="tok" ]
   ptbn00258 -> segr236
    ptbn00737 [ label="S" ]
-   ptbn00738 [ label="NP" ]
    ptbn00259 [ label="NP" ]
+   ptbn00738 [ label="NP" ]
    ptbn00256 [ label="tok" ]
   ptbn00256 -> segr234
    ptbn00739 [ label="tok" ]
@@ -618,6 +648,7 @@ digraph {
    ptbn00240 [ label="tok" ]
   ptbn00240 -> segr223
    ptbn00249 [ label="Trace" ]
+  ptbn00249 -> ptbr00136
    ptbn00720 [ label="INTJ" ]
    ptbn00721 [ label="tok" ]
   ptbn00721 -> segr663
@@ -672,8 +703,8 @@ digraph {
   ptbn00233 -> segr216
    ptbn00712 [ label="tok" ]
   ptbn00712 -> segr654
-   ptbn00713 [ label="PP" ]
    ptbn00230 [ label="NP" ]
+   ptbn00713 [ label="PP" ]
    ptbn00231 [ label="tok" ]
   ptbn00231 -> segr214
    ptbn00714 [ label="tok" ]
@@ -703,8 +734,9 @@ digraph {
    ptbn00700 [ label="tok" ]
   ptbn00700 -> segr642
    ptbn00221 [ label="NP" ]
-   ptbn00701 [ label="VP" ]
    ptbn00222 [ label="Trace" ]
+  ptbn00222 -> ptbr00122
+   ptbn00701 [ label="VP" ]
    ptbn00008 [ label="tok" ]
   ptbn00008 -> segr6
    ptbn00779 [ label="tok" ]
@@ -740,6 +772,7 @@ digraph {
    ptbn00766 [ label="tok" ]
   ptbn00766 -> segr707
    ptbn00019 [ label="Trace" ]
+  ptbn00019 -> ptbr00009
    ptbn00769 [ label="PP" ]
    ptbn00768 [ label="tok" ]
   ptbn00768 -> segr709
@@ -803,6 +836,7 @@ digraph {
    ptbn00046 [ label="S" ]
    ptbn00047 [ label="NP" ]
    ptbn00048 [ label="Trace" ]
+  ptbn00048 -> ptbr00023
    ptbn00049 [ label="VP" ]
    ptbn00040 [ label="NP" ]
    ptbn00042 [ label="VP" ]
@@ -812,6 +846,7 @@ digraph {
   ptbn00056 -> segr43
    ptbn00057 [ label="PP" ]
    ptbn00054 [ label="Trace" ]
+  ptbn00054 -> ptbr00026
    ptbn00055 [ label="VP" ]
    ptbn00058 [ label="tok" ]
   ptbn00058 -> segr45
@@ -855,6 +890,7 @@ digraph {
    ptbn00790 [ label="NP" ]
    ptbn00020 [ label="PP" ]
    ptbn00038 [ label="Trace" ]
+  ptbn00038 -> ptbr00019
    ptbn00784 [ label="VP" ]
    ptbn00785 [ label="tok" ]
   ptbn00785 -> segr726
@@ -997,6 +1033,7 @@ digraph {
   ptbn00432 -> segr391
    ptbn00435 [ label="PP" ]
    ptbn00434 [ label="Trace" ]
+  ptbn00434 -> ptbr00235
    ptbn00437 [ label="NP" ]
    ptbn00436 [ label="tok" ]
   ptbn00436 -> segr393
@@ -1031,6 +1068,7 @@ digraph {
   ptbn00183 -> segr167
    ptbn00180 [ label="NP" ]
    ptbn00181 [ label="Trace" ]
+  ptbn00181 -> ptbr00099
    ptbn00189 [ label="tok" ]
   ptbn00189 -> segr172
    ptbn00188 [ label="INTJ" ]
@@ -1059,10 +1097,12 @@ digraph {
   ptbn00588 -> segr534
    ptbn00382 [ label="ADVP" ]
    ptbn00383 [ label="Trace" ]
+  ptbn00383 -> ptbr00209
    ptbn00589 [ label="NP" ]
    ptbn00582 [ label="S" ]
    ptbn00583 [ label="NP" ]
    ptbn00584 [ label="Trace" ]
+  ptbn00584 -> ptbr00310
    ptbn00585 [ label="VP" ]
    ptbn00193 [ label="NP" ]
    ptbn00194 [ label="tok" ]
@@ -1084,6 +1124,7 @@ digraph {
   ptbn00389 -> segr349
    ptbn00388 [ label="NP" ]
    ptbn00581 [ label="Trace" ]
+  ptbn00581 -> ptbr00309
    ptbn00580 [ label="WHADVP" ]
    ptbn00385 [ label="PRN" ]
    ptbn00384 [ label="tok" ]
@@ -1091,6 +1132,7 @@ digraph {
    ptbn00387 [ label="NP" ]
    ptbn00386 [ label="S" ]
    ptbn00350 [ label="Trace" ]
+  ptbn00350 -> ptbr00193
    ptbn00357 [ label="tok" ]
   ptbn00357 -> segr329
    ptbn00358 [ label="tok" ]
@@ -1122,9 +1164,11 @@ digraph {
   ptbn00348 -> segr322
    ptbn00349 [ label="ADVP" ]
    ptbn00609 [ label="Trace" ]
+  ptbn00609 -> ptbr00324
    ptbn00372 [ label="WHADVP" ]
    ptbn00371 [ label="SBAR" ]
    ptbn00370 [ label="Trace" ]
+  ptbn00370 -> ptbr00203
    ptbn00612 [ label="tok" ]
   ptbn00612 -> segr559
    ptbn00375 [ label="NP" ]
@@ -1162,6 +1206,7 @@ digraph {
    ptbn00363 [ label="NP" ]
    ptbn00604 [ label="PP" ]
    ptbn00364 [ label="Trace" ]
+  ptbn00364 -> ptbr00200
    ptbn00601 [ label="NP" ]
    ptbn00602 [ label="tok" ]
   ptbn00602 -> segr550
@@ -1243,8 +1288,8 @@ digraph {
    ptbn00625 [ label="tok" ]
   ptbn00625 -> segr572
    ptbn00117 [ label="NP" ]
-   ptbn00651 [ label="ADVP" ]
    ptbn00121 [ label="S" ]
+   ptbn00651 [ label="ADVP" ]
    ptbn00650 [ label="tok" ]
   ptbn00650 -> segr596
    ptbn00120 [ label="tok" ]
@@ -1252,17 +1297,18 @@ digraph {
    ptbn00123 [ label="tok" ]
   ptbn00123 -> segr108
    ptbn00122 [ label="INTJ" ]
-   ptbn00655 [ label="VP" ]
    ptbn00125 [ label="NP" ]
+   ptbn00655 [ label="VP" ]
    ptbn00654 [ label="tok" ]
   ptbn00654 -> segr598
    ptbn00124 [ label="tok" ]
   ptbn00124 -> segr109
-   ptbn00653 [ label="NP" ]
    ptbn00127 [ label="VP" ]
+   ptbn00653 [ label="NP" ]
    ptbn00126 [ label="tok" ]
   ptbn00126 -> segr111
    ptbn00652 [ label="Trace" ]
+  ptbn00652 -> ptbr00346
    ptbn00659 [ label="tok" ]
   ptbn00659 -> segr602
    ptbn00129 [ label="tok" ]
@@ -1276,29 +1322,29 @@ digraph {
    ptbn00134 [ label="S" ]
    ptbn00133 [ label="tok" ]
   ptbn00133 -> segr118
-   ptbn00640 [ label="WHADVP" ]
    ptbn00132 [ label="SBAR" ]
+   ptbn00640 [ label="WHADVP" ]
    ptbn00131 [ label="tok" ]
   ptbn00131 -> segr116
    ptbn00138 [ label="tok" ]
   ptbn00138 -> segr122
    ptbn00642 [ label="S" ]
+   ptbn00137 [ label="VP" ]
    ptbn00641 [ label="tok" ]
   ptbn00641 -> segr588
-   ptbn00137 [ label="VP" ]
    ptbn00644 [ label="tok" ]
   ptbn00644 -> segr590
    ptbn00136 [ label="tok" ]
   ptbn00136 -> segr120
-   ptbn00643 [ label="NP" ]
    ptbn00135 [ label="NP" ]
+   ptbn00643 [ label="NP" ]
    ptbn00646 [ label="tok" ]
   ptbn00646 -> segr592
    ptbn00645 [ label="VP" ]
    ptbn00648 [ label="tok" ]
   ptbn00648 -> segr594
-   ptbn00647 [ label="PP" ]
    ptbn00139 [ label="NP" ]
+   ptbn00647 [ label="PP" ]
    ptbn00649 [ label="NP" ]
    ptbn00130 [ label="VP" ]
    ptbn00678 [ label="tok" ]
@@ -1315,6 +1361,7 @@ digraph {
    ptbn00149 [ label="tok" ]
   ptbn00149 -> segr135
    ptbn00675 [ label="Trace" ]
+  ptbn00675 -> ptbr00359
    ptbn00142 [ label="tok" ]
   ptbn00142 -> segr128
    ptbn00672 [ label="VP" ]
@@ -1362,6 +1409,7 @@ digraph {
   ptbn00154 -> segr137
    ptbn00152 [ label="S" ]
    ptbn00151 [ label="Trace" ]
+  ptbn00151 -> ptbr00081
    ptbn00150 [ label="SBAR" ]
    ptbn00694 [ label="tok" ]
   ptbn00694 -> segr637
@@ -1372,8 +1420,9 @@ digraph {
    ptbn00166 [ label="tok" ]
   ptbn00166 -> segr151
    ptbn00692 [ label="ADVP" ]
-   ptbn00167 [ label="S" ]
    ptbn00693 [ label="Trace" ]
+  ptbn00693 -> ptbr00369
+   ptbn00167 [ label="S" ]
    ptbn00698 [ label="tok" ]
   ptbn00698 -> segr640
    ptbn00168 [ label="tok" ]
@@ -1400,14 +1449,14 @@ digraph {
   ptbn00681 -> segr626
    ptbn00177 [ label="tok" ]
   ptbn00177 -> segr163
-   ptbn00178 [ label="VP" ]
    ptbn00682 [ label="SQ" ]
+   ptbn00178 [ label="VP" ]
    ptbn00683 [ label="tok" ]
   ptbn00683 -> segr628
    ptbn00175 [ label="tok" ]
   ptbn00175 -> segr161
-   ptbn00176 [ label="VP" ]
    ptbn00684 [ label="NP" ]
+   ptbn00176 [ label="VP" ]
    ptbn00685 [ label="tok" ]
   ptbn00685 -> segr630
    ptbn00686 [ label="VP" ]
@@ -1491,9 +1540,11 @@ digraph {
    ptbn00519 [ label="NP" ]
    ptbn00329 [ label="VP" ]
    ptbn00328 [ label="Trace" ]
+  ptbn00328 -> ptbr00180
    ptbn00327 [ label="NP" ]
    ptbn00326 [ label="S" ]
    ptbn00325 [ label="Trace" ]
+  ptbn00325 -> ptbr00179
    ptbn00324 [ label="WHADVP" ]
    ptbn00323 [ label="SBAR" ]
    ptbn00322 [ label="tok" ]
@@ -1503,6 +1554,7 @@ digraph {
    ptbn00320 [ label="NP" ]
    ptbn00522 [ label="SBAR" ]
    ptbn00523 [ label="Trace" ]
+  ptbn00523 -> ptbr00280
    ptbn00520 [ label="NP" ]
    ptbn00521 [ label="tok" ]
   ptbn00521 -> segr476
@@ -1606,7 +1658,7 @@ digraph {
    ptbn00574 [ label="tok" ]
   ptbn00574 -> segr526
    ptbn00573 [ label="VP" ]
-   { rank=same; segr0 segr2 segr4 segr6 segr8 segr10 segr12 segr14 segr16 segr18 segr20 segr22 segr23 segr25 segr26 segr28 segr30 segr32 segr34 segr35 segr37 segr39 segr41 segr43 segr45 segr47 segr49 segr50 segr52 segr53 segr55 segr57 segr59 segr61 segr62 segr64 segr65 segr67 segr68 segr70 segr71 segr73 segr75 segr76 segr78 segr80 segr82 segr84 segr86 segr88 segr90 segr91 segr93 segr95 segr97 segr99 segr101 segr103 segr105 segr106 segr108 segr109 segr111 segr113 segr114 segr116 segr118 segr120 segr122 segr124 segr126 segr128 segr129 segr131 segr133 segr135 segr137 segr139 segr141 segr143 segr144 segr146 segr147 segr149 segr151 segr153 segr154 segr156 segr157 segr159 segr161 segr163 segr165 segr167 segr169 segr170 segr172 segr173 segr175 segr177 segr179 segr181 segr183 segr185 segr187 segr189 segr191 segr193 segr195 segr196 segr198 segr199 segr201 segr203 segr205 segr207 segr209 segr210 segr212 segr214 segr216 segr218 segr220 segr221 segr223 segr225 segr227 segr229 segr231 segr232 segr234 segr236 segr237 segr239 segr241 segr243 segr245 segr247 segr249 segr251 segr253 segr254 segr256 segr258 segr260 segr261 segr263 segr265 segr266 segr268 segr270 segr271 segr273 segr275 segr277 segr279 segr280 segr282 segr284 segr286 segr287 segr289 segr291 segr292 segr294 segr296 segr298 segr300 segr302 segr304 segr306 segr308 segr310 segr312 segr313 segr315 segr316 segr318 segr320 segr322 segr323 segr325 segr327 segr329 segr330 segr332 segr334 segr336 segr338 segr340 segr342 segr344 segr346 segr347 segr349 segr351 segr352 segr354 segr356 segr357 segr359 segr361 segr363 segr364 segr366 segr367 segr369 segr371 segr373 segr375 segr377 segr379 segr381 segr383 segr385 segr387 segr389 segr391 segr393 segr395 segr397 segr399 segr401 segr402 segr404 segr406 segr408 segr410 segr412 segr414 segr416 segr418 segr420 segr422 segr424 segr426 segr428 segr430 segr432 segr434 segr436 segr438 segr440 segr442 segr444 segr446 segr448 segr450 segr452 segr454 segr456 segr458 segr460 segr462 segr464 segr466 segr468 segr470 segr472 segr474 segr476 segr478 segr480 segr482 segr484 segr486 segr488 segr490 segr492 segr494 segr496 segr498 segr500 segr502 segr504 segr506 segr508 segr510 segr512 segr513 segr515 segr516 segr518 segr520 segr522 segr524 segr526 segr528 segr530 segr532 segr534 segr536 segr538 segr540 segr542 segr544 segr546 segr548 segr550 segr552 segr554 segr556 segr557 segr559 segr561 segr563 segr565 segr567 segr569 segr571 segr572 segr574 segr576 segr578 segr580 segr582 segr584 segr586 segr588 segr590 segr592 segr594 segr596 segr598 segr600 segr602 segr604 segr606 segr607 segr609 segr611 segr613 segr615 segr617 segr619 segr620 segr622 segr624 segr626 segr628 segr630 segr632 segr634 segr636 segr637 segr639 segr640 segr642 segr644 segr646 segr648 segr650 segr651 segr653 segr654 segr656 segr658 segr660 segr661 segr663 segr664 segr666 segr668 segr670 segr672 segr674 segr676 segr678 segr679 segr681 segr683 segr685 segr687 segr689 segr690 segr692 segr694 segr696 segr698 segr700 segr702 segr703 segr705 segr707 segr709 segr711 segr713 segr715 segr717 segr719 segr721 segr723 segr725 segr726 segr728 segr730 segr732 segr734 segr735 segr737 segr738 segr740 segr741 }
+   { rank=same; segr0 segr2 segr4 segr6 segr8 segr10 segr12 segr14 segr16 segr18 ptbr00009 segr20 segr22 segr23 segr25 segr26 segr28 segr30 segr32 segr34 ptbr00019 segr35 segr37 segr39 ptbr00023 segr41 segr43 ptbr00026 segr45 segr47 segr49 segr50 segr52 segr53 segr55 segr57 segr59 segr61 segr62 segr64 segr65 segr67 ptbr00041 segr68 segr70 segr71 segr73 segr75 segr76 segr78 segr80 segr82 segr84 segr86 segr88 segr90 segr91 segr93 segr95 segr97 segr99 segr101 segr103 segr105 segr106 segr108 segr109 segr111 segr113 segr114 segr116 segr118 segr120 segr122 segr124 segr126 segr128 segr129 segr131 segr133 segr135 segr137 ptbr00081 segr139 segr141 segr143 segr144 segr146 segr147 segr149 segr151 segr153 segr154 segr156 segr157 segr159 segr161 segr163 segr165 segr167 ptbr00099 segr169 segr170 segr172 segr173 segr175 segr177 segr179 segr181 segr183 segr185 segr187 segr189 segr191 segr193 segr195 segr196 segr198 segr199 segr201 segr203 segr205 segr207 ptbr00122 segr209 segr210 segr212 segr214 segr216 segr218 segr220 segr221 segr223 segr225 segr227 segr229 segr231 ptbr00136 segr232 segr234 segr236 segr237 ptbr00141 segr239 segr241 segr243 segr245 segr247 segr249 segr251 segr253 segr254 segr256 segr258 segr260 segr261 segr263 segr265 segr266 ptbr00158 segr268 segr270 segr271 segr273 segr275 segr277 segr279 segr280 segr282 segr284 segr286 segr287 segr289 segr291 segr292 segr294 segr296 segr298 segr300 segr302 ptbr00180 ptbr00179 segr304 segr306 segr308 segr310 segr312 segr313 segr315 segr316 segr318 segr320 segr322 segr323 ptbr00193 segr325 segr327 segr329 segr330 segr332 segr334 ptbr00200 segr336 segr338 ptbr00203 segr340 segr342 segr344 segr346 segr347 ptbr00209 segr349 segr351 segr352 segr354 segr356 segr357 segr359 segr361 segr363 segr364 segr366 segr367 segr369 segr371 segr373 segr375 segr377 segr379 segr381 segr383 segr385 segr387 segr389 segr391 segr393 ptbr00235 segr395 segr397 segr399 segr401 segr402 segr404 segr406 segr408 segr410 segr412 segr414 segr416 segr418 segr420 segr422 segr424 segr426 segr428 segr430 segr432 segr434 segr436 segr438 segr440 segr442 ptbr00261 segr444 segr446 segr448 segr450 segr452 segr454 segr456 segr458 segr460 segr462 segr464 segr466 segr468 segr470 segr472 segr474 segr476 segr478 ptbr00280 segr480 segr482 segr484 segr486 segr488 segr490 segr492 segr494 segr496 segr498 segr500 segr502 segr504 segr506 segr508 segr510 segr512 segr513 segr515 segr516 segr518 segr520 segr522 segr524 segr526 segr528 segr530 segr532 ptbr00309 ptbr00310 segr534 segr536 segr538 segr540 segr542 segr544 segr546 segr548 segr550 segr552 segr554 segr556 segr557 ptbr00324 segr559 segr561 segr563 segr565 segr567 segr569 segr571 segr572 segr574 segr576 segr578 segr580 segr582 segr584 segr586 segr588 segr590 segr592 segr594 segr596 segr598 ptbr00346 segr600 segr602 segr604 segr606 segr607 segr609 segr611 segr613 segr615 segr617 segr619 segr620 ptbr00359 segr622 segr624 segr626 segr628 segr630 segr632 segr634 segr636 segr637 ptbr00369 segr639 segr640 segr642 segr644 segr646 segr648 segr650 segr651 segr653 segr654 segr656 segr658 segr660 segr661 segr663 segr664 segr666 segr668 segr670 segr672 segr674 segr676 segr678 segr679 segr681 segr683 segr685 segr687 segr689 segr690 segr692 segr694 segr696 segr698 segr700 segr702 segr703 segr705 segr707 segr709 segr711 segr713 segr715 segr717 segr719 segr721 segr723 segr725 segr726 segr728 segr730 segr732 segr734 segr735 segr737 segr738 segr740 segr741 }
    segr0 -> segr2 [ color="white" ]
    segr2 -> segr4 [ color="white" ]
    segr4 -> segr6 [ color="white" ]
@@ -1616,7 +1668,8 @@ digraph {
    segr12 -> segr14 [ color="white" ]
    segr14 -> segr16 [ color="white" ]
    segr16 -> segr18 [ color="white" ]
-   segr18 -> segr20 [ color="white" ]
+   segr18 -> ptbr00009 [ color="white" ]
+   ptbr00009 -> segr20 [ color="white" ]
    segr20 -> segr22 [ color="white" ]
    segr22 -> segr23 [ color="white" ]
    segr23 -> segr25 [ color="white" ]
@@ -1625,12 +1678,15 @@ digraph {
    segr28 -> segr30 [ color="white" ]
    segr30 -> segr32 [ color="white" ]
    segr32 -> segr34 [ color="white" ]
-   segr34 -> segr35 [ color="white" ]
+   segr34 -> ptbr00019 [ color="white" ]
+   ptbr00019 -> segr35 [ color="white" ]
    segr35 -> segr37 [ color="white" ]
    segr37 -> segr39 [ color="white" ]
-   segr39 -> segr41 [ color="white" ]
+   segr39 -> ptbr00023 [ color="white" ]
+   ptbr00023 -> segr41 [ color="white" ]
    segr41 -> segr43 [ color="white" ]
-   segr43 -> segr45 [ color="white" ]
+   segr43 -> ptbr00026 [ color="white" ]
+   ptbr00026 -> segr45 [ color="white" ]
    segr45 -> segr47 [ color="white" ]
    segr47 -> segr49 [ color="white" ]
    segr49 -> segr50 [ color="white" ]
@@ -1644,7 +1700,8 @@ digraph {
    segr62 -> segr64 [ color="white" ]
    segr64 -> segr65 [ color="white" ]
    segr65 -> segr67 [ color="white" ]
-   segr67 -> segr68 [ color="white" ]
+   segr67 -> ptbr00041 [ color="white" ]
+   ptbr00041 -> segr68 [ color="white" ]
    segr68 -> segr70 [ color="white" ]
    segr70 -> segr71 [ color="white" ]
    segr71 -> segr73 [ color="white" ]
@@ -1683,7 +1740,8 @@ digraph {
    segr131 -> segr133 [ color="white" ]
    segr133 -> segr135 [ color="white" ]
    segr135 -> segr137 [ color="white" ]
-   segr137 -> segr139 [ color="white" ]
+   segr137 -> ptbr00081 [ color="white" ]
+   ptbr00081 -> segr139 [ color="white" ]
    segr139 -> segr141 [ color="white" ]
    segr141 -> segr143 [ color="white" ]
    segr143 -> segr144 [ color="white" ]
@@ -1700,7 +1758,8 @@ digraph {
    segr161 -> segr163 [ color="white" ]
    segr163 -> segr165 [ color="white" ]
    segr165 -> segr167 [ color="white" ]
-   segr167 -> segr169 [ color="white" ]
+   segr167 -> ptbr00099 [ color="white" ]
+   ptbr00099 -> segr169 [ color="white" ]
    segr169 -> segr170 [ color="white" ]
    segr170 -> segr172 [ color="white" ]
    segr172 -> segr173 [ color="white" ]
@@ -1722,7 +1781,8 @@ digraph {
    segr201 -> segr203 [ color="white" ]
    segr203 -> segr205 [ color="white" ]
    segr205 -> segr207 [ color="white" ]
-   segr207 -> segr209 [ color="white" ]
+   segr207 -> ptbr00122 [ color="white" ]
+   ptbr00122 -> segr209 [ color="white" ]
    segr209 -> segr210 [ color="white" ]
    segr210 -> segr212 [ color="white" ]
    segr212 -> segr214 [ color="white" ]
@@ -1735,11 +1795,13 @@ digraph {
    segr225 -> segr227 [ color="white" ]
    segr227 -> segr229 [ color="white" ]
    segr229 -> segr231 [ color="white" ]
-   segr231 -> segr232 [ color="white" ]
+   segr231 -> ptbr00136 [ color="white" ]
+   ptbr00136 -> segr232 [ color="white" ]
    segr232 -> segr234 [ color="white" ]
    segr234 -> segr236 [ color="white" ]
    segr236 -> segr237 [ color="white" ]
-   segr237 -> segr239 [ color="white" ]
+   segr237 -> ptbr00141 [ color="white" ]
+   ptbr00141 -> segr239 [ color="white" ]
    segr239 -> segr241 [ color="white" ]
    segr241 -> segr243 [ color="white" ]
    segr243 -> segr245 [ color="white" ]
@@ -1755,7 +1817,8 @@ digraph {
    segr261 -> segr263 [ color="white" ]
    segr263 -> segr265 [ color="white" ]
    segr265 -> segr266 [ color="white" ]
-   segr266 -> segr268 [ color="white" ]
+   segr266 -> ptbr00158 [ color="white" ]
+   ptbr00158 -> segr268 [ color="white" ]
    segr268 -> segr270 [ color="white" ]
    segr270 -> segr271 [ color="white" ]
    segr271 -> segr273 [ color="white" ]
@@ -1775,7 +1838,9 @@ digraph {
    segr296 -> segr298 [ color="white" ]
    segr298 -> segr300 [ color="white" ]
    segr300 -> segr302 [ color="white" ]
-   segr302 -> segr304 [ color="white" ]
+   segr302 -> ptbr00180 [ color="white" ]
+   ptbr00180 -> ptbr00179 [ color="white" ]
+   ptbr00179 -> segr304 [ color="white" ]
    segr304 -> segr306 [ color="white" ]
    segr306 -> segr308 [ color="white" ]
    segr308 -> segr310 [ color="white" ]
@@ -1787,20 +1852,24 @@ digraph {
    segr318 -> segr320 [ color="white" ]
    segr320 -> segr322 [ color="white" ]
    segr322 -> segr323 [ color="white" ]
-   segr323 -> segr325 [ color="white" ]
+   segr323 -> ptbr00193 [ color="white" ]
+   ptbr00193 -> segr325 [ color="white" ]
    segr325 -> segr327 [ color="white" ]
    segr327 -> segr329 [ color="white" ]
    segr329 -> segr330 [ color="white" ]
    segr330 -> segr332 [ color="white" ]
    segr332 -> segr334 [ color="white" ]
-   segr334 -> segr336 [ color="white" ]
+   segr334 -> ptbr00200 [ color="white" ]
+   ptbr00200 -> segr336 [ color="white" ]
    segr336 -> segr338 [ color="white" ]
-   segr338 -> segr340 [ color="white" ]
+   segr338 -> ptbr00203 [ color="white" ]
+   ptbr00203 -> segr340 [ color="white" ]
    segr340 -> segr342 [ color="white" ]
    segr342 -> segr344 [ color="white" ]
    segr344 -> segr346 [ color="white" ]
    segr346 -> segr347 [ color="white" ]
-   segr347 -> segr349 [ color="white" ]
+   segr347 -> ptbr00209 [ color="white" ]
+   ptbr00209 -> segr349 [ color="white" ]
    segr349 -> segr351 [ color="white" ]
    segr351 -> segr352 [ color="white" ]
    segr352 -> segr354 [ color="white" ]
@@ -1825,7 +1894,8 @@ digraph {
    segr387 -> segr389 [ color="white" ]
    segr389 -> segr391 [ color="white" ]
    segr391 -> segr393 [ color="white" ]
-   segr393 -> segr395 [ color="white" ]
+   segr393 -> ptbr00235 [ color="white" ]
+   ptbr00235 -> segr395 [ color="white" ]
    segr395 -> segr397 [ color="white" ]
    segr397 -> segr399 [ color="white" ]
    segr399 -> segr401 [ color="white" ]
@@ -1850,7 +1920,8 @@ digraph {
    segr436 -> segr438 [ color="white" ]
    segr438 -> segr440 [ color="white" ]
    segr440 -> segr442 [ color="white" ]
-   segr442 -> segr444 [ color="white" ]
+   segr442 -> ptbr00261 [ color="white" ]
+   ptbr00261 -> segr444 [ color="white" ]
    segr444 -> segr446 [ color="white" ]
    segr446 -> segr448 [ color="white" ]
    segr448 -> segr450 [ color="white" ]
@@ -1868,7 +1939,8 @@ digraph {
    segr472 -> segr474 [ color="white" ]
    segr474 -> segr476 [ color="white" ]
    segr476 -> segr478 [ color="white" ]
-   segr478 -> segr480 [ color="white" ]
+   segr478 -> ptbr00280 [ color="white" ]
+   ptbr00280 -> segr480 [ color="white" ]
    segr480 -> segr482 [ color="white" ]
    segr482 -> segr484 [ color="white" ]
    segr484 -> segr486 [ color="white" ]
@@ -1896,7 +1968,9 @@ digraph {
    segr526 -> segr528 [ color="white" ]
    segr528 -> segr530 [ color="white" ]
    segr530 -> segr532 [ color="white" ]
-   segr532 -> segr534 [ color="white" ]
+   segr532 -> ptbr00309 [ color="white" ]
+   ptbr00309 -> ptbr00310 [ color="white" ]
+   ptbr00310 -> segr534 [ color="white" ]
    segr534 -> segr536 [ color="white" ]
    segr536 -> segr538 [ color="white" ]
    segr538 -> segr540 [ color="white" ]
@@ -1909,7 +1983,8 @@ digraph {
    segr552 -> segr554 [ color="white" ]
    segr554 -> segr556 [ color="white" ]
    segr556 -> segr557 [ color="white" ]
-   segr557 -> segr559 [ color="white" ]
+   segr557 -> ptbr00324 [ color="white" ]
+   ptbr00324 -> segr559 [ color="white" ]
    segr559 -> segr561 [ color="white" ]
    segr561 -> segr563 [ color="white" ]
    segr563 -> segr565 [ color="white" ]
@@ -1930,7 +2005,8 @@ digraph {
    segr592 -> segr594 [ color="white" ]
    segr594 -> segr596 [ color="white" ]
    segr596 -> segr598 [ color="white" ]
-   segr598 -> segr600 [ color="white" ]
+   segr598 -> ptbr00346 [ color="white" ]
+   ptbr00346 -> segr600 [ color="white" ]
    segr600 -> segr602 [ color="white" ]
    segr602 -> segr604 [ color="white" ]
    segr604 -> segr606 [ color="white" ]
@@ -1942,7 +2018,8 @@ digraph {
    segr615 -> segr617 [ color="white" ]
    segr617 -> segr619 [ color="white" ]
    segr619 -> segr620 [ color="white" ]
-   segr620 -> segr622 [ color="white" ]
+   segr620 -> ptbr00359 [ color="white" ]
+   ptbr00359 -> segr622 [ color="white" ]
    segr622 -> segr624 [ color="white" ]
    segr624 -> segr626 [ color="white" ]
    segr626 -> segr628 [ color="white" ]
@@ -1951,7 +2028,8 @@ digraph {
    segr632 -> segr634 [ color="white" ]
    segr634 -> segr636 [ color="white" ]
    segr636 -> segr637 [ color="white" ]
-   segr637 -> segr639 [ color="white" ]
+   segr637 -> ptbr00369 [ color="white" ]
+   ptbr00369 -> segr639 [ color="white" ]
    segr639 -> segr640 [ color="white" ]
    segr640 -> segr642 [ color="white" ]
    segr642 -> segr644 [ color="white" ]
@@ -2126,12 +2204,12 @@ digraph {
    ptbn00002 -> ptbn00003
    ptbn00002 -> ptbn00004
    ptbn00001 -> ptbn00002
-   ptbn00005 -> ptbn00006
    ptbn00266 -> ptbn00267
-   ptbn00007 -> ptbn00008
+   ptbn00005 -> ptbn00006
    ptbn00268 -> ptbn00269
-   ptbn00007 -> ptbn00009
+   ptbn00007 -> ptbn00008
    ptbn00268 -> ptbn00270
+   ptbn00007 -> ptbn00009
    ptbn00266 -> ptbn00268
    ptbn00271 -> ptbn00272
    ptbn00273 -> ptbn00274
@@ -2149,36 +2227,36 @@ digraph {
    ptbn00281 -> ptbn00282
    ptbn00285 -> ptbn00286
    ptbn00288 -> ptbn00289
-   ptbn00030 -> ptbn00062
    ptbn00255 -> ptbn00257
-   ptbn00030 -> ptbn00055
+   ptbn00030 -> ptbn00062
    ptbn00257 -> ptbn00259
-   ptbn00055 -> ptbn00057
+   ptbn00030 -> ptbn00055
    ptbn00259 -> ptbn00260
-   ptbn00057 -> ptbn00059
+   ptbn00055 -> ptbn00057
    ptbn00260 -> ptbn00248
-   ptbn00442 -> ptbn00446
+   ptbn00057 -> ptbn00059
    ptbn00257 -> ptbn00258
-   ptbn00446 -> ptbn00447
+   ptbn00442 -> ptbn00446
    ptbn00255 -> ptbn00256
-   ptbn00442 -> ptbn00445
+   ptbn00446 -> ptbn00447
    ptbn00253 -> ptbn00254
-   ptbn00442 -> ptbn00443
+   ptbn00442 -> ptbn00445
    ptbn00250 -> ptbn00251
+   ptbn00442 -> ptbn00443
    ptbn00251 -> ptbn00252
    ptbn00719 -> ptbn00725
-   ptbn00067 -> ptbn00069
    ptbn00725 -> ptbn00731
-   ptbn00067 -> ptbn00068
+   ptbn00067 -> ptbn00069
    ptbn00731 -> ptbn00733
-   ptbn00063 -> ptbn00066
+   ptbn00067 -> ptbn00068
    ptbn00733 -> ptbn00735
-   ptbn00063 -> ptbn00064
+   ptbn00063 -> ptbn00066
    ptbn00733 -> ptbn00734
-   ptbn00064 -> ptbn00065
+   ptbn00063 -> ptbn00064
    ptbn00731 -> ptbn00732
-   ptbn00000 -> ptbn00030
+   ptbn00064 -> ptbn00065
    ptbn00725 -> ptbn00727
+   ptbn00000 -> ptbn00030
    ptbn00738 -> ptbn00739
    ptbn00737 -> ptbn00738
    ptbn00719 -> ptbn00736
@@ -2190,8 +2268,8 @@ digraph {
    ptbn00450 -> ptbn00451
    ptbn00450 -> ptbn00452
    ptbn00248 -> ptbn00249
-   ptbn00448 -> ptbn00449
    ptbn00247 -> ptbn00248
+   ptbn00448 -> ptbn00449
    ptbn00044 -> ptbn00046
    ptbn00262 -> ptbn00263
    ptbn00000 -> ptbn00238
@@ -2199,28 +2277,28 @@ digraph {
    ptbn00262 -> ptbn00264
    ptbn00042 -> ptbn00044
    ptbn00264 -> ptbn00265
-   ptbn00460 -> ptbn00461
    ptbn00241 -> ptbn00243
-   ptbn00458 -> ptbn00459
+   ptbn00460 -> ptbn00461
    ptbn00243 -> ptbn00247
+   ptbn00458 -> ptbn00459
    ptbn00238 -> ptbn00261
-   ptbn00460 -> ptbn00462
    ptbn00238 -> ptbn00241
-   ptbn00059 -> ptbn00060
+   ptbn00460 -> ptbn00462
    ptbn00744 -> ptbn00746
-   ptbn00057 -> ptbn00058
+   ptbn00059 -> ptbn00060
    ptbn00746 -> ptbn00747
+   ptbn00057 -> ptbn00058
    ptbn00247 -> ptbn00250
-   ptbn00059 -> ptbn00061
    ptbn00250 -> ptbn00253
-   ptbn00032 -> ptbn00036
+   ptbn00059 -> ptbn00061
    ptbn00742 -> ptbn00743
-   ptbn00036 -> ptbn00039
+   ptbn00032 -> ptbn00036
    ptbn00740 -> ptbn00741
-   ptbn00055 -> ptbn00056
+   ptbn00036 -> ptbn00039
    ptbn00744 -> ptbn00745
-   ptbn00030 -> ptbn00032
+   ptbn00055 -> ptbn00056
    ptbn00740 -> ptbn00742
+   ptbn00030 -> ptbn00032
    ptbn00737 -> ptbn00740
    ptbn00737 -> ptbn00748
    ptbn00000 -> ptbn00737
@@ -2230,39 +2308,39 @@ digraph {
    ptbn00469 -> ptbn00470
    ptbn00468 -> ptbn00469
    ptbn00471 -> ptbn00472
-   ptbn00458 -> ptbn00460
    ptbn00253 -> ptbn00255
+   ptbn00458 -> ptbn00460
    ptbn00463 -> ptbn00464
    ptbn00463 -> ptbn00465
    ptbn00458 -> ptbn00463
-   ptbn00422 -> ptbn00423
    ptbn00228 -> ptbn00229
-   ptbn00414 -> ptbn00416
+   ptbn00422 -> ptbn00423
    ptbn00000 -> ptbn00211
-   ptbn00416 -> ptbn00421
+   ptbn00414 -> ptbn00416
    ptbn00211 -> ptbn00227
+   ptbn00416 -> ptbn00421
    ptbn00416 -> ptbn00418
-   ptbn00047 -> ptbn00048
    ptbn00234 -> ptbn00235
-   ptbn00048 -> ptbn00040
+   ptbn00047 -> ptbn00048
    ptbn00232 -> ptbn00233
-   ptbn00425 -> ptbn00426
+   ptbn00048 -> ptbn00040
    ptbn00228 -> ptbn00230
-   ptbn00426 -> ptbn00427
+   ptbn00425 -> ptbn00426
    ptbn00230 -> ptbn00231
-   ptbn00054 -> ptbn00037
+   ptbn00426 -> ptbn00427
    ptbn00752 -> ptbn00754
-   ptbn00051 -> ptbn00052
+   ptbn00054 -> ptbn00037
    ptbn00754 -> ptbn00755
-   ptbn00049 -> ptbn00050
+   ptbn00051 -> ptbn00052
    ptbn00752 -> ptbn00753
-   ptbn00046 -> ptbn00047
+   ptbn00049 -> ptbn00050
    ptbn00749 -> ptbn00750
+   ptbn00046 -> ptbn00047
    ptbn00046 -> ptbn00049
    ptbn00049 -> ptbn00051
    ptbn00051 -> ptbn00053
-   ptbn00053 -> ptbn00054
    ptbn00756 -> ptbn00757
+   ptbn00053 -> ptbn00054
    ptbn00758 -> ptbn00759
    ptbn00758 -> ptbn00760
    ptbn00044 -> ptbn00045
@@ -2271,27 +2349,27 @@ digraph {
    ptbn00756 -> ptbn00758
    ptbn00752 -> ptbn00756
    ptbn00217 -> ptbn00219
-   ptbn00429 -> ptbn00430
    ptbn00211 -> ptbn00217
+   ptbn00429 -> ptbn00430
    ptbn00223 -> ptbn00225
    ptbn00219 -> ptbn00223
    ptbn00434 -> ptbn00426
    ptbn00433 -> ptbn00434
    ptbn00428 -> ptbn00429
    ptbn00431 -> ptbn00432
-   ptbn00435 -> ptbn00436
    ptbn00000 -> ptbn00228
-   ptbn00431 -> ptbn00433
+   ptbn00435 -> ptbn00436
    ptbn00228 -> ptbn00237
-   ptbn00437 -> ptbn00439
+   ptbn00431 -> ptbn00433
    ptbn00238 -> ptbn00239
-   ptbn00437 -> ptbn00438
+   ptbn00437 -> ptbn00439
    ptbn00239 -> ptbn00240
+   ptbn00437 -> ptbn00438
    ptbn00244 -> ptbn00245
-   ptbn00435 -> ptbn00437
    ptbn00241 -> ptbn00242
-   ptbn00030 -> ptbn00031
+   ptbn00435 -> ptbn00437
    ptbn00243 -> ptbn00244
+   ptbn00030 -> ptbn00031
    ptbn00244 -> ptbn00246
    ptbn00033 -> ptbn00035
    ptbn00763 -> ptbn00764
@@ -2316,8 +2394,8 @@ digraph {
    ptbn00773 -> ptbn00774
    ptbn00234 -> ptbn00236
    ptbn00232 -> ptbn00234
-   ptbn00431 -> ptbn00435
    ptbn00228 -> ptbn00232
+   ptbn00431 -> ptbn00435
    ptbn00428 -> ptbn00431
    ptbn00425 -> ptbn00428
    ptbn00424 -> ptbn00425
@@ -2358,42 +2436,42 @@ digraph {
    ptbn00701 -> ptbn00702
    ptbn00703 -> ptbn00704
    ptbn00705 -> ptbn00706
-   ptbn00096 -> ptbn00097
    ptbn00696 -> ptbn00697
-   ptbn00098 -> ptbn00099
+   ptbn00096 -> ptbn00097
    ptbn00695 -> ptbn00696
-   ptbn00098 -> ptbn00100
+   ptbn00098 -> ptbn00099
    ptbn00695 -> ptbn00698
+   ptbn00098 -> ptbn00100
    ptbn00699 -> ptbn00700
-   ptbn00091 -> ptbn00094
    ptbn00221 -> ptbn00222
-   ptbn00090 -> ptbn00091
+   ptbn00091 -> ptbn00094
    ptbn00219 -> ptbn00221
-   ptbn00090 -> ptbn00095
+   ptbn00090 -> ptbn00091
    ptbn00223 -> ptbn00224
-   ptbn00074 -> ptbn00090
+   ptbn00090 -> ptbn00095
    ptbn00225 -> ptbn00226
+   ptbn00074 -> ptbn00090
    ptbn00707 -> ptbn00708
-   ptbn00074 -> ptbn00089
    ptbn00705 -> ptbn00707
-   ptbn00091 -> ptbn00092
+   ptbn00074 -> ptbn00089
    ptbn00219 -> ptbn00220
-   ptbn00091 -> ptbn00093
+   ptbn00091 -> ptbn00092
    ptbn00222 -> ptbn00215
+   ptbn00091 -> ptbn00093
    ptbn00217 -> ptbn00218
    ptbn00211 -> ptbn00214
    ptbn00211 -> ptbn00212
    ptbn00211 -> ptbn00215
    ptbn00215 -> ptbn00216
    ptbn00703 -> ptbn00705
-   ptbn00078 -> ptbn00079
    ptbn00703 -> ptbn00710
-   ptbn00074 -> ptbn00078
+   ptbn00078 -> ptbn00079
    ptbn00703 -> ptbn00712
-   ptbn00082 -> ptbn00084
+   ptbn00074 -> ptbn00078
    ptbn00703 -> ptbn00709
-   ptbn00079 -> ptbn00082
+   ptbn00082 -> ptbn00084
    ptbn00710 -> ptbn00711
+   ptbn00079 -> ptbn00082
    ptbn00715 -> ptbn00717
    ptbn00713 -> ptbn00715
    ptbn00713 -> ptbn00714
@@ -2420,27 +2498,27 @@ digraph {
    ptbn00701 -> ptbn00703
    ptbn00000 -> ptbn00063
    ptbn00695 -> ptbn00718
-   ptbn00075 -> ptbn00076
    ptbn00000 -> ptbn00695
-   ptbn00074 -> ptbn00075
+   ptbn00075 -> ptbn00076
    ptbn00720 -> ptbn00721
-   ptbn00074 -> ptbn00077
+   ptbn00074 -> ptbn00075
    ptbn00719 -> ptbn00720
-   ptbn00080 -> ptbn00081
+   ptbn00074 -> ptbn00077
    ptbn00719 -> ptbn00722
+   ptbn00080 -> ptbn00081
    ptbn00723 -> ptbn00724
    ptbn00719 -> ptbn00723
    ptbn00725 -> ptbn00726
    ptbn00484 -> ptbn00485
    ptbn00067 -> ptbn00070
-   ptbn00000 -> ptbn00187
    ptbn00063 -> ptbn00067
-   ptbn00071 -> ptbn00072
+   ptbn00000 -> ptbn00187
    ptbn00198 -> ptbn00199
-   ptbn00063 -> ptbn00071
+   ptbn00071 -> ptbn00072
    ptbn00200 -> ptbn00201
-   ptbn00063 -> ptbn00073
+   ptbn00063 -> ptbn00071
    ptbn00198 -> ptbn00200
+   ptbn00063 -> ptbn00073
    ptbn00491 -> ptbn00493
    ptbn00491 -> ptbn00492
    ptbn00489 -> ptbn00491
@@ -2450,28 +2528,28 @@ digraph {
    ptbn00471 -> ptbn00473
    ptbn00473 -> ptbn00484
    ptbn00727 -> ptbn00728
-   ptbn00489 -> ptbn00490
    ptbn00727 -> ptbn00729
-   ptbn00487 -> ptbn00488
+   ptbn00489 -> ptbn00490
    ptbn00729 -> ptbn00730
+   ptbn00487 -> ptbn00488
    ptbn00784 -> ptbn00785
    ptbn00786 -> ptbn00787
    ptbn00589 -> ptbn00590
    ptbn00589 -> ptbn00591
-   ptbn00587 -> ptbn00589
    ptbn00775 -> ptbn00776
-   ptbn00593 -> ptbn00594
+   ptbn00587 -> ptbn00589
    ptbn00775 -> ptbn00777
-   ptbn00595 -> ptbn00596
+   ptbn00593 -> ptbn00594
    ptbn00773 -> ptbn00775
+   ptbn00595 -> ptbn00596
    ptbn00595 -> ptbn00597
    ptbn00593 -> ptbn00595
    ptbn00592 -> ptbn00593
    ptbn00592 -> ptbn00598
    ptbn00599 -> ptbn00600
    ptbn00762 -> ptbn00767
-   ptbn00587 -> ptbn00588
    ptbn00767 -> ptbn00773
+   ptbn00587 -> ptbn00588
    ptbn00778 -> ptbn00779
    ptbn00000 -> ptbn00762
    ptbn00778 -> ptbn00780
@@ -2629,27 +2707,27 @@ digraph {
    ptbn00634 -> ptbn00636
    ptbn00637 -> ptbn00638
    ptbn00000 -> ptbn00611
-   ptbn00297 -> ptbn00299
    ptbn00110 -> ptbn00111
-   ptbn00299 -> ptbn00302
+   ptbn00297 -> ptbn00299
    ptbn00107 -> ptbn00108
+   ptbn00299 -> ptbn00302
    ptbn00299 -> ptbn00301
    ptbn00299 -> ptbn00300
    ptbn00112 -> ptbn00116
-   ptbn00297 -> ptbn00304
    ptbn00112 -> ptbn00113
-   ptbn00304 -> ptbn00305
+   ptbn00297 -> ptbn00304
    ptbn00113 -> ptbn00115
-   ptbn00297 -> ptbn00303
+   ptbn00304 -> ptbn00305
    ptbn00113 -> ptbn00114
+   ptbn00297 -> ptbn00303
    ptbn00074 -> ptbn00106
    ptbn00000 -> ptbn00074
    ptbn00096 -> ptbn00101
    ptbn00074 -> ptbn00096
    ptbn00308 -> ptbn00310
    ptbn00308 -> ptbn00311
-   ptbn00306 -> ptbn00307
    ptbn00108 -> ptbn00109
+   ptbn00306 -> ptbn00307
    ptbn00308 -> ptbn00309
    ptbn00640 -> ptbn00641
    ptbn00642 -> ptbn00643
@@ -2661,13 +2739,13 @@ digraph {
    ptbn00645 -> ptbn00647
    ptbn00647 -> ptbn00649
    ptbn00652 -> ptbn00640
-   ptbn00306 -> ptbn00308
    ptbn00107 -> ptbn00110
+   ptbn00306 -> ptbn00308
    ptbn00308 -> ptbn00312
-   ptbn00297 -> ptbn00313
    ptbn00000 -> ptbn00107
-   ptbn00297 -> ptbn00306
+   ptbn00297 -> ptbn00313
    ptbn00107 -> ptbn00120
+   ptbn00297 -> ptbn00306
    ptbn00315 -> ptbn00316
    ptbn00121 -> ptbn00122
    ptbn00000 -> ptbn00297
