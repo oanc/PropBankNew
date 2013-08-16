@@ -76,10 +76,12 @@ public class FixedPTBNavigator {
 			 for (int k = 0; k < this.sentenceTerminalNodes.get(key).size(); k++){
 				 INode terminalNode = this.sentenceTerminalNodes.get(key).get(k);
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
-				 		System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString());
-				 }
+				 	CharacterAnchor reg1 = (CharacterAnchor) terminalNode.getLinks().get(0).getRegions().get(0).getAnchor(0);
+				 	System.out.println(k + ". TRACE NODE:" + terminalNode.getAnnotation().features().toString() + reg1);
+				 	}
 				 else{
-				 	System.out.println(k + ". " + terminalNode.getAnnotation().features().toString());
+					 CharacterAnchor reg1 = (CharacterAnchor) terminalNode.getLinks().get(0).getRegions().get(0).getAnchor(0);
+				 	System.out.println(k + ". " + terminalNode.getAnnotation().features().toString() + reg1);
 				 } 
 			 }
 		 }
@@ -165,33 +167,26 @@ public class FixedPTBNavigator {
 
 	
 	/**
-	 * Take a list of terminal nodes, remove all of the trace nodes and return an ArrayList containing those trace
-	 * nodes -- these will then be inserted in the appropriate place. 
+	 * Take a list of terminal nodes, move each trace node directly ahead of the terminal node with a corresponding anchor value.
 	 * @param terminals
 	 * @return
 	 */
 	private void fixTraces(ArrayList<INode> terminals){
 		ArrayList<INode> terminalNodes = new ArrayList<INode>();
-		ArrayList<INode> traces = new ArrayList<INode>();
 		terminalNodes.addAll(terminals);
-		for (INode terminal: terminalNodes){
-			if (terminal.getAnnotation().getLabel().equals("Trace")){
-				int index = terminals.indexOf(terminal);
-				terminals.remove(terminal);
-				if (index != 0){
-					terminals.add(index-1, terminal);
-				}
-				else{
-					terminals.add(0, terminal);
+		for (int i = 0; i < (terminalNodes.size() - 1); i ++){
+			CharacterAnchor reg1 = (CharacterAnchor) terminalNodes.get(i).getLinks().get(0).getRegions().get(0).getAnchor(0);
+			CharacterAnchor reg2 = (CharacterAnchor) terminalNodes.get(i + 1).getLinks().get(0).getRegions().get(0).getAnchor(0);
+			if (reg1.equals(reg2)){
+				if (terminalNodes.get(i + 1).getAnnotation().getLabel().equals("Trace")){
+					int index = terminals.indexOf(terminalNodes.get(i+1));
+					terminals.remove(terminalNodes.get(i+1));
+					terminals.add(index-1, terminalNodes.get(i + 1));
 				}
 			}
 		}
 	}
 	
-
-	
-
-
 
 
 //-- ACCESSOR FUNCTIONS FOR TESTING -- //
