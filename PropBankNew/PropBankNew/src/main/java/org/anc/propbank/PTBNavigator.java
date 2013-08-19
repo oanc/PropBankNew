@@ -10,7 +10,7 @@ import org.xces.graf.io.*;
 import org.xces.graf.io.dom.ResourceHeader;
 import org.xml.sax.SAXException;
 
-public class FixedPTBNavigator {
+public class PTBNavigator {
 	
 	//---FIELDS---//
 	 public static final Constants K = new Constants();
@@ -30,7 +30,7 @@ public class FixedPTBNavigator {
 	  * @throws IOException
 	  * @throws GrafException
 	  */
-	 public FixedPTBNavigator(String fileName) throws SAXException, IOException, GrafException{
+	 public PTBNavigator(String fileName) throws SAXException, IOException, GrafException{
 		 
 		 /// Initialize all fields
 		 this.sentenceTerminalNodes = new HashMap<Integer, ArrayList<INode>>();
