@@ -78,7 +78,7 @@ public class PropbankDriver {
 		dotRenderer1.render(graph);
 		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
-		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
+		PTBNavigator navigator = new PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		navigator.printTerminalDetails();
 
 //		System.out.println("=========== NAVIGATE DETAILS=============");

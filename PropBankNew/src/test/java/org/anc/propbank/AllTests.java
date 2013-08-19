@@ -40,7 +40,7 @@ public class AllTests {
 	//TESTS FOR FILE RINDNERBONNIE
 	@Test
 	public void testDepthFirstSearch() throws SAXException, IOException, GrafException{
-		FixedPTBNavigator navigator = new FixedPTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
+		PTBNavigator navigator = new PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
 		assertTrue(navigator.getSentenceTerminalNodes().get(0).size() == 5);
 	}
 	
