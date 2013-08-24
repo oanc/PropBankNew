@@ -13,6 +13,32 @@
 	<url>http://www.anc.org/</url>
 	<build>
 		<plugins>
+      		<plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>
+                                org.anc.propbank.PropbankDriver
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                    <finalName>Propbank</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attached</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.3.2</version>
@@ -104,7 +130,7 @@
 		<dependency>
 			<groupId>org.anc</groupId>
 			<artifactId>common</artifactId>
-			<version>3.1.0</version>
+			<version>3.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.tc37sc4.graf</groupId>

@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graph xmlns="http://www.xces.org/ns/GrAF/1.0/">
+    <graphHeader>
+        <labelsDecl>
+            <labelUsage label="INTJ" occurs="3"/>
+            <labelUsage label="PRT" occurs="2"/>
+            <labelUsage label="VP" occurs="1"/>
+            <labelUsage label="ARGM-TMP" occurs="8"/>
+            <labelUsage label="NP" occurs="38"/>
+            <labelUsage label="ARG0" occurs="21"/>
+            <labelUsage label="ARGM-DIS" occurs="4"/>
+            <labelUsage label="ARG1" occurs="28"/>
+            <labelUsage label="SBAR" occurs="2"/>
+            <labelUsage label="ARG2" occurs="13"/>
+            <labelUsage label="S" occurs="6"/>
+            <labelUsage label="ARGM-MNR" occurs="2"/>
+            <labelUsage label="tok" occurs="38"/>
+            <labelUsage label="LINK-SLC" occurs="3"/>
+            <labelUsage label="ARGM-DIR" occurs="1"/>
+            <labelUsage label="Trace" occurs="17"/>
+            <labelUsage label="ARGM-MOD" occurs="3"/>
+            <labelUsage label="ADVP" occurs="3"/>
+            <labelUsage label="ARGM-PRD" occurs="2"/>
+            <labelUsage label="ARGM-LOC" occurs="4"/>
+            <labelUsage label="PP" occurs="8"/>
+            <labelUsage label="PropBank" occurs="34"/>
+            <labelUsage label="ARGM-PRP" occurs="2"/>
+            <labelUsage label="rel" occurs="34"/>
+            <labelUsage label="WHNP" occurs="1"/>
+            <labelUsage label="WHADVP" occurs="6"/>
+            <labelUsage label="ADJP" occurs="3"/>
+        </labelsDecl>
+        <dependencies>
+            <dependsOn f.id="new-test-files/113CWL018-ptb.xml"/>
+        </dependencies>
+    </graphHeader>
+    <node xml:id="pb-n0"/>
+    <a xml:id="pb-a0" label="PropBank" ref="pb-n0"/>
+    <node xml:id="pb-n1"/>
+    <a xml:id="pb-a1" label="ARG0" ref="pb-n1"/>
+    <node xml:id="pb-n10"/>
+    <a xml:id="pb-a10" label="ARGM-PRD" ref="pb-n10"/>
+    <node xml:id="pb-n100"/>
+    <a xml:id="pb-a100" label="ARG1" ref="pb-n100"/>
+    <node xml:id="pb-n101"/>
+    <a xml:id="pb-a101" label="ARG2" ref="pb-n101"/>
+    <node xml:id="pb-n102"/>
+    <a xml:id="pb-a102" label="ARGM-TMP" ref="pb-n102"/>
+    <node xml:id="pb-n103"/>
+    <a xml:id="pb-a103" label="rel" ref="pb-n103"/>
+    <node xml:id="pb-n104"/>
+    <a xml:id="pb-a104" label="PropBank" ref="pb-n104"/>
+    <node xml:id="pb-n105"/>
+    <a xml:id="pb-a105" label="rel" ref="pb-n105"/>
+    <node xml:id="pb-n106"/>
+    <a xml:id="pb-a106" label="PropBank" ref="pb-n106"/>
+    <node xml:id="pb-n107"/>
+    <a xml:id="pb-a107" label="ARG0" ref="pb-n107"/>
+    <node xml:id="pb-n108"/>
+    <a xml:id="pb-a108" label="ARG1" ref="pb-n108"/>
+    <node xml:id="pb-n109"/>
+    <a xml:id="pb-a109" label="ARG2" ref="pb-n109"/>
+    <node xml:id="pb-n11"/>
+    <a xml:id="pb-a11" label="PropBank" ref="pb-n11"/>
+    <node xml:id="pb-n110"/>
+    <a xml:id="pb-a110" label="ARGM-TMP" ref="pb-n110"/>
+    <node xml:id="pb-n111"/>
+    <a xml:id="pb-a111" label="rel" ref="pb-n111"/>
+    <node xml:id="pb-n112"/>
+    <a xml:id="pb-a112" label="PropBank" ref="pb-n112"/>
+    <node xml:id="pb-n113"/>
+    <a xml:id="pb-a113" label="ARG0" ref="pb-n113"/>
+    <node xml:id="pb-n114"/>
+    <a xml:id="pb-a114" label="ARG1" ref="pb-n114"/>
+    <node xml:id="pb-n115"/>
+    <a xml:id="pb-a115" label="rel" ref="pb-n115"/>
+    <node xml:id="pb-n116"/>
+    <a xml:id="pb-a116" label="PropBank" ref="pb-n116"/>
+    <node xml:id="pb-n117"/>
+    <a xml:id="pb-a117" label="ARG1" ref="pb-n117"/>
+    <node xml:id="pb-n118"/>
+    <a xml:id="pb-a118" label="ARG2" ref="pb-n118"/>
+    <node xml:id="pb-n119"/>
+    <a xml:id="pb-a119" label="rel" ref="pb-n119"/>
+    <node xml:id="pb-n12"/>
+    <a xml:id="pb-a12" label="ARG0" ref="pb-n12"/>
+    <node xml:id="pb-n120"/>
+    <a xml:id="pb-a120" label="PropBank" ref="pb-n120"/>
+    <node xml:id="pb-n121"/>
+    <a xml:id="pb-a121" label="ARG0" ref="pb-n121"/>
+    <node xml:id="pb-n122"/>
+    <a xml:id="pb-a122" label="ARG1" ref="pb-n122"/>
+    <node xml:id="pb-n123"/>
+    <a xml:id="pb-a123" label="rel" ref="pb-n123"/>
+    <node xml:id="pb-n124"/>
+    <a xml:id="pb-a124" label="PropBank" ref="pb-n124"/>
+    <node xml:id="pb-n125"/>
+    <a xml:id="pb-a125" label="ARG1" ref="pb-n125"/>
+    <node xml:id="pb-n126"/>
+    <a xml:id="pb-a126" label="ARGM-TMP" ref="pb-n126"/>
+    <node xml:id="pb-n127"/>
+    <a xml:id="pb-a127" label="ARG2" ref="pb-n127"/>
+    <node xml:id="pb-n128"/>
+    <a xml:id="pb-a128" label="rel" ref="pb-n128"/>
+    <node xml:id="pb-n129"/>
+    <a xml:id="pb-a129" label="PropBank" ref="pb-n129"/>
+    <node xml:id="pb-n13"/>
+    <a xml:id="pb-a13" label="ARG1" ref="pb-n13"/>
+    <node xml:id="pb-n130"/>
+    <a xml:id="pb-a130" label="ARG0" ref="pb-n130"/>
+    <node xml:id="pb-n131"/>
+    <a xml:id="pb-a131" label="ARG1" ref="pb-n131"/>
+    <node xml:id="pb-n132"/>
+    <a xml:id="pb-a132" label="ARGM-DIS" ref="pb-n132"/>
+    <node xml:id="pb-n133"/>
+    <a xml:id="pb-a133" label="ARGM-MOD" ref="pb-n133"/>
+    <node xml:id="pb-n134"/>
+    <a xml:id="pb-a134" label="ARGM-TMP" ref="pb-n134"/>
+    <node xml:id="pb-n135"/>
+    <a xml:id="pb-a135" label="rel" ref="pb-n135"/>
+    <node xml:id="pb-n136"/>
+    <a xml:id="pb-a136" label="PropBank" ref="pb-n136"/>
+    <node xml:id="pb-n137"/>
+    <a xml:id="pb-a137" label="ARG0" ref="pb-n137"/>
+    <node xml:id="pb-n138"/>
+    <a xml:id="pb-a138" label="ARGM-DIS" ref="pb-n138"/>
+    <node xml:id="pb-n139"/>
+    <a xml:id="pb-a139" label="ARGM-MNR" ref="pb-n139"/>
+    <node xml:id="pb-n14"/>
+    <a xml:id="pb-a14" label="rel" ref="pb-n14"/>
+    <node xml:id="pb-n140"/>
+    <a xml:id="pb-a140" label="rel" ref="pb-n140"/>
+    <node xml:id="pb-n141"/>
+    <a xml:id="pb-a141" label="PropBank" ref="pb-n141"/>
+    <node xml:id="pb-n142"/>
+    <a xml:id="pb-a142" label="rel" ref="pb-n142"/>
+    <node xml:id="pb-n143"/>
+    <a xml:id="pb-a143" label="PropBank" ref="pb-n143"/>
+    <node xml:id="pb-n144"/>
+    <a xml:id="pb-a144" label="ARG0" ref="pb-n144"/>
+    <node xml:id="pb-n145"/>
+    <a xml:id="pb-a145" label="ARG1" ref="pb-n145"/>
+    <node xml:id="pb-n146"/>
+    <a xml:id="pb-a146" label="rel" ref="pb-n146"/>
+    <node xml:id="pb-n147"/>
+    <a xml:id="pb-a147" label="PropBank" ref="pb-n147"/>
+    <node xml:id="pb-n148"/>
+    <a xml:id="pb-a148" label="ARG0" ref="pb-n148"/>
+    <node xml:id="pb-n149"/>
+    <a xml:id="pb-a149" label="ARGM-DIS" ref="pb-n149"/>
+    <node xml:id="pb-n15"/>
+    <a xml:id="pb-a15" label="PropBank" ref="pb-n15"/>
+    <node xml:id="pb-n150"/>
+    <a xml:id="pb-a150" label="rel" ref="pb-n150"/>
+    <node xml:id="pb-n151"/>
+    <a xml:id="pb-a151" label="PropBank" ref="pb-n151"/>
+    <node xml:id="pb-n152"/>
+    <a xml:id="pb-a152" label="ARG0" ref="pb-n152"/>
+    <node xml:id="pb-n153"/>
+    <a xml:id="pb-a153" label="ARGM-DIS" ref="pb-n153"/>
+    <node xml:id="pb-n154"/>
+    <a xml:id="pb-a154" label="ARGM-LOC" ref="pb-n154"/>
+    <node xml:id="pb-n155"/>
+    <a xml:id="pb-a155" label="rel" ref="pb-n155"/>
+    <node xml:id="pb-n156"/>
+    <a xml:id="pb-a156" label="PropBank" ref="pb-n156"/>
+    <node xml:id="pb-n157"/>
+    <a xml:id="pb-a157" label="ARG2" ref="pb-n157"/>
+    <node xml:id="pb-n158"/>
+    <a xml:id="pb-a158" label="rel" ref="pb-n158"/>
+    <node xml:id="pb-n16"/>
+    <a xml:id="pb-a16" label="ARG1" ref="pb-n16"/>
+    <node xml:id="pb-n17"/>
+    <a xml:id="pb-a17" label="ARG2" ref="pb-n17"/>
+    <node xml:id="pb-n18"/>
+    <a xml:id="pb-a18" label="rel" ref="pb-n18"/>
+    <node xml:id="pb-n19"/>
+    <a xml:id="pb-a19" label="PropBank" ref="pb-n19"/>
+    <node xml:id="pb-n2"/>
+    <a xml:id="pb-a2" label="ARG1" ref="pb-n2"/>
+    <node xml:id="pb-n20"/>
+    <a xml:id="pb-a20" label="ARG1" ref="pb-n20"/>
+    <node xml:id="pb-n21"/>
+    <a xml:id="pb-a21" label="ARGM-LOC" ref="pb-n21"/>
+    <node xml:id="pb-n22"/>
+    <a xml:id="pb-a22" label="rel" ref="pb-n22"/>
+    <node xml:id="pb-n23"/>
+    <a xml:id="pb-a23" label="ARGM-DIR" ref="pb-n23"/>
+    <node xml:id="pb-n24"/>
+    <a xml:id="pb-a24" label="PropBank" ref="pb-n24"/>
+    <node xml:id="pb-n25"/>
+    <a xml:id="pb-a25" label="ARG0" ref="pb-n25"/>
+    <node xml:id="pb-n26"/>
+    <a xml:id="pb-a26" label="ARG1" ref="pb-n26"/>
+    <node xml:id="pb-n27"/>
+    <a xml:id="pb-a27" label="rel" ref="pb-n27"/>
+    <node xml:id="pb-n28"/>
+    <a xml:id="pb-a28" label="PropBank" ref="pb-n28"/>
+    <node xml:id="pb-n29"/>
+    <a xml:id="pb-a29" label="ARG1" ref="pb-n29"/>
+    <node xml:id="pb-n3"/>
+    <a xml:id="pb-a3" label="ARGM-TMP" ref="pb-n3"/>
+    <node xml:id="pb-n30"/>
+    <a xml:id="pb-a30" label="ARGM-LOC" ref="pb-n30"/>
+    <node xml:id="pb-n31"/>
+    <a xml:id="pb-a31" label="ARG2" ref="pb-n31"/>
+    <node xml:id="pb-n32"/>
+    <a xml:id="pb-a32" label="rel" ref="pb-n32"/>
+    <node xml:id="pb-n33"/>
+    <a xml:id="pb-a33" label="LINK-SLC" ref="pb-n33"/>
+    <node xml:id="pb-n34"/>
+    <a xml:id="pb-a34" label="PropBank" ref="pb-n34"/>
+    <node xml:id="pb-n35"/>
+    <a xml:id="pb-a35" label="ARG0" ref="pb-n35"/>
+    <node xml:id="pb-n36"/>
+    <a xml:id="pb-a36" label="ARG1" ref="pb-n36"/>
+    <node xml:id="pb-n37"/>
+    <a xml:id="pb-a37" label="ARG2" ref="pb-n37"/>
+    <node xml:id="pb-n38"/>
+    <a xml:id="pb-a38" label="ARGM-MNR" ref="pb-n38"/>
+    <node xml:id="pb-n39"/>
+    <a xml:id="pb-a39" label="rel" ref="pb-n39"/>
+    <node xml:id="pb-n4"/>
+    <a xml:id="pb-a4" label="rel" ref="pb-n4"/>
+    <node xml:id="pb-n40"/>
+    <a xml:id="pb-a40" label="PropBank" ref="pb-n40"/>
+    <node xml:id="pb-n41"/>
+    <a xml:id="pb-a41" label="ARG0" ref="pb-n41"/>
+    <node xml:id="pb-n42"/>
+    <a xml:id="pb-a42" label="ARG1" ref="pb-n42"/>
+    <node xml:id="pb-n43"/>
+    <a xml:id="pb-a43" label="rel" ref="pb-n43"/>
+    <node xml:id="pb-n44"/>
+    <a xml:id="pb-a44" label="PropBank" ref="pb-n44"/>
+    <node xml:id="pb-n45"/>
+    <a xml:id="pb-a45" label="ARG0" ref="pb-n45"/>
+    <node xml:id="pb-n46"/>
+    <a xml:id="pb-a46" label="ARG1" ref="pb-n46"/>
+    <node xml:id="pb-n47"/>
+    <a xml:id="pb-a47" label="ARG2" ref="pb-n47"/>
+    <node xml:id="pb-n48"/>
+    <a xml:id="pb-a48" label="rel" ref="pb-n48"/>
+    <node xml:id="pb-n49"/>
+    <a xml:id="pb-a49" label="PropBank" ref="pb-n49"/>
+    <node xml:id="pb-n5"/>
+    <a xml:id="pb-a5" label="PropBank" ref="pb-n5"/>
+    <node xml:id="pb-n50"/>
+    <a xml:id="pb-a50" label="ARG0" ref="pb-n50"/>
+    <node xml:id="pb-n51"/>
+    <a xml:id="pb-a51" label="ARG1" ref="pb-n51"/>
+    <node xml:id="pb-n52"/>
+    <a xml:id="pb-a52" label="ARGM-LOC" ref="pb-n52"/>
+    <node xml:id="pb-n53"/>
+    <a xml:id="pb-a53" label="ARGM-MOD" ref="pb-n53"/>
+    <node xml:id="pb-n54"/>
+    <a xml:id="pb-a54" label="rel" ref="pb-n54"/>
+    <node xml:id="pb-n55"/>
+    <a xml:id="pb-a55" label="LINK-SLC" ref="pb-n55"/>
+    <node xml:id="pb-n56"/>
+    <a xml:id="pb-a56" label="PropBank" ref="pb-n56"/>
+    <node xml:id="pb-n57"/>
+    <a xml:id="pb-a57" label="ARG0" ref="pb-n57"/>
+    <node xml:id="pb-n58"/>
+    <a xml:id="pb-a58" label="ARG1" ref="pb-n58"/>
+    <node xml:id="pb-n59"/>
+    <a xml:id="pb-a59" label="rel" ref="pb-n59"/>
+    <node xml:id="pb-n6"/>
+    <a xml:id="pb-a6" label="ARG0" ref="pb-n6"/>
+    <node xml:id="pb-n60"/>
+    <a xml:id="pb-a60" label="PropBank" ref="pb-n60"/>
+    <node xml:id="pb-n61"/>
+    <a xml:id="pb-a61" label="ARG1" ref="pb-n61"/>
+    <node xml:id="pb-n62"/>
+    <a xml:id="pb-a62" label="ARGM-MOD" ref="pb-n62"/>
+    <node xml:id="pb-n63"/>
+    <a xml:id="pb-a63" label="ARGM-TMP" ref="pb-n63"/>
+    <node xml:id="pb-n64"/>
+    <a xml:id="pb-a64" label="ARG2" ref="pb-n64"/>
+    <node xml:id="pb-n65"/>
+    <a xml:id="pb-a65" label="ARGM-PRP" ref="pb-n65"/>
+    <node xml:id="pb-n66"/>
+    <a xml:id="pb-a66" label="rel" ref="pb-n66"/>
+    <node xml:id="pb-n67"/>
+    <a xml:id="pb-a67" label="ARGM-PRD" ref="pb-n67"/>
+    <node xml:id="pb-n68"/>
+    <a xml:id="pb-a68" label="PropBank" ref="pb-n68"/>
+    <node xml:id="pb-n69"/>
+    <a xml:id="pb-a69" label="ARG0" ref="pb-n69"/>
+    <node xml:id="pb-n7"/>
+    <a xml:id="pb-a7" label="ARG1" ref="pb-n7"/>
+    <node xml:id="pb-n70"/>
+    <a xml:id="pb-a70" label="ARG1" ref="pb-n70"/>
+    <node xml:id="pb-n71"/>
+    <a xml:id="pb-a71" label="ARGM-TMP" ref="pb-n71"/>
+    <node xml:id="pb-n72"/>
+    <a xml:id="pb-a72" label="rel" ref="pb-n72"/>
+    <node xml:id="pb-n73"/>
+    <a xml:id="pb-a73" label="PropBank" ref="pb-n73"/>
+    <node xml:id="pb-n74"/>
+    <a xml:id="pb-a74" label="ARG0" ref="pb-n74"/>
+    <node xml:id="pb-n75"/>
+    <a xml:id="pb-a75" label="ARG1" ref="pb-n75"/>
+    <node xml:id="pb-n76"/>
+    <a xml:id="pb-a76" label="ARGM-PRP" ref="pb-n76"/>
+    <node xml:id="pb-n77"/>
+    <a xml:id="pb-a77" label="rel" ref="pb-n77"/>
+    <node xml:id="pb-n78"/>
+    <a xml:id="pb-a78" label="LINK-SLC" ref="pb-n78"/>
+    <node xml:id="pb-n79"/>
+    <a xml:id="pb-a79" label="PropBank" ref="pb-n79"/>
+    <node xml:id="pb-n8"/>
+    <a xml:id="pb-a8" label="ARGM-TMP" ref="pb-n8"/>
+    <node xml:id="pb-n80"/>
+    <a xml:id="pb-a80" label="ARG0" ref="pb-n80"/>
+    <node xml:id="pb-n81"/>
+    <a xml:id="pb-a81" label="ARG1" ref="pb-n81"/>
+    <node xml:id="pb-n82"/>
+    <a xml:id="pb-a82" label="rel" ref="pb-n82"/>
+    <node xml:id="pb-n83"/>
+    <a xml:id="pb-a83" label="PropBank" ref="pb-n83"/>
+    <node xml:id="pb-n84"/>
+    <a xml:id="pb-a84" label="ARG1" ref="pb-n84"/>
+    <node xml:id="pb-n85"/>
+    <a xml:id="pb-a85" label="ARG2" ref="pb-n85"/>
+    <node xml:id="pb-n86"/>
+    <a xml:id="pb-a86" label="rel" ref="pb-n86"/>
+    <node xml:id="pb-n87"/>
+    <a xml:id="pb-a87" label="PropBank" ref="pb-n87"/>
+    <node xml:id="pb-n88"/>
+    <a xml:id="pb-a88" label="ARG1" ref="pb-n88"/>
+    <node xml:id="pb-n89"/>
+    <a xml:id="pb-a89" label="ARG2" ref="pb-n89"/>
+    <node xml:id="pb-n9"/>
+    <a xml:id="pb-a9" label="rel" ref="pb-n9"/>
+    <node xml:id="pb-n90"/>
+    <a xml:id="pb-a90" label="rel" ref="pb-n90"/>
+    <node xml:id="pb-n91"/>
+    <a xml:id="pb-a91" label="PropBank" ref="pb-n91"/>
+    <node xml:id="pb-n92"/>
+    <a xml:id="pb-a92" label="ARG0" ref="pb-n92"/>
+    <node xml:id="pb-n93"/>
+    <a xml:id="pb-a93" label="ARG1" ref="pb-n93"/>
+    <node xml:id="pb-n94"/>
+    <a xml:id="pb-a94" label="rel" ref="pb-n94"/>
+    <node xml:id="pb-n95"/>
+    <a xml:id="pb-a95" label="PropBank" ref="pb-n95"/>
+    <node xml:id="pb-n96"/>
+    <a xml:id="pb-a96" label="ARG1" ref="pb-n96"/>
+    <node xml:id="pb-n97"/>
+    <a xml:id="pb-a97" label="ARG2" ref="pb-n97"/>
+    <node xml:id="pb-n98"/>
+    <a xml:id="pb-a98" label="rel" ref="pb-n98"/>
+    <node xml:id="pb-n99"/>
+    <a xml:id="pb-a99" label="PropBank" ref="pb-n99"/>
+    <node xml:id="ptb-n00012"/>
+    <a xml:id="ptb-a00011" label="NP" ref="ptb-n00012" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00014"/>
+    <a xml:id="ptb-a00013" label="NP" ref="ptb-n00014" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00017">
+        <link targets="seg-r15"/>
+    </node>
+    <a xml:id="ptb-a00016" label="tok" ref="ptb-n00017" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00018"/>
+    <a xml:id="ptb-a00017" label="NP" ref="ptb-n00018" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00044"/>
+    <a xml:id="ptb-a00043" label="NP" ref="ptb-n00044" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00046"/>
+    <a xml:id="ptb-a00045" label="ADVP" ref="ptb-n00046" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00049">
+        <link targets="seg-r45"/>
+    </node>
+    <a xml:id="ptb-a00048" label="tok" ref="ptb-n00049" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00050"/>
+    <a xml:id="ptb-a00049" label="NP" ref="ptb-n00050" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00052"/>
+    <a xml:id="ptb-a00051" label="S" ref="ptb-n00052" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00054">
+        <link targets="ptb-r00026"/>
+    </node>
+    <a xml:id="ptb-a00053" label="Trace" ref="ptb-n00054" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00056">
+        <link targets="seg-r49"/>
+    </node>
+    <a xml:id="ptb-a00055" label="tok" ref="ptb-n00056" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00057"/>
+    <a xml:id="ptb-a00056" label="ADJP" ref="ptb-n00057" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00063"/>
+    <a xml:id="ptb-a00062" label="NP" ref="ptb-n00063" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00066">
+        <link targets="seg-r59"/>
+    </node>
+    <a xml:id="ptb-a00065" label="tok" ref="ptb-n00066" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00067"/>
+    <a xml:id="ptb-a00066" label="SBAR" ref="ptb-n00067" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+            <f name="roles" value="LOC-PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00068"/>
+    <a xml:id="ptb-a00067" label="WHADVP" ref="ptb-n00068" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00071"/>
+    <a xml:id="ptb-a00070" label="NP" ref="ptb-n00071" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00084">
+        <link targets="seg-r77"/>
+    </node>
+    <a xml:id="ptb-a00083" label="tok" ref="ptb-n00084" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00085"/>
+    <a xml:id="ptb-a00084" label="PRT" ref="ptb-n00085" as="ptb">
+        <fs>
+            <f name="cat" value="PRT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00088">
+        <link targets="ptb-r00044"/>
+    </node>
+    <a xml:id="ptb-a00087" label="Trace" ref="ptb-n00088" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00091"/>
+    <a xml:id="ptb-a00090" label="NP" ref="ptb-n00091" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00094">
+        <link targets="seg-r84"/>
+    </node>
+    <a xml:id="ptb-a00093" label="tok" ref="ptb-n00094" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00095"/>
+    <a xml:id="ptb-a00094" label="PRT" ref="ptb-n00095" as="ptb">
+        <fs>
+            <f name="cat" value="PRT"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00097"/>
+    <a xml:id="ptb-a00096" label="PP" ref="ptb-n00097" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00111"/>
+    <a xml:id="ptb-a00110" label="NP" ref="ptb-n00111" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00115"/>
+    <a xml:id="ptb-a00114" label="WHADVP" ref="ptb-n00115" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00118"/>
+    <a xml:id="ptb-a00117" label="NP" ref="ptb-n00118" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00122">
+        <link targets="seg-r111"/>
+    </node>
+    <a xml:id="ptb-a00121" label="tok" ref="ptb-n00122" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00123"/>
+    <a xml:id="ptb-a00122" label="ADJP" ref="ptb-n00123" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00126">
+        <link targets="ptb-r00062"/>
+    </node>
+    <a xml:id="ptb-a00125" label="Trace" ref="ptb-n00126" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00129"/>
+    <a xml:id="ptb-a00128" label="NP" ref="ptb-n00129" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00132">
+        <link targets="seg-r118"/>
+    </node>
+    <a xml:id="ptb-a00131" label="tok" ref="ptb-n00132" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00133"/>
+    <a xml:id="ptb-a00132" label="NP" ref="ptb-n00133" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00135"/>
+    <a xml:id="ptb-a00134" label="NP" ref="ptb-n00135" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00140">
+        <link targets="ptb-r00069"/>
+    </node>
+    <a xml:id="ptb-a00139" label="Trace" ref="ptb-n00140" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00144">
+        <link targets="seg-r128"/>
+    </node>
+    <a xml:id="ptb-a00143" label="tok" ref="ptb-n00144" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00145"/>
+    <a xml:id="ptb-a00144" label="NP" ref="ptb-n00145" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00149"/>
+    <a xml:id="ptb-a00148" label="PP" ref="ptb-n00149" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00153">
+        <link targets="ptb-r00076"/>
+    </node>
+    <a xml:id="ptb-a00152" label="Trace" ref="ptb-n00153" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00155">
+        <link targets="seg-r138"/>
+    </node>
+    <a xml:id="ptb-a00154" label="tok" ref="ptb-n00155" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00156"/>
+    <a xml:id="ptb-a00155" label="NP" ref="ptb-n00156" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00158"/>
+    <a xml:id="ptb-a00157" label="NP" ref="ptb-n00158" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00159"/>
+    <a xml:id="ptb-a00158" label="NP" ref="ptb-n00159" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00163"/>
+    <a xml:id="ptb-a00162" label="WHADVP" ref="ptb-n00163" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00166"/>
+    <a xml:id="ptb-a00165" label="NP" ref="ptb-n00166" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00169">
+        <link targets="seg-r150"/>
+    </node>
+    <a xml:id="ptb-a00168" label="tok" ref="ptb-n00169" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00171">
+        <link targets="seg-r152"/>
+    </node>
+    <a xml:id="ptb-a00170" label="tok" ref="ptb-n00171" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00172"/>
+    <a xml:id="ptb-a00171" label="NP" ref="ptb-n00172" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00203">
+        <link targets="ptb-r00100"/>
+    </node>
+    <a xml:id="ptb-a00202" label="Trace" ref="ptb-n00203" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00206"/>
+    <a xml:id="ptb-a00205" label="S" ref="ptb-n00206" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+            <f name="roles" value="PRP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00208">
+        <link targets="ptb-r00102"/>
+    </node>
+    <a xml:id="ptb-a00207" label="Trace" ref="ptb-n00208" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00212">
+        <link targets="seg-r185"/>
+    </node>
+    <a xml:id="ptb-a00211" label="tok" ref="ptb-n00212" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00213"/>
+    <a xml:id="ptb-a00212" label="NP" ref="ptb-n00213" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00216"/>
+    <a xml:id="ptb-a00215" label="NP" ref="ptb-n00216" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00231">
+        <link targets="seg-r208"/>
+    </node>
+    <a xml:id="ptb-a00230" label="tok" ref="ptb-n00231" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00233">
+        <link targets="seg-r210"/>
+    </node>
+    <a xml:id="ptb-a00232" label="tok" ref="ptb-n00233" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00234"/>
+    <a xml:id="ptb-a00233" label="ADJP" ref="ptb-n00234" as="ptb">
+        <fs>
+            <f name="cat" value="ADJP"/>
+            <f name="roles" value="PRD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00239"/>
+    <a xml:id="ptb-a00238" label="WHADVP" ref="ptb-n00239" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00242"/>
+    <a xml:id="ptb-a00241" label="NP" ref="ptb-n00242" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00246">
+        <link targets="seg-r224"/>
+    </node>
+    <a xml:id="ptb-a00245" label="tok" ref="ptb-n00246" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00247"/>
+    <a xml:id="ptb-a00246" label="NP" ref="ptb-n00247" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00250">
+        <link targets="ptb-r00126"/>
+    </node>
+    <a xml:id="ptb-a00249" label="Trace" ref="ptb-n00250" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00252"/>
+    <a xml:id="ptb-a00251" label="PP" ref="ptb-n00252" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00255"/>
+    <a xml:id="ptb-a00254" label="NP" ref="ptb-n00255" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00261"/>
+    <a xml:id="ptb-a00260" label="WHNP" ref="ptb-n00261" as="ptb">
+        <fs>
+            <f name="cat" value="WHNP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00262">
+        <link targets="ptb-r00133"/>
+    </node>
+    <a xml:id="ptb-a00261" label="Trace" ref="ptb-n00262" as="ptb">
+        <fs>
+            <f name="cat" value="0"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00264"/>
+    <a xml:id="ptb-a00263" label="NP" ref="ptb-n00264" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00267"/>
+    <a xml:id="ptb-a00266" label="VP" ref="ptb-n00267" as="ptb">
+        <fs>
+            <f name="cat" value="VP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00268">
+        <link targets="seg-r243"/>
+    </node>
+    <a xml:id="ptb-a00267" label="tok" ref="ptb-n00268" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00270">
+        <link targets="ptb-r00137"/>
+    </node>
+    <a xml:id="ptb-a00269" label="Trace" ref="ptb-n00270" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00273">
+        <link targets="ptb-r00138"/>
+    </node>
+    <a xml:id="ptb-a00272" label="Trace" ref="ptb-n00273" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00277">
+        <link targets="seg-r247"/>
+    </node>
+    <a xml:id="ptb-a00276" label="tok" ref="ptb-n00277" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00279">
+        <link targets="seg-r251"/>
+    </node>
+    <a xml:id="ptb-a00278" label="tok" ref="ptb-n00279" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00280"/>
+    <a xml:id="ptb-a00279" label="PP" ref="ptb-n00280" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00290"/>
+    <a xml:id="ptb-a00289" label="NP" ref="ptb-n00290" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00293">
+        <link targets="seg-r266"/>
+    </node>
+    <a xml:id="ptb-a00292" label="tok" ref="ptb-n00293" as="ptb">
+        <fs>
+            <f name="msd" value="VBZ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00294"/>
+    <a xml:id="ptb-a00293" label="NP" ref="ptb-n00294" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00326"/>
+    <a xml:id="ptb-a00325" label="NP" ref="ptb-n00326" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00336">
+        <link targets="seg-r310"/>
+    </node>
+    <a xml:id="ptb-a00335" label="tok" ref="ptb-n00336" as="ptb">
+        <fs>
+            <f name="msd" value="VBD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00337"/>
+    <a xml:id="ptb-a00336" label="S" ref="ptb-n00337" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00338"/>
+    <a xml:id="ptb-a00337" label="NP" ref="ptb-n00338" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00341">
+        <link targets="seg-r314"/>
+    </node>
+    <a xml:id="ptb-a00340" label="tok" ref="ptb-n00341" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00342"/>
+    <a xml:id="ptb-a00341" label="SBAR" ref="ptb-n00342" as="ptb">
+        <fs>
+            <f name="cat" value="SBAR"/>
+            <f name="roles" value="LOC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00343"/>
+    <a xml:id="ptb-a00342" label="WHADVP" ref="ptb-n00343" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00346"/>
+    <a xml:id="ptb-a00345" label="NP" ref="ptb-n00346" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00349">
+        <link targets="seg-r320"/>
+    </node>
+    <a xml:id="ptb-a00348" label="tok" ref="ptb-n00349" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00350"/>
+    <a xml:id="ptb-a00349" label="NP" ref="ptb-n00350" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00353">
+        <link targets="ptb-r00181"/>
+    </node>
+    <a xml:id="ptb-a00352" label="Trace" ref="ptb-n00353" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00356"/>
+    <a xml:id="ptb-a00355" label="NP" ref="ptb-n00356" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00359">
+        <link targets="seg-r327"/>
+    </node>
+    <a xml:id="ptb-a00358" label="tok" ref="ptb-n00359" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00361">
+        <link targets="seg-r329"/>
+    </node>
+    <a xml:id="ptb-a00360" label="tok" ref="ptb-n00361" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00362"/>
+    <a xml:id="ptb-a00361" label="PP" ref="ptb-n00362" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00366"/>
+    <a xml:id="ptb-a00365" label="ADVP" ref="ptb-n00366" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00368"/>
+    <a xml:id="ptb-a00367" label="S" ref="ptb-n00368" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00370">
+        <link targets="ptb-r00189"/>
+    </node>
+    <a xml:id="ptb-a00369" label="Trace" ref="ptb-n00370" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00374">
+        <link targets="seg-r339"/>
+    </node>
+    <a xml:id="ptb-a00373" label="tok" ref="ptb-n00374" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00375"/>
+    <a xml:id="ptb-a00374" label="S" ref="ptb-n00375" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00376"/>
+    <a xml:id="ptb-a00375" label="NP" ref="ptb-n00376" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00379">
+        <link targets="seg-r343"/>
+    </node>
+    <a xml:id="ptb-a00378" label="tok" ref="ptb-n00379" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00381"/>
+    <a xml:id="ptb-a00380" label="WHADVP" ref="ptb-n00381" as="ptb">
+        <fs>
+            <f name="cat" value="WHADVP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00384"/>
+    <a xml:id="ptb-a00383" label="NP" ref="ptb-n00384" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00387">
+        <link targets="seg-r349"/>
+    </node>
+    <a xml:id="ptb-a00386" label="tok" ref="ptb-n00387" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00388"/>
+    <a xml:id="ptb-a00387" label="S" ref="ptb-n00388" as="ptb">
+        <fs>
+            <f name="cat" value="S"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00390">
+        <link targets="ptb-r00197"/>
+    </node>
+    <a xml:id="ptb-a00389" label="Trace" ref="ptb-n00390" as="ptb">
+        <fs>
+            <f name="cat" value="*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00394">
+        <link targets="seg-r353"/>
+    </node>
+    <a xml:id="ptb-a00393" label="tok" ref="ptb-n00394" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00396">
+        <link targets="ptb-r00200"/>
+    </node>
+    <a xml:id="ptb-a00395" label="Trace" ref="ptb-n00396" as="ptb">
+        <fs>
+            <f name="cat" value="*T*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00397"/>
+    <a xml:id="ptb-a00396" label="NP" ref="ptb-n00397" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00401">
+        <link targets="seg-r358"/>
+    </node>
+    <a xml:id="ptb-a00400" label="tok" ref="ptb-n00401" as="ptb">
+        <fs>
+            <f name="msd" value="MD"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00402"/>
+    <a xml:id="ptb-a00401" label="NP" ref="ptb-n00402" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00404"/>
+    <a xml:id="ptb-a00403" label="INTJ" ref="ptb-n00404" as="ptb">
+        <fs>
+            <f name="cat" value="INTJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00407">
+        <link targets="seg-r364"/>
+    </node>
+    <a xml:id="ptb-a00406" label="tok" ref="ptb-n00407" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00408"/>
+    <a xml:id="ptb-a00407" label="NP" ref="ptb-n00408" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00417"/>
+    <a xml:id="ptb-a00416" label="PP" ref="ptb-n00417" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="TMP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00423"/>
+    <a xml:id="ptb-a00422" label="INTJ" ref="ptb-n00423" as="ptb">
+        <fs>
+            <f name="cat" value="INTJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00427">
+        <link targets="ptb-r00217"/>
+    </node>
+    <a xml:id="ptb-a00426" label="Trace" ref="ptb-n00427" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00429">
+        <link targets="seg-r384"/>
+    </node>
+    <a xml:id="ptb-a00428" label="tok" ref="ptb-n00429" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00430"/>
+    <a xml:id="ptb-a00429" label="ADVP" ref="ptb-n00430" as="ptb">
+        <fs>
+            <f name="cat" value="ADVP"/>
+            <f name="roles" value="MNR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00434"/>
+    <a xml:id="ptb-a00433" label="NP" ref="ptb-n00434" as="ptb">
+        <fs>
+            <f name="cat" value="NP"/>
+            <f name="roles" value="SBJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00438">
+        <link targets="seg-r393"/>
+    </node>
+    <a xml:id="ptb-a00437" label="tok" ref="ptb-n00438" as="ptb">
+        <fs>
+            <f name="msd" value="VBP"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00440">
+        <link targets="seg-r395"/>
+    </node>
+    <a xml:id="ptb-a00439" label="tok" ref="ptb-n00440" as="ptb">
+        <fs>
+            <f name="msd" value="VBG"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00441"/>
+    <a xml:id="ptb-a00440" label="PP" ref="ptb-n00441" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="CLR"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00478"/>
+    <a xml:id="ptb-a00477" label="INTJ" ref="ptb-n00478" as="ptb">
+        <fs>
+            <f name="cat" value="INTJ"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00481">
+        <link targets="ptb-r00247"/>
+    </node>
+    <a xml:id="ptb-a00480" label="Trace" ref="ptb-n00481" as="ptb">
+        <fs>
+            <f name="cat" value="*PRO*"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00484">
+        <link targets="seg-r438"/>
+    </node>
+    <a xml:id="ptb-a00483" label="tok" ref="ptb-n00484" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00487">
+        <link targets="seg-r442"/>
+    </node>
+    <a xml:id="ptb-a00486" label="tok" ref="ptb-n00487" as="ptb">
+        <fs>
+            <f name="msd" value="VB"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00488"/>
+    <a xml:id="ptb-a00487" label="PP" ref="ptb-n00488" as="ptb">
+        <fs>
+            <f name="cat" value="PP"/>
+            <f name="roles" value="LOC"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00492">
+        <link targets="seg-r448"/>
+    </node>
+    <a xml:id="ptb-a00491" label="tok" ref="ptb-n00492" as="ptb">
+        <fs>
+            <f name="msd" value="VBN"/>
+        </fs>
+    </a>
+    <node xml:id="ptb-n00493">
+        <link targets="seg-r450"/>
+    </node>
+    <a xml:id="ptb-a00492" label="tok" ref="ptb-n00493" as="ptb">
+        <fs>
+            <f name="msd" value="NN"/>
+        </fs>
+    </a>
+    <edge xml:id="e149" from="pb-n87" to="pb-n88"/>
+    <edge xml:id="e148" from="pb-n86" to="ptb-n00279"/>
+    <edge xml:id="e202" from="pb-n120" to="pb-n122"/>
+    <edge xml:id="e201" from="pb-n121" to="ptb-n00384"/>
+    <edge xml:id="e200" from="pb-n120" to="pb-n121"/>
+    <edge xml:id="e209" from="pb-n124" to="pb-n126"/>
+    <edge xml:id="e207" from="pb-n125" to="ptb-n00384"/>
+    <edge xml:id="e208" from="pb-n125" to="ptb-n00390"/>
+    <edge xml:id="e205" from="pb-n123" to="ptb-n00387"/>
+    <edge xml:id="e206" from="pb-n124" to="pb-n125"/>
+    <edge xml:id="e203" from="pb-n122" to="ptb-n00388"/>
+    <edge xml:id="e204" from="pb-n120" to="pb-n123"/>
+    <edge xml:id="e142" from="pb-n82" to="ptb-n00277"/>
+    <edge xml:id="e143" from="pb-n83" to="pb-n84"/>
+    <edge xml:id="e140" from="pb-n81" to="ptb-n00280"/>
+    <edge xml:id="e141" from="pb-n79" to="pb-n82"/>
+    <edge xml:id="e146" from="pb-n85" to="ptb-n00280"/>
+    <edge xml:id="e147" from="pb-n83" to="pb-n86"/>
+    <edge xml:id="e144" from="pb-n84" to="ptb-n00270"/>
+    <edge xml:id="e145" from="pb-n83" to="pb-n85"/>
+    <edge xml:id="e138" from="pb-n80" to="ptb-n00270"/>
+    <edge xml:id="e137" from="pb-n79" to="pb-n80"/>
+    <edge xml:id="e139" from="pb-n79" to="pb-n81"/>
+    <edge xml:id="e130" from="pb-n73" to="pb-n76"/>
+    <edge xml:id="e131" from="pb-n76" to="ptb-n00267"/>
+    <edge xml:id="e132" from="pb-n73" to="pb-n77"/>
+    <edge xml:id="e133" from="pb-n77" to="ptb-n00268"/>
+    <edge xml:id="e134" from="pb-n73" to="pb-n78"/>
+    <edge xml:id="e135" from="pb-n78" to="ptb-n00255"/>
+    <edge xml:id="e136" from="pb-n78" to="ptb-n00262"/>
+    <edge xml:id="e19" from="pb-n12" to="ptb-n00054"/>
+    <edge xml:id="e18" from="pb-n11" to="pb-n12"/>
+    <edge xml:id="e17" from="pb-n10" to="ptb-n00052"/>
+    <edge xml:id="e129" from="pb-n75" to="ptb-n00273"/>
+    <edge xml:id="e16" from="pb-n5" to="pb-n10"/>
+    <edge xml:id="e128" from="pb-n75" to="ptb-n00261"/>
+    <edge xml:id="e15" from="pb-n9" to="ptb-n00049"/>
+    <edge xml:id="e127" from="pb-n73" to="pb-n75"/>
+    <edge xml:id="e14" from="pb-n5" to="pb-n9"/>
+    <edge xml:id="e126" from="pb-n74" to="ptb-n00264"/>
+    <edge xml:id="e220" from="pb-n129" to="pb-n132"/>
+    <edge xml:id="e13" from="pb-n8" to="ptb-n00046"/>
+    <edge xml:id="e12" from="pb-n5" to="pb-n8"/>
+    <edge xml:id="e11" from="pb-n7" to="ptb-n00050"/>
+    <edge xml:id="e10" from="pb-n5" to="pb-n7"/>
+    <edge xml:id="e224" from="pb-n129" to="pb-n134"/>
+    <edge xml:id="e223" from="pb-n133" to="ptb-n00401"/>
+    <edge xml:id="e222" from="pb-n129" to="pb-n133"/>
+    <edge xml:id="e221" from="pb-n132" to="ptb-n00404"/>
+    <edge xml:id="e227" from="pb-n135" to="ptb-n00407"/>
+    <edge xml:id="e228" from="pb-n136" to="pb-n137"/>
+    <edge xml:id="e225" from="pb-n134" to="ptb-n00417"/>
+    <edge xml:id="e226" from="pb-n129" to="pb-n135"/>
+    <edge xml:id="e229" from="pb-n137" to="ptb-n00427"/>
+    <edge xml:id="e124" from="pb-n72" to="ptb-n00246"/>
+    <edge xml:id="e125" from="pb-n73" to="pb-n74"/>
+    <edge xml:id="e122" from="pb-n71" to="ptb-n00250"/>
+    <edge xml:id="e123" from="pb-n68" to="pb-n72"/>
+    <edge xml:id="e120" from="pb-n68" to="pb-n71"/>
+    <edge xml:id="e121" from="pb-n71" to="ptb-n00239"/>
+    <edge xml:id="e29" from="pb-n18" to="ptb-n00066"/>
+    <edge xml:id="e119" from="pb-n70" to="ptb-n00247"/>
+    <edge xml:id="e26" from="pb-n15" to="pb-n17"/>
+    <edge xml:id="e116" from="pb-n68" to="pb-n69"/>
+    <edge xml:id="e25" from="pb-n16" to="ptb-n00063"/>
+    <edge xml:id="e115" from="pb-n67" to="ptb-n00252"/>
+    <edge xml:id="e28" from="pb-n15" to="pb-n18"/>
+    <edge xml:id="e118" from="pb-n68" to="pb-n70"/>
+    <edge xml:id="e27" from="pb-n17" to="ptb-n00067"/>
+    <edge xml:id="e117" from="pb-n69" to="ptb-n00242"/>
+    <edge xml:id="e22" from="pb-n11" to="pb-n14"/>
+    <edge xml:id="e21" from="pb-n13" to="ptb-n00057"/>
+    <edge xml:id="e24" from="pb-n15" to="pb-n16"/>
+    <edge xml:id="e23" from="pb-n14" to="ptb-n00056"/>
+    <edge xml:id="e211" from="pb-n124" to="pb-n127"/>
+    <edge xml:id="e210" from="pb-n126" to="ptb-n00397"/>
+    <edge xml:id="e213" from="pb-n127" to="ptb-n00396"/>
+    <edge xml:id="e20" from="pb-n11" to="pb-n13"/>
+    <edge xml:id="e212" from="pb-n127" to="ptb-n00381"/>
+    <edge xml:id="e214" from="pb-n124" to="pb-n128"/>
+    <edge xml:id="e215" from="pb-n128" to="ptb-n00394"/>
+    <edge xml:id="e216" from="pb-n129" to="pb-n130"/>
+    <edge xml:id="e217" from="pb-n130" to="ptb-n00402"/>
+    <edge xml:id="e218" from="pb-n129" to="pb-n131"/>
+    <edge xml:id="e219" from="pb-n131" to="ptb-n00408"/>
+    <edge xml:id="e111" from="pb-n65" to="ptb-n00206"/>
+    <edge xml:id="e112" from="pb-n60" to="pb-n66"/>
+    <edge xml:id="e113" from="pb-n66" to="ptb-n00233"/>
+    <edge xml:id="e114" from="pb-n60" to="pb-n67"/>
+    <edge xml:id="e110" from="pb-n60" to="pb-n65"/>
+    <edge xml:id="e245" from="pb-n148" to="ptb-n00481"/>
+    <edge xml:id="e30" from="pb-n19" to="pb-n20"/>
+    <edge xml:id="e246" from="pb-n147" to="pb-n149"/>
+    <edge xml:id="e31" from="pb-n20" to="ptb-n00071"/>
+    <edge xml:id="e243" from="pb-n146" to="ptb-n00440"/>
+    <edge xml:id="e244" from="pb-n147" to="pb-n148"/>
+    <edge xml:id="e241" from="pb-n145" to="ptb-n00441"/>
+    <edge xml:id="e34" from="pb-n21" to="ptb-n00088"/>
+    <edge xml:id="e242" from="pb-n143" to="pb-n146"/>
+    <edge xml:id="e35" from="pb-n19" to="pb-n22"/>
+    <edge xml:id="e32" from="pb-n19" to="pb-n21"/>
+    <edge xml:id="e240" from="pb-n143" to="pb-n145"/>
+    <edge xml:id="e33" from="pb-n21" to="ptb-n00068"/>
+    <edge xml:id="e38" from="pb-n23" to="ptb-n00085"/>
+    <edge xml:id="e106" from="pb-n60" to="pb-n63"/>
+    <edge xml:id="e39" from="pb-n24" to="pb-n25"/>
+    <edge xml:id="e107" from="pb-n63" to="ptb-n00250"/>
+    <edge xml:id="e36" from="pb-n22" to="ptb-n00084"/>
+    <edge xml:id="e104" from="pb-n60" to="pb-n62"/>
+    <edge xml:id="e37" from="pb-n19" to="pb-n23"/>
+    <edge xml:id="e105" from="pb-n62" to="ptb-n00231"/>
+    <edge xml:id="e108" from="pb-n60" to="pb-n64"/>
+    <edge xml:id="e109" from="pb-n64" to="ptb-n00234"/>
+    <edge xml:id="e103" from="pb-n61" to="ptb-n00216"/>
+    <edge xml:id="e102" from="pb-n60" to="pb-n61"/>
+    <edge xml:id="e101" from="pb-n59" to="ptb-n00212"/>
+    <edge xml:id="e100" from="pb-n56" to="pb-n59"/>
+    <edge xml:id="e249" from="pb-n150" to="ptb-n00484"/>
+    <edge xml:id="e248" from="pb-n147" to="pb-n150"/>
+    <edge xml:id="e247" from="pb-n149" to="ptb-n00478"/>
+    <edge xml:id="e232" from="pb-n136" to="pb-n139"/>
+    <edge xml:id="e233" from="pb-n139" to="ptb-n00430"/>
+    <edge xml:id="e40" from="pb-n25" to="ptb-n00091"/>
+    <edge xml:id="e234" from="pb-n136" to="pb-n140"/>
+    <edge xml:id="e41" from="pb-n24" to="pb-n26"/>
+    <edge xml:id="e235" from="pb-n140" to="ptb-n00429"/>
+    <edge xml:id="e42" from="pb-n26" to="ptb-n00097"/>
+    <edge xml:id="e43" from="pb-n24" to="pb-n27"/>
+    <edge xml:id="e44" from="pb-n27" to="ptb-n00094"/>
+    <edge xml:id="e230" from="pb-n136" to="pb-n138"/>
+    <edge xml:id="e45" from="pb-n27" to="ptb-n00095"/>
+    <edge xml:id="e231" from="pb-n138" to="ptb-n00423"/>
+    <edge xml:id="e46" from="pb-n28" to="pb-n29"/>
+    <edge xml:id="e47" from="pb-n29" to="ptb-n00118"/>
+    <edge xml:id="e48" from="pb-n28" to="pb-n30"/>
+    <edge xml:id="e49" from="pb-n30" to="ptb-n00115"/>
+    <edge xml:id="e9" from="pb-n6" to="ptb-n00044"/>
+    <edge xml:id="e8" from="pb-n5" to="pb-n6"/>
+    <edge xml:id="e7" from="pb-n4" to="ptb-n00017"/>
+    <edge xml:id="e6" from="pb-n0" to="pb-n4"/>
+    <edge xml:id="e5" from="pb-n3" to="ptb-n00014"/>
+    <edge xml:id="e3" from="pb-n2" to="ptb-n00018"/>
+    <edge xml:id="e4" from="pb-n0" to="pb-n3"/>
+    <edge xml:id="e1" from="pb-n1" to="ptb-n00012"/>
+    <edge xml:id="e2" from="pb-n0" to="pb-n2"/>
+    <edge xml:id="e0" from="pb-n0" to="pb-n1"/>
+    <edge xml:id="e237" from="pb-n142" to="ptb-n00438"/>
+    <edge xml:id="e236" from="pb-n141" to="pb-n142"/>
+    <edge xml:id="e239" from="pb-n144" to="ptb-n00434"/>
+    <edge xml:id="e238" fr
