@@ -10,6 +10,7 @@ import java.util.Properties;
 import org.anc.io.UTF8Reader;
 import org.xces.graf.api.GrafException;
 import org.xces.graf.api.IGraph;
+import org.xces.graf.api.INode;
 import org.xces.graf.io.DotRenderer;
 import org.xces.graf.io.GrafParser;
 import org.xces.graf.io.GrafRenderer;
@@ -23,26 +24,11 @@ public class PropbankDriver {
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException, SAXException, GrafException
 	{
-		//Define constants based on user input
-		String ptbPath = args[0];
-		String propPath = args[1];
-		String inputFile = args[2];
-		String outputPath = args[3];
-		
-		//Replace constants data in the properties file based on that user input
-		Properties prop = new Properties();
-		prop.setProperty("PTB_DATA_PATH", ptbPath);
-		prop.setProperty("PROP_DATA_PATH", propPath);
-		prop.setProperty("INPUT_FILE", inputFile);
-		prop.setProperty("OUTPUT_DATA_PATH", outputPath);
-		prop.store(new FileOutputStream("conf/sandramiller/org.anc.propbank.Constants.properties"), null);
-		
-		
 		//Initialize path to propbank file
 		File testDir = new File(K.PROP_DATA_PATH);		
 		File testFile = new File(testDir, K.INPUT_FILE + ".prop");
 		
-		//Initialize New_PropbankParser
+		//Initialize New_PropbankParser/
 		System.out.println("=====================================");
 		System.out.println("============PROPBANK INFO============");		
 		System.out.println("=====================================");
@@ -57,10 +43,14 @@ public class PropbankDriver {
 		grafRenderer.render(newGraph);
 		
 		// Render the new -pb.dot file
+		UTF8Reader reader1 = new UTF8Reader(new File("TXTFILES/" + K.INPUT_FILE + ".txt"));
+		String contents1 = reader1.readString();
+		reader1.close();
+		newGraph.setContent(contents1);
 		File dotFile = new File(K.OUTPUT_DATA_PATH + "/" + K.INPUT_FILE + "-pb.dot");
 		DotRenderer dotRenderer = new DotRenderer(dotFile);
 		dotRenderer.render(newGraph);
-		
+	
 		
 		//Render the original file, -ptb.dot, for checking purposes
 		File headerFile = new File(K.MASC_RESOURCE_HEADER);
@@ -68,7 +58,7 @@ public class PropbankDriver {
 		GrafParser graphParse = new GrafParser(header);
 		IGraph graph = graphParse.parse(K.PTB_DATA_PATH + "/" + K.INPUT_FILE + "-ptb.xml");
 		
-		// The following will only run with the folder TXTFILES -- make this a var
+		// Render dot file with text
 		UTF8Reader reader = new UTF8Reader(new File("TXTFILES/" + K.INPUT_FILE + ".txt"));
 		String contents = reader.readString();
 		reader.close();
@@ -79,6 +69,9 @@ public class PropbankDriver {
 		
 		// For testing and clarification purposes, initialize a New_PTB_Navigator and demonstrate the navigation function
 		PTBNavigator navigator = new PTBNavigator(K.PTB_DATA_PATH + "/" + K.INPUT_FILE);
+		System.out.println("=====================================");
+		System.out.println("=============PENNTREEBANK============");		
+		System.out.println("=====================================");
 		navigator.printTerminalDetails();
 
 //		System.out.println("=========== NAVIGATE DETAILS=============");

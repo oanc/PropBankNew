@@ -72,7 +72,7 @@ public class PTBNavigator {
 	 public void printTerminalDetails(){
 		 for (int i = 0; i < this.sentenceTerminalNodes.keySet().size(); i++){
 			 int key = i;
-			 System.out.println("Sentence " + key + ": " + this.sentences.get(key).getLinks());
+			 System.out.println("Sentence " + key + ": ");
 			 for (int k = 0; k < this.sentenceTerminalNodes.get(key).size(); k++){
 				 INode terminalNode = this.sentenceTerminalNodes.get(key).get(k);
 				 if (terminalNode.getAnnotation().getLabel().equals("Trace")){
